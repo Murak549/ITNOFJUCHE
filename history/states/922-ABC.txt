@@ -1,0 +1,33 @@
+
+state={
+	id=922
+	name="STATE_922"
+	history={
+		owner = JAP
+		buildings = {
+			7125 = {
+				bunker = 8
+
+			}
+			7221 = {
+				naval_base = 7
+
+			}
+			
+		}
+		victory_points = {
+			12040 10 
+		}
+		add_core_of = KOR
+		1945.8.15 = {
+			owner = KOR
+		}
+	}
+	provinces={
+		12040 13267 13268 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

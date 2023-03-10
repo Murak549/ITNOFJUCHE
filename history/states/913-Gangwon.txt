@@ -1,0 +1,45 @@
+
+state={
+	id=913
+	name="STATE_913"
+	resources={
+		steel=51.000
+		tungsten=65.000
+	}
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7021 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			13271 3 
+		}
+		victory_points = {
+			12011 3 
+		}
+		add_core_of = KOR
+		add_core_of = OKJ
+		1945.8.15 = {
+			owner = KOR
+		}
+		1949.8.6 = {
+			owner = KOR
+		}
+
+	}
+
+	provinces={
+		7021 9936 11912 12011 13271 
+	}
+	manpower=1807728
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=916
+	name="STATE_916"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 1
+			13266 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = KOR
+		1945.8.15 = {
+			owner = KOR
+		}
+
+	}
+
+	provinces={
+		13266 
+	}
+	manpower=13800
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

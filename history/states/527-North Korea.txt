@@ -1,0 +1,52 @@
+
+state={
+	id=527
+	name="STATE_527"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+			7171 = {
+				bunker = 5
+
+			}
+			4052 = {
+				naval_base = 5
+			}
+
+		}
+		victory_points = {
+			7171 30 
+		}
+		victory_points = {
+			4052 5 
+		}
+		victory_points = {
+			11835 5 
+		}
+		add_core_of = KOR
+		1945.8.15 = {
+			owner = KOR
+		}
+		1945.10.3 = {
+			owner = PRK
+			add_core_of = PRK
+		}
+
+	}
+
+	provinces={
+		3912 4052 7171 9790 10083 11770 
+	}
+	manpower=5417806
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}
