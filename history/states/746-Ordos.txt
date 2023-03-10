@@ -29,6 +29,9 @@ state={
 			controller = MEN
 
 		}
+		1945.8.15 = {
+			owner = PRC
+		}
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

@@ -18,6 +18,9 @@ state={
 				naval_base = 2
 			}
 		}
+		1945.8.15 = {
+			owner = PRC
+		}
 
 	}
 

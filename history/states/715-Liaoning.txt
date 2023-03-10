@@ -15,7 +15,9 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 		}
-
+		1945.8.15 = {
+			owner = PRC
+		}
 	}
 
 	provinces={

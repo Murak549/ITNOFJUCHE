@@ -24,7 +24,9 @@ state={
 		victory_points = {
 			11771 3 
 		}
-
+		1945.8.15 = {
+			owner = PRC
+		}
 	}
 
 	provinces={

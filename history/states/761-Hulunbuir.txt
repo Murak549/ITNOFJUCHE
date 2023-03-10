@@ -16,6 +16,9 @@ state={
 			infrastructure = 2
 
 		}
+		1945.8.15 = {
+			owner = PRC
+		}
 
 	}
 
