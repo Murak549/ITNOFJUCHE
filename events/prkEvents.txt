@@ -1,0 +1,47 @@
+add_namespace = prk
+
+# Marco Polo Bridge I
+country_event = {
+	id = prk.1
+	title = prk.1.t
+	desc = prk.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.1.a
+		every_state = {
+			limit = {
+				is_core_of = KOR
+			} 
+			add_core_of = PRK
+		}
+        every_country = {
+            news_event = { id = prk.1000 hours = 1 }
+        }
+	}
+}
+
+news_event = {
+	id = prk.1000
+	title = prk.1000.t
+	desc = prk.1000.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.1000.a
+		every_state = {
+			limit = {
+				is_core_of = KOR
+			} 
+			add_core_of = PRK
+		}
+	}
+}

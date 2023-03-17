@@ -1,0 +1,174 @@
+﻿capital = 526
+
+set_stability = 0.8
+set_war_support = 0.3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	
+	basic_train = 1
+	trench_warfare = 1
+	fuel_silos = 1
+
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.9.15"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 98
+	communism = 2
+}
+
+set_convoys = 100
+
+1945.8.15 = {
+	RYU = {
+		if = {
+			limit = {
+				has_dlc = "No Step Back"
+			}
+			set_technology = {
+				basic_medium_tank_chassis = 1
+			}
+			set_oob = "RYU_1950_nsb"
+			else = {
+				set_oob = "RYU_1950"
+			}
+		}
+	}
+	USA = {
+		set_autonomy = {
+				target = RYU
+				autonomy_state = autonomy_supervised_state
+				end_wars = yes
+				end_civil_wars = yes
+			}
+	}
+}
+
+
+create_country_leader = {
+	name = "General Headquarters"
+	desc = ""
+	picture = GFX_portrait_Syngman_Rhee
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "General Headquarters"
+	desc = ""
+	picture = GFX_portrait_Yi_Kang
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "General Headquarters"
+	desc = ""
+	picture = GFX_portrait_Yi_Un
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+1949.12.29 = {
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
+		improved_infantry_weapons_2 = 1
+		infantry_at = 1
+		infantry_at2 = 1
+		advanced_infantry_weapons = 1
+		advanced_infantry_weapons2 = 1
+		tech_mountaineers = 1
+		tech_mountaineers2 = 1
+		night_vision = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		support_weapons3 = 1
+		support_weapons4 = 1
+		motorised_infantry = 1
+		armored_car1 = 1
+		armored_car2 = 1
+		tech_support = 1		
+		tech_engineers = 1
+		motorised_infantry = 1
+		marines  = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		artillery3 = 1
+		artillery4 = 1
+		artillery5 = 1
+		mountain_gun = 1
+		rocket_artillery = 1
+		rocket_artillery2 = 1
+		rocket_artillery3 = 1
+		antiair1 = 1
+		antiair2 = 1
+		antiair3 = 1
+		antiair4 = 1
+		interwar_antitank = 1
+		antitank1 = 1
+		antitank2 = 1
+		antitank3 = 1
+		if = {
+			limit = {
+				has_dlc = "No Step Back"
+			}
+			set_technology = {
+				basic_medium_tank_chassis = 1
+				gwtank_chassis = 1
+				basic_light_tank_chassis = 1
+				improved_light_tank_chassis = 1
+				light_tank_chassis_1 = 1
+				light_tank_destroyer_chassis_1 = 1
+				light_tank_artillery_chassis_1 = 1
+				light_tank_aa_chassis_1	 = 1
+				light_tank_chassis_2 = 1
+				light_tank_destroyer_chassis_2 = 1
+				light_tank_artillery_chassis_2 = 1
+				light_tank_aa_chassis_2	 = 1
+			}
+			else = {
+				set_oob = "LUX_1936" #Sex With Hitler
+				set_technology = {
+					gwtank = 1
+					basic_light_tank = 1
+					basic_light_td = 1
+					basic_light_art = 1
+					basic_light_spaa = 1
+					basic_light_tank = 1
+					advanced_light_tank = 1
+					advanced_light_td = 1
+					advanced_light_art = 1
+					advanced_light_spaa = 1
+				}
+			}
+		}
+	}
+}

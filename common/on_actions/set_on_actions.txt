@@ -1,0 +1,41 @@
+on_actions = {
+	on_startup = {
+		effect = {
+            every_country = {
+                load_focus_tree = generic_focus
+            }
+			GER = {
+				GER_dead = yes
+			}
+			# CCS = {
+            #     set_party_name = {
+            #         ideology = democratic
+            #         long_name = PRC_democratic_party_long
+            #         name = PRC_democratic_party
+            #     }
+            #     set_party_name = {
+            #         ideology = communism
+            #         long_name = PRC_communism_party_long
+            #         name = PRC_communism_party
+            #     }
+            # }
+		}
+        if = { #조선은 하나다
+				limit = {
+					OR = {
+						AND = {
+							original_tag = KOR
+							has_war_with = PRK
+						}
+						AND = {
+							original_tag = HMC
+							has_war_with = PRK
+						}
+					}
+				}
+				PRK = {
+					country_event = { id = prk.1 hours = 2 }
+				}
+			}
+	}
+}

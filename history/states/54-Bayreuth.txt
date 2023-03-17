@@ -22,7 +22,10 @@ state={
 				air_base = 3
 			}
 		}
-		1945.5.4 = {
+		1945.5.10 = {
+			owner = USA
+		}
+		1949.5.23 = {
 			owner = WGR
 			controller = WGR
 			add_core_of = WGR

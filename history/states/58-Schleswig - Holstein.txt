@@ -31,7 +31,10 @@ state= {
 				arms_factory = 4
 			}
 		}
-		1945.5.4 = {
+		1945.5.10 = {
+			owner = GER
+		}
+		1949.5.23 = {
 			owner = WGR
 			controller = WGR
 			add_core_of = WGR

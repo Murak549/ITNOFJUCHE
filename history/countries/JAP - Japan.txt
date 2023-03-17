@@ -216,7 +216,7 @@ create_import = {
 		factories = 2
 		exporter = USA
 }
-1949.1.10 = {
+1945.8.15 = {
 	CHI = {
 		white_peace = JAP
 	}
@@ -1505,7 +1505,7 @@ if = {
 		}	
 	}
 	
-1949.12.29 = {
+1945.1.29 = {
 	set_technology = {
 		infantry_weapons = 1
 		infantry_weapons1 = 1

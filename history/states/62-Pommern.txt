@@ -23,7 +23,10 @@ state={
 				air_base = 8
 			}
 		}
-		1945.5.4 = {
+		1945.5.10 = {
+			owner = SOV
+		}
+		1949.10.7 = {
 			owner = DDR
 			controller = DDR
 			add_core_of = DDR

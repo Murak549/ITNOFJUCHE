@@ -35,6 +35,10 @@ state={
 			}
 
 		}
+		1945.8.15 = {
+			#remove_core_of = SHX
+			owner = CHI
+		}
 		1949.6.15 = {
 			owner = PRC
 		}

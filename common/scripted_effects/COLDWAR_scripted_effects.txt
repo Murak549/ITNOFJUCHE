@@ -1,0 +1,105 @@
+GER_dead = {
+	add_named_threat = { threat = -50 name = "독일의 항복" }
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #American occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 55
+		transfer_state = 54
+		transfer_state = 53
+		transfer_state = 52
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		USA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	ENG = {
+		set_autonomy = {
+			target = GER
+			autonomy_state = autonomy_supervised_state
+			end_wars = yes
+			end_civil_wars = yes
+		}
+	}
+	create_dynamic_country = { #Fuckin' Red occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 60
+		transfer_state = 65 
+		transfer_state = 64
+		transfer_state = 62
+		transfer_state = 61
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		SOV = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	set_global_flag = yalta_agreed_flag
+}
+
+GER_deustchland_einig_vaterland = {
+	
+}

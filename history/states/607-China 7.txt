@@ -44,6 +44,10 @@ state={
 				set_province_controller = 11931
 			} 			
 		}
+		1945.8.15 = {
+			#remove_core_of = SHX
+			owner = CHI
+		}
 		1949.1.15 = {
 			owner = PRC
 		}

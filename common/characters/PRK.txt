@@ -1,0 +1,22 @@
+characters={ 
+    PRK_Kim_Il_Sung={
+        name=PRK_Kim_Il_Sung
+        portraits={
+            army={
+                large=gfx/leaders/KOR/Portrait_Kim_Ilsung.dds
+            }
+        }
+        corps_commander={
+            traits={ infantry_officer commando }
+            skill=3
+            attack_skill=4
+            defense_skill=2
+            planning_skill=3
+            logistics_skill=5
+        }
+        country_leader={
+            ideology=juche_idea
+            expire="1985.8.16"
+        }
+    }
+}

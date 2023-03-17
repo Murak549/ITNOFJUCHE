@@ -1,0 +1,5 @@
+music = {
+	name = "maintheme"
+	file = "dprk/warp.ogg"
+	volume = 1
+}

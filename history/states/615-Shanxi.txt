@@ -32,6 +32,10 @@ state=
 				set_province_controller = 10367
 			}
 		}
+		1945.8.15 = {
+			#remove_core_of = SHX
+			owner = PRC
+		}
 		1948.10.15 = {
 			controller = PRC
 		}

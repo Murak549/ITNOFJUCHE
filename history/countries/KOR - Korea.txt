@@ -8,6 +8,22 @@ set_technology = {
 	mass_assault = 1
 }
 
+1945.8.15 = {
+	set_cosmetic_tag = KOR_1945
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 45
+		fascism = 0
+		communism = 35
+		neutrality = 20
+	}
+}
+
 1949.12.29 = {
 	if = {
 		limit = {
@@ -21,16 +37,16 @@ set_technology = {
 			set_oob = "USA_1936" #Sex With Hitler
 		}
 	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1948.5.10"
+		election_frequency = 48
+		elections_allowed = yes
+	}
 }
 
 set_convoys = 5
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
 set_popularities = {
 	democratic = 35
 	fascism = 25
@@ -50,7 +66,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Kang"
+	name = "여운형"
 	desc = ""
 	picture = GFX_portrait_Yi_Kang
 	expire = "1965.1.1"

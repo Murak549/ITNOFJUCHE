@@ -17,6 +17,10 @@ state={
 		1938.10.25 = {
 			controller = JAP
 		}
+		1945.8.15 = {
+			#remove_core_of = SHX
+			owner = CHI
+		}
 		1948.10.15 = {
 			owner = PRC
 		}

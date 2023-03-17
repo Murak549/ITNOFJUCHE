@@ -1,0 +1,26 @@
+﻿l_english:
+ JAP_autonomy_supervised_state:0 "연합군최고사령부"
+ JAP_autonomy_supervised_state_DEF:0 "GHQ"
+ JAP_autonomy_puppet:0 "연합군최고사령부"
+ JAP_autonomy_puppet_DEF:0 "GHQ"
+ JAP_SOV_communism_autonomy_puppet:0 "$OVERLORDADJ$ 점령하 일본"
+ JAP_SOV_communism_autonomy_puppet_DEF:0 "the $OVERLORDADJ$ 점령하 일본"
+ JAP_SOV_communism_autonomy_puppet_ADJ:0 "$OVERLORDADJ$ 점령하 일본"
+
+ RYU_autonomy_supervised_state:0 "류큐열도미국군정부"
+ RYU_autonomy_supervised_state_DEF:0 "AORI"
+ RYU_autonomy_puppet:0 "류큐열도미국군정부"
+ RYU_autonomy_puppet_DEF:0 "AORI"
+ RYU_SOV_communism_autonomy_puppet:0 "$OVERLORDADJ$ 점령하 류큐"
+ RYU_SOV_communism_autonomy_puppet_DEF:0 "the $OVERLORDADJ$ 점령하 류큐"
+ RYU_SOV_communism_autonomy_puppet_ADJ:0 "$OVERLORDADJ$ 점령하 류큐"
+ RYU_democratic:0 "류큐 공화국"
+ RYU_communism:0 "류큐인민공화국"
+ RYU_fascism:0 "류큐국"
+ RYU_neutrality:0 "류큐 왕국"
+ RYU_ADJ:0 "류큐"
+ RYU_DEF:0 "류큐"
+
+ KOR_1945:0 "조선인민공화국"
+
+ KOR_democratic:0 "대한민국"
