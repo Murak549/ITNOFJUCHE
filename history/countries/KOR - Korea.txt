@@ -8,6 +8,21 @@ set_technology = {
 	mass_assault = 1
 }
 
+1949.12.29 = {
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		set_technology = {
+			basic_medium_tank_chassis = 1
+		}
+		set_oob = "KOR_1950_nsb"
+		else = {
+			set_oob = "USA_1936" #Sex With Hitler
+		}
+	}
+}
+
 set_convoys = 5
 
 set_politics = {

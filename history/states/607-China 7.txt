@@ -45,7 +45,7 @@ state={
 			} 			
 		}
 		1949.1.15 = {
-			controller = PRC
+			owner = PRC
 		}
 	}
 

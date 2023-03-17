@@ -32,7 +32,7 @@ state={
 
 		}
 		1949.6.15 = {
-			controller = PRC
+			owner = PRC
 		}
 
 	}

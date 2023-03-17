@@ -29,7 +29,7 @@ state=
 			controller = JAP
 		}
 		1948.10.15 = {
-			controller = PRC
+			owner = PRC
 		}
 	}
 	provinces={

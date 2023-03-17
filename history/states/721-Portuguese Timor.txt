@@ -2,20 +2,17 @@
 state={
 	id=721
 	name="STATE_721"
-	manpower = 455604
+	manpower = 45555604
 	
-	state_category = pastoral
+	state_category = megalopolis
 
 	history={
 		owner = POR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			12190 ={
 				naval_base = 1
 			}
-		}
-		1945.8.15 = {
-			owner = PRC
 		}
 	}
 

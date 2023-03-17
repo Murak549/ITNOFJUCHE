@@ -1,4 +1,5 @@
 AIN = "countries/Japan.txt"
+RYU = "countries/Japan.txt"
 # PRJ = "countries/Japan.txt"
 OKJ = "countries/Korea.txt"
 DNG = "countries/Korea.txt"
