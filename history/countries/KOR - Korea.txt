@@ -8,7 +8,6 @@ set_technology = {
 	mass_assault = 1
 }
 
-<<<<<<< HEAD
 1945.8.15 = {
 	set_cosmetic_tag = KOR_1945
 	set_politics = {
@@ -46,8 +45,6 @@ set_technology = {
 	}
 }
 
-=======
->>>>>>> parent of 30b70e5 (sdf)
 set_convoys = 5
 
 set_popularities = {

@@ -20,7 +20,9 @@ state={
 			}
 
 		}
-
+		1945.8.15 = {
+			owner = SOV
+		}
 	}
 
 	provinces={

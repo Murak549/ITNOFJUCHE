@@ -2,11 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-<<<<<<< HEAD
 		date = 1945.8.15.12
-=======
-		date = 1936.1.1.12
->>>>>>> parent of 30b70e5 (sdf)
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes

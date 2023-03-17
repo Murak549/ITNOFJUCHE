@@ -22,7 +22,7 @@ state={
 			owner = CHI
 		}
 		1948.10.15 = {
-			controller = PRC
+			owner = PRC
 		}
 	}
 
