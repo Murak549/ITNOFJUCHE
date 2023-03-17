@@ -33,7 +33,7 @@ state=
 			owner = CHI
 		}
 		1948.10.15 = {
-			owner = PRC
+			controller = PRC
 		}
 	}
 	provinces={

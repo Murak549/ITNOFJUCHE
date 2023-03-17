@@ -33,8 +33,8 @@ state={
 			controller = CZE
 			remove_core_of = HUN
 			remove_core_of = SLO
-			remove_claim_by = HUN
-			remove_claim_by = SLO
+			remove_claim_of = HUN
+			remove_claim_of = SLO
 		}
 	}
 	

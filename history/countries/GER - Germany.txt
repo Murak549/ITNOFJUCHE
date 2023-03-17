@@ -385,6 +385,9 @@ create_import = {
 			}
 	}
 }
+1949.5.23 = {
+	set_cosmetic_tag = WGR
+}
 
 set_politics = {
 	ruling_party = fascism
