@@ -35,6 +35,10 @@ FRA = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
+IDC = {
+	color = rgb { 90 130 180 }
+	color_ui = rgb { 74 130 235 }
+}
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
@@ -454,8 +458,8 @@ INS = {
 }
 
 VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
+	color = rgb { 230  83  50 } #230 223 50
+	color_ui = rgb { 230  83  50 }
 }
 
 CAM = {

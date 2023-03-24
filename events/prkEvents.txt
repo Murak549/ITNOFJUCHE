@@ -6,22 +6,62 @@ country_event = {
 	title = prk.1.t
 	desc = prk.1.d
 	picture = GFX_news_event_001
-	
-	major = yes
+	is_triggered_only = yes
+	option = {
+		name = prk.1.a
+	}
+}
+country_event = {
+	id = prk.2
+	title = prk.2.t
+	desc = prk.2.d
+	picture = GFX_news_event_001
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = prk.1.a
-		every_state = {
-			limit = {
-				is_core_of = KOR
-			} 
-			add_core_of = PRK
-		}
-        every_country = {
-            news_event = { id = prk.1000 hours = 1 }
-        }
+		name = prk.2.a
+		JAP_sengoku = yes
+	}
+}
+country_event = {
+	id = prk.3
+	title = prk.3.t
+	desc = prk.3.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.3.a
+		JAP_sengoku_damn = yes
+	}
+}
+country_event = {
+	id = prk.4
+	title = prk.4.t
+	desc = prk.4.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.4.a
+		# JAP_low_level = yes
+		JAP_give_millita = yes
+	}
+}
+country_event = {
+	id = prk.5
+	title = prk.5.t
+	desc = prk.5.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.5.a
+		JAP_sengoku_juche = yes
 	}
 }
 

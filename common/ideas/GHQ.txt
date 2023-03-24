@@ -1,0 +1,34 @@
+ideas = {
+    country = {
+        GHQ_zaibatsu_control = {
+            picture = jap_zaibatsu_control
+
+            allowed = {
+                always = no
+            }
+        }
+        GHQ_red_purge = {
+            picture = trotskyite_plot
+			
+            allowed = {
+				always = no
+			}
+
+			modifier = {
+				democratic_drift = 0.02
+				communism_drift = -0.05
+			}
+        }
+        GHQ_nationalist_purge = {
+            picture = generic_intel_bonus
+			
+            allowed = {
+				always = no
+			}
+
+			modifier = {
+				fascism_drift = -0.05
+			}
+        }
+    }
+}

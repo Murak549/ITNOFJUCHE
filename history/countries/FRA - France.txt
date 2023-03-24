@@ -18,6 +18,22 @@ if = {
 starting_train_buffer = 2
 
 if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = IDC
+		autonomous_state = autonomy_colony
+	}
+	else = {
+		puppet = IDC
+	}
+}
+
+if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FRA_1936_naval_mtg"
 		set_war_support = 0.1

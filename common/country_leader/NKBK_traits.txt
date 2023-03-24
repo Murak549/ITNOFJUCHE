@@ -1,0 +1,14 @@
+leader_traits = {
+	japans_shogun = {
+		random = no
+	}
+	blue_eyes_white_shogun = {
+	}
+	supreme_allied_commander = {
+		political_power_factor = 0.25
+		democratic_drift = 0.02
+	}
+	white_denno = {
+		political_power_factor = 0.05
+	}
+}

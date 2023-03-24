@@ -1,0 +1,156 @@
+﻿division_template = {
+	name = "quân đội độc lập" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = VIN_INF_01
+									# 1 engineering regiment, 1 recon regiment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+
+	}
+	support = {
+	}
+}
+units = {
+	division= {	
+		name = "Su đoàn 1"
+		location = 11936
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 2"
+		location = 10129
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 3"
+		location = 10103
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 4"
+		location = 12975
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 5"
+		location = 12048
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 6"
+		location = 12975
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 7"
+		location = 4119
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 8"
+		location = 9988
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 9"
+		location = 4397
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 10"
+		location = 10103
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 11"
+		location = 10075
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 12"
+		location = 10309
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 13"
+		location = 7229
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 14"
+		location = 10137
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 15"
+		location = 4255
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 16"
+		location = 10261
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 17"
+		location = 1423
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 18"
+		location = 4223
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 19"
+		location = 4284
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+	division= {	
+		name = "Su đoàn 20"
+		location = 4284
+		division_template = "quân đội độc lập"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.98
+	}
+}

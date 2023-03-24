@@ -1,24 +1,27 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			PRK = {
+
+			}
             every_country = {
+				limit = {
+					NOT = {
+						original_tag = PRK
+					}
+				}
                 load_focus_tree = generic_focus
             }
 			GER = {
-				GER_dead = yes
+				if = {
+					limit = {
+						country_exists = WGR
+					}
+				}
+				else = {
+					GER_dead = yes
+				}
 			}
-			# CCS = {
-            #     set_party_name = {
-            #         ideology = democratic
-            #         long_name = PRC_democratic_party_long
-            #         name = PRC_democratic_party
-            #     }
-            #     set_party_name = {
-            #         ideology = communism
-            #         long_name = PRC_communism_party_long
-            #         name = PRC_communism_party
-            #     }
-            # }
 		}
         if = { #조선은 하나다
 				limit = {

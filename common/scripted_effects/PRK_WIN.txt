@@ -1,0 +1,740 @@
+JAP_sengoku_juche = {
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 528
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 955
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 954
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 953
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 952
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 951
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}		
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 950
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 949
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 948
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 947
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 946
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 945
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 944
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 943
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 942
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 941
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 940
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 939
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 938
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 937
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 936
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 935
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 934
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 933
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 932
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 931
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 930
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 929
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 928
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 529
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 530
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 531
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 535
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 534
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 533
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 532
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	AIN = { #French occupation zone in Germany
+		add_political_power = 536
+		transfer_state = 536
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		PRK = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+}

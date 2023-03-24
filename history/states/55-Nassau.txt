@@ -31,9 +31,7 @@ state={
 			owner = USA
 		}
 		1949.5.23 = {
-			owner = WGR
-			controller = WGR
-			add_core_of = WGR
+			owner = GER
 		}
 	}
 

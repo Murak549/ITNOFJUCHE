@@ -380,8 +380,19 @@ create_import = {
 		set_autonomy = {
 				target = GER
 				autonomy_state = autonomy_supervised_state
-				end_wars = yes
-				end_civil_wars = yes
+				end_wars = no
+				end_civil_wars = no
+			}
+	}
+}
+1949.5.23 = {
+	set_cosmetic_tag = WGR
+	ENG = {
+		set_autonomy = {
+				target = GER
+				autonomy_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
 			}
 	}
 }

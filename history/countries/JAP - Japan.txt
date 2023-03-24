@@ -216,7 +216,32 @@ create_import = {
 		factories = 2
 		exporter = USA
 }
+1948.1.1 = {
+	add_ideas = GHQ_red_purge
+}
 1945.8.15 = {
+	add_ideas = GHQ_nationalist_purge
+	add_ideas = GHQ_zaibatsu_control
+	add_ideas = JAP_hirohito
+	remove_ideas = state_shintoism
+	remove_ideas = JAP_duplicate_research_efforts
+	remove_ideas = JAP_militarism
+	remove_ideas = JAP_guide_the_zaibatsus
+	remove_ideas = JAP_liaison_conference
+	create_country_leader = {
+		name = "Douglas MacArthur"
+		desc = ""
+		picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			japans_shogun
+			blue_eyes_white_shogun
+			supreme_allied_commander
+			white_denno
+		}
+	}
+
 	CHI = {
 		white_peace = JAP
 	}

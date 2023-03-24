@@ -1,8 +1,9 @@
 ﻿l_english:
+ IDC_FRA_DEF:0 "인도차이나 총독부"
+ IDC_FRA_ADJ:0 "인도차이나 총독부"
+ IDC_FRA:0 "인도차이나 연방"
  JAP_autonomy_supervised_state:0 "연합군최고사령부"
  JAP_autonomy_supervised_state_DEF:0 "GHQ"
- JAP_autonomy_puppet:0 "연합군최고사령부"
- JAP_autonomy_puppet_DEF:0 "GHQ"
  JAP_SOV_communism_autonomy_puppet:0 "$OVERLORDADJ$ 점령하 일본"
  JAP_SOV_communism_autonomy_puppet_DEF:0 "the $OVERLORDADJ$ 점령하 일본"
  JAP_SOV_communism_autonomy_puppet_ADJ:0 "$OVERLORDADJ$ 점령하 일본"

@@ -2,9 +2,9 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1945.8.15.12
+		date = 1949.11.5.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "KOR"
 		default = yes
 		
 		"FRA"={
@@ -348,23 +348,7 @@ bookmarks = {
 				PRC_maoism
 				PRC_anti_japanese_expedition
 			}
-		}
-		"MAN"={
-			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_independence_war
-				MAN_claim_the_mandate_of_heaven
-			}
-		}
-		
+		}		
 		"GXC"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
