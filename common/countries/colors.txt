@@ -462,6 +462,11 @@ VIN = {
 	color_ui = rgb { 230  83  50 }
 }
 
+SVN = {
+	color = rgb { 50  83  230 } #230 223 50
+	color_ui = rgb { 50  83  230 }
+}
+
 CAM = {
 	color = rgb { 100  71  150 }
 	color_ui = rgb { 100  71  150 }

@@ -25,7 +25,7 @@ VIN_independent_war = {
         }
         icon = GFX_decision_category_marching_soldiers
         is_good = yes
-        days_mission_timeout = 140
+        days_mission_timeout = 1
         selectable_mission = no
         timeout_effect = {
             VIN = {
@@ -44,6 +44,9 @@ VIN_independent_war = {
                 }
                 release = LAO
                 release = CAM
+            }
+            286 = {
+                transfer_state_to = SVN
             }
         }
     }
