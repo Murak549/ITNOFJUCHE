@@ -40,7 +40,7 @@ set_technology = {
 	}
 }
 
-1949.12.29 = {
+1949.4.29 = {
 	if = {
 		limit = {
 			has_dlc = "No Step Back"

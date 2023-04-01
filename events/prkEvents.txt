@@ -64,6 +64,23 @@ country_event = {
 		JAP_sengoku_juche = yes
 	}
 }
+country_event = {
+	id = prk.6
+	title = prk.6.t
+	desc = prk.6.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.5.a
+		ROOT = {
+			every_country = {
+				white_peace = PRC
+			}
+		}
+	}
+}
 
 news_event = {
 	id = prk.1000

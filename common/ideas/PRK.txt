@@ -1,0 +1,48 @@
+ideas = {
+    country = {
+        PRK_ministry_of_national_security = {
+            picture = home_of_revolution
+
+            allowed = {
+                always = no
+            }
+            modifier = {
+                operative_slot = 2
+            }
+        }
+        PRK_general_bureau_of_reconnaissance = {
+            picture = nkvd_2
+
+            allowed = {
+                always = no
+            }
+
+            modifier = {
+                operative_slot = 1
+				root_out_resistance_effectiveness_factor = 0.1
+				resistance_damage_to_garrison = -0.05
+            }
+        }
+        PRK_united_front_department = {
+            picture = nkvd
+
+            allowed = {
+                always = no
+            }
+
+            modifier = {
+                operative_slot = 2
+            }
+        }
+        PRK_room35 = {
+            picture = smersh
+
+            allowed = {
+                always = no
+            }
+            modifier = {
+                operative_slot = 2
+            }
+        }
+    }
+}

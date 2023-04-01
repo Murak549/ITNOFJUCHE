@@ -197,11 +197,11 @@ create_import = {
 	}
 	
 	give_military_access = SLO
-	create_wargoal = {
-		type = take_state_focus
-		target = POL
-		generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
-	}
+	# create_wargoal = {
+	# 	type = take_state_focus
+	# 	target = POL
+	# 	generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
+	# }
 
 #Trade
 	create_import = {
@@ -384,6 +384,10 @@ create_import = {
 				end_civil_wars = no
 			}
 	}
+	# remove_wargoal = {
+	# 	type = all
+	# 	target = POL
+	# }
 }
 1949.5.23 = {
 	set_cosmetic_tag = WGR

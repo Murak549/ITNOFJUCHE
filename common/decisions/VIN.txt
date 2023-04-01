@@ -2,6 +2,9 @@ VIN_independent_war = {
     VIN_definitive_victory = {
         activation = {
             AND = {
+                NOT = {
+                    has_global_flag = VIN_INDEPENDENT
+                }
                 286 = {
                     is_fully_controlled_by = VIN
                 }
@@ -25,7 +28,7 @@ VIN_independent_war = {
         }
         icon = GFX_decision_category_marching_soldiers
         is_good = yes
-        days_mission_timeout = 1
+        days_mission_timeout = 140
         selectable_mission = no
         timeout_effect = {
             VIN = {
@@ -46,8 +49,18 @@ VIN_independent_war = {
                 release = CAM
             }
             286 = {
+                add_core_of = SVN
                 transfer_state_to = SVN
             }
+            SVN = {
+                set_cosmetic_tag = VIN
+            }
+            set_global_flag = VIN_INDEPENDENT
         }
+    }
+    VIN_sex_with_stalin = {
+        available  = {
+				has_completed_focus  = CHI_bureau_of_investigation_and_statistics 
+			}
     }
 }

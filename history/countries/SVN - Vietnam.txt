@@ -90,9 +90,9 @@ if = {
 
 1945.8.21 = {
 	set_popularities = {
-		democratic = 15
+		democratic = 35
 		fascism = 15
-		communism = 55
+		communism = 35
 		neutrality = 15
 	}
 }

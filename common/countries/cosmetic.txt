@@ -213,6 +213,14 @@ GER_german_monarchy = {
 	color_ui = rgb { 115 115 115 }
 }
 
+ROC_UNIFIED = { #Maybe good Chinese?
+	color = rgb {12 34 170} #255 244 190
+	color_ui = rgb {12 34 170}
+}
+PRC_proclaimed = { #FUCKING CHINESE
+	color = rgb {215 12 45}
+	color_ui = rgb {215 12 45}
+}
 CHI_warlord_leader = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
@@ -968,4 +976,8 @@ SWI_alpine_neutrality = {
 SWI_helvetic_republic = {
 	color = rgb { 0 54 163 }
 	color_ui = rgb { 140 140 140 }
+}
+VIN_VIETNAM_UNIFIED = {
+	color = rgb {240 37 29}
+	color_ui = rgb {240 37 29}
 }
