@@ -10,6 +10,9 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = JAP
+		victory_points = {
+			7145 1 
+		}
 	}
 	manpower=747119
 	state_category=large_city

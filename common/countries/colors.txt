@@ -1,20 +1,4 @@
 #reload countrycolors
-AIN = {
-	color = rgb { 135 207 255 }
-	color_ui = rgb { 135 207 255 }
-}
-PRK = {
-	color = rgb { 230 27 38 }
-	color_ui = rgb { 230 27 38 }
-}
-OKJ = {
-	color = rgb { 252 127 3 }
-	color_ui = rgb { 252 127 3 }
-}
-DNG = {
-	color = rgb { 224 126 112 }
-	color_ui = rgb { 224 126 112 }
-}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -367,11 +351,6 @@ CRO = {
 	color_ui = rgb { 230 255 122 }
 }
 
-# PRJ = {
-	# color = rgb { 132 18 39 }
-	# color_ui = rgb { 132 18 39 }
-# }
-
 PRC = {
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 178 34 60 }
@@ -465,11 +444,6 @@ INS = {
 VIN = {
 	color = rgb { 230  83  50 } #230 223 50
 	color_ui = rgb { 230  83  50 }
-}
-
-SVN = {
-	color = rgb { 50  83  230 } #230 223 50
-	color_ui = rgb { 50  83  230 }
 }
 
 CAM = {
@@ -883,4 +857,227 @@ MEL = {
 CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
+}
+
+SVN = {
+	color = rgb { 50  83  230 } #230 223 50
+	color_ui = rgb { 50  83  230 }
+}
+AIN = {
+	color = rgb { 135 207 255 }
+	color_ui = rgb { 135 207 255 }
+}
+PRK = {
+	color = rgb { 230 27 38 }
+	color_ui = rgb { 230 27 38 }
+}
+OKJ = {
+	color = rgb { 252 127 3 }
+	color_ui = rgb { 252 127 3 }
+}
+DNG = {
+	color = rgb { 224 126 112 }
+	color_ui = rgb { 224 126 112 }
+}
+#분열된 메이궈
+# United States
+AK0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+AL0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+AR0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+AZ0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+CA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+CO0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+CT0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+DE0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+FL0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+GA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+HI0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+IA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+ID0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+IL0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+IN0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+KS0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+KY0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+LA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+MA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+MD0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+ME0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+MI0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+MN0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+MO0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+MS0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+MT0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+NC0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+ND0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+NE0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+NH0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+NJ0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+NM0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+NV0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+NY0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+OH0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+OK0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+OR0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+PA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+RI0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+SC0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+SD0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+TN0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+TX0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+UT0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+VA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+VT0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+WA0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+WI0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+WV0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
+}
+WY0 = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 87 160 255 }
 }
