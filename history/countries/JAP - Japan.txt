@@ -220,6 +220,8 @@ create_import = {
 	add_ideas = GHQ_red_purge
 }
 1945.8.15 = {
+	add_ideas = civilian_economy
+	add_ideas = free_trade
 	add_ideas = GHQ_nationalist_purge
 	add_ideas = GHQ_zaibatsu_control
 	add_ideas = JAP_hirohito
