@@ -1,0 +1,1539 @@
+GER_dead = {
+	add_named_threat = { threat = -50 name = "독일의 항복" }
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #American occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 55
+		transfer_state = 54
+		transfer_state = 53
+		transfer_state = 52
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		USA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	ENG = {
+		set_autonomy = {
+			target = GER
+			autonomy_state = autonomy_puppet
+			end_wars = yes
+			end_civil_wars = yes
+		}
+	}
+	create_dynamic_country = { #Fuckin' Red occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 60
+		transfer_state = 65 
+		transfer_state = 64
+		transfer_state = 62
+		transfer_state = 61
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		SOV = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	set_global_flag = yalta_agreed_flag
+}
+
+JAP_sengoku = {
+	JAP = {
+		create_faction = "일본"
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 528
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 955
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 954
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 953
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 952
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 951
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}		
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 950
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 949
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 948
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 947
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 946
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 945
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 944
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 943
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 942
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 941
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 940
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 939
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 938
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 937
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 936
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 935
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 934
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 933
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 932
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 931
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 930
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 929
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 928
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 529
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 530
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 531
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 535
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 534
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 533
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = JAP
+		copy_tag = JAP
+		add_political_power = 100
+		transfer_state = 532
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+	AIN = { #French occupation zone in Germany
+		add_political_power = 536
+		transfer_state = 536
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		JAP = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+}
+
+JAP_end_sigoku = {
+	every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			JAP = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes
+				}
+			}
+			JAP = {
+				annex_country = {
+					target = AIN
+					transfer_troops = yes
+				}
+			}
+		}
+}
+JAP_end_GHQ = {
+
+}
+JAP_2nd_GHQ = {
+
+}
+JAP_sengoku_damn = {
+	JAP = {
+		every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			JAP = {
+				set_autonomy = {
+					target = PREV
+					autonomy_state = autonomy_free
+					end_wars = no
+					end_civil_wars = no
+				}
+			}
+		}
+	}
+}
+JAP_low_level = {
+	every_country = {
+		limit = {
+			original_tag = JAP
+		}
+		JAP = {
+			give_military_access = PREV
+		}
+		give_military_access = PREV
+	}
+}
+JAP_give_millita = {
+	every_country = {
+		limit = {
+			original_tag = JAP
+		}
+		JAP = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = GER
+			}
+			add_manpower = -100000
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 10000
+			producer = GER
+		}
+		add_manpower = -100000
+	}
+}
+USA_is_faction = {
+	USA = {
+		every_owned_state = {
+			set_state_category = megalopolis
+		}
+		set_autonomy = {
+			target = AK0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+		set_autonomy = {	
+			target = AL0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = AR0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = AZ0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = CA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = CO0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = FL0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+		set_autonomy = {	
+			target = VA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+		set_autonomy = {	
+			target = GA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = HI0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = IA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = ID0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = IL0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = IN0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = KS0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = KY0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = LA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = ME0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = MI0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = MN0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = MO0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = MS0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = MT0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = NC0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = ND0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = NE0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = NM0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = NV0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = NY0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = OH0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = OK0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = OR0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = PA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = SC0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = SD0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = TN0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = TX0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = UT0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = WA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = WI0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = WV0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = no
+			}
+
+		set_autonomy = {	
+			target = WY0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = yes
+			}
+	}
+	AK0 = {
+		transfer_state = 463
+		463 = {
+			add_core_of = AK0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	AL0 = {
+		transfer_state = 367
+		367 = {
+			add_core_of = AL0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	AR0 = {
+		transfer_state = 372
+		372 = {
+			add_core_of = AR0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	AZ0 = {
+		transfer_state = 377
+		377 = {
+			add_core_of = AZ0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	CA0 = {
+		transfer_state = 378
+		378 = {
+			add_core_of = CA0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NV0 = {
+		transfer_state = 379
+		379 = {
+			add_core_of = NV0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	CO0 = {
+		transfer_state = 382
+		382 = {
+			add_core_of = CO0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	FL0 = {
+		transfer_state = 366
+		366 = {
+			add_core_of = FL0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	GA0 = {
+		transfer_state = 365
+		365 = {
+			add_core_of = GA0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	HI0 = {
+		transfer_state = 629
+		629 = {
+			add_core_of = HI0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	IA0 = {
+		transfer_state = 392
+		392 = {
+			add_core_of = IA0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	ID0 = {
+		transfer_state = 397
+		397 = {
+			add_core_of = ID0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	IL0 = {
+		transfer_state = 395
+		395 = {
+			add_core_of = IL0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	IN0 = {
+		transfer_state = 396
+		396 = {
+			add_core_of = IN0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	KS0 = {
+		transfer_state = 383
+		383 = {
+			add_core_of = KS0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	KY0 = {
+		transfer_state = 369
+		369 = {
+			add_core_of = KY0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	LA0 = {
+		transfer_state = 371
+		371 = {
+			add_core_of = LA0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	ME0 = {
+		transfer_state = 357
+		357 = {
+			add_core_of = ME0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	MI0 = {
+		transfer_state = 393
+		393 = {
+			add_core_of = MI0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	MO0 = {
+		transfer_state = 373
+		373 = {
+			add_core_of = MO0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	MN0 = {
+		transfer_state = 391
+		391 = {
+			add_core_of = MN0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	MS0 = {
+		transfer_state = 370
+		370 = {
+			add_core_of = MS0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	MT0 = {
+		transfer_state = 388
+		388 = {
+			add_core_of = MT0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	ID0 = {
+		transfer_state = 387
+		387 = {
+			add_core_of = ID0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NC0 = {
+		transfer_state = 363
+		363 = {
+			add_core_of = NC0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	ND0 = {
+		transfer_state = 389
+		389 = {
+			add_core_of = ND0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NE0 = {
+		transfer_state = 384
+		384 = {
+			add_core_of = NE0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NM0 = {
+		transfer_state = 376
+		376 = {
+			add_core_of = NM0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NV0 = {
+		transfer_state = 379
+		379 = {
+			add_core_of = NV0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NY0 = {
+		transfer_state = 358
+		358 = {
+			add_core_of = NY0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	OH0 = {
+		transfer_state = 261
+		261 = {
+			add_core_of = OH0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	OK0 = {
+		transfer_state = 374
+		374 = {
+			add_core_of = OK0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	OR0 = {
+		transfer_state = 385
+		385 = {
+			add_core_of = OR0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	PA0 = {
+		transfer_state = 360
+		360 = {
+			add_core_of = PA0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	# RI0 = {
+	# 	transfer_state = 393
+	# 	393 = {
+	# 	add_core_of = PREV
+	# }
+	# add_ideas = USA_states_of_united_state_of_america
+	# }
+	SC0 = {
+		transfer_state = 364
+		364 = {
+			add_core_of = SC0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	SD0 = {
+		transfer_state = 390
+		390 = {
+			add_core_of = SD0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	TN0 = {
+		transfer_state = 368
+		368 = {
+			add_core_of = TN0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	TX0 = {
+		transfer_state = 375
+		375 = {
+			add_core_of = TX0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	UT0 = {
+		transfer_state = 380
+		380 = {
+			add_core_of = UT0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	VA0 = {
+		transfer_state = 362
+		362 = {
+			add_core_of = VA0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	# VT0 = {
+		# transfer_state = 393
+		# 393 = {
+		# 	add_core_of = PREV
+		# }
+		add_ideas = USA_states_of_united_state_of_america
+	# }
+	WA0 = {
+		transfer_state = 386
+		386 = {
+			add_core_of = WA0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	WI0 = {
+		transfer_state = 394
+		394 = {
+			add_core_of = WI0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	WV0 = {
+		transfer_state = 816
+		816 = {
+			add_core_of = WV0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	WY0 = {
+		transfer_state = 381
+		381 = {
+			add_core_of = WY0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+}

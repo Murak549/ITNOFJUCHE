@@ -1,0 +1,170 @@
+PRK_unite = {
+    PRK_JEJU = {
+
+		days_re_enable = 200
+
+		icon = border_war
+
+		allowed = { always = yes } #Activated from effect
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 918
+				state = 915	
+			} 
+		}
+
+		fire_only_once = yes #Reactivation handled in effect
+
+		complete_effect = {
+			remove_targeted_decision = { target = SOV decision = JAP_border_incident_forgotten }
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 918
+					num_provinces = 4
+					on_win = prk.2
+					on_lose = prk.3
+					on_cancel = japan_border_conflict.4
+				}
+				
+				defender = {
+					state = 915
+					num_provinces = 4
+					on_win = prk.3
+					on_lose = prk.2
+					on_cancel = japan_border_conflict.4
+				}
+			}
+        }
+	}
+    PRK_parade = {
+        available = {
+            has_global_flag = PRK_defeat_korea
+            AND = {
+                divisions_in_state = {
+                    type = infantry
+                    size > 11
+                    state = 525
+                }
+            }
+        }
+        ai_will_do = {
+            base = 10
+            modifier = {
+                add = 10
+                always = yes
+            }
+        }        
+        fire_only_once = yes
+        complete_effect = {
+            country_event = { id = PRK.3 }
+        }
+    }
+}
+PRK_spreading_revolution = {
+	PRK_tsushima = {
+		icon = border_war
+
+		cost = 120
+
+		days_re_enable = 120
+
+		allowed = {
+			915 = {
+				is_owned_by = PRK
+			}
+		}
+		
+		visible = {
+			915 = {
+				is_owned_by = PRK
+			}
+			NOT = {
+				953 = {
+					is_owned_by = PRK
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 911
+				state = 953
+			} 
+		}
+		complete_effect = {
+			remove_targeted_decision = { target = SOV decision = JAP_border_incident_forgotten }
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 911
+					num_provinces = 4
+					on_win = prk.5
+					on_lose = prk.6
+					on_cancel = japan_border_conflict.4
+				}
+				
+				defender = {
+					state = 953
+					num_provinces = 4
+					on_win = prk.6
+					on_lose = prk.5
+					on_cancel = japan_border_conflict.4
+				}
+			}
+        }
+	}
+	PRK_kyusyu = {
+		icon = border_war
+
+		cost = 240
+
+		days_re_enable = 365
+
+		visible = {
+			953 = {
+				is_owned_by = PRK
+			}
+			NOT = {
+				528 = {
+					is_owned_by = PRK
+				}
+			}
+		}
+		
+		available = {
+			953 = {
+				is_owned_by = PRK
+			}
+		}
+
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 528
+			} 
+		}
+		complete_effect = {
+			remove_targeted_decision = { target = SOV decision = JAP_border_incident_forgotten }
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 953
+					num_provinces = 4
+					on_win = prk.5
+					on_lose = prk.6
+					on_cancel = japan_border_conflict.4
+				}
+				
+				defender = {
+					state = 528
+					num_provinces = 4
+					on_win = prk.6
+					on_lose = prk.5
+					on_cancel = japan_border_conflict.4
+				}
+			}
+        }
+	}
+}

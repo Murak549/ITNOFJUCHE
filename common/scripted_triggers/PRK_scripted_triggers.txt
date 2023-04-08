@@ -1,0 +1,30 @@
+PRK_state_is_japan = {
+	OR = {
+		state =  928
+		state =  929
+		state =  930
+		state =  931
+		state =  932
+		state =  933
+		state =  934
+		state =  935
+		state =  936
+		state =  937
+		state =  938
+		state =  939
+		state =  940
+		state =  941
+		state =  942
+		state =  943
+		state =  944
+		state =  945
+		state =  946
+		state =  947
+		state =  948
+		state =  949
+		state =  950
+		state =  951
+		state =  952
+		state =  953
+	}
+}

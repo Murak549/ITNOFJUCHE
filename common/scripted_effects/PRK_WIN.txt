@@ -1,3 +1,97 @@
+PRK_annex_korea = {
+	PRK = {
+		country_event = { id = prk.1 }
+		transfer_state = 922 #STATE_922
+		transfer_state = 913 #강원
+		transfer_state = 525 #경기
+		transfer_state = 917 #충청남도
+		transfer_state = 909 #충청북도
+		transfer_state = 921 #경상북도
+		transfer_state = 911 #경상남도
+		transfer_state = 918 #전라남도
+		transfer_state = 910 #전라북도
+		transfer_state = 916 #울릉도
+		911 = {
+			add_core_of = PRK
+		}
+		922 = {
+			add_core_of = PRK
+		}
+		913 = {
+			add_core_of = PRK
+		}
+		525 = {
+			add_core_of = PRK
+		}
+		917 = {
+			add_core_of = PRK
+		}
+		909 = {
+			add_core_of = PRK
+		}
+		921 = {
+			add_core_of = PRK
+		}
+		910 = {
+			add_core_of = PRK
+		}
+		918 = {
+			add_core_of = PRK
+		}
+		910 = {
+			add_core_of = PRK
+		}
+		916 = {
+			add_core_of = PRK
+		}
+		915 = {
+			add_core_of = PRK
+		}
+	}
+}
+KOR_yabyeolcho = {
+	division_template = {
+		name = "제주방위군"
+		is_locked = no 
+		division_names_group = KOR_INF_01
+		priority = 2
+		template_counter = 0
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 0 y = 3 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 1 y = 3 }
+			infantry = { x = 1 y = 4 }
+		}
+		support = {
+			military_police = { x = 0 y = 0 }
+		}
+	}
+	915 = {
+		create_unit = {
+			division = "name = \"제주 방위 사령부\" division_template = \"제주방위군\" start_experience_factor = 2"
+			owner = KOR
+			allow_spawning_on_enemy_provs = yes
+			prioritize_location = 1177
+		}
+		create_unit = {
+			division = "name = \"서귀포 민병대\" division_template = \"제주방위군\" start_experience_factor = 2"
+			owner = KOR
+			allow_spawning_on_enemy_provs = yes
+			prioritize_location = 1177
+		}
+		create_unit = {
+			division = "name = \"한림 민병대\" division_template = \"제주방위군\" start_experience_factor = 2"
+			owner = KOR
+			allow_spawning_on_enemy_provs = yes
+			prioritize_location = 1177
+		}
+	}
+}
 JAP_sengoku_juche = {
 	create_dynamic_country = { #French occupation zone in Germany
 		original_tag = JAP

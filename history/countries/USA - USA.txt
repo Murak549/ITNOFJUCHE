@@ -140,6 +140,8 @@ if = {
 }
 
 #Monroe Doctrine
+give_guarantee = JAP
+give_guarantee = KOR
 give_guarantee = CAN
 give_guarantee = MEX
 give_guarantee = CUB
