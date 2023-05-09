@@ -1,3 +1,34 @@
+is_korean_penisula = {
+	OR = {
+		state =  525
+		state =  527
+		state =  909
+		state =  910
+		state =  911
+		state =  912
+		state =  913
+		state =  914
+		state =  915
+		state =  916
+		state =  917
+		state =  918
+		state =  919
+		state =  920
+		state =  921
+		state =  922
+		state =  923
+		state =  924
+	}
+}
+is_taiwan_territories = {
+	OR = {
+		state =  524
+		state =  956
+		state =  957
+		state =  958
+		state =  959
+	}
+}
 PRK_state_is_japan = {
 	OR = {
 		state =  928

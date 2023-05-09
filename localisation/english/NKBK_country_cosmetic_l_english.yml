@@ -26,6 +26,9 @@
 
  KOR_democratic:0 "대한민국"
 
+ KOR_USA_democratic_autonomy_supervised_state:0 "재조선미국육군사령부군정청"
+ PRK_SOV_communism_autonomy_supervised_state:0 "재조선소비에트민정청"
+
  VIN_VIETNAM_UNIFIED_neutrality:0 "대남국"
  VIN_VIETNAM_UNIFIED_communism:0 "베트남 사회주의 공화국"
 
@@ -33,3 +36,11 @@
  KOR_temp_govern:0 "대한민국 임시정부"
 
  KOR_empty:0 "청"
+
+ MAN_PRK:0 "고려인민판무관부"
+ MAN_PRK_revolution:0 "군사혁명위원회"
+ MAN_PRK_revend:0 "국가재건최고회의"
+ MAN_PRK_peace:0 "조선민주주의인민공화국"
+
+ JAP_PRK:0 "일본인민판무관부"
+ JAP_PRK_colony:0 "동조선특수행정구"

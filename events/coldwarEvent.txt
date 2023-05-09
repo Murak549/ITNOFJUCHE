@@ -1,0 +1,47 @@
+add_namespace = coldwar
+
+# 한반도 분단
+country_event = { 
+	id = coldwar.1
+	title = coldwar.1.t
+	desc = coldwar.1.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = coldwar.1.a
+		KOR = {
+			drop_cosmetic_tag = KOR
+		}
+		USA = {
+			set_autonomy = {
+				target = KOR
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+		PRK = {
+			every_state = {
+				limit = {
+					is_korean_penisula = yes
+				}
+				add_core_of = PRK
+			}
+				transfer_state = 923
+				transfer_state = 914
+				transfer_state = 924
+				transfer_state = 912
+				transfer_state = 527
+				transfer_state = 920
+				transfer_state = 919
+		}
+		SOV = {
+			set_autonomy = {
+				target = PRK
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+add_namespace = dbg
+
+country_event = {
+    id = dbg.1
+    title = dbg.1.t
+    desc = dbg.1.d
+    is_triggered_only = yes
+    option = {
+        name = dbg.1.a
+        GER_dead = yes
+    }
+}
+country_event = {
+    id = dbg.2
+    title = dbg.2.t
+    desc = dbg.2.d
+    is_triggered_only = yes
+    option = {
+        name = dbg.2.a
+        JAP_dead = yes
+    }
+}
+country_event = {
+    id = dbg.3
+    title = dbg.3.t
+    desc = dbg.3.d
+    is_triggered_only = yes
+    option = {
+        name = dbg.3.a
+        GER_dead = yes
+    }
+}

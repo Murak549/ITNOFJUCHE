@@ -459,10 +459,10 @@ PAK = {
 #    color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
 #    color_ui = rgb { 225 255 255 }
 #}
-#DDR = {
-#    color = rgb { 120 150 80 }
-#    color_ui = rgb { 150 180 120 }
-#}
+DDR = {
+    color = rgb { 120 150 80 }
+    color_ui = rgb { 150 180 120 }
+}
 KOR = {
 	color = rgb { 2 77 157 }
 	color_ui = rgb { 2 77 157 }	

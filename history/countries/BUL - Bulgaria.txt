@@ -23,6 +23,7 @@ set_party_name = { # DLC
 	long_name = BUL_fascism_party_bulgarian_long
 }
 1945.5.4 = {
+	drop_cosmetic_tag = BUL
 	set_popularities = {
 		democratic = 13
 		fascism = 7

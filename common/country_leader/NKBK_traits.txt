@@ -11,4 +11,7 @@ leader_traits = {
 	white_denno = {
 		political_power_factor = 0.05
 	}
+	viceroy = {
+		random = no
+	}
 }
