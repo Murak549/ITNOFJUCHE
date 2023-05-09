@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_select_date_democracy"
+		texturefile = "gfx/interface/select_date_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_interm"
+		texturefile = "gfx/interface/select_date_interm.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_storm"
+		texturefile = "gfx/interface/select_date_storm.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_fascio"
+		texturefile = "gfx/interface/select_date_fascio.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_east"
+		texturefile = "gfx/interface/select_date_east.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_winner"
+		texturefile = "gfx/interface/select_date_winner.dds"
+	}
+}
