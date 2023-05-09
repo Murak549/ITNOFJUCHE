@@ -16,6 +16,7 @@ state={
 		1057 1060 1140 4191 10104 10754 10785 11951 
 	}
 	manpower=2000
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
