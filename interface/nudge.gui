@@ -23,7 +23,7 @@ guiTypes = {
 			name = "selection_header"
 			position = { x = 20 y = 5 }
 			textureFile = ""
-			font = "Main_16"
+			font = "Main_16" 
 			borderSize = {x = 0 y = 0}
 			text = "Choose nudger"
 			maxWidth = 200
