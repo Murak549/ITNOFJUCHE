@@ -18,7 +18,9 @@ state={
 		add_core_of = KOR
 		1945.8.15 = {
 			owner = KOR
+
 		}
+
 	}
 
 	provinces={

@@ -16,12 +16,13 @@ state={
 		add_core_of = KOR
 		1945.8.15 = {
 			owner = KOR
+
 		}
 
 	}
 
 	provinces={
-		13266 
+		13266 13282 
 	}
 	manpower=13800
 	buildings_max_level_factor=1.000
