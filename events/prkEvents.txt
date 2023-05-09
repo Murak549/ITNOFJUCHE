@@ -1,56 +1,106 @@
 add_namespace = prk
 
-# Marco Polo Bridge I
-country_event = {
+# 수도 변경
+country_event = { 
 	id = prk.1
 	title = prk.1.t
 	desc = prk.1.d
-	picture = GFX_news_event_001
+	picture = GFX_report_event_albanian_partisans
 	is_triggered_only = yes
 	option = {
 		name = prk.1.a
+		set_capital = {
+			state = 525
+			remember_old_capital = no
+		}
+	}
+	option = {
+		name = prk.1.b
 	}
 }
+# 북한의 제주 점령 성공
 country_event = {
 	id = prk.2
 	title = prk.2.t
 	desc = prk.2.d
-	picture = GFX_news_event_001
+	picture = GFX_report_event_chinese_soldiers_02
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = prk.2.a
-		JAP_sengoku = yes
+		915 = {
+			transfer_state_to = PRK
+		}
+		PRK = {
+			news_event = { id = PRK.1001 }
+		}
+		# hidden_effect = {
+			JAP = {
+				division_template = {
+					name = "Japan Self-Defence Special Forces II"
+					is_locked = no 
+					division_names_group = JAP_INF_01
+					priority = 2
+					template_counter = 0
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
+					}
+					support = {
+						military_police = { x = 0 y = 0 }
+					}
+				}
+			}
+			JAP = {
+				every_owned_state = {
+					limit =  {
+						PRK_state_is_japan = yes
+					}
+					create_unit = {
+						division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
+						owner = JAP
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		# }
 	}
 }
+# 북한의 제주 점령 실패
 country_event = {
 	id = prk.3
 	title = prk.3.t
 	desc = prk.3.d
-	picture = GFX_news_event_001
+	picture = GFX_report_event_tank_factory
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = prk.3.a
-		JAP_sengoku_damn = yes
 	}
 }
+#북괴의 서울 열병식
 country_event = {
 	id = prk.4
 	title = prk.4.t
 	desc = prk.4.d
-	picture = GFX_news_event_001
+	picture = GFX_report_event_tank_factory
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = prk.4.a
-		# JAP_low_level = yes
-		JAP_give_millita = yes
 	}
 }
+#북한의 쓰시마 점령 성공
 country_event = {
 	id = prk.5
 	title = prk.5.t
@@ -61,9 +111,21 @@ country_event = {
 	
 	option = {
 		name = prk.5.a
-		JAP_sengoku_juche = yes
+		953 = {
+			transfer_state_to = PRK
+			add_core_of = PRK
+			set_state_name = "대마도"
+		}
+		USA = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = PRK
+			}
+		}
+		set_province_name = { id = 10011 name = "대마도" }
 	}
 }
+#북한의 쓰시마 점령 실패
 country_event = {
 	id = prk.6
 	title = prk.6.t
@@ -73,12 +135,34 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = prk.5.a
-		ROOT = {
-			every_country = {
-				white_peace = PRC
-			}
-		}
+		name = prk.6.a
+	}
+}
+#규슈 진공 작전 성공
+country_event = {
+	id = prk.7
+	title = prk.7.t
+	desc = prk.7.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.7.a
+	}
+}
+#규슈 진공 작전 실패
+country_event = {
+	id = prk.8
+	title = prk.8.t
+	desc = prk.8.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.8.a
+		# JAP_sengoku_juche = yes
 	}
 }
 
@@ -94,11 +178,90 @@ news_event = {
 	
 	option = {
 		name = prk.1000.a
-		every_state = {
-			limit = {
-				is_core_of = KOR
-			} 
-			add_core_of = PRK
+		trigger = {
+			original_tag = PRK
+		}
+	}
+	option = {
+		name = prk.1000.b
+		trigger = {
+			NOT = {
+				original_tag = PRK
+			}
+		}
+	}
+}
+news_event = {
+	id = prk.1001
+	title = prk.1001.t
+	desc = prk.1001.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.1001.a
+		trigger = {
+			tag = PRK
+		}
+	}
+	
+	option = {
+		name = prk.1001.b
+		trigger = {
+			NOT = {
+				AND = {
+					tag = PRK
+					tag = KOR
+				}
+			}
+		}
+	}
+
+	option = {
+		name = prk.1001.c
+		trigger = {
+			tag = KOR
+		}
+	}
+}
+news_event = {
+	id = prk.1002
+	title = prk.1002.t
+	desc = prk.1002.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.1002.a
+		trigger = {
+			original_tag = PRK
+		}
+	}
+}
+country_event = {
+	id = prk.50005
+	title = prk.50005.t
+	desc = prk.50005.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.50005.a
+		USA_is_faction = yes 
+		PRK = {
+			every_state = {
+				limit = {
+					PRK_state_is_japan = yes
+				}
+				add_core_of = PRK
+			}
 		}
 	}
 }

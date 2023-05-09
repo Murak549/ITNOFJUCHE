@@ -1,0 +1,29 @@
+PRK_unite = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = PRK
+		# has_dlc = "No Step Back"
+	}
+
+	visible = {
+		PRK = { owns_state = 525 }
+		PRK = { owns_state = 911 }
+	}
+}
+
+PRK_spreading_revolution = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = PRK
+		# has_dlc = "No Step Back"
+	}
+
+	visible = {
+		PRK = { owns_state = 525 }
+		PRK = { owns_state = 911 }
+	}
+}

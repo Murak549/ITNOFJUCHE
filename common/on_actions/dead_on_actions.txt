@@ -1,0 +1,54 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			# if = { TLE 배낌 ㅎㅎ
+			# 	limit = { #독일이 승전시의 코드
+			# 		tag = SOV
+			# 		has_war_with = GER
+			# 	}
+			# 	GER = {
+			# 		country_event = {
+			# 			id = korea.178
+			# 		}
+			# 	}
+			# 	every_country = {
+			# 		limit = {
+			# 			has_war_with = GER
+			# 		}
+			# 		white_peace = GER
+			# 	}
+			# }
+			if = {
+				limit = { #북한이 승전시의 코드
+					tag = KOR
+					has_war_with = PRK
+					NOT = {
+						has_global_flag = PRK_defeat_korea
+					}
+				}
+				PRK = {
+					news_event = {
+						id = PRK.1000
+					}
+					set_global_flag = PRK_defeat_korea
+				}
+				every_country = {
+					limit = {
+						has_war_with = PRK
+					}
+					white_peace = PRK
+				}
+				KOR = {
+					set_cosmetic_tag = KOR_temp_govern
+				}
+				960 = {
+					transfer_state_to = KOR
+					add_core_of = KOR
+					set_state_name = "서사모아"
+				}
+				PRK_annex_korea = yes
+				KOR_yabyeolcho = yes
+			}
+		}
+	}
+}
