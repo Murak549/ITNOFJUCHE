@@ -28,5 +28,56 @@ country_event = {
     option = {
         name = dbg.3.a
         GER_dead = yes
+        JAP_dead = yes
+    }
+}
+country_event = {
+    id = dbg.4
+    title = dbg.4.t
+    desc = dbg.4.d
+    is_triggered_only = yes
+    option = {
+        name = dbg.4.a
+        KOR = {
+            create_country_leader = {
+                name = "이승만"
+                desc = ""
+                picture = "gfx/leaders/KOR/jjitjoemyong.png"
+                expire = "1965.1.1"
+                ideology = conservatism
+                traits = {
+                    #
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = dbg.5
+    title = dbg.5.t
+    desc = dbg.5.d
+    is_triggered_only = yes
+    option = {
+        name = dbg.5.a
+        JAP = {
+            set_autonomy = {
+				target = MAN
+				autonomy_state = autonomy_wtt_imperial_associate 
+				end_wars = no
+				end_civil_wars = no
+			}
+        }
+    }
+}
+country_event = {
+    id = dbg.6
+    title = dbg.6.t
+    desc = dbg.6.d
+    is_triggered_only = yes
+    option = {
+        name = dbg.6.a
+        every_country = {
+            white_peace = HUN
+        }
     }
 }
