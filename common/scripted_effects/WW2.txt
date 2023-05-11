@@ -1,4 +1,10 @@
 GER_dead = {
+    every_country = {
+        limit = {
+            has_war_with = GER
+        }
+        white_peace = GER
+    }
 	add_named_threat = { threat = -50 name = "독일의 항복" }
 	create_dynamic_country = { #French occupation zone in Germany
 		original_tag = GER
@@ -221,6 +227,12 @@ JAP_dead = {
         }
         white_peace = JAP
     }
+    every_country = {
+        limit = {
+            has_war_with = JAP
+        }
+        white_peace = JAP
+    }
     KOR = {
         set_cosmetic_tag = KOR_1945
         every_state = {
@@ -294,4 +306,165 @@ JAP_dead = {
             }
         }
     }
+}
+JAP_dead_by_chi = {
+    every_country = {
+        white_peace = JAP
+    }
+    KOR = {
+        every_state = {
+            limit = {
+                is_korean_penisula = yes
+            }
+            transfer_state_to = KOR
+            set_cosmetic_tag = KOR_temp
+        }
+    }
+    CHI = {
+        every_state = {
+            limit = {
+                is_taiwan_territories = YES
+            }
+            transfer_state_to = CHI
+        }
+        set_autonomy = {
+            target = KOR
+            autonomy_state = autonomy_satellite
+            end_wars = no
+			end_civil_wars = no
+        }
+        set_autonomy = {
+            target = JAP
+            autonomy_state = autonomy_colony
+            end_wars = no
+			end_civil_wars = no
+        }
+        set_autonomy = {
+            target = RYU
+            autonomy_state = autonomy_satellite
+            end_wars = no
+			end_civil_wars = no
+        }
+        transfer_state = 609
+        transfer_state = 610
+        transfer_state = 745
+        annex_country = {
+            target = MAN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = MEN
+            transfer_troops = yes
+        }
+    }
+    RYU = {
+        transfer_state = 526
+    }
+}
+JAP_dead_by_prk = {
+    every_country = {
+        white_peace = JAP
+    }
+    KOR = {
+        every_state = {
+            limit = {
+                is_korean_penisula = yes
+            }
+            transfer_state_to = KOR
+        }
+    }
+    PRC = {
+        every_state = {
+            limit = {
+                is_taiwan_territories = YES
+            }
+            transfer_state_to = PRC
+        }
+        set_autonomy = {
+            target = KOR
+            autonomy_state = autonomy_satellite
+            end_wars = no
+			end_civil_wars = no
+        }
+        set_autonomy = {
+            target = JAP
+            autonomy_state = autonomy_colony
+            end_wars = no
+			end_civil_wars = no
+        }
+        set_autonomy = {
+            target = RYU
+            autonomy_state = autonomy_satellite
+            end_wars = no
+			end_civil_wars = no
+        }
+        transfer_state = 609
+        transfer_state = 610
+        transfer_state = 745
+        annex_country = {
+            target = MAN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = MEN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = SHX
+            transfer_troops = yes
+        }
+    }
+    RYU = {
+        transfer_state = 526
+    }
+}
+JAP_dead_by_prkandchi = {
+    every_country = {
+        white_peace = JAP
+    }
+    PRK = {
+        annex_country = {
+            target = MAN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = MEN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = SHX
+            transfer_troops = yes
+        }
+        transfer_state = 745
+        transfer_state = 609
+    }
+    CHI = {
+        every_state = {
+            limit = {
+                is_taiwan_territories = YES
+            }
+            transfer_state_to = CHI
+        }
+        set_autonomy = {
+            target = KOR
+            autonomy_state = autonomy_satellite
+            end_wars = no
+			end_civil_wars = no
+        }
+        set_autonomy = {
+            target = JAP
+            autonomy_state = autonomy_colony
+            end_wars = no
+			end_civil_wars = no
+        }
+        set_autonomy = {
+            target = RYU
+            autonomy_state = autonomy_satellite
+            end_wars = no
+			end_civil_wars = no
+        }
+    }
+}
+CHI_dead = {
+    
 }
