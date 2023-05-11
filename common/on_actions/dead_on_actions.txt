@@ -20,10 +20,13 @@ on_actions = {
 			# }
 			if = {
 				limit = { #북한이 승전시의 코드
-					tag = KOR
-					has_war_with = PRK
-					NOT = {
-						has_global_flag = PRK_defeat_korea
+					AND = {
+						ROOT = {
+							original_tag = KOR
+						}
+						FROM = {
+							original_tag = PRK
+						}
 					}
 				}
 				PRK = {
@@ -48,6 +51,50 @@ on_actions = {
 				}
 				PRK_annex_korea = yes
 				KOR_yabyeolcho = yes
+			}
+			if = {
+				limit = { #중일전 중국승리비율 높음
+					tag = JAP
+					has_war_with = CHI
+					NOT = {
+						has_war_with = USA
+						has_war_with = ENG
+						has_war_with = FRA
+						has_war_with = SOV
+						has_war_with = GER
+					}
+					OR = {
+						328 = {
+							is_controlled_by = CHI
+						}
+						every_state = {
+							limit = {
+								PRK_state_is_japan = yes
+							}
+							is_controlled_by = CHI
+						}
+					}
+				}
+				JAP_dead_by_chi = yes
+			}
+			if = {
+				limit = { #중일전 빨갱이승리비율높음
+					tag = JAP
+					has_war_with = PRC
+					NOT = {
+						has_war_with = USA
+						has_war_with = ENG
+						has_war_with = FRA
+						has_war_with = SOV
+						has_war_with = GER
+					}
+					OR = {
+						328 = {
+							is_controlled_by = PRC
+						}
+					}
+				}
+				JAP_dead_by_prk = yes
 			}
 		}
 	}

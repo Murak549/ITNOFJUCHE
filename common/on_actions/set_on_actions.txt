@@ -7,21 +7,41 @@ on_actions = {
             every_country = {
 				limit = {
 					NOT = {
-						original_tag = PRK
+						OR = {
+							original_tag = PRK
+							original_tag = MAN
+							original_tag = JAP
+							original_tag = GER
+							original_tag = ENG
+							original_tag = FRA
+							original_tag = USA
+							original_tag = SPR
+							original_tag = POR
+							original_tag = SWI
+							original_tag = ITA
+							original_tag = SOV
+							original_tag = POL
+							original_tag = LAT
+							original_tag = LIT
+							original_tag = EST
+							original_tag = ROM
+							original_tag = HUN
+							original_tag = CHI
+							original_tag = PRC
+							original_tag = SIK
+							original_tag = XSM
+							original_tag = GXC
+							original_tag = YUN
+							original_tag = MEX
+							original_tag = CAN
+							original_tag = NZL
+							original_tag = AST
+							original_tag = SAF
+						}
 					}
 				}
                 load_focus_tree = generic_focus
             }
-			# GER = {
-			# 	if = {
-			# 		limit = {
-			# 			country_exists = WGR
-			# 		}
-			# 	}
-			# 	else = {
-			# 		GER_dead = yes
-			# 	}
-			# }
 		}
         if = { #조선은 하나다
 				limit = {
