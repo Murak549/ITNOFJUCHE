@@ -12,15 +12,15 @@ add_ideas = {
 
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons2 = 1
 	tech_support = 1		
 	tech_engineers = 1
+	tech_mountaineers = 1
 	motorised_infantry = 1
-	marines  = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	gw_artillery = 1
-	interwar_artillery = 1
-	artillery1 = 1
+	interwar_antiair = 1
+	basic_train = 1
 }
 
 set_convoys = 400
@@ -51,6 +51,7 @@ set_popularities = {
 		}
 	}
 	set_technology = {
+		basic_train = 1
 		infantry_weapons = 1
 		infantry_weapons1 = 1
 		infantry_weapons2 = 1
@@ -93,40 +94,6 @@ set_popularities = {
 		antitank1 = 1
 		antitank2 = 1
 		antitank3 = 1
-		if = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			set_technology = {
-				basic_medium_tank_chassis = 1
-				gwtank_chassis = 1
-				basic_light_tank_chassis = 1
-				improved_light_tank_chassis = 1
-				light_tank_chassis_1 = 1
-				light_tank_destroyer_chassis_1 = 1
-				light_tank_artillery_chassis_1 = 1
-				light_tank_aa_chassis_1	 = 1
-				light_tank_chassis_2 = 1
-				light_tank_destroyer_chassis_2 = 1
-				light_tank_artillery_chassis_2 = 1
-				light_tank_aa_chassis_2	 = 1
-			}
-			else = {
-				set_oob = "LUX_1936" #Sex With Hitler
-				set_technology = {
-					gwtank = 1
-					basic_light_tank = 1
-					basic_light_td = 1
-					basic_light_art = 1
-					basic_light_spaa = 1
-					basic_light_tank = 1
-					advanced_light_tank = 1
-					advanced_light_td = 1
-					advanced_light_art = 1
-					advanced_light_spaa = 1
-				}
-			}
-		}
 	}
 }
 	
