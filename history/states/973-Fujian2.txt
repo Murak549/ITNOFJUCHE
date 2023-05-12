@@ -1,36 +1,26 @@
-
 state={
-	id=598
-	name="STATE_598"
-
-	history={
+	id=973
+	name="STATE_973"
+	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
-
-		}
-		1938.10.25 = {
-			controller = JAP
-
+			industrial_complex = 1
 		}
 		1945.8.15 = {
 			owner = CHI
-
 		}
-		1949.1.15 = {
+		1949.6.15 = {
 			owner = PRC
-
 		}
-
 	}
-
 	provinces={
-		1029 1076 1121 1161 7025 7200 9956 11973 12055 13144 
+		1138 1193 4070 4113 10012 10042 10084 
 	}
-	manpower=23669300
+	manpower=423000
+	state_category = large_city
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

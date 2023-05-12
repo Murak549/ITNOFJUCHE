@@ -1,0 +1,243 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+# Reminder that focus filters prio has to be handled in the generic focus file :)
+
+focus_tree = {
+	id = PRK_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRK
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 55 y = 1500 }
+
+    focus = {
+		id = PRK_north_Korea_5_province_meeting_convened
+
+		icon = GFX_focus_generic_join_comintern
+		x = 10
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = infrastructure
+						size < 2
+					}
+				}
+			}
+		}
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = PRK_speech_of_ilsung
+
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+        relative_position_id = PRK_north_Korea_5_province_meeting_convened
+
+        prerequisite = { focus = PRK_north_Korea_5_province_meeting_convened } 
+
+		bypass = {
+		}
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = PRK_soviet_unions_choose
+
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		x = -1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+        relative_position_id = PRK_north_Korea_5_province_meeting_convened
+
+        prerequisite = { focus = PRK_north_Korea_5_province_meeting_convened } 
+
+		bypass = {
+		}
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea
+
+		icon = GFX_focus_generic_soviet_politics
+		x = 0
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+        relative_position_id = PRK_north_Korea_5_province_meeting_convened
+
+        prerequisite = { focus = PRK_soviet_unions_choose } 
+        prerequisite = { focus = PRK_speech_of_ilsung } 
+
+		bypass = {
+		}
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+            PRK = {
+                add_country_leader_role = {
+                    character = "PRK_Kim_Il_Sung"
+                    country_leader = {
+                        ideologies = marxism
+                        traits = { }
+                        expire = "1965.3.1.1"
+                    }
+                    promote_character = yes
+                }
+            }
+		}
+	}
+    focus = {
+		id = PRK_land_revolution
+
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+        relative_position_id = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea
+
+        prerequisite = { focus = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea } 
+
+		bypass = {
+		}
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = PRK_soviet_style_personnel_system
+
+		icon = GFX_focus_generic_soviet_politics
+		x = -1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+        relative_position_id = PRK_land_revolution
+
+        prerequisite = { focus = PRK_land_revolution } 
+
+		bypass = {
+		}
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = PRK_peoples_army_of_korea
+
+		icon = GFX_focus_chi_army_reform
+		x = 1
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+        relative_position_id = PRK_land_revolution
+
+        prerequisite = { focus = PRK_land_revolution } 
+
+		bypass = {
+		}
+		
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+
+		}
+	}
+}

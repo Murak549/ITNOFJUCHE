@@ -1,17 +1,18 @@
-
 state={
-	id=595
-	name="STATE_595"
-
-	history={
+	id=972
+	name="STATE_972"
+	provinces={
+		1006 4053 7071 7099 7131 10010 10054 10093 11986 12057 12084 
+	}
+	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			4196 = {
-				naval_base = 3
+			7071 = {
+				naval_base = 1
 				coastal_bunker = 1
 				bunker = 1
 
@@ -19,11 +20,10 @@ state={
 
 		}
 		victory_points = {
-			4196 3 
+			7071 1 
 		}
 		1938.10.25 = {
 			JAP = {
-				set_province_controller = 4196
 				set_province_controller = 7071
 
 			}
@@ -37,14 +37,9 @@ state={
 			owner = PRC
 
 		}
-
 	}
-
-	provinces={
-		1094 1166 4169 4196 7027 10069 
-	}
-	manpower=11755600
+	manpower=120000
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
+	state_category = city
 }

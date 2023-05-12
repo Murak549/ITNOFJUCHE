@@ -12,6 +12,7 @@ state={
 			industrial_complex = 1
 			air_base = 6
 			dockyard = 1
+
 		}
 		victory_points = {
 			11913 20 
@@ -35,7 +36,7 @@ state={
 	}
 
 	provinces={
-		996 1089 4091 7120 10076 11913 11928 11982 13142 
+		996 4091 7120 10076 11913 11928 11982 13142 
 	}
 	manpower=17305100
 	buildings_max_level_factor=1.000

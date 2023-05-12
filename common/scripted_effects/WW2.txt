@@ -221,6 +221,16 @@ GER_dead = {
     }
 }
 JAP_dead = {
+    PRK = {
+        PRK_ivan = {
+            promote_character = yes
+        }
+        set_party_name = {
+            ideology = communism
+            long_name = "조선공산당 북조선분국" 
+            name = "조선공산당"
+        }
+    }
     every_country = {
         limit = {
             has_war_with = JAP

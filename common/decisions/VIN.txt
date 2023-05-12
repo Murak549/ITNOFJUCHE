@@ -14,7 +14,7 @@ VIN_independent_war = {
                 has_war = yes
             }
         }
-        available = {
+        available = {   
             has_war = no
             # 286 = {
             #     is_fully_controlled_by = VIN

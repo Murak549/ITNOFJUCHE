@@ -19,4 +19,44 @@ characters={
             expire="1985.8.16"
         }
     }
+    PRK_party={
+        name=PRK_party
+        portraits={
+            army={
+                large=gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds
+            }
+        }
+        corps_commander={
+            traits={ infantry_officer commando }
+            skill=3
+            attack_skill=4
+            defense_skill=2
+            planning_skill=3
+            logistics_skill=5
+        }
+        country_leader={
+            ideology=juche_idea
+            expire="1985.8.16"
+        }
+    }
+    PRK_ivan={
+        name=PRK_ivan
+        portraits={
+            army={
+                large=gfx/leaders/KOR/91fb501707f82170.png
+            }
+        }
+        corps_commander={
+            traits={ infantry_officer commando }
+            skill=3
+            attack_skill=4
+            defense_skill=2
+            planning_skill=3
+            logistics_skill=5
+        }
+        country_leader={
+            ideology=marxism
+            expire="1985.8.16"
+        }
+    }
 }

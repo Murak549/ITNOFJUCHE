@@ -75,9 +75,27 @@ country_event = {
     desc = dbg.6.d
     is_triggered_only = yes
     option = {
-        name = dbg.6.a
-        every_country = {
-            white_peace = HUN
+        PRK = {
+            add_country_leader_role = {
+                character = "PRK_ivan"
+                country_leader = {
+                    ideologies = juche_idea
+                    traits = { strong_party_discipline }
+                    expire = "1965.3.1.1"
+                }
+                promote_character = yes
+            }
+        }
+    }
+}
+country_event = {
+    id = dbg.7
+    title = dbg.7.t
+    desc = dbg.7.d
+    is_triggered_only = yes
+    option = {
+        PRK_ivan = {
+            promote_character = yes
         }
     }
 }

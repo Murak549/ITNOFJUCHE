@@ -1,3 +1,4 @@
+
 state={
 	id=604
 	name="STATE_604"
@@ -19,7 +20,8 @@ state={
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger" 
+						has_dlc = Waking the Tiger
+
 					}
 
 				}
@@ -33,16 +35,16 @@ state={
 		}
 		1948.11.15 = {
 			owner = PRC
+
 		}
 
 	}
 
 	provinces={
-		4914 4964 7940 8018 8037 12899 
+		4914 4964 8037 12899 
 	}
 	manpower=1196100
 	buildings_max_level_factor=1.000
 	state_category=rural
-
-	local_supplies=1.0 
+	local_supplies=1.000
 }
