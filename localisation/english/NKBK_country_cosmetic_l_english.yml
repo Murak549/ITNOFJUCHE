@@ -37,10 +37,16 @@
 
  KOR_empty:0 "청"
 
- MAN_PRK:0 "고려인민판무관부"
- MAN_PRK_revolution:0 "군사혁명위원회"
- MAN_PRK_revend:0 "국가재건최고회의"
- MAN_PRK_peace:0 "조선민주주의인민공화국"
+ KRM_PRK:0 "고려자치공화국"
+ KRM_PRK_ADJ:0 "고려"
+ KRM_PRK_revolution:0 "군사혁명위원회"
+ KRM_PRK_revolution_ADJ:0 "군사혁명위원회"
+ KRM_PRK_revolution_DEF:0 "군사혁명위원회"
+ KRM_PRK_revend_ADJ:0 "국가재건최고회의"
+ KRM_PRK_revend_DEF:0 "국가재건최고회의"
+ KRM_PRK_peace:0 "조선민주주의인민공화국"
+ KRM_PRK_peace_ADJ:0 "조선"
+ KRM_PRK_peace_DEF:0 "조선"
 
  JAP_PRK:0 "일본인민판무관부"
  JAP_PRK_colony:0 "동조선특수행정구"

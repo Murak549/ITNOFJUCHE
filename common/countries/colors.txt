@@ -1097,3 +1097,7 @@ WY0 = {
     color = rgb { 20 133 237 }
     color_ui = rgb { 87 160 255 }
 }
+KRM = {
+	color = rgb { 176 22 9 }
+	color_ui = rgb { 176 22 9 }
+}
