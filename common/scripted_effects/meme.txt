@@ -1072,6 +1072,42 @@ USA_is_faction = {
 				end_wars = yes
 				end_civil_wars = yes
 			}
+		set_autonomy = {	
+			target = RI0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		set_autonomy = {	
+			target = CT0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		set_autonomy = {	
+			target = MA0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		set_autonomy = {	
+			target = NH0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		set_autonomy = {	
+			target = NJ0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		set_autonomy = {	
+			target = VT0
+			    autonomy_state = autonomy_integrated_puppet
+				end_wars = yes
+				end_civil_wars = yes
+			}
 	}
 	AK0 = {
 		transfer_state = 463
@@ -1147,13 +1183,6 @@ USA_is_faction = {
 		transfer_state = 392
 		392 = {
 			add_core_of = IA0
-		}
-		add_ideas = USA_states_of_united_state_of_america
-	}
-	ID0 = {
-		transfer_state = 397
-		397 = {
-			add_core_of = ID0
 		}
 		add_ideas = USA_states_of_united_state_of_america
 	}
@@ -1311,13 +1340,13 @@ USA_is_faction = {
 		}
 		add_ideas = USA_states_of_united_state_of_america
 	}
-	# RI0 = {
-	# 	transfer_state = 393
-	# 	393 = {
-	# 	add_core_of = PREV
-	# }
-	# add_ideas = USA_states_of_united_state_of_america
-	# }
+	 RI0 = {
+		transfer_state = 965
+		965 = {
+			add_core_of = PREV
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
 	SC0 = {
 		transfer_state = 364
 		364 = {
@@ -1360,13 +1389,13 @@ USA_is_faction = {
 		}
 		add_ideas = USA_states_of_united_state_of_america
 	}
-	# VT0 = {
-		# transfer_state = 393
-		# 393 = {
-		# 	add_core_of = PREV
-		# }
+	VT0 = {
+		transfer_state = 962
+		962 = {
+			add_core_of = VT0
+		}
 		add_ideas = USA_states_of_united_state_of_america
-	# }
+	}
 	WA0 = {
 		transfer_state = 386
 		386 = {
@@ -1392,6 +1421,34 @@ USA_is_faction = {
 		transfer_state = 381
 		381 = {
 			add_core_of = WY0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NH0 = {
+		transfer_state = 963
+		963 = {
+			add_core_of = NH0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	NJ0 = {
+		transfer_state = 359
+		359 = {
+			add_core_of = NJ0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	CT0 = {
+		transfer_state = 964
+		964 = {
+			add_core_of = CT0
+		}
+		add_ideas = USA_states_of_united_state_of_america
+	}
+	MA0 = {
+		transfer_state = 961
+		961 = {
+			add_core_of = MA0
 		}
 		add_ideas = USA_states_of_united_state_of_america
 	}

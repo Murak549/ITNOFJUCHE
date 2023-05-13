@@ -1704,6 +1704,9 @@ if = {
 
 1945.5.11 = {
 	remove_ideas = vittoria_mutilata
+	remove_ideas = ITA_camicle_nere
+	remove_ideas = ITA_pact_of_steel
+	remove_ideas = vittorio_emanuele_albania_ethiopia
 	set_popularities = {
 		democratic = 78
 		fascism = 7

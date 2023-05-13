@@ -27,3 +27,11 @@ PRK_spreading_revolution = {
 		PRK = { owns_state = 911 }
 	}
 }
+
+PRK_external_occupation_plan = {
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = PRK
+	}
+}

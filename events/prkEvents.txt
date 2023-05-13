@@ -162,7 +162,142 @@ country_event = {
 	
 	option = {
 		name = prk.8.a
-		# JAP_sengoku_juche = yes
+	}
+}
+#만주계획
+country_event = {
+	id = prk.9
+	title = prk.9.t
+	desc = prk.9.d
+	picture = GFX_report_event_tank_factory
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prk.9.a
+		PRK = {
+			transfer_state = 716
+			transfer_state = 976
+			transfer_state = 977
+			transfer_state = 978
+			transfer_state = 328
+			transfer_state = 717
+			transfer_state = 745
+			PRK = {
+				set_autonomy = {
+					target = KRM
+					autonomy_state = autonomy_colony
+					end_wars = yes
+					end_civil_wars = yes
+				}
+			}
+		}
+		KOR = {
+			set_nationality = {
+				target_country = PRM
+				character = KOR_park_chung_hee
+			}
+		}
+		KRM = {
+			set_cosmetic_tag = KRM_PRK
+			add_country_leader_role = {
+				character = KOR_park_chung_hee
+				promote_leader = yes
+				country_leader = {
+					ideology = juche_idea
+					expire = "1965.1.1.1"
+					traits = { war_industrialist, viceroy }
+				}
+			}
+		}
+		KRM = {
+			transfer_state = 715
+			transfer_state = 979
+			transfer_state = 979
+			transfer_state = 714
+			transfer_state = 761
+		}
+	}
+	option = {
+		name = prk.9.b
+		PRK = {
+			set_autonomy = {
+				target = KRM
+				autonomy_state = autonomy_colony
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		}
+		KOR = {
+			set_nationality = {
+				target_country = PRM
+				character = KOR_park_chung_hee
+			}
+		}
+		KRM = {
+			set_cosmetic_tag = KRM_PRK
+			create_country_leader = {
+				name = "박정희"
+				desc = ""
+				picture = gfx/leaders/KOR/박정희.png
+				expire = "1965.1.1"
+				ideology = juche_idea
+				traits = { viceroy }
+			}
+		}
+		KRM = {
+			transfer_state = 716
+			transfer_state = 976
+			transfer_state = 977
+			transfer_state = 978
+			transfer_state = 328
+			transfer_state = 717
+			transfer_state = 745
+			transfer_state = 715
+			transfer_state = 979
+			transfer_state = 979
+			transfer_state = 714
+			transfer_state = 761
+			716 = {
+				add_core_of = KRM
+			}
+			976 = {
+				add_core_of = KRM
+			}
+			977 = {
+				add_core_of = KRM
+			}
+			978 = {
+				add_core_of = KRM
+			}
+			328 = {
+				add_core_of = KRM
+			}
+			717 = {
+				add_core_of = KRM
+			}
+			745 = {
+				add_core_of = KRM
+			}
+			715 = {
+				add_core_of = KRM
+			}
+			979 = {
+				add_core_of = KRM
+			}
+			979 = {
+				add_core_of = KRM
+			}
+			714 = {
+				add_core_of = KRM
+			}
+			761 = {
+				add_core_of = KRM
+			}
+		}
+	}
+	option = {
+		name = prk.9.c
 	}
 }
 

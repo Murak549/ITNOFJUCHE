@@ -168,3 +168,48 @@ PRK_spreading_revolution = {
         }
 	}
 }
+
+PRK_external_occupation_plan = {
+	PRK_manchuria_plan = {
+		icon = border_colie
+
+		available = {
+			976 = {
+				is_controlled_by = PRK
+			}
+			977 = {
+				is_controlled_by = PRK
+			}
+			978 = {
+				is_controlled_by = PRK
+			}
+			716 = {
+				is_controlled_by = PRK
+			}
+			745 = {
+				is_controlled_by = PRK
+			}
+			328 = {
+				is_controlled_by = PRK
+			}
+			717 = {
+				is_controlled_by = PRK
+			}
+			715 = {
+				is_controlled_by = PRK
+			}
+			979 = {
+				is_controlled_by = PRK
+			}
+			714 = {
+				is_controlled_by = PRK
+			}
+			761 = {
+				is_controlled_by = PRK
+			}
+		}
+		remove_effect = {
+			country_event = { id = PRK.9 }
+		}
+	}
+}
