@@ -399,6 +399,21 @@ create_import = {
 				end_civil_wars = no
 			}
 	}
+	if = {
+		limit = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		set_oob = "GER_1949"
+	}
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		set_oob = "GER_1949_nsb"
+	}
+	load_focus_tree = generic_focus
 }
 
 set_politics = {
