@@ -1295,12 +1295,11 @@ if = {
 1941.12.11 = {
 	ENG = { add_to_faction = USA }
 	remove_ideas = USA_neutrality_act 	
+	remove_ideas = MTG_naval_treaty_adherent_reduced 	
 }
 
 1945.1.20 = {
-	USA = {
-		kill_country_leader = yes
-	}
+	kill_country_leader = yes
 	create_country_leader = {
 		name = "Harry S. Truman"
 		desc = "POLITICS_HARRY_TRUMAN_DESC"
@@ -1311,5 +1310,7 @@ if = {
 			
 		}
 	}
-	load_oob = USA_1949
+}
+1949.1.1 = {
+	oob = "USA_1949"
 }

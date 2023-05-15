@@ -324,11 +324,37 @@ JAP_dead = {
     JAP = {
         release = FSM
         release = FSM
-        every_state = {
-            delete_unit = {
-                state = PREV.PREV
-                disband = yes
-            }
+        delete_unit_template_and_units = {
+            division_template = "Chugata Hohei Shidan"
+            disband = yes #will refund equipment and manpower
+        }
+        delete_unit_template_and_units = {
+            division_template = "Hohei Shidan"
+            disband = yes #will refund equipment and manpower
+        }
+        delete_unit_template_and_units = {
+            division_template = "Dokuritsu Konsei Ryodan"
+            disband = yes #will refund equipment and manpower
+        }
+        delete_unit_template_and_units = {
+            division_template = "Kihei Shidan"
+            disband = yes #will refund equipment and manpower
+        }
+        delete_unit_template_and_units = {
+            division_template = "Jidousha Shidan"
+            disband = yes #will refund equipment and manpower
+        }
+        delete_unit_template_and_units = {
+            division_template = "Senshadan"
+            disband = yes #will refund equipment and manpower
+        }
+        delete_unit_template_and_units = {
+            division_template = "Rikusentai"
+            disband = yes #will refund equipment and manpower
+        }
+        delete_unit_template_and_units = {
+            division_template = "Chuton-chi Shidan"
+            disband = yes #will refund equipment and manpower
         }
     }
 }

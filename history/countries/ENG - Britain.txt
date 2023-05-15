@@ -1775,3 +1775,23 @@ if = {
 		}
 	}
 }
+
+1949.8.18 = {
+	ENG = {
+		add_to_faction = LUX
+		add_to_faction = BEL
+		add_to_faction = HOL
+		add_to_faction = ITA
+		add_to_faction = DEN
+		add_to_faction = NOR
+		remove_from_faction = GER
+	}
+	remove_ideas = MTG_naval_treaty_adherent_reduced
+	remove_ideas = MTG_naval_treaty_adherent
+	SOV = {
+		add_opinion_modifier = {
+			target = GER
+			modifier = SOV_i_hate_capitalism
+		}
+	}
+}

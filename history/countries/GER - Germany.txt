@@ -384,10 +384,12 @@ create_import = {
 				end_civil_wars = no
 			}
 	}
-	# remove_wargoal = {
-	# 	type = all
-	# 	target = POL
-	# }
+	SOV = {
+		add_opinion_modifier = {
+			target = GER
+			modifier = SOV_i_hate_capitalism
+		}
+	}
 }
 1949.5.23 = {
 	set_cosmetic_tag = WGR
