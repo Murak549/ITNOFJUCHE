@@ -1,0 +1,208 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+# Reminder that focus filters prio has to be handled in the generic focus file :)
+
+focus_tree = {
+	id = GHQ_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 55 y = 1500 }
+
+    focus = {
+		id = GHQ_international_military_tribunal
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = { id = coldwar.2 days = 1 }
+		}
+	}
+	focus = {
+		id = GHQ_land_revolution_1
+		icon = GFX_goal_generic_construction
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_international_military_tribunal }
+		relative_position_id = GHQ_international_military_tribunal
+		
+		x = 2
+		y = 1
+	}
+	focus = {
+		id = GHQ_industrial_reform
+		icon = GFX_focus_generic_industry_2
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_land_revolution_1 }
+		relative_position_id = GHQ_land_revolution_1
+		
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = GHQ_allow_labor_unions
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_industrial_reform }
+		relative_position_id = GHQ_industrial_reform
+		
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = GHQ_financial_reform
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_land_revolution_1 }
+		relative_position_id = GHQ_land_revolution_1
+		
+		x = -1
+		y = 1
+	}
+	focus = {
+		id = GHQ_join_GATT
+		icon = GFX_goal_generic_trade
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_financial_reform }
+		relative_position_id = GHQ_financial_reform
+		
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = GHQ_red_purge_1
+		icon = GFX_goal_generic_war_with_comintern
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_join_GATT }
+		prerequisite = { focus = GHQ_allow_labor_unions }
+		relative_position_id = GHQ_join_GATT
+		
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = GHQ_new_law
+		icon = GFX_focus_hol_the_foundations_of_defense
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_international_military_tribunal }
+		relative_position_id = GHQ_international_military_tribunal
+		
+		x = -2
+		y = 1
+	}
+	focus = {
+		id = GHQ_enforce_democracy
+		icon = GFX_goal_support_democracy
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_new_law }
+		relative_position_id = GHQ_new_law
+		
+		x = -1
+		y = 1
+	}
+	focus = {
+		id = GHQ_radio_free_zerg
+		icon = GFX_focus_generic_treaty
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_enforce_democracy }
+		relative_position_id = GHQ_enforce_democracy
+		
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = GHQ_education_reform
+		icon = GFX_focus_research
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_new_law }
+		relative_position_id = GHQ_new_law
+		
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = GHQ_dissolute_shinto
+		icon = GFX_focus_jap_spiritual_mobilization
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_education_reform }
+		relative_position_id = GHQ_education_reform
+		
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = GHQ_hirohito_is_human
+		icon = GFX_focus_jap_showa_restoration
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_radio_free_zerg }
+		prerequisite = { focus = GHQ_dissolute_shinto }
+		relative_position_id = GHQ_dissolute_shinto
+		
+		x = -1
+		y = 1
+	}
+	focus = {
+		id = GHQ_new_japan
+		icon = GFX_focus_generic_japanese_imperial_glory
+
+		cost = 10
+
+		prerequisite = { focus = GHQ_hirohito_is_human }
+		prerequisite = { focus = GHQ_red_purge_1 }
+		relative_position_id = GHQ_dissolute_shinto
+		
+		x = 1
+		y = 2
+	}
+}

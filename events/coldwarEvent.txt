@@ -45,3 +45,25 @@ country_event = {
 		}
 	}
 }
+country_event = { 
+	id = coldwar.2
+	title = coldwar.2.t
+	desc = coldwar.2.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = coldwar.2
+
+		retire_character = JAP_hideki_tojo
+		retire_character = JAP_kenji_doihara
+		retire_character = JAP_seishiro_itagaki
+		retire_character = JAP_akira_muto
+		retire_character = JAP_iwane_matsui
+		retire_character = JAP_kingoro_hashimoto
+		retire_character = JAP_shunroku_hata
+		retire_character = JAP_hiroshi_oshima
+		retire_character = JAP_yoshijiro_umezu
+		retire_character = JAP_shigetaro_shimada
+		retire_character = JAP_
+	}
+}
