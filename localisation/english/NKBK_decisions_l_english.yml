@@ -11,3 +11,15 @@
 
  PRK_external_occupation_plan:0 "점령지 계획"
  PRK_manchuria_plan:0 "만주 계획"
+
+ PRK_move_the_capital:0 "천도"
+
+
+ ##### BOP #####
+ PRK_balance:0 "[PRK.getName] 힘의 균형"
+ PRK_the_yenan:0 "옌안파"
+ PRK_the_soviet:0 "소련파"
+ PRK_the_soviet_low:0 "소련파: 낮은 우위"
+ PRK_the_soviet_meidum:0 "소련파: 적은 우위"
+ PRK_the_soviet_high:0 "소련파: 높은 우위"
+ PRK_the_soviet_total:0 "소련파: 절대적임"
