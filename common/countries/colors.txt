@@ -145,6 +145,10 @@ CHI = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
+CH1 = {
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
+}
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -1100,4 +1104,20 @@ WY0 = {
 KRM = {
 	color = rgb { 176 22 9 }
 	color_ui = rgb { 176 22 9 }
+}
+HNC = { #호남
+	color = rgb { 161 103 33 }
+	color_ui = rgb { 161 103 33 }
+}
+AHC = { #안휘군벌
+	color = rgb { 191 110 62 }
+	color_ui = rgb { 191 110 62 }
+}
+XKC = { #서강군
+	color = rgb { 175 153 187 }
+	color_ui = rgb { 175 153 187 }
+}
+GZC = { #귀주군
+	color = rgb { 165 81 87 }
+	color_ui = rgb { 165 81 87 }
 }
