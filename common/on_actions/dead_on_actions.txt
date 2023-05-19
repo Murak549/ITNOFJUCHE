@@ -98,4 +98,140 @@ on_actions = {
 			}
 		}
 	}
+	on_state_control_changed = {
+		effect = { #FUCKING PRC SUCK MY DICK
+			if = {
+				limit = {
+					original_tag = PRK 
+					FROM.FROM = { state = 608 } #점령 주 - 베이징
+				}
+                FROM.FROM = {
+					set_state_name = "북경"
+					
+				}
+                set_province_name = {
+                    id = 9843
+                    name = "북경"
+                }
+                set_province_name = {
+                    id = 10068
+                    name = "천진"
+                }
+				set_global_flag = PRK_triumph_at_beijing
+			}
+			if = {
+				limit = {
+					original_tag = PRC 
+					FROM.FROM = { state = 608 } #점령 주 - 베이징
+				}
+                FROM.FROM = {
+					set_state_name = "베이징"
+					
+				}
+                set_province_name = {
+                    id = 9843
+                    name = "베이징"
+                }
+                set_province_name = {
+                    id = 10068
+                    name = "톈진"
+                }
+			}
+			if = {
+				limit = {
+					original_tag = PRK 
+					FROM.FROM = { state = 613 } #점령 주 - 난징
+				}
+                FROM.FROM = {
+					set_state_name = "남경"
+					
+				}
+                set_province_name = {
+                    id = 11913
+                    name = "남경"
+                }
+                set_province_name = {
+                    id = 10076
+                    name = "소주"
+                }
+				set_global_flag = PRK_triumph_at_nanjing
+			}
+			if = {
+				limit = {
+					original_tag = PRC 
+					FROM.FROM = { state = 613 } #점령 주 - 난징
+				}
+                FROM.FROM = {
+					set_state_name = "난징"
+					
+				}
+                set_province_name = {
+                    id = 11913
+                    name = "난징"
+                }
+                set_province_name = {
+                    id = 10076
+                    name = "쑤저우"
+                }
+			}
+		}
+	}
+	on_monthly_PRC = {
+		effect = {
+			if = {
+				AND = {
+					has_global_flag = PRK_triumph_at_beijing
+					has_global_flag = PRK_triumph_at_nanjing
+				}
+				GXC = {
+					transfer_state = 599
+					transfer_state = 594
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+					declare_war_on = {
+						target = PRK
+						type = puppet_wargoal_focus  
+					}
+				}
+				YUN = {
+					transfer_state = 747
+					transfer_state = 325
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+					declare_war_on = {
+						target = PRK
+						type = puppet_wargoal_focus  
+					}
+				}
+				TIB = {
+					transfer_state = 601
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+				}
+				SHX = {
+					transfer_state = 622
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+					declare_war_on = {
+						target = PRK
+						type = puppet_wargoal_focus  
+					}
+				}
+				CHI = {
+					declare_war_on = {
+						target = PRC
+						type = annex_everything
+					}
+				}
+			}
+		}
+	}
 }

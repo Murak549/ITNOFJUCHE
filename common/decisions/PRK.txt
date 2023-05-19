@@ -211,6 +211,44 @@ PRK_external_occupation_plan = {
 			country_event = { id = PRK.9 }
 		}
 	}
+	PRK_suck_my_pacific = {
+		available = {
+			386 = {
+				is_owned_by = PRK
+			}
+			385 = {
+				is_owned_by = PRK
+			}
+			378 = {
+				is_owned_by = PRK
+			}
+			463 = {
+				is_owned_by = PRK
+			}
+		}
+		remove_effect = {
+			every_state = {
+				limit = {
+					is_core_of = USA # Checks if the state is a core of USA
+				}
+			transfer_state_to = PRK # Transfers the state to PRK
+			}
+		}
+	}
+	PRK_wtf_icannot_agree_washington_dc = {
+		available = {
+			USA = {
+				is_subject = yes
+				is_subject_of = PRK
+			}
+		}
+		remove_effect = {
+			set_province_name = {
+				id = 3957
+				name = "김일성 D.C."
+			}
+		}
+	}
 }
 political_actions = {
 	PRK_move_the_capital = {

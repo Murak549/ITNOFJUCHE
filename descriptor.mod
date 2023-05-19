@@ -1,4 +1,4 @@
-version="1948.9.9"
+version="2.0"
 dependencies={
 	"Korean Language"
 }
@@ -7,4 +7,4 @@ tags={
 	"Military"
 }
 name="In The Name of The Juche"
-supported_version="1.12.10"
+supported_version="1.12.13"
