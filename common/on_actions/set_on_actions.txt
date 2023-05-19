@@ -65,6 +65,9 @@ on_actions = {
 				AND = {
 					has_global_flag = PRK_triumph_at_beijing
 					has_global_flag = PRK_triumph_at_nanjing
+					NOT = {
+						has_global_flag = PRC_rev
+					}
 				}
 				GXC = {
 					transfer_state = 599
@@ -114,6 +117,78 @@ on_actions = {
 						type = annex_everything
 					}
 				}
+				GDC = {
+					every_owned_state = {
+						add_core_of = GDC
+					}
+					transfer_state = 591
+					transfer_state = 592
+					transfer_state = 593
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+					declare_war_on = {
+						target = PRK
+						type = puppet_wargoal_focus  
+					}
+				}
+				SZC = {
+					every_owned_state = {
+						add_core_of = SZC
+					}
+					transfer_state = 751
+					transfer_state = 752
+					transfer_state = 753
+					transfer_state = 605
+					transfer_state = 748
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+					declare_war_on = {
+						target = PRK
+						type = puppet_wargoal_focus  
+					}
+				}
+				HNC = {
+					every_owned_state = {
+						add_core_of = HNC
+					}
+					transfer_state = 602
+					transfer_state = 750
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+					declare_war_on = {
+						target = PRK
+						type = puppet_wargoal_focus  
+					}
+				}
+				XSM = {
+					every_owned_state = {
+						add_core_of = HNC
+					}
+					transfer_state = 755
+					transfer_state = 971
+					transfer_state = 754
+					transfer_state = 604
+					transfer_state = 756
+					transfer_state = 616
+					transfer_state = 283
+					transfer_state = 746
+					transfer_state = 621
+					declare_war_on = {
+						target = PRC
+						type = independence_wargoal 
+					}
+					declare_war_on = {
+						target = PRK
+						type = puppet_wargoal_focus  
+					}
+				}
+			set_global_flag = PRC_rev
 			}
 		}
 	}

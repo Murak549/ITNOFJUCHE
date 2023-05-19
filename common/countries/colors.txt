@@ -1113,3 +1113,7 @@ GDC = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 71 113 97 }
 }
+SZC = { #사천
+	color = rgb { 154 115 56 }
+	color_ui = rgb { 149 123 56 }
+}
