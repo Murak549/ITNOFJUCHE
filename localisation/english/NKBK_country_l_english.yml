@@ -75,3 +75,11 @@
  HNC:0 "호남군벌"
  HNC_ADJ:0 "호남"
  HNC_DEF:0 "호남"
+
+ GDC:0 "광동군벌"
+ GDC_communism:0 "광동소비에트공화국"
+ GDC_fascism:0 "광동국"
+ GDC_democratic:0 "광동독립공화국"
+ GDC_neutrality:0 "광동군벌"
+ GDC_ADF:0  "광동"
+ GDC_DEF:0  "광동"
