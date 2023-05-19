@@ -18,6 +18,4 @@ UPC = "countries/Germany.txt"
 WEA = "countries/Germany.txt"
 CH1 = "countries/China.txt" #중화민궈
 HNC = "countries/China.txt" #호남군벌
-AHC = "countries/China.txt" #안휘군벌
-XKC = "countries/China.txt" #서강군벌
-GZC = "countries/China.txt" #귀주군벌
+GDC = "countries/China.txt" #강동군벌
