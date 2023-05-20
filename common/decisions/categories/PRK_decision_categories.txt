@@ -35,3 +35,11 @@ PRK_external_occupation_plan = {
 		original_tag = PRK
 	}
 }
+
+PRK_capital_reconstruction_committee = {
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = PRK
+	}
+}

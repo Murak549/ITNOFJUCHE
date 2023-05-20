@@ -1,13 +1,13 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
+		name = "RED_UNIFICATE_NAME"
+		desc = "RED_UNIFICATE_DESC"
 		date = 1954.1.1.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_select_date_1955"
 		default_country = "USA"
 	
 		PRC={
-			history = PRC_BLITZKRIEG_DESC
+			history = RED_UNIFICATE_DESC
 			ideology = communism
 			ideas = {
 				PRC_the_long_march_1
@@ -21,7 +21,7 @@ bookmarks = {
 			}
 		}	
 		ENG = {
-			history = ENG_BLITZKRIEG_DESC
+			history = RED_UNIFICATE_DESC
 			ideology = democratic
 			ideas = {
 				stiff_upper_lip
@@ -39,7 +39,7 @@ bookmarks = {
 		}
 		WGR={
 			minor = yes
-			history = OTHER_BLITZKRIEG_DESC
+			history = RED_UNIFICATE_DESC
 			ideology = democratic
 			ideas = {
 			}
@@ -48,7 +48,7 @@ bookmarks = {
 			}
 		}
 		KOR = {
-			history = GER_BLITZKRIEG_DESC
+			history = RED_UNIFICATE_DESC
 			ideology = democratic
 			ideas = {
 				sour_loser
@@ -63,7 +63,7 @@ bookmarks = {
 			}
 		}
 		PRK = {
-			history = GER_BLITZKRIEG_DESC
+			history = RED_UNIFICATE_DESC
 			ideology = communism
 			ideas={
 				sour_loser
@@ -78,7 +78,7 @@ bookmarks = {
 			}			
 		}
 		JAP = {
-			history = JAP_BLITZKRIEG_DESC
+			history = RED_UNIFICATE_DESC
 			ideology = fascism
 			ideas={
 				state_shintoism
@@ -92,7 +92,7 @@ bookmarks = {
 			}		
 		}
 		SOV = {
-			history = SOV_BLITZKRIEG_DESC
+			history = RED_UNIFICATE_DESC
 			ideology = communism
 			ideas = {
 				SOV_anti_soviet_military_thinking_banned_navy
@@ -107,13 +107,13 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 		}
 
 		# minors from DLC ####
 		"CAN"={
 			minor = yes
-			history = "CAN_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 				CAN_great_depression_1
@@ -127,7 +127,7 @@ bookmarks = {
 		}
 		"AST"={
 			minor = yes
-			history = "AST_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 				AST_great_depression_1
@@ -140,7 +140,7 @@ bookmarks = {
 		}
 		"SAF"={
 			minor = yes
-			history = "SAF_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 				SAF_ossewabrandwag
@@ -154,7 +154,7 @@ bookmarks = {
 		}
 		"ROM"={
 			minor = yes
-			history = "ROM_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = neutrality
 			ideas = {
 				ROM_king_carol_ii_hedonist
@@ -169,7 +169,7 @@ bookmarks = {
 		}
 		"CHI"={
 			minor = yes
-			history = "CHI_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = neutrality
 			ideas = {
 				CHI_army_corruption_2
@@ -184,7 +184,7 @@ bookmarks = {
 		}
 		"HOL"={
 			minor = yes
-			history = "NETHERLANDS_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 				HOL_wilhelmina
@@ -199,7 +199,7 @@ bookmarks = {
 		}		
 		"POR"={
 			minor = yes
-			history = "PORTUGAL_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 				POR_volunteers_in_the_war_nationalist
@@ -214,7 +214,7 @@ bookmarks = {
 		}
 		"BUL"={
 			minor = yes
-			history = "BUL_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = neutrality
 			ideas = {
 				BUL_bulgarian_irredentism
@@ -229,7 +229,7 @@ bookmarks = {
 		}
 		"GRE"={
 			minor = yes
-			history = "GRE_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = neutrality
 			ideas = {
 				GRE_metaxism_2
@@ -244,7 +244,7 @@ bookmarks = {
 		}
 		"TUR"={
 			minor = yes
-			history = "TUR_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = neutrality
 			ideas = {
 				TUR_kemalist_army_officers_extended_power_neutral
@@ -259,7 +259,7 @@ bookmarks = {
 		}
 		"SWI"={
 			minor = yes
-			history = "SWI_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 				SWI_spirit_of_helvetia_aggressive_war
@@ -274,7 +274,7 @@ bookmarks = {
 		}
 		"DDR"={
 			minor = yes
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = communism
 			ideas = {
 			}
@@ -284,7 +284,7 @@ bookmarks = {
 		}
 		"WGR"={
 			minor = yes
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 			}
@@ -294,7 +294,7 @@ bookmarks = {
 		}
 		"RYU"={
 			minor = yes
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "RED_UNIFICATE_DESC"
 			ideology = democratic
 			ideas = {
 			}

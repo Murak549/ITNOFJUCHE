@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "KOREAN_WAR_NAME"
+		desc = "KOREAN_WAR_DESC"
 		date = 1949.11.5.12
-		picture = "GFX_select_date_1936"
-		default_country = "KOR"
+		picture = "GFX_select_date_1949"
+		default_country = "PRK"
 		default = yes
 		
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "FRA_KOREAN_WAR_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
 			ideas = {
@@ -23,7 +23,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "FRA_KOREAN_WAR_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
@@ -38,7 +38,7 @@ bookmarks = {
 			}
 		}
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "USA_KOREAN_WAR_DESC"
 			ideology = democratic
 			ideas = {
 				home_of_the_free
@@ -52,7 +52,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "ENG_KOREAN_WAR_DESC"
 			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
 			ideas = {
@@ -67,7 +67,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "ENG_KOREAN_WAR_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "Man the Guns" } }
 			ideas = {
@@ -82,7 +82,7 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "GER_KOREAN_WAR_DESC"
 			ideology = fascism
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
@@ -97,7 +97,7 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "GER_KOREAN_WAR_DESC"
 			ideology = fascism
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
@@ -111,39 +111,24 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+		"PRC"={
+			history = "PRC_KOREAN_WAR_DESC"
+			ideology = communism
 			available = { has_dlc = "By Blood Alone" }
 			ideas = {
-				vittorio_emanuele
-				ITA_iri_fake_ns
-				ITA_re_fake_ns
+				PRC_low_popular_support_3
+				PRC_focus_on_china
+				PRC_the_long_march_2
 			}	
 			focuses = {
-				ITA_comandante_diavolo
-				ITA_il_sol_dell_avvenire
-				ITA_a_colonial_empire
-			}		
-		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "By Blood Alone" } }
-			ideas = {
-				vittorio_emanuele
-				ITA_iri_fake_ns
-				ITA_re_fake_ns
-			}	
-			focuses = {
-				ITA_comandante_diavolo
-				ITA_to_live_as_a_lion
-				ITA_a_colonial_empire
+				PRC_proclaim_the_peoples_republic
+				PRC_maoism
+				CHI_one_china_policy
 			}		
 		}
 		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "JAP_KOREAN_WAR_DESC"
+			ideology = democratic
 			ideas = {
 				state_shintoism
 				JAP_zaibatsus
@@ -156,7 +141,7 @@ bookmarks = {
 			}			
 		}
 		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "SOV_KOREAN_WAR_DESC"
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
 			ideas = {
@@ -171,7 +156,7 @@ bookmarks = {
 			}	
 		}
 		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "SOV_KOREAN_WAR_DESC"
 			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
@@ -187,14 +172,14 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_KOREAN_WAR_DESC"
 		}
 
 
 		# minors from DLC ####
 		"CAN"={
 			minor = yes
-			history = "CAN_GATHERING_STORM_DESC"
+			history = "CAN_KOREAN_WAR_DESC"
 			ideology = democratic
 			ideas = {
 				CAN_great_depression_1
@@ -208,7 +193,7 @@ bookmarks = {
 		}
 		"AST"={
 			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
+			history = "AST_KOREAN_WAR_DESC"
 			ideology = democratic
 			ideas = {
 				AST_great_depression_1
@@ -221,7 +206,7 @@ bookmarks = {
 		}
 		"PRC"={
 			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
+			history = "PRC_KOREAN_WAR_DESC"
 			ideology = communism
 			ideas = {
 				PRC_the_long_march_1
@@ -237,7 +222,7 @@ bookmarks = {
 
 		"HOL"={
 			minor = yes
-			history = "NETHERLANDS_GATHERING_STORM_DESC"
+			history = "NETHERLANDS_KOREAN_WAR_DESC"
 			ideology = democratic
 			ideas = {
 				HOL_wilhelmina
@@ -253,7 +238,7 @@ bookmarks = {
 
 		"SPR"={
 			minor = yes
-			history = "SPAIN_GATHERING_STORM_DESC"
+			history = "SPAIN_KOREAN_WAR_DESC"
 			ideology = democratic
 			ideas = {
 				SPR_military_disloyalty
@@ -269,7 +254,7 @@ bookmarks = {
 
 		"POR"={
 			minor = yes
-			history = "PORTUGAL_GATHERING_STORM_DESC"
+			history = "PORTUGAL_KOREAN_WAR_DESC"
 			ideology = democratic
 			ideas = {
 				POR_unstable_republic
@@ -284,7 +269,7 @@ bookmarks = {
 
 		"BUL"={
 			minor = yes
-			history = "BUL_GATHERING_STORM_DESC"
+			history = "BUL_KOREAN_WAR_DESC"
 			ideology = neutrality
 			ideas = {
 				BUL_second_national_catastrophe
@@ -300,7 +285,7 @@ bookmarks = {
 
 		"GRE"={
 			minor = yes
-			history = "GRE_GATHERING_STORM_DESC"
+			history = "GRE_KOREAN_WAR_DESC"
 			ideology = neutrality
 			ideas = {
 				GRE_debt_to_the_ifc
@@ -316,7 +301,7 @@ bookmarks = {
 
 		"TUR"={
 			minor = yes
-			history = "TUR_GATHERING_STORM_DESC"
+			history = "TUR_KOREAN_WAR_DESC"
 			ideology = neutrality
 			ideas = {
 				TUR_sectarian_woes

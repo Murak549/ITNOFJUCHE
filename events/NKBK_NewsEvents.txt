@@ -1,0 +1,31 @@
+add_namespace = nkbk_news
+add_namespace = nkbk_nonpolitical_news
+
+news_event = {
+    id = nkbk_nonpolitical_news.1
+    title = nkbk_nonpolitical_news.1.t
+    desc = nkbk_nonpolitical_news.1.desc
+    picture = GFX_news_event_001
+
+    major = yes
+
+    is_triggered_only = yes
+
+    option = {
+        name = nkbk_news.1.a
+    }
+}
+news_event = {
+    id = nkbk_nonpolitical_news.2
+    title = nkbk_nonpolitical_news.2.t
+    desc = nkbk_nonpolitical_news.2.desc
+    picture = GFX_news_event_002
+
+    major = yes
+
+    is_triggered_only = yes
+
+    option = {
+        name = nkbk_news.2.a
+    }
+}

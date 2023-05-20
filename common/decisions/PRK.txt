@@ -1164,3 +1164,63 @@ KOR_interservice_rivalry = {
 		}
 	}
 }
+PRK_capital_reconstruction_committee = {
+	PRK_pyeongyang = {
+		available = {
+			capital_scope = {
+				state = 527
+			}
+		}
+		fire_only_once = yes
+		remove_effect = {
+			set_country_flag = PRK_ilovepy
+		}
+	}
+	PRK_pyongyang_city_management_act = {
+		cost = 150
+		visible = {
+			has_country_flag = PRK_ilovepy
+		}
+		fire_only_once = yes
+		available = {
+			capital_scope = {
+				state = 527
+			}
+		}
+		remove_effect = {
+			
+		}
+	}
+	PRK_ban_hostile_class_in_pyeongyang = {
+		cost = 150
+		visible = {
+			has_country_flag = PRK_ilovepy
+		}
+		fire_only_once = yes
+		available = {
+			capital_scope = {
+				state = 527
+			}
+		}
+		remove_effect = {
+			527 = {
+				
+			}
+		}
+	}
+	PRK_seoul = {
+		visible = {
+			NOT = {
+				has_country_flag = PRK_ilovepy
+			}
+		}
+		available = {
+			525 = {
+				is_controlled_by = PRK
+			}
+			capital_scope = {
+				state = 525
+			}
+		}
+	}
+}

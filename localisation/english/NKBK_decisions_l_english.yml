@@ -16,6 +16,14 @@
  PRK_suck_my_pacific:0 "태평양자치인민위원회 설립"
  PRK_wtf_icannot_agree_washington_dc:0 "자본주의식 지명 금지"
 
+ PRK_8_provinces_development_committee:0 "조선8도개발위원회"
+ 
+ PRK_capital_reconstruction_committee:0 "수도재건개발위원회"
+
+ PRK_pyongyang_city_management_act:0 "평양시관리법 도입"
+ PRK_pyeongyang:0 "평양 위주 개발"
+ PRK_seoul:0 "서울 위주 개발"
+ PRK_ban_hostile_class_in_pyeongyang:0 "적대계층 추방"
 
  ##### BOP #####
  PRK_balance:0 "[PRK.getName] 힘의 균형"

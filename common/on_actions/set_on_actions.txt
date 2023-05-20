@@ -1,7 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			set_global_flag = germany_lost_the_war
             every_country = {
 				limit = {
 					NOT = {
@@ -62,11 +61,13 @@ on_actions = {
 	on_monthly_PRC = {
 		effect = {
 			if = {
-				AND = {
-					has_global_flag = PRK_triumph_at_beijing
-					has_global_flag = PRK_triumph_at_nanjing
-					NOT = {
-						has_global_flag = PRC_rev
+				limit = {
+					AND = {
+						has_global_flag = PRK_triumph_at_beijing
+						has_global_flag = PRK_triumph_at_nanjing
+						NOT = {
+							has_global_flag = PRC_rev
+						}
 					}
 				}
 				GXC = {
