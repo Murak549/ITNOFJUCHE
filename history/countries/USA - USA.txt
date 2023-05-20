@@ -140,8 +140,6 @@ if = {
 }
 
 #Monroe Doctrine
-give_guarantee = JAP
-give_guarantee = KOR
 give_guarantee = CAN
 give_guarantee = MEX
 give_guarantee = CUB
@@ -1299,6 +1297,8 @@ if = {
 }
 
 1945.1.20 = {
+	give_guarantee = JAP
+	give_guarantee = KOR
 	kill_country_leader = yes
 	create_country_leader = {
 		name = "Harry S. Truman"

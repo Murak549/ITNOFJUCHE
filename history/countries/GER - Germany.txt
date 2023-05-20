@@ -376,6 +376,7 @@ create_import = {
 }
 
 1945.5.10 = {
+	set_global_flag = germany_lost_the_war
 	ENG = {
 		set_autonomy = {
 				target = GER

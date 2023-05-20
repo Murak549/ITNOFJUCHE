@@ -7,14 +7,15 @@ state={
 	state_category = rural
 
 	history={
-		owner = ENG
+		owner = DNF
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			12505 = {
 				naval_base = 1
 			}
 		}
+		add_core_of = DNF
 		add_core_of = CAN
 		1949.12.30 = {
 			owner = CAN 

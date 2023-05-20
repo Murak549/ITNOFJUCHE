@@ -5,7 +5,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = ENG
+		owner = DNF
 		buildings = {
 			infrastructure = 1
 
@@ -13,6 +13,7 @@ state={
 				naval_base = 1
 			}
 		}
+		add_core_of = DNF
 		add_core_of = CAN
 		1949.12.30 = {
 			owner = CAN 
