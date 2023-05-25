@@ -25,28 +25,7 @@ add_ideas = {
 	set_garrison_strength = 1.0
 }
 
-527 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-525 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
 745 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-524 = {
 	start_resistance = yes
 	set_compliance = 5
 	set_resistance = 5
@@ -462,6 +441,26 @@ if = {
 		target = MAN
 		autonomous_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = CHO
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = KHU
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = TAW
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = JID
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = KTC
+		autonomous_state = autonomy_puppet
+	}
 }
 if = {
 	limit = { 
@@ -469,6 +468,26 @@ if = {
 	}
 	set_autonomy = {
 		target = MEN
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	set_autonomy = {
+		target = CHO
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	set_autonomy = {
+		target = KHU
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	set_autonomy = {
+		target = TAW
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	set_autonomy = {
+		target = JID
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	set_autonomy = {
+		target = KTC
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
 	set_autonomy = {

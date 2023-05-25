@@ -2,6 +2,8 @@
 
 oob = "VIN_1936"
 
+set_cosmetic_tag = VIN_INDERED
+
 set_research_slots = 3
 
 # Starting tech

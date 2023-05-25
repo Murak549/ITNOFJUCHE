@@ -9,8 +9,9 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = JAP
+		owner = KHU
 		add_core_of = JAP
+		add_core_of = KHU
 		add_core_of = SOV
 		add_core_of = AIN
 		

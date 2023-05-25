@@ -53,6 +53,7 @@ GER_dead = {
 		copy_tag = GER
 		add_political_power = 100
 		transfer_state = 55
+		transfer_state = 980
 		transfer_state = 54
 		transfer_state = 53
 		transfer_state = 52
@@ -78,6 +79,10 @@ GER_dead = {
 			end_wars = yes
 			end_civil_wars = yes
 		}
+        add_victory_points = {
+            province = 13288
+            value = 50
+        }
 	}
 	create_dynamic_country = { #Fuckin' Red occupation zone in Germany
 		original_tag = GER
@@ -88,6 +93,11 @@ GER_dead = {
 		transfer_state = 64
 		transfer_state = 62
 		transfer_state = 61
+		transfer_state = 981
+        set_capital = {
+            state = 981
+            remember_old_state = no
+        }
 		set_politics = {
 			ruling_party = neutrality
 			last_election = "1934.3.8"

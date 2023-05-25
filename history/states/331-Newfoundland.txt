@@ -2,9 +2,6 @@
 state={
 	id=331
 	name="STATE_331"
-	manpower = 255060
-	
-	state_category = rural
 
 	history={
 		owner = DNF
@@ -13,18 +10,24 @@ state={
 			industrial_complex = 1
 			12505 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = DNF
 		add_core_of = CAN
 		1949.12.30 = {
-			owner = CAN 
+			owner = CAN
+
 		}
+
 	}
 
 	provinces={
-		7758 7788 12505 12680 12698 
+		7758 7788 12505 12680 12698 13286 13287 
 	}
-
-	local_supplies=0.0 
+	manpower=255060
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

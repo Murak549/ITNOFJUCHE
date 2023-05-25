@@ -1,0 +1,38 @@
+state={
+	id=981
+	name="STATE_981"
+	history = {
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			6521 50 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+		}
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+				anti_air_building = 5
+				arms_factory = 4
+				industrial_complex = 7
+			}
+		}
+		1945.5.10 = {
+			owner = SOV
+		}
+		1949.10.7 = {
+			owner = DDR
+			controller = DDR
+			add_core_of = DDR
+		}
+	}
+	provinces={
+		6521 
+	}
+	state_category=megalopolis
+	manpower=1174582
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

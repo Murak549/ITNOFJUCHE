@@ -18,6 +18,54 @@ on_actions = {
 			# 		white_peace = GER
 			# 	}
 			# }
+			if = { #TLE 배낌 ㅎㅎ
+				limit = {    
+					ROOT = {
+						original_tag = GER
+					}
+					has_war_with = ENG
+					has_war_with = SOV
+				}
+				every_country = {
+					limit = {
+						has_war_with = GER
+					}
+					white_peace = GER
+				}
+				GER_dead = yes
+			}
+			if = { #TLE 배낌 ㅎㅎ
+				limit = { #독일이 승전시의 코드
+					tag = IDC
+					has_war_with = VIN
+				}
+				VIN = {
+					drop_cosmetic_tag = VIN
+					every_country = {
+						limit = {
+							has_war_with = VIN 
+						}
+						white_peace = VIN
+					}
+				}
+				white_peace = FRA
+				FRA = {
+					annex_country = {
+						target = IDC
+						transfer_troops = no
+					}
+					release = LAO
+					release = CAM
+				}
+				286 = {
+					add_core_of = SVN
+					transfer_state_to = SVN
+				}
+				SVN = {
+					set_cosmetic_tag = VIN
+				}
+				set_global_flag = VIN_INDEPENDENT
+			}
 			if = {
 				limit = { #북한이 승전시의 코드
 					AND = {
@@ -160,6 +208,24 @@ on_actions = {
 				limit = {
 					original_tag = PRC 
 					FROM.FROM = { state = 613 } #점령 주 - 난징
+				}
+                FROM.FROM = {
+					set_state_name = "난징"
+					
+				}
+                set_province_name = {
+                    id = 11913
+                    name = "난징"
+                }
+                set_province_name = {
+                    id = 10076
+                    name = "쑤저우"
+                }
+			}
+			if = {
+				limit = {
+					original_tag = CHI 
+					FROM.FROM = { state = 968 } #점령 주 - 난징
 				}
                 FROM.FROM = {
 					set_state_name = "난징"

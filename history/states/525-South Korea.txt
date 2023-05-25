@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = JAP
+		owner = CHO
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4

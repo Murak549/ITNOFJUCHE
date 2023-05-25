@@ -7,7 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = JAP
+		owner = JID
+		add_core_of = JID
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

@@ -6,7 +6,7 @@ state={
 	}
 	local_supplies=0.0 
 	history={
-		owner = JAP
+		owner = CHO
 		buildings = {
 			infrastructure = 1
 			1177 = {

@@ -1157,3 +1157,23 @@ SOA = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
+KHU = {
+	color = hsv { 0.03 0.2 0.7 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+TAW = {
+	color = rgb { 210 210 210 }
+	color_ui = rgb { 210 210 210 }
+}
+CHO = {
+	color = rgb { 210 210 210 }
+	color_ui = rgb { 210 210 210 }
+}
+JID = {
+	color = rgb { 210 210 210 }
+	color_ui = rgb { 210 210 210 }
+}
+KTC = {
+	color = rgb { 210 210 210 }
+	color_ui = rgb { 210 210 210 }
+}
