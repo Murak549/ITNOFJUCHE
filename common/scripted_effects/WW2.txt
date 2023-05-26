@@ -125,7 +125,6 @@ GER_dead = {
         transfer_state = 75
         transfer_state = 70
         transfer_state = 71
-        transfer_state = 644
     }
     ALB = {
         transfer_state = 44
@@ -198,6 +197,34 @@ GER_dead = {
         transfer_state = 92
         transfer_state = 92
         transfer_state = 97
+    }
+    ITA = {
+        set_popularities = {
+            democratic = 78
+            fascism = 7
+            communism = 13
+            neutrality = 2
+        }
+        set_politics = {
+            ruling_party = democratic
+            last_election = "1943.4.2"
+            election_frequency = 36
+            elections_allowed = no
+        }
+    }
+    CZE = {
+        set_popularities = {
+            democratic = 13
+            fascism = 7
+            communism = 78
+            neutrality = 2
+        }
+        set_politics = {
+            ruling_party = communism
+            last_election = "1935.9.8"
+            election_frequency = 36
+            elections_allowed = no
+        }
     }
     HUN = {
         set_popularities = {
