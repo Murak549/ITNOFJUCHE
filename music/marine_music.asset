@@ -3,3 +3,8 @@ music = {
 	file = "dprk/warp.ogg"
 	volume = 1
 }
+music = {
+	name = "songofpeoplearmy"
+	file = "dprk/PEOPLEARMY.ogg"
+	volume = 1
+}

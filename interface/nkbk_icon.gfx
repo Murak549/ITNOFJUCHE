@@ -5,5 +5,9 @@ spriteTypes = {
 		texturefile = "gfx/icon/marching_soldiers.png"
 		legacy_lazy_load = no
 	}
-
+	spriteType = {
+		name = "GFX_idea_kim_ilsung"
+		texturefile = "gfx/interface/ideas/PRK/idea_PRK_Kim_Ilsung.dds"
+		legacy_lazy_load = no
+	}
 }

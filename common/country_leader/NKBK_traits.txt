@@ -25,6 +25,23 @@ leader_traits = {
 		random = no
 		ai_join_ally_desire_factor = -100000
 		ai_get_ally_desire_factor = -100000
-		
 	}
+	##### IDEA TRAITS ##### 
+	PRK_prime_minister = {
+		random = no
+		# Boosts Communism
+		sprite = 13
+		communism_drift = 0.2
+		political_power_gain = 0.2
+		trade_opinion_factor = 0.25
+		opinion_gain_monthly_same_ideology = 10
+		can_be_fired = no
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+	
 }

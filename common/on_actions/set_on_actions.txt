@@ -194,4 +194,15 @@ on_actions = {
 			}
 		}
 	}
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					tag = PRK
+					FROM = { tag = JAP }
+				}
+				play_song = "songofpeoplearmy"
+			}
+		}
+	}
 }

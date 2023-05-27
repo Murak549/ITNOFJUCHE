@@ -1,18 +1,7 @@
+from pytube import YouTube
 
-import youtube_dl
+url = input('Give me a link: ')
 
-# YouTube video URL
-url = input("URL: ")
-
-# Options for downloading and converting to mp3
-options = {
-    'format': 'bestaudio/best',
-    'postprocessors': [{
-        'key': 'FFmpegExtractAudio',
-        'preferredcodec': 'mp3',
-        'preferredquality': '192',
-    }],
-}
-
-with youtube_dl.YoutubeDL(options) as ydl:
-    ydl.download([url])
+yt = YouTube(url)
+# print(yt.title)
+# print(yt.thumbnail_url)

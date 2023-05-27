@@ -9,3 +9,11 @@ music = {
 		}		
 	}
 }
+music = {
+	song = "songofpeoplearmy"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}

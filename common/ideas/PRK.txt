@@ -55,5 +55,15 @@ ideas = {
                 army_core_defence_factor = 0.75
             }
         }
+        PRK_prime_minister_PRK = {
+            picture = GFX_idea_kim_ilsung
+            allowed = {
+                always = no
+            }
+            modifier = {
+                army_attack_factor = 0.45
+                army_core_defence_factor = 0.75
+            }
+        }
     }
 }

@@ -99,3 +99,12 @@ set_popularities = {
 	}
 }
 	
+1949.11.1 = {
+	complete_national_focus = PRK_north_Korea_5_province_meeting_convened
+	complete_national_focus = PRK_soviet_unions_choose
+	complete_national_focus = PRK_speech_of_ilsung
+	complete_national_focus = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea
+	complete_national_focus = PRK_land_revolution
+	complete_national_focus = PRK_soviet_style_personnel_system
+	complete_national_focus = PRK_peoples_army_of_korea
+}
