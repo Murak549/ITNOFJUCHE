@@ -6,6 +6,13 @@
  PRK_land_revolution:0 "토지개혁"
  PRK_soviet_style_personnel_system:0 "소련형 인사제도 도입"
  PRK_peoples_army_of_korea:0 "군 창설 준비"
+ PRK_supreme_assembly:0 "최고인민회의 설립"
+ PRK_form_central_government:0 "중앙정부 구성"
+ PRK_one_korea_one_party:0 "하나의 조선, 하나의 로동당"
+ PRK_founding_democratic_peoples_republic_of_korea:0 "조선민주주의인민공화국 건국"
+ PRK_peoples_army_of_korea2:0 "조선인민군"
+ PRK_ready_to_roll_out:0 "조국해방전쟁"
+
  GHQ_international_military_tribunal:0 "극동군사재판"
  GHQ_radio_free_zerg:0 "언론 자유화"
  GHQ_new_law:0 "신 헌법 제정"
