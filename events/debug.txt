@@ -105,8 +105,8 @@ country_event = {
     desc = dbg.8.d
     is_triggered_only = yes
     option = {
-        JAP = {
-            load_focus_tree = GHQ_focus
+        SOV = {
+            white_peace = PRK
         }
     }
 }

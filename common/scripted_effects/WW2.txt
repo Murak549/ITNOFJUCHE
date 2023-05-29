@@ -19,6 +19,7 @@ GER_dead = {
 			elections_allowed = no
 		}
 		FRA = {			
+            transfer_state = 735
 			set_autonomy = {
 				target = PREV
 				autonomy_state = autonomy_puppet
@@ -79,6 +80,12 @@ GER_dead = {
 			end_wars = yes
 			end_civil_wars = yes
 		}
+		set_autonomy = {
+			target = ITA
+			autonomy_state = autonomy_supervised_state
+			end_wars = yes
+			end_civil_wars = yes
+		}
         add_victory_points = {
             province = 13288
             value = 50
@@ -117,6 +124,31 @@ GER_dead = {
 	set_global_flag = yalta_agreed_flag
     SOV = {
         transfer_state = 73
+        transfer_state = 188
+         set_autonomy = {
+			target = HUN
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = ROM
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = CZE
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = POL
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
     }
     CZE = {
         transfer_state = 69
@@ -144,6 +176,22 @@ GER_dead = {
     }
     BUL = {
         drop_cosmetic_tag = BUL
+        set_popularities = {
+            democratic = 13
+            fascism = 7
+            communism = 78
+            neutrality = 2
+        }
+        set_politics = {
+            ruling_party = communism
+            last_election = "1935.9.8"
+            election_frequency = 36
+            elections_allowed = no
+        }
+    }
+    ROM = {
+        drop_cosmetic_tag = ROM
+        transfer_state = 76
         set_popularities = {
             democratic = 13
             fascism = 7
@@ -350,6 +398,7 @@ JAP_dead = {
     }
     SOV = {
         transfer_state = 537
+        transfer_state = 188
         transfer_state = 555
         555 = {
             add_core_of = SOV
@@ -359,7 +408,6 @@ JAP_dead = {
         }
     }
     JAP = {
-        release = FSM
         release = FSM
         delete_unit_template_and_units = {
             division_template = "Chugata Hohei Shidan"

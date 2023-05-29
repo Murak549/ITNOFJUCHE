@@ -1,6 +1,16 @@
 spriteTypes = {	
     				
 	spriteType = {
+		name = "GFX_focus_KRM_never_prk"
+		texturefile = "gfx/icon/Focus_KRM_never_prk.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_goal_dprk_is_right"
+		texturefile = "gfx/icon/iloveprk.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_decision_category_marching_soldiers"
 		texturefile = "gfx/icon/marching_soldiers.png"
 		legacy_lazy_load = no

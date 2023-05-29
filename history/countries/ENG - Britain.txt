@@ -1794,8 +1794,18 @@ if = {
 		add_to_faction = NOR
 		remove_from_faction = GER
 	}
+	add_country_leader_role = {
+		character = ENG_clement_attlee
+		promote_leader = yes
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			traits = { }
+		}
+	}
 	remove_ideas = MTG_naval_treaty_adherent_reduced
 	remove_ideas = MTG_naval_treaty_adherent
+
 	SOV = {
 		add_opinion_modifier = {
 			target = GER

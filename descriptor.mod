@@ -7,5 +7,5 @@ tags={
 	"Military"
 }
 name="In The Name of The Juche"
-supported_version="1.12.13"
+supported_version="1.12.14"
 remote_file_id="2978243264"

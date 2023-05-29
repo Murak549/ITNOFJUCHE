@@ -300,7 +300,32 @@ country_event = {
 		name = prk.9.c
 	}
 }
+country_event = {
+	id = prk.10
+	title = prk.10.t
+	desc = prk.10.d
+	picture = GFX_report_event_chinese_soldiers
 
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRK
+		date > 1950.6.22
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = prk.10.a
+		PRK = {
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+			}
+		}
+	}
+}
 news_event = {
 	id = prk.1000
 	title = prk.1000.t
