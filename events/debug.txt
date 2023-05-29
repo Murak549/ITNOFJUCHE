@@ -130,6 +130,55 @@ country_event = {
     }
 }
 country_event = {
+    id = dbg.10
+    title = dbg.10.t
+    desc = dbg.10.d
+    is_triggered_only = yes
+    option = {
+        every_country = {
+                limit = {
+                    has_government = communism
+                }
+            every_country = {
+                limit = {
+                    has_government = communism
+                }
+                add_ai_strategy = {
+                    type = support
+                    id = PREV   
+                    value = 200
+                }
+                ai_strategy = {
+                    type = send_volunteers_desire
+                    id = PREV
+                    value = 300
+                }
+            }
+        }
+        every_country = {
+            limit = {
+                has_government = democratic
+            }
+            every_country = {
+                limit = {
+                    has_government = democratic
+                }
+                #add_ideas = cold_war
+                add_ai_strategy = {
+                    type = support
+                    id = PREV
+                    value = 200
+                }
+                add_ai_strategy = {
+                    type = send_volunteers_desire
+                    id = PREV
+                    value = 300
+                }
+            }
+        }
+    }
+}
+country_event = {
     id = dbg.10000
     title = dbg.10000.t
     desc = dbg.10000.d
