@@ -211,6 +211,69 @@ PRK_external_occupation_plan = {
 			country_event = { id = PRK.9 }
 		}
 	}
+	PRK_mon_plan = {
+		icon = border_colie
+		available = {
+			612 = {
+				is_controlled_by = PRK
+			}
+			969 = {
+				is_controlled_by = PRK
+			}
+			611 = {
+				is_controlled_by = PRK
+			}
+		}
+		remove_effect = {
+			country_event = { id = PRK.9 }
+			PRK = {
+			set_autonomy = {
+				target = KRM
+				autonomy_state = autonomy_colony
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		}
+		KOR = {
+			set_nationality = {
+				target_country = PRM
+				character = KOR_park_chung_hee
+			}
+		}
+		MEN = {
+			create_country_leader = {
+				name = "박정희"
+				desc = ""
+				picture = gfx/leaders/KOR/박정희.png
+				expire = "1965.1.1"
+				ideology = juche_idea
+				traits = { viceroy }
+			}
+		}
+		PRK = {
+			set_autonomy = {
+				target = MEN
+				autonomy_state = autonomy_colony
+				end_wars = yes
+				end_civil_wars = yes
+			}
+		}
+		MEN = {
+			transfer_state = 612
+			transfer_state = 969
+			transfer_state = 611
+			add_state_core = 611
+			add_state_core = 612
+			add_state_core = 330
+			add_state_core = 329
+			add_state_core = 817
+			add_state_core = 818
+			add_state_core = 819
+			add_state_core = 820
+			add_state_core = 969
+		}
+		}
+	}
 	PRK_suck_my_pacific = {
 		available = {
 			386 = {
