@@ -1,0 +1,272 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+# Reminder that focus filters prio has to be handled in the generic focus file :)
+
+focus_tree = {
+	id = KRM_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KRM
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 55 y = 1500 }
+
+    focus = {
+		cost = 10
+		id = KRM_ilovecommunism
+		icon = GFX_goal_support_communism
+		x = 5
+		y = 0
+		available = {
+			has_government = communism
+		}
+		mutually_exclusive = { focus = KRM_no_prk_is_sucks_i_wanna_find_new_good_way_somebody_help_me }
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.25
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.15
+				}
+			}
+		}
+	}
+    focus = {
+		cost = 10
+		id = KRM_mobilize_masses
+		icon = GFX_goal_support_communism
+		x = 2
+		y = 1
+		relative_position_id = KRM_ilovecommunism
+		prerequisite = {focus=KRM_ilovecommunism}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+				}
+			}
+		}
+	}
+    focus = {
+		cost = 10
+		id = KRM_strengthen_workers_union
+		icon = GFX_goal_support_communism
+		x = -2
+		y = 1
+		relative_position_id = KRM_ilovecommunism
+		prerequisite = {focus=KRM_ilovecommunism}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+				}
+			}
+		}
+	}
+    focus = {
+		cost = 10
+		id = KRM_socialist_education_system
+		icon = GFX_focus_generic_socialist_science
+		x = -1
+		y = 1
+		relative_position_id = KRM_strengthen_workers_union
+		prerequisite = {focus=KRM_strengthen_workers_union}
+		completion_reward = {
+			add_stability = 0.3
+		}
+	}
+    focus = {
+		cost = 10
+		id = KRM_nationalize_industry
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 1
+		relative_position_id = KRM_strengthen_workers_union
+		prerequisite = {focus=KRM_strengthen_workers_union}
+	}
+    focus = {
+		cost = 10
+		id = KRM_inject_goryeo_spirit
+		icon = GFX_focus_SOV_the_supreme_soviet
+		x = -1
+		y = 1
+		relative_position_id = KRM_mobilize_masses
+		prerequisite = {focus=KRM_mobilize_masses}
+	}
+    focus = {
+		cost = 10
+		id = KRM_agarian_reforms
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 1
+		y = 1
+		relative_position_id = KRM_mobilize_masses
+		prerequisite = {focus=KRM_mobilize_masses}
+	}
+    focus = {
+		cost = 10
+		id = KRM_strengthen_party_unity
+		icon = GFX_focus_generic_join_comintern
+		x = 2
+		y = 2
+		relative_position_id = KRM_strengthen_workers_union
+		prerequisite = {focus=KRM_inject_goryeo_spirit}
+		prerequisite = {focus=KRM_agarian_reforms}
+		prerequisite = {focus=KRM_socialist_education_system}
+		prerequisite = {focus=KRM_nationalize_industry}
+	}
+	focus = {
+		id = KRM_dprk_is_right
+		icon = GFX_goal_dprk_is_right
+		x = -3
+		y = 1
+		relative_position_id = KRM_strengthen_party_unity
+		prerequisite = {focus=KRM_strengthen_party_unity}
+	}
+	focus = {
+		id = KRM_right_way
+		icon = GFX_focus_KRM_never_prk
+		x = 3
+		y = 1
+		relative_position_id = KRM_strengthen_party_unity
+		prerequisite = {focus=KRM_strengthen_party_unity}
+	}
+	focus = {
+		id = KRM_denounce_north_korea_oppression
+		icon = GFX_focus_KRM_never_prk
+		x = -2
+		y = 1
+		relative_position_id = KRM_right_way
+		prerequisite = {focus=KRM_right_way}
+		completion_reward = {
+			hidden_effect = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "박정희"
+				desc = ""
+				picture = gfx/leaders/KOR/박정희.png
+				expire = "1965.1.1"
+				ideology = marxism
+				traits = { 
+					dictator
+					economic_reformer
+				}
+			}
+			every_owned_state = {
+			}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_building_level = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = KRM_forge_alliances
+		icon = GFX_goal_generic_national_unity
+		x = 1
+		y = 1
+		relative_position_id = KRM_denounce_north_korea_oppression
+		prerequisite = {focus=KRM_goryeo_autonomous_army}
+		prerequisite = {focus=KRM_denounce_north_korea_oppression}
+	}
+	focus = {
+		id = KRM_goryeo_autonomous_army
+		icon = GFX_focus_chi_army_reform
+		x = 0
+		y = 1
+		relative_position_id = KRM_right_way
+		prerequisite = {focus=KRM_right_way}
+	}
+	focus = {
+		id = KRM_propaganda_campaign
+		icon = GFX_goal_support_communism
+		x = 2
+		y = 1
+		relative_position_id = KRM_right_way
+		prerequisite = {focus=KRM_right_way}
+	}
+	focus = {
+		id = KRM_guerilla_warfare_training
+		icon = GFX_goal_generic_cavalry
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = KRM_propaganda_campaign
+		prerequisite = {focus=KRM_propaganda_campaign}
+		prerequisite = {focus=KRM_goryeo_autonomous_army}
+	}
+	focus = {
+		id = KRM_declare_war_on_DPRK
+		icon = GFX_goal_generic_small_arms
+		x = 1
+		y = 1
+		relative_position_id = KRM_forge_alliances
+		prerequisite = {focus=KRM_guerilla_warfare_training}
+		prerequisite = {focus=KRM_forge_alliances}
+		cost = 5 
+		completion_reward = {
+			KRM = {
+				every_owned_state = {
+					limit = {
+						is_korean_penisula = yes
+					}
+					add_core_of = KRM
+				}
+				declare_war_on = {
+					target = PRK
+					type = annex_everything
+				}
+			}
+		}
+	}
+    focus = {
+		cost = 10
+		id = KRM_no_prk_is_sucks_i_wanna_find_new_good_way_somebody_help_me
+		icon = GFX_goal_generic_demand_territory
+		mutually_exclusive = { focus = KRM_ilovecommunism }
+		x = 25
+		y = 0
+	}
+}

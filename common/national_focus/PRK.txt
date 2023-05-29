@@ -146,6 +146,7 @@ focus_tree = {
             PRK = {
                 promote_character = PRK_party
             }
+			add_ideas = kim_ilsung
 		}
 	}
     focus = {
