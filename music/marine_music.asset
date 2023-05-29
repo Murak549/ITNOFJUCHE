@@ -8,3 +8,13 @@ music = {
 	file = "dprk/PEOPLEARMY.ogg"
 	volume = 1
 }
+music = {
+	name = "sacred__war"
+	file = "dprk/sacred_war.ogg"
+	volume = 1
+}
+music = {
+	name = "strike_da"
+	file = "dprk/strike_da.ogg"
+	volume = 1
+}
