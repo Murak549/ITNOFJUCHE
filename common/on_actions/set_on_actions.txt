@@ -42,22 +42,22 @@ on_actions = {
             }
 		}
         if = { #조선은 하나다
-				limit = {
-					OR = {
-						AND = {
-							original_tag = KOR
-							has_war_with = PRK
-						}
-						AND = {
-							original_tag = HMC
-							has_war_with = PRK
-						}
+			limit = {
+				OR = {
+					AND = {
+						original_tag = KOR
+						has_war_with = PRK
+					}
+					AND = {
+						original_tag = HMC
+						has_war_with = PRK
 					}
 				}
-				PRK = {
-					country_event = { id = prk.1 hours = 2 }
-				}
 			}
+			PRK = {
+				country_event = { id = prk.1 hours = 2 }
+			}
+		}
 	}
 	on_monthly_PRC = {
 		effect = {
@@ -199,9 +199,23 @@ on_actions = {
 			if = {
 				limit = {
 					tag = PRK
-					FROM = { tag = JAP }
+					FROM = { tag = KOR }
 				}
 				play_song = "songofpeoplearmy"
+			}
+			if = {
+				limit = {
+					tag = PRK
+					FROM = { tag = JAP }
+				}
+				play_song = "sacred__war"
+			}
+			if = {
+				limit = {
+					tag = PRK
+					FROM = { tag = PRC }
+				}
+				play_song = "strike_da"
 			}
 		}
 	}

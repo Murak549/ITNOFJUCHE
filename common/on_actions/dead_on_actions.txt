@@ -35,6 +35,21 @@ on_actions = {
 				GER_dead = yes
 			}
 			if = { #TLE 배낌 ㅎㅎ
+				limit = {    
+					ROOT = {
+						original_tag = JAP
+					}
+					has_war_with = ENG
+				}
+				every_country = {
+					limit = {
+						has_war_with = JAP
+					}
+					white_peace = JAP
+				}
+				JAP_dead = yes
+			}
+			if = { #TLE 배낌 ㅎㅎ
 				limit = { #독일이 승전시의 코드
 					tag = IDC
 					has_war_with = VIN
