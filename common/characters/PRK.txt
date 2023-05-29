@@ -22,6 +22,7 @@ characters={
         advisor={
 			slot = political_advisor
 			idea_token = kim_ilsung
+            can_be_fired = no
 			available = {
 			}
 			allowed = {
