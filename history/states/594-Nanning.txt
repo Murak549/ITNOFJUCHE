@@ -42,7 +42,7 @@ state={
 			owner = GXC
 		}
 		1949.6.15 = {
-			owner = PRC
+			owner = CHI
 		}
 	}
 

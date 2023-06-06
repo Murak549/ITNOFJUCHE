@@ -1,17 +1,44 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			every_country = {
-				add_ideas = cold_war
-				add_ai_strategy = {
-					type = support
-					id = PREV
-					value = 200
+			if = {
+				limit = {
+					country_exists = GER
+					country_exists = DDR
+					country_exists = PRK
+					country_exists = KOR
+					NOT = {
+						country_exists = UKR
+					}
 				}
-				add_ai_strategy = {
-					type = send_volunteers_desire
-					id = PREV
-					value = 200
+				every_country = {
+					add_ideas = cold_war
+					add_ai_strategy = {
+						type = support
+						id = PREV
+						value = 200
+					}
+					add_ai_strategy = {
+						type = send_volunteers_desire
+						id = PREV
+						value = 200
+					}
+				}
+				PRC = {
+					every_owned_state = {
+						create_unit = {
+							division = "name = \"4 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 0.5"
+							owner = PRC
+						}
+						create_unit = {
+							division = "name = \"4 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 0.5"
+							owner = PRC
+						}
+						create_unit = {
+							division = "name = \"4 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 0.5"
+							owner = PRC
+						}
+					}
 				}
 			}
             every_country = {

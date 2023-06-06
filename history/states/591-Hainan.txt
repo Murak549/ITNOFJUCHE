@@ -22,13 +22,6 @@ state={
 			}
 
 		}
-		1949.6.15 = {
-			owner = PRC
-		}
-		1945.8.15 = {
-			#remove_core_of = SHX
-			owner = GXC
-		}
 		1938.10.25 = {
 			if = {
 				limit = {
@@ -38,6 +31,12 @@ state={
 				CHI = { transfer_state = PREV }
 			}
 			controller = JAP
+		}
+		1945.8.15 = {
+			owner = GXC
+		}
+		1949.6.15 = {
+			owner = CHI
 		}
 	}
 

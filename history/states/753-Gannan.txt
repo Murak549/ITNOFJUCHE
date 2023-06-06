@@ -34,7 +34,7 @@ state={
 			}
 		}
 		1948.11.15 = {
-			owner = PRC
+			owner = CHI
 		}
 	}
 

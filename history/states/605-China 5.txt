@@ -27,14 +27,8 @@ state={
 				infrastructure = 3 #was: 6
 				air_base = 3
 				arms_factory = 3
-
 			}
-
 		}
-		1949.6.15 = {
-			owner = PRC
-		}
-
 	}
 
 	provinces={

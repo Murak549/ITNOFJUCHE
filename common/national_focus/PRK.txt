@@ -413,4 +413,70 @@ focus_tree = {
 
 		}
 	}
+	focus = {
+		id = PRK_triumph_at_korea
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = PRK_lead_of_ilsung }
+
+		x = 0
+
+		y = 1
+
+		relative_position_id = PRK_lead_of_ilsung
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PRK_rejecting_light_industry
+		icon = GFX_focus_generic_steel
+		prerequisite = { focus = PRK_triumph_at_korea }
+
+		x = 0
+
+		y = 1
+
+			relative_position_id = PRK_triumph_at_korea
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = PRK_heavy_industry
+		icon = GFX_focus_generic_aluminum
+		prerequisite = { focus = PRK_triumph_at_korea }
+
+		x = 2
+
+		y = 1
+
+			relative_position_id = PRK_triumph_at_korea
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
 }

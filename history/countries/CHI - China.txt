@@ -182,6 +182,7 @@ set_convoys = 40
 
 1945.11.1 = {
 	dismantle_faction = yes
+	oob = "CHI_1950"
 }
 1939.1.1 = {
 

@@ -26,10 +26,6 @@ state={
 			}
 
 		}
-		1949.1.15 = {
-			owner = PRC
-		}
-
 	}
 
 	local_supplies=1.0 

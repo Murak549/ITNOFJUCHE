@@ -21,9 +21,6 @@ state={
 				air_base = 1
 			}
 		}
-		1949.6.15 = {
-			owner = PRC
-		}
 	}
 	manpower=1500000
 	state_category=pastoral
