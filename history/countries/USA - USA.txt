@@ -1296,6 +1296,12 @@ if = {
 	remove_ideas = MTG_naval_treaty_adherent_reduced 	
 }
 
+1946.7.4 = {
+	set_autonomy = {
+		target = PHI
+		autonomous_state =  autonomy_free
+	}
+}
 1945.1.20 = {
 	give_guarantee = JAP
 	# give_guarantee = KOR

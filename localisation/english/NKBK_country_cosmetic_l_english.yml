@@ -1,4 +1,12 @@
 ﻿l_english:
+ PAK_UK_democratic:0 "영국령 파키스탄"
+ PAK_UK_democratic_DEF:0 "영국령 파키스탄"
+ PAK_UK_neutrality:0 "영국령 파키스탄"
+ PAK_UK_neutrality_DEF:0 "영국령 파키스탄"
+ PAK_UK_subject:0 "$OVERLORDADJ$령 파키스탄"
+ PAK_UK_autonomy_dominion:0 "파키스탄 자치령"
+ PAK_UK_autonomy_dominion_DEF:0 "파키스탄 자치령"
+  
  IDC_FRA_DEF:0 "인도차이나 총독부"
  IDC_FRA_ADJ:0 "인도차이나 총독부"
  IDC_FRA:0 "인도차이나 연방"
