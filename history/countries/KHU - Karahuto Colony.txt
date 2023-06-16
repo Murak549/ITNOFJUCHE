@@ -11,8 +11,16 @@ set_war_support = 0.8
 
 set_cosmetic_tag = KHU_JAP
 
-set_convoys = 10
-
+set_convoys = 300000
+create_country_leader = {
+	name = "tlqkf"
+	desc = ""
+	picture = ""
+	ideology = fascism_ideology
+	traits = {
+		viceroy
+	}
+}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
