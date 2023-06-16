@@ -1,5 +1,24 @@
 ﻿division_template = {
-	name = "보병사단" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	name = "해병 사단" 			# (Square) Marine Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
+	division_names_group = KOR_MAR_01
+									# 1 engineering regiment, 1 recon regiment
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 } 
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+	}
+	support = {
+
+	}
+}
+division_template = {
+	name = "보병 사단" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
 	division_names_group = KOR_INF_01
 									# 1 engineering regiment, 1 recon regiment
 	regiments = {
@@ -7,82 +26,109 @@
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 } #13268
+		infantry = { x = 2 y = 0 } 
 		infantry = { x = 2 y = 1 }
-
 	}
 	support = {
+		artillery = { x = 0 y = 1 }
 	}
 }
 units = {
 	division= {	
-		name = "제 1 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 12040
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 2 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
 		location = 13263
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 3 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
 		location = 4086
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 5 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
 		location = 10110
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 6 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
 		location = 13271
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 7 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
 		location = 13258
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 8 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
 		location = 7021
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 17 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
 		location = 13268
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
 		name = "수도방위사단"
 		location = 7125
-		division_template = "보병사단"
+		division_template = "보병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "국방부 정훈국장 이선근 대령은 25일 조효부터 삼팔선 전역에 걸쳐 이북괴뢰집단이 대거불법남침하여 와서 전투가 벌어지고 있다고 25일 정오 다음과 같은 담화를 발표하였다."
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 1177
-		division_template = "보병사단"
+		division_template = "해병 사단"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.2
+		start_equipment_factor = 0.98
 	}
 }

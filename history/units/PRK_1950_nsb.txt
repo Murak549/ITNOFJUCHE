@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "조선인민군 보병사단" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = KOR_INF_01
+	division_names_group = KOR_INF_02
 									# 1 engineering regiment, 1 recon regiment
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -19,23 +19,7 @@
 }
 division_template = {
 	name = "국경 경비 사단" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = KOR_INF_01
-									# 1 engineering regiment, 1 recon regiment
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 } 
-		infantry = { x = 2 y = 1 }
-
-	}
-	support = {
-	}
-}
-division_template = {
-	name = "차량화 사단" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = KOR_INF_01
+	division_names_group = KOR_INF_03
 									# 1 engineering regiment, 1 recon regiment
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -51,7 +35,7 @@ division_template = {
 }
 division_template = {
 	name = "장갑차 사단" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = KOR_INF_01
+	division_names_group = KOR_ARM_02
 									# 1 engineering regiment, 1 recon regiment
 	regiments = {
 		armored_car = { x = 0 y = 0 }
@@ -70,91 +54,127 @@ division_template = {
 }
 units = {
 	division= {	
-		name = "제 1 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 13269
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 2 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
 		location = 13270
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 3 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
 		location = 13270
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 5 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
 		location = 4107
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 6 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
 		location = 13260
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 7 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
 		location = 1148
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 10 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
 		location = 10065
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "제 13 보병사단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
 		location = 11915
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "경비 1 여단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 1003
 		division_template = "국경 경비 사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "경비 2 여단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
 		location = 1148
 		division_template = "국경 경비 사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "경비 3 여단"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
 		location = 11958
 		division_template = "국경 경비 사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "경비 4 여단"
-		location = 7171
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7171 #Pyeongyang
 		division_template = "국경 경비 사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "12 모터사이클연대"
+		name = "12th Motorcycle Brigade"
 		location = 7171
 		division_template = "장갑차 사단"
 		start_experience_factor = 0.2
