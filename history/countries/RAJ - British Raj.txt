@@ -281,6 +281,3 @@ if = {
 		nationalities = { RAJ }
 	}
 }
-1947.8.15 = {
-	add_autonomy = 1500
-}

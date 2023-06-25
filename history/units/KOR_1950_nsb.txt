@@ -115,11 +115,11 @@ units = {
 		start_equipment_factor = 0.98
 	}
 	division= {	
-		name = "수도방위사단"
+		name = "Capital Defense Division"
 		location = 7125
 		division_template = "보병 사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.98
+		start_experience_factor = 2
+		start_equipment_factor = 2
 	}
 	division= {	
 		division_name = {

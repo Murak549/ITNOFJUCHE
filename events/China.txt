@@ -1538,6 +1538,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		date > 1936.12.12
+		date < 1945.12.12
 	}
 
 	mean_time_to_happen = {

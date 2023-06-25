@@ -17,8 +17,9 @@ state={
 				naval_base = 2
 			}
 		}
-		1945.5.4 = {
-			owner = HOL 
+		1945.11.4 = {
+			owner = INS 
+			controller = HOL 
 		}
 	}
 	

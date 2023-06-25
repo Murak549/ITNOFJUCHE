@@ -1,6 +1,11 @@
-﻿capital = 525 #South Korea - Seoul or Busan
+﻿capital = 525 #South Korea - Seoul
 
 oob = "KOR_1936"
+
+recruit_character = KOR_이승만
+recruit_character = KOR_여운형
+recruit_character = KOR_yi_un
+recruit_character = KOR_함_영식
 
 # Starting tech
 set_technology = {

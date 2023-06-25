@@ -118,3 +118,7 @@ create_country_leader = {
 		#
 	}
 }
+
+1949.3.10 = {
+	add_ideas = ISR_learn_from_1st_middle_east_war
+}

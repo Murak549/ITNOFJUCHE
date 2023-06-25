@@ -581,7 +581,7 @@ if = {
 }
 
 
-1949.12.29 = {
+1945.8.17 = {
 	set_autonomy = {
 		target = INS
 		autonomous_state = autonomy_free

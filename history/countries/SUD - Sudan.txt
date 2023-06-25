@@ -75,6 +75,9 @@ recruit_character = SUD_aco2
 		dispersed_industry2 = 1
 	}
 }
+1945.1.1 = {
+	drop_cosmetic_tag = yes
+}
 
 set_politics = {
 	ruling_party = neutrality

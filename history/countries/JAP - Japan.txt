@@ -210,19 +210,7 @@ create_import = {
 	remove_ideas = JAP_militarism
 	remove_ideas = JAP_guide_the_zaibatsus
 	remove_ideas = JAP_liaison_conference
-	create_country_leader = {
-		name = "Douglas MacArthur"
-		desc = ""
-		picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			japans_shogun
-			blue_eyes_white_shogun
-			supreme_allied_commander
-			white_denno
-		}
-	}
+	promote_character = JAP_douglas_macarthur
 
 	CHI = {
 		white_peace = JAP
@@ -442,6 +430,10 @@ if = {
 		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
+		target = MNE
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
 		target = CHO
 		autonomous_state = autonomy_puppet
 	}
@@ -492,6 +484,10 @@ if = {
 	}
 	set_autonomy = {
 		target = MAN
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	set_autonomy = {
+		target = MNE
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
 }
@@ -574,6 +570,7 @@ recruit_character = JAP_kingoro_hashimoto
 recruit_character = JAP_sanzo_nosaka
 recruit_character = JAP_hiroshi_oshima
 recruit_character = JAP_kijuro_shidehara
+recruit_character = JAP_douglas_macarthur
 
 
 if = {

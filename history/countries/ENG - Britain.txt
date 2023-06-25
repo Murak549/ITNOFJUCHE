@@ -1784,16 +1784,26 @@ if = {
 	}
 }
 
+1946.8.14 = {
+	set_autonomy = {
+		target = EGY
+		autonomous_state =  autonomy_free
+	}
+	set_autonomy = {
+		target = SUD
+		autonomous_state =  autonomy_free
+	}
+}
 1947.8.14 = {
 	set_autonomy = {
 		target = PAK
-		autonomous_state =  autonomy_dominion
+		autonomous_state =  autonomy_free
 	}
 }
 1947.8.15 = {
 	set_autonomy = {
 		target = RAJ
-		autonomous_state =  autonomy_dominion
+		autonomous_state =  autonomy_free
 	}
 }
 

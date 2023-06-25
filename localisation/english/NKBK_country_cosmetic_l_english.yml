@@ -6,6 +6,10 @@
  PAK_UK_subject:0 "$OVERLORDADJ$령 파키스탄"
  PAK_UK_autonomy_dominion:0 "파키스탄 자치령"
  PAK_UK_autonomy_dominion_DEF:0 "파키스탄 자치령"
+ PAK_UK_autonomy_free:0 "파키스탄 자치령"
+ RAJ_UK_autonomy_free:0 "인도 자치령"
+ PAK_UK_autonomy_free_DEF:0 "파키스탄 자치령"
+ RAJ_UK_autonomy_free_DEF:0 "인도 자치령"
   
  IDC_FRA_DEF:0 "인도차이나 총독부"
  IDC_FRA_ADJ:0 "인도차이나 총독부"
