@@ -26,4 +26,5 @@ KHU = "countries/Japan.txt"
 CHO = "countries/Japan.txt"
 TAW = "countries/Japan.txt"
 JID = "countries/Japan.txt"
+MNE = "countries/Japan.txt" #적도 이북에 위치한 태평양의 독일 영토에 대한 위임통치령
 KTC = "countries/Japan.txt"

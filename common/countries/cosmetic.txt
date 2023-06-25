@@ -1024,6 +1024,10 @@ CHO_JAP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
+MNE_JAP = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
 JID_JAP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }

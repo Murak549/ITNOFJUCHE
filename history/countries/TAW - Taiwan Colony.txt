@@ -6,8 +6,8 @@ set_technology = {
 	mass_assault = 1
 }
 
-set_stability = 0.4
-set_war_support = 0.8
+set_stability = 0.6
+set_war_support = 0.3
 
 set_cosmetic_tag = TAW_JAP
 
