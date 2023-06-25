@@ -1,4 +1,18 @@
 characters={
+	JAP_douglas_macarthur={
+		name="Douglas MacArthur"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ japans_shogun blue_eyes_white_shogun supreme_allied_commander white_denno }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	JAP_emperor_hirohito={
 		name=JAP_emperor_hirohito
 		portraits={

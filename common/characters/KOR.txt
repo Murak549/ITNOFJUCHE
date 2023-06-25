@@ -1,4 +1,57 @@
 characters={ 
+    KOR_이승만={
+		name="이승만"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Lee_Syng.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_여운형={
+		name="여운형"
+		portraits={
+			civilian={
+				large="GFX_portrait_Yi_Kang"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_yi_un={
+		name="Yi Un"
+		portraits={
+			civilian={
+				large="GFX_portrait_Yi_Un"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_함_영식={
+		name="함 영식"
+		portraits={
+			civilian={
+				large="GFX_portrait_asia_generic_4"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			traits={ financial_expert retired_officer }
+			expire="1955.11.5.12"
+			id=-1
+		}
+	}
     KOR_park_chung_hee={
         name=KOR_park_chung_hee
         portraits={
