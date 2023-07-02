@@ -1031,6 +1031,10 @@ ideas = {
 
 			picture = jap_ichi_go
 			
+			modifier = {
+				army_speed_factor = 12
+			}
+
 			targeted_modifier = {
 				tag = CHI
 				attack_bonus_against = 0.2

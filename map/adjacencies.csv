@@ -195,5 +195,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9650;3684;impassable;-1;-1;-1;-1;-1;;austrian alps
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 13289;4107;sea;8445;-1;-1;-1;-1;;Baek
+13296;13297;sea;4912;-1;-1;-1;-1;;paracel
+13296;13291;sea;4912;-1;-1;-1;-1;;paracel
+13293;13298;sea;4912;-1;-1;-1;-1;;paracel
+13291;13295;sea;3411;-1;-1;-1;-1;;paracel
+13295;13294;sea;3411;-1;-1;-1;-1;;paracel
+13292;13294;sea;3411;-1;-1;-1;-1;;paracel
+13292;13293;sea;3411;-1;-1;-1;-1;;paracel
+13290;13298;sea;4912;-1;-1;-1;-1;;paracel
+13290;13298;sea;4912;-1;-1;-1;-1;;paracel
+13296;13298;sea;4912;-1;-1;-1;-1;;paracel
 
 -1;-1;;-1;-1;-1;-1;-1;-1

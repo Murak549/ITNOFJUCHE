@@ -50,7 +50,7 @@ on_actions = {
 				JAP_dead = yes
 			}
 			if = { #TLE 배낌 ㅎㅎ
-				limit = { #독일이 승전시의 코드
+				limit = {
 					tag = IDC
 					has_war_with = VIN
 				}
@@ -114,6 +114,32 @@ on_actions = {
 				}
 				PRK_annex_korea = yes
 				KOR_yabyeolcho = yes
+			}
+			if = {
+				limit = { #일본이 승전시의 코드
+					AND = {
+						ROOT = {
+							original_tag = CHI
+						}
+						FROM = {
+							original_tag = JAP
+						}
+					}
+				}
+				JAP_triumph_at_CHI = yes
+			}
+			if = {
+				limit = { #일본이 승전시의 코드
+					AND = {
+						ROOT = {
+							original_tag = SOV
+						}
+						FROM = {
+							original_tag = JAP
+						}
+					}
+				}
+				JAP_new_order_2 = yes
 			}
 			if = {
 				limit = { #중일전 중국승리비율 높음
@@ -254,6 +280,37 @@ on_actions = {
                     id = 10076
                     name = "쑤저우"
                 }
+			}
+		}
+	}
+	on_nuke_drop = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							is_core_of = USA
+							is_core_of = HAW
+						}	
+					}
+				}
+				set_global_flag = USA_IS_NUKE_DROPPED
+				USA = {
+					add_war_support = -1
+				}	
+				if = {
+					limit = {	
+						USA = {
+							has_war_with = JAP
+						}
+					}
+					USA = {
+						country_event = {
+							id = usa.177
+							hours = 6
+						}
+					}
+				}
 			}
 		}
 	}

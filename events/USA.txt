@@ -1947,3 +1947,15 @@ country_event = {
 		play_arsenal_of_democracy_effect = yes
 	}
 }
+country_event = {
+	id = usa.177 #DIED BY JAP
+	title = usa.177.t
+	desc = usa.177.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.177.a
+		JAP_new_order = yes
+	}
+}

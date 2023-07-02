@@ -1048,3 +1048,47 @@ KTC_JAP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
+JAP_win = {
+	color = rgb { 130 19 46 }
+	color_ui = rgb { 130 19 46 }
+}
+MAN_TNO = {
+	color = rgb { 179 66 96 }
+	color_ui = rgb { 179 66 96 }
+}
+MEN_TNO = {
+	color = rgb { 165 71 94 }
+	color_ui = rgb { 165 71 94 }
+}
+CHI_TNO = {
+	color = rgb { 168 45 75 }
+	color_ui = rgb { 168 45 75 }
+}
+XSM_TNO = {
+	color = rgb { 86 91 125 }
+	color_ui = rgb { 86 91 125 }
+}
+GDC_TNO = {
+	color = rgb { 122 46 65 }
+	color_ui = rgb { 122 46 65 }
+}
+CH2_TNO = {
+	color = rgb { 140 72 89 }
+	color_ui = rgb { 140 72 89 }
+}
+GXC_TNO = {
+	color = rgb { 137 74 82 }
+	color_ui = rgb { 137 74 82 }
+}
+YUN_TNO = {
+	color = rgb { 135 81 103 }
+	color_ui = rgb { 135 81 103 }
+}
+USA_TNO = {
+	color = rgb { 100 138 190 }
+	color_ui = rgb { 100 138 190 }
+}
+GUZ_TNO = {
+	color = rgb { 165 81 87 }
+	color_ui = rgb { 165 81 87 }
+}

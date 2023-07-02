@@ -602,5 +602,279 @@ JAP_dead_by_prkandchi = {
     }
 }
 CHI_dead = {
-    
+
+}
+JAP_triumph_at_CHI = {
+    every_country = {
+        limit = {
+            has_war_with = JAP
+            OR = {
+                is_in_faction_with = CHI
+            }
+        }
+        white_peace = JAP
+    }
+    JAP = {
+        set_autonomy = {
+            target = HNC
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = CH1
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = CHI
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = SHX
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = XSM
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = GDC
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = YUN
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = SIK
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = TIB
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = YUN
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = GXC
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+        set_autonomy = {
+            target = CH2
+            autonomous_state = autonomy_wtt_imperial_protectorate
+        }
+    }
+    CHI = {
+        annex_country = {
+            target = JID
+            transfer_troops = yes
+        }
+    }
+    CH2 = {
+        set_cosmetic_tag = CH2_TNO
+        transfer_state = 971
+        transfer_state = 283
+        transfer_state = 753
+        add_state_core = 971
+        add_state_core = 283
+        add_state_core = 753
+    }
+    HNC = {
+        transfer_state = 603
+        transfer_state = 748
+        add_state_core = 603
+        add_state_core = 748
+    }
+    CH1 = {
+        transfer_state = 601
+        transfer_state = 751
+        transfer_state = 752
+        add_state_core = 601
+        add_state_core = 751
+        add_state_core = 752
+    }
+    CH2 = {
+        transfer_state = 971
+        transfer_state = 283
+        transfer_state = 753
+    }
+    GDC = {
+        set_cosmetic_tag = GDC_TNO
+    }
+    XSM = {
+        set_cosmetic_tag = XSM_TNO
+    }
+    MAN = {
+        set_cosmetic_tag = MAN_TNO
+    }
+    YUN = {
+        set_cosmetic_tag = YUN_TNO
+    }
+    GXC = {
+        set_cosmetic_tag = GXC_TNO
+    }
+    MEN = {
+        set_cosmetic_tag = MEN_TNO
+    }
+    CHI = {
+        set_cosmetic_tag = CHI_TNO
+    }
+    USA = {
+        set_cosmetic_tag = USA_TNO
+    }
+    HNC = {
+        set_cosmetic_tag = GUZ_TNO
+    }
+    MEN = {
+        transfer_state = 616
+        transfer_state = 621
+        transfer_state = 746
+        transfer_state = 756
+    }
+    SHX = {
+        transfer_state = 615
+        transfer_state = 622
+        transfer_state = 744
+        add_state_core = 615
+        add_state_core = 622
+        add_state_core = 744
+    }
+    CHO = {
+        every_core_state = {
+            remove_core_of = CHO
+        }
+    }
+    TAW = {
+        every_core_state = {
+            remove_core_of = TAW
+        }
+    }
+    MNE = {
+        every_core_state = {
+            remove_core_of = MNE
+        }
+    }
+    JID = {
+        every_core_state = {
+            remove_core_of = JID
+        }
+    }
+    KHU = {
+        every_core_state = {
+            remove_core_of = KHU
+        }
+    }
+    KTC = {
+        every_core_state = {
+            remove_core_of = KTC
+        }
+    }
+    GDC = {
+        add_state_core = 593
+        add_state_core = 592
+        add_state_core = 591
+        transfer_state = 593
+        transfer_state = 592
+        transfer_state = 591
+    }
+}
+JAP_new_order = {
+    every_country = {
+        limit = {
+            has_war_with = JAP
+            OR = {
+                is_in_faction_with = USA
+                original_tag = USA
+            }
+        }
+        white_peace = JAP
+    }
+    JAP = {
+        set_cosmetic_tag = JAP_win
+        transfer_state = 629
+        transfer_state = 630
+        transfer_state = 631
+        transfer_state = 727
+        transfer_state = 642
+        transfer_state = 632
+        transfer_state = 638
+        annex_country = {
+            target = TAW
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = KHU
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = CHO
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = KTC
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = MNE
+            transfer_troops = yes
+        }
+    }
+}
+JAP_new_order_2 = {
+    every_country = {
+        limit = {
+            has_war_with = JAP
+            OR = {
+                is_in_faction_with = SOV
+                original_tag = SOV
+            }
+        }
+        white_peace = JAP
+    }
+    MEN = {
+        annex_country = {
+            target = MON
+            transfer_troops = yes
+        }
+        every_owned_state = {
+            limit = {
+                OR = {
+                    is_core_of = MON
+                    is_core_of = TAN
+                }
+            }
+            add_core_of = MEN
+        }
+    }
+    MAN = {
+        transfer_state = 408
+        transfer_state = 409
+        transfer_state = 560
+        transfer_state = 657
+        add_state_core = 408
+        add_state_core = 409
+        add_state_core = 560
+        add_state_core = 657
+    }
+    if = {
+        limit = {
+            KHU = {
+                exists = yes
+            }
+            KHU = {
+                transfer_state = 655
+            }
+        }
+    }
+    if = {
+        limit = {
+            KHU = {
+                exists = no
+            }
+            JAP = {
+                transfer_state = 655
+                add_state_core = 655
+            }
+        }
+    }
 }
