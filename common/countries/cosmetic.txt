@@ -210,6 +210,24 @@ BLR_reichskommissariat = {
 	color_ui = rgb { 122 145 93 }
 }
 
+SOV_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+POL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+GEO_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+DEN_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
 UKR_reichskommissariat = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
@@ -1047,6 +1065,30 @@ CHI_YS_COLO = {
 KTC_JAP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }
+}
+INS_JAP = {
+	color = rgb { 159 52 77 }
+	color_ui = rgb { 159 52 77 }
+}
+MAL_SHO_JAP_TNO = {
+	color = rgb { 184 99 120 }
+	color_ui = rgb { 184 99 120 }
+}
+NRB = {
+	color = rgb { 145 49 73 }
+	color_ui = rgb { 130 19 46 }
+}
+PHI_JAP = {
+	color = rgb { 189 100 127 }
+	color_ui = rgb { 189 100 127 }
+}
+UPH = {
+	color = rgb { 71 124 178 }
+	color_ui = rgb { 71 124 178 }
+}
+SPH = {
+	color = rgb { 244 48 58 }
+	color_ui = rgb {244 48 58 }
 }
 JAP_win = {
 	color = rgb { 130 19 46 }

@@ -15,6 +15,10 @@
  IDC_FRA_ADJ:0 "인도차이나 총독부"
  IDC_FRA:0 "인도차이나 연방"
 
+ MAL_SHO_JAP_TNO:0 "쇼난-말레이 군정부"
+ NRB:0 "인도네시아 공화국"
+ PHI_JAP:0 "필리핀 제2공화국"
+ MAL_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "남방 군정관"
  CH1_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "국민혁명군 제24군"
  CH2_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "서북방면군"
  SHX_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "진수행정공서"
@@ -29,7 +33,11 @@
  CHO_JAP_fascism_autonomy_collaboration_government:0 "조선총독부"
  PRK_JAP_fascism_autonomy_collaboration_government:0 "조선총독부"
  SOV_GER_fascism_autonomy_collaboration_government:0 "모스코비엔 국가판무관부"
- POL_GER_fascism_autonomy_collaboration_government:0 "총독부"
+ SOV_GER_fascism_autonomy_reichsprotectorate:0 "모스코비엔 국가판무관부"
+ POL_GER_fascism_autonomy_reichsprotectorate:0 "총독부"
+ SOV_reichskommissariat:0 "모스코비엔 국가판무관부"
+ GEO_reichskommissariat:0 "카우카지엔 국가판무관부"
+ POL_reichskommissariat:0 "총독부"
 
  JAP_autonomy_supervised_state:0 "연합군최고사령부"
  JAP_autonomy_supervised_state_DEF:0 "GHQ"

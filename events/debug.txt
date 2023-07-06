@@ -205,9 +205,8 @@ country_event = {
     desc = dbg.7.d
     is_triggered_only = yes
     option = {
-        PRK_ivan = {
-            promote_character = yes
-        }
+        GER_triumph_at_SOV = yes  
+        GER_triumph_at_ENG = yes
     }
 }
 country_event = {
@@ -216,9 +215,10 @@ country_event = {
     desc = dbg.8.d
     is_triggered_only = yes
     option = {
-        SOV = {
-            white_peace = PRK
-        }
+        name = dbg.8.a
+        JAP_triumph_at_CHI = yes
+        JAP_new_order = yes
+        JAP_new_order_2 = yes
     }
 }
 country_event = {
@@ -227,17 +227,11 @@ country_event = {
     desc = dbg.9.d
     is_triggered_only = yes
     option = {
-        set_power_balance = {
-
-            id = PRK_balance
-
-            left_side = default_left_side
-
-            right_side = default_right_side
-
-            set_value = 0.1
-
-        }
+        GER_triumph_at_SOV = yes
+        GER_triumph_at_ENG = yes
+        JAP_triumph_at_CHI = yes
+        JAP_new_order = yes
+        JAP_new_order_2 = yes
     }
 }
 country_event = {
