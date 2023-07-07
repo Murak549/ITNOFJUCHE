@@ -1319,6 +1319,40 @@ GER_triumph_at_ENG = {
         add_state_core = 984
         transfer_state = 970
         add_state_core = 970
+        #
+        transfer_state = 893
+        transfer_state = 538
+        transfer_state = 540
+        transfer_state = 541
+        transfer_state = 796
+        transfer_state = 718
+        transfer_state = 768
+        transfer_state = 769
+        transfer_state = 772
+        transfer_state = 539
+        transfer_state = 538
+        transfer_state = 295
+        transfer_state = 888
+        transfer_state = 889
+        transfer_state = 890
+        transfer_state = 891
+        transfer_state = 892
+        transfer_state = 894
+        transfer_state = 895
+        #
+        transfer_state = 548
+        transfer_state = 904
+        transfer_state = 547
+        transfer_state = 903
+        transfer_state = 905
+        transfer_state = 546
+        transfer_state = 770
+        transfer_state = 771
+        transfer_state = 545
+        transfer_state = 544
+        transfer_state = 896
+        transfer_state = 897
+        
         set_autonomy = {
             target = CRO
             autonomous_state = autonomy_reichskommissariat
@@ -1349,6 +1383,9 @@ GER_triumph_at_ENG = {
             end_wars = no
             end_civil_wars = yes
         }
+        add_to_faction = IRE
+        add_to_faction = ENG
+        set_faction_name = "아인하이츠팍트"
     }
     CRO = {
         transfer_state = 103
@@ -1380,6 +1417,12 @@ GER_triumph_at_ENG = {
         transfer_state = 987
     }
     ITA = {
+        leave_faction = yes
+        add_to_faction = SPR
+        add_to_faction = TUR
+        create_faction = "트리움비라투스"
+        transfer_state = 268
+        transfer_state = 269
         transfer_state = 735
         set_autonomy = {
             target = YUG
@@ -1394,10 +1437,50 @@ GER_triumph_at_ENG = {
             end_civil_wars = yes
         }
         set_autonomy = {
+            target = ALG
+            autonomous_state = autonomy_reichskommissariat
+            end_wars = no
+            end_civil_wars = yes
+        }
+        set_autonomy = {
             target = EGY
             autonomous_state = autonomy_reichskommissariat
             end_wars = no
             end_civil_wars = yes
+        }
+        set_autonomy = {
+            target = CMR
+            autonomous_state = autonomy_reichskommissariat
+            end_wars = no
+            end_civil_wars = yes
+        }
+        set_autonomy = {
+            target = SAF
+            autonomous_state = autonomy_reichskommissariat
+            end_wars = no
+            end_civil_wars = yes
+        }
+        if = {
+            limit = {
+                ETH = {
+                    exists = yes
+                }
+            }
+            annex_country = {
+                target = ETH
+                transfer_troops = yes
+            }
+        }
+        if = {
+            limit = {
+                AFA = {
+                    exists = yes
+                }
+            }
+            annex_country = {
+                target = AFA
+                transfer_troops = yes
+            }
         }
         if = {
             limit = {
@@ -1428,5 +1511,224 @@ GER_triumph_at_ENG = {
             target = SUD
             transfer_troops = yes
         }
+    }
+    SAF = {
+        transfer_state = 542
+    }
+    CMR = {
+        transfer_state = 558
+        transfer_state = 660
+        transfer_state = 773
+        transfer_state = 990
+        transfer_state = 900
+        transfer_state = 901
+        transfer_state = 902
+        transfer_state = 774
+        add_state_core = 558
+        add_state_core = 660
+        add_state_core = 773
+        add_state_core = 990
+        add_state_core = 900
+        add_state_core = 901
+        add_state_core = 902
+        add_state_core = 774
+    }
+    SPR = {
+        annex_country = {
+            target = POR
+            transfer_troops = yes
+        }
+        transfer_state = 461
+        transfer_state = 462
+        transfer_state = 557
+        transfer_state = 786
+    }
+    ALG = {
+        set_cosmetic_tag = ALG_ITA
+        transfer_state = 460
+        transfer_state = 514
+        transfer_state = 513
+        transfer_state = 665
+        transfer_state = 458
+        transfer_state = 459
+    }
+    CHA = {
+        transfer_state = 775
+    }
+    NGR = {
+        transfer_state = 515
+    }
+    MLI = {
+        transfer_state = 782
+    }
+    GHA = {
+        transfer_state = 274
+    }
+    TOG = {
+        transfer_state = 777
+    }
+    DAH = {
+        transfer_state = 776
+    }
+    SIE = {
+        transfer_state = 700
+    }
+    GNA = {
+        transfer_state = 780
+    }
+    GNB = {
+        transfer_state = 296
+    }
+    SEN = {
+        transfer_state = 272
+    }
+    GAM = {
+        transfer_state = 701
+    }
+    VOL = {
+        transfer_state = 778
+    }
+    if = {
+        limit = {
+            random_other_country = {
+                limit = {
+                    original_tag = FRA
+                    has_government = fascism
+                }
+                exist = no
+            }
+        }
+        FRA = {
+            set_cosmetic_tag = FRA_FREE
+            start_civil_war = {
+                ideology = fascism
+                size = 0.9
+                capital = 26
+                states = { 31 25 33 26 22 20 32 21 851 }
+                states_filter = {
+                    owner = { original_tag = FRA }
+                    OR = {		
+                        # lets not involve syria or tunisia in civil war flip if occupied by other party
+                        AND = {
+                            OR = {
+                                state = 554
+                                state = 680
+                                state = 677
+                                state = 458
+                            }
+                            controller = { # FRA not controller
+                                original_tag = FRA
+                            }
+                        }
+                        NOT = {
+                            OR = {
+                                state = 554
+                                state = 680
+                                state = 677
+                                state = 458
+                            }						
+                        }
+                    }					
+                }
+            }
+        }
+        random_other_country = {
+            GER = {
+                add_to_faction = PREV.PREV
+            }
+            limit = { original_tag = FRA has_government = fascism }
+            ROOT = { puppet = PREV }
+            set_capital = { state = 26 }
+            set_politics = {
+                ruling_party = fascism
+                elections_allowed = no
+            }
+            set_popularities = {
+                democratic = 22
+                fascism = 76
+                communism = 2
+            }
+            every_unit_leader = {
+                limit = {
+                    has_id = 101
+                }
+                set_nationality = FRA
+            }
+            
+            set_country_flag = vichy_france
+            set_cosmetic_tag = FRA_VICHY
+            save_event_target_as = vichy_france
+            FRA = { #Move Petain to Vichy
+                set_nationality = {
+                    target_country = PREV
+                    character = FRA_philippe_petain
+                }
+            }
+            add_country_leader_role = {
+                character = FRA_philippe_petain
+                country_leader = {
+                    ideology = fascism_ideology 
+                    expire = "1965.1.1.1"
+                    id = -1
+                }
+                promote_leader = yes 
+            }
+            # FRA Player Switches to Vichy
+            if = {
+                limit = { FRA = { has_country_flag = become_vichy } }
+                change_tag_from = FRA
+            }
+            transfer_state = 14
+            transfer_state = 15
+            transfer_state = 16
+            transfer_state = 19
+            transfer_state = 23
+            transfer_state = 24
+            transfer_state = 27
+            transfer_state = 30
+            transfer_state = 785
+            transfer_state = 806
+        }
+    }
+    if = {
+        limit = {
+            random_other_country = {
+                limit = {
+                    original_tag = FRA
+                    has_government = fascism
+                }
+                exist = yes
+            }
+        }
+        random_other_country = {
+            limit = { original_tag = FRA has_government = fascism }
+            set_cosmetic_tag = FRA_VICHY
+            transfer_state = 14
+            transfer_state = 15
+            transfer_state = 16
+            transfer_state = 19
+            transfer_state = 23
+            transfer_state = 24
+            transfer_state = 27
+            transfer_state = 30
+            transfer_state = 785
+            transfer_state = 806
+        }
+        FRA = {
+            transfer_state = 556
+            transfer_state = 779
+        }
+    }
+    CAN = {
+        leave_faction = yes
+    }
+    RAJ = {
+        leave_faction = yes
+    }
+    NZL = {
+        leave_faction = yes
+    }
+    AST = {
+        leave_faction = yes
     }
 }
