@@ -28,3 +28,14 @@ TAW = "countries/Japan.txt"
 JID = "countries/Japan.txt"
 MNE = "countries/Japan.txt" #적도 이북에 위치한 태평양의 독일 영토에 대한 위임통치령
 KTC = "countries/Japan.txt"
+
+EDO = "countries/Japan.txt" #에도막부
+SZM = "countries/Japan.txt" #사츠마 번
+CSY = "countries/Japan.txt" #사츠마 번
+TSA = "countries/Japan.txt" #사츠마 번
+GIS = "countries/Japan.txt" #사츠마 번
+GKA = "countries/Japan.txt" #사츠마 번
+ODA = "countries/Japan.txt" #사츠마 번
+EIS = "countries/Japan.txt" #사츠마 번
+YNZ = "countries/Japan.txt" #사츠마 번
+SDA = "countries/Japan.txt" #사츠마 번

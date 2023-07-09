@@ -129,39 +129,22 @@ country_event = {
     			}
     			create_unit = {
     				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
-    				owner = JAP
+    				owner = PREV
     				allow_spawning_on_enemy_provs = yes
     			}
     			create_unit = {
     				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
-    				owner = JAP
+    				owner = PREV
     				allow_spawning_on_enemy_provs = yes
     			}
     			create_unit = {
     				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
-    				owner = JAP
+    				owner = PREV
     				allow_spawning_on_enemy_provs = yes
     			}
     			create_unit = {
     				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
-    				owner = JAP
-    				allow_spawning_on_enemy_provs = yes
-    			}
-    		}
-    	}
-    	JAP = {
-    		every_owned_state = {
-    			limit =  {
-    				PRK_state_is_japan = yes
-    			}
-    			create_unit = {
-    				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
-    				owner = JAP
-    				allow_spawning_on_enemy_provs = yes
-    			}
-    			create_unit = {
-    				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
-    				owner = JAP
+    				owner = PREV
     				allow_spawning_on_enemy_provs = yes
     			}
     		}
@@ -173,7 +156,24 @@ country_event = {
     			}
     			create_unit = {
     				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
-    				owner = JAP
+    				owner = PREV
+    				allow_spawning_on_enemy_provs = yes
+    			}
+    			create_unit = {
+    				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
+    				owner = PREV
+    				allow_spawning_on_enemy_provs = yes
+    			}
+    		}
+    	}
+    	JAP = {
+    		every_owned_state = {
+    			limit =  {
+    				PRK_state_is_japan = yes
+    			}
+    			create_unit = {
+    				division = "name = \"Jieitai\" division_template = \"Japan Self-Defence Special Forces II\" start_experience_factor = 2"
+    				owner = PREV
     				allow_spawning_on_enemy_provs = yes
     			}
     		}
@@ -280,6 +280,322 @@ country_event = {
                     value = 300
                 }
             }
+        }
+    }
+}
+country_event = {
+    id = dbg.818
+    title = dbg.818.t
+    desc = dbg.818.d
+    is_triggered_only = yes
+    option = {
+        set_cosmetic_tag = JAP_gakuhu
+        delete_unit_template_and_units = {
+            division_template = "Hohei Shidan"
+            disband = yes
+        } 
+		delete_unit_template_and_units = {
+            division_template = "Chugata Hohei Shidan"
+            disband = yes
+        } 
+		delete_unit_template_and_units = {
+            division_template = "Dokuritsu Konsei Ryodan"
+            disband = yes
+        } 
+		delete_unit_template_and_units = {
+            division_template = "Kihei Shidan"
+            disband = yes
+        } 
+		delete_unit_template_and_units = {
+            division_template = "Senshadan"
+            disband = yes
+        } 
+		delete_unit_template_and_units = {
+            division_template = "Jidousha Shidan"
+            disband = yes
+        } 
+    	delete_unit_template_and_units = {
+            division_template = "Rikusentai"
+            disband = yes
+        } 
+		delete_unit_template_and_units = {
+            division_template = "Chuton-chi Shidan"
+            disband = yes
+        } 
+        load_oob = JAP_1836
+        hidden_effect = {
+            SZM = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			CSY = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			EDO = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			GKA = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			TSA = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			GIS = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			GKA = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			ODA = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			EIS = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			YNZ = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
+			SDA = {
+				division_template = {
+					name = "Hohei Shidan"
+					division_names_group = JAP_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
+				}
+				every_owned_state = {
+                    create_unit = {
+                        division = "name = \"Hohei Shidan\" division_template = \"Hohei Shidan\" start_experience_factor = 0.5"
+                        owner = PREV
+                    }
+                }
+			}
         }
     }
 }

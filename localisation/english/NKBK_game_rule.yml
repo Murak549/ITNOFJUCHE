@@ -1,0 +1,5 @@
+﻿l_english:
+ RULE_OPTION_JAP_FRAGMENTED:0 "폐번치현 되돌리기"
+ RULE_OPTION_JAP_FRAGMENTED_DESC:0 "일본제국의 메이지 천황을 없에고 사무라이가 영토를 장악했습니다."
+ JAP_FRAGMENTATION_STATUS:0 "일본 파편화 상태"
+ RULE_OPTION_JAP_FRAGMENTED_DESC:0 "폐번치현 뒤집기"

@@ -1,0 +1,340 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = jap_fragmentation_status
+						option = JAP_FRAGMENTED
+					}
+				}
+				SOV = {
+					annex_country = {
+						target = KHU
+						transfer_troops = no
+					}
+				}
+				JAP = {
+					country_event = {
+						id = dbg.818
+					}
+					set_cosmetic_tag = JAP_gakuhu
+					remove_ideas = MTG_naval_treaty_adherent
+					set_autonomy = {
+						target = MAN
+						autonomous_state = autonomy_free
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = CHO
+						autonomous_state = autonomy_free
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					remove_ideas = JAP_zaibatsus
+					remove_ideas = JAP_duplicate_research_efforts
+					remove_ideas = JAP_militarism
+				}
+				GER = {
+					annex_country = {
+						target = MNE
+						transfer_troops = no
+					}
+				}
+				EDO = {
+					transfer_state = 933
+					add_state_core = 933
+					transfer_state = 282
+					add_state_core = 282
+					transfer_state = 941
+					add_state_core = 941
+					transfer_state = 937
+					add_state_core = 937
+					transfer_state = 936
+					add_state_core = 936
+					transfer_state = 935
+					add_state_core = 935
+					transfer_state = 934
+					add_state_core = 934
+					transfer_state = 933
+					add_state_core = 933
+					set_autonomy = {
+						target = SZM
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = CSY
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = TSA
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = SDA
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = GIS
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = GKA
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = ODA
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = EIS
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = YNZ
+						autonomous_state = autonomy_bun
+						end_wars = no
+            			end_civil_wars = yes
+					}
+				}
+				CHO = {
+					set_cosmetic_tag = KOR_VIC3
+					create_country_leader = {
+						name = "이강"
+						desc = ""
+						picture = "portrait_KOR_yi_kang.png"
+						ideology = fascism_ideology
+						traits = {
+							#
+						}
+					}
+					create_country_leader = {
+						name = "이강"
+						desc = ""
+						picture = "portrait_KOR_yi_kang.png"
+						ideology = moderatism
+						traits = {
+							#
+						}
+					}
+				}
+				MAN = {
+					load_focus_tree = generic_focus
+					set_cosmetic_tag = MAN_QING
+					annex_country = {
+						target = CHI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MEN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = JID
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = KTC
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PRC
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = GXC
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = YUN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = SHX
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = XSM
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = SIK
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TIB
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MON
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TAW
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TAN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MEN
+						transfer_troops = yes
+					}
+					every_state = {
+						limit = {
+							is_core_of = CHI
+						}
+						add_core_of = MAN
+					}
+					transfer_state = 586
+					transfer_state = 732
+					transfer_state = 742
+					transfer_state = 408
+					transfer_state = 657
+					transfer_state = 560
+					add_state_core = 586
+					transfer_state = 409
+					add_state_core = 409
+					add_state_core = 732
+					add_state_core = 742
+					add_state_core = 408
+					add_state_core = 657
+					add_state_core = 560
+					create_country_leader = {
+						name = "Xuantong"
+						picture = "GFX_portrait_man_henry_pu_yi_emperor"
+						expire = "1960.1.1"
+						ideology = despotism
+						traits = {
+						}
+					}
+					create_country_leader = {
+						name = "Xuantong"
+						picture = "GFX_portrait_man_henry_pu_yi_emperor"
+						expire = "1960.1.1"
+						ideology = fascism_ideology
+						traits = {
+						}
+					}
+				}
+				TAW = {
+					every_owned_state = {
+						remove_state_core = TAW
+					}
+				}
+				JID = {
+					every_owned_state = {
+						remove_state_core = JID
+					}
+				}
+				KTC = {
+					every_owned_state = {
+						remove_state_core = KTC
+					}
+				}
+				KHU = {
+					every_owned_state = {
+						remove_state_core = KHU
+					}
+				}
+				MNE = {
+					every_owned_state = {
+						remove_state_core = MNE
+					}
+				}
+				SZM = {
+					transfer_state = 953
+					add_state_core = 953
+					transfer_state = 528
+					add_state_core = 528
+					transfer_state = 955
+					add_state_core = 955
+					transfer_state = 526
+					add_state_core = 526
+				}
+				TSA = {
+					transfer_state = 948
+					add_state_core = 948
+					transfer_state = 947
+					add_state_core = 947
+					transfer_state = 949
+					add_state_core = 949
+					transfer_state = 950
+					add_state_core = 950
+					transfer_state = 529
+					add_state_core = 529
+				}
+				CSY = {
+					transfer_state = 952
+					add_state_core = 952
+					transfer_state = 530
+					add_state_core = 530
+					transfer_state = 951
+					add_state_core = 951
+				}
+				GIS = {
+					transfer_state = 945
+					add_state_core = 945
+					transfer_state = 944
+					add_state_core = 944
+				}
+				GKA = {
+					transfer_state = 535
+					add_state_core = 535
+					transfer_state = 940
+					add_state_core = 940
+					transfer_state = 939
+					add_state_core = 939
+					transfer_state = 938
+					add_state_core = 938
+				}
+				ODA = {
+					transfer_state = 942
+					add_state_core = 942
+					transfer_state = 532
+					add_state_core = 532
+					transfer_state = 943
+					add_state_core = 943
+				}
+				EIS = {
+					transfer_state = 534
+					add_state_core = 534
+					transfer_state = 533
+					add_state_core = 533
+					transfer_state = 932
+					add_state_core = 932
+				}
+				YNZ = {
+					transfer_state = 931
+					add_state_core = 931
+					transfer_state = 928
+					add_state_core = 928
+				}
+				SDA = {
+					transfer_state = 929
+					add_state_core = 929
+					transfer_state = 930
+					add_state_core = 930
+				}
+			}
+		}
+	}
+}

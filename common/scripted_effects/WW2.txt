@@ -1302,10 +1302,123 @@ GER_triumph_at_ENG = {
         add_state_core = 106
         add_state_core = 803
     }
-    TUR = {
-        transfer_state = 230
-    }
-    GER = {
+    GER = { #독일승전연합
+        random_other_country = {
+            limit = { original_tag = FRA has_government = fascism }
+            GER = {
+                add_to_faction = PREV
+            }
+            ROOT = { puppet = PREV }
+            set_capital = { state = 26 }
+            set_politics = {
+                ruling_party = fascism
+                elections_allowed = no
+            }
+            set_popularities = {
+                democratic = 22
+                fascism = 76
+                communism = 2
+            }
+            every_unit_leader = {
+                limit = {
+                    has_id = 101
+                }
+                set_nationality = FRA
+            }
+            
+            set_country_flag = vichy_france
+            set_cosmetic_tag = FRA_VICHY
+            save_event_target_as = vichy_france
+            FRA = { #Move Petain to Vichy
+                set_nationality = {
+                    target_country = PREV
+                    character = FRA_philippe_petain
+                }
+            }
+            add_country_leader_role = {
+                character = FRA_philippe_petain
+                country_leader = {
+                    ideology = fascism_ideology 
+                    expire = "1965.1.1.1"
+                    id = -1
+                }
+                promote_leader = yes 
+            }
+            # FRA Player Switches to Vichy
+            if = {
+                limit = { FRA = { has_country_flag = become_vichy } }
+                change_tag_from = FRA
+            }
+            transfer_state = 14
+            transfer_state = 15
+            transfer_state = 16
+            transfer_state = 19
+            transfer_state = 23
+            transfer_state = 24
+            transfer_state = 27
+            transfer_state = 30
+            transfer_state = 785
+            transfer_state = 806
+        }
+        if = {
+            limit = {
+                random_other_country = {
+                    limit = {
+                        original_tag = FRA
+                        has_government = fascism
+                    }
+                    exist = no
+                }
+            }
+            FRA = {
+                set_cosmetic_tag = FRA_FREE
+                create_dynamic_country= {
+                    set_cosmetic_tag = FRA_vichy
+                    original_tag = FRA
+                    copy_tag = FRA
+                    add_political_power = 100
+                    capital = 26
+                    transfer_state =  31
+                    transfer_state =  25
+                    transfer_state =  33
+                    transfer_state =  26
+                    transfer_state =  22
+                    transfer_state =  20
+                    transfer_state =  32
+                    transfer_state =  21
+                    transfer_state =  851
+                }
+            }
+        }
+        if = {
+            limit = {
+                random_other_country = {
+                    limit = {
+                        original_tag = FRA
+                        has_government = fascism
+                    }
+                    exist = yes
+                }
+            }
+            random_other_country = {
+                limit = { original_tag = FRA has_government = fascism }
+                set_cosmetic_tag = FRA_VICHY
+                transfer_state = 14
+                transfer_state = 15
+                transfer_state = 16
+                transfer_state = 19
+                transfer_state = 23
+                transfer_state = 24
+                transfer_state = 27
+                transfer_state = 30
+                transfer_state = 785
+                transfer_state = 806
+            }
+            FRA = {
+                transfer_state = 556
+                transfer_state = 779
+            }
+        }
         transfer_state = 102
         add_state_claim = 102
         transfer_state = 853
@@ -1353,6 +1466,11 @@ GER_triumph_at_ENG = {
         transfer_state = 896
         transfer_state = 897
         
+        #
+        transfer_state = 543
+        transfer_state = 706
+        transfer_state = 708
+        
         set_autonomy = {
             target = CRO
             autonomous_state = autonomy_reichskommissariat
@@ -1386,6 +1504,9 @@ GER_triumph_at_ENG = {
         add_to_faction = IRE
         add_to_faction = ENG
         set_faction_name = "아인하이츠팍트"
+    }
+    TUR = {
+        transfer_state = 230
     }
     CRO = {
         transfer_state = 103
@@ -1587,137 +1708,6 @@ GER_triumph_at_ENG = {
     }
     VOL = {
         transfer_state = 778
-    }
-    if = {
-        limit = {
-            random_other_country = {
-                limit = {
-                    original_tag = FRA
-                    has_government = fascism
-                }
-                exist = no
-            }
-        }
-        FRA = {
-            set_cosmetic_tag = FRA_FREE
-            start_civil_war = {
-                ideology = fascism
-                size = 0.9
-                capital = 26
-                states = { 31 25 33 26 22 20 32 21 851 }
-                states_filter = {
-                    owner = { original_tag = FRA }
-                    OR = {		
-                        # lets not involve syria or tunisia in civil war flip if occupied by other party
-                        AND = {
-                            OR = {
-                                state = 554
-                                state = 680
-                                state = 677
-                                state = 458
-                            }
-                            controller = { # FRA not controller
-                                original_tag = FRA
-                            }
-                        }
-                        NOT = {
-                            OR = {
-                                state = 554
-                                state = 680
-                                state = 677
-                                state = 458
-                            }						
-                        }
-                    }					
-                }
-            }
-        }
-        random_other_country = {
-            GER = {
-                add_to_faction = PREV.PREV
-            }
-            limit = { original_tag = FRA has_government = fascism }
-            ROOT = { puppet = PREV }
-            set_capital = { state = 26 }
-            set_politics = {
-                ruling_party = fascism
-                elections_allowed = no
-            }
-            set_popularities = {
-                democratic = 22
-                fascism = 76
-                communism = 2
-            }
-            every_unit_leader = {
-                limit = {
-                    has_id = 101
-                }
-                set_nationality = FRA
-            }
-            
-            set_country_flag = vichy_france
-            set_cosmetic_tag = FRA_VICHY
-            save_event_target_as = vichy_france
-            FRA = { #Move Petain to Vichy
-                set_nationality = {
-                    target_country = PREV
-                    character = FRA_philippe_petain
-                }
-            }
-            add_country_leader_role = {
-                character = FRA_philippe_petain
-                country_leader = {
-                    ideology = fascism_ideology 
-                    expire = "1965.1.1.1"
-                    id = -1
-                }
-                promote_leader = yes 
-            }
-            # FRA Player Switches to Vichy
-            if = {
-                limit = { FRA = { has_country_flag = become_vichy } }
-                change_tag_from = FRA
-            }
-            transfer_state = 14
-            transfer_state = 15
-            transfer_state = 16
-            transfer_state = 19
-            transfer_state = 23
-            transfer_state = 24
-            transfer_state = 27
-            transfer_state = 30
-            transfer_state = 785
-            transfer_state = 806
-        }
-    }
-    if = {
-        limit = {
-            random_other_country = {
-                limit = {
-                    original_tag = FRA
-                    has_government = fascism
-                }
-                exist = yes
-            }
-        }
-        random_other_country = {
-            limit = { original_tag = FRA has_government = fascism }
-            set_cosmetic_tag = FRA_VICHY
-            transfer_state = 14
-            transfer_state = 15
-            transfer_state = 16
-            transfer_state = 19
-            transfer_state = 23
-            transfer_state = 24
-            transfer_state = 27
-            transfer_state = 30
-            transfer_state = 785
-            transfer_state = 806
-        }
-        FRA = {
-            transfer_state = 556
-            transfer_state = 779
-        }
     }
     CAN = {
         leave_faction = yes

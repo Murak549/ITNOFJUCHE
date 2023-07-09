@@ -1,4 +1,15 @@
-
+JAP_gakuhu = {
+	color = rgb { 108 157 139 }
+	color_ui = hsv { 45 91 79 }
+}
+JAP_yusin = {
+	color = rgb { 217 123 129 }
+	color_ui = hsv { 45 91 79 }
+}
+KOR_VIC3 = {
+	color = rgb { 84 112 117 }
+	color_ui = rgb { 43 68 175 }
+}
 IDC_FRA = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
@@ -1133,4 +1144,8 @@ USA_TNO = {
 GUZ_TNO = {
 	color = rgb { 165 81 87 }
 	color_ui = rgb { 165 81 87 }
+}
+MAN_QING = {
+	color = rgb { 252 185 63 }
+	color_ui = rgb { 252 185 63 }
 }
