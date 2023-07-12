@@ -1,18 +1,23 @@
+
 state={
 	id=944
 	name="STATE_944"
-	provinces={
-		1051 4054 4142 
-	}
+
 	history={
 		owner = JAP
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = JAP
+
+	}
+
+	provinces={
+		4054 4142 13307 
 	}
 	manpower=1174595
-	state_category=large_city
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

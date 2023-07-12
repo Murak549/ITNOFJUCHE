@@ -16,7 +16,7 @@ state={
 			add_core_of = AUS
 		
 	}
-	manpower=0
+	manpower=03
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
