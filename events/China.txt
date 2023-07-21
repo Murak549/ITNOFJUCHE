@@ -1177,96 +1177,96 @@ country_event = {
 }
 
 # Restart Chinese civil war
-country_event = {
-	id = china.109
-	title = china.109.t
-	desc = china.109.d
-	picture = GFX_report_event_chinese_soldiers
+#country_event = {
+#	id = china.109
+#	title = china.109.t
+#	desc = china.109.d
+#	picture = GFX_report_event_chinese_soldiers
+#
+#	fire_only_once = yes
+#
+#	trigger = {
+#		tag = PRC
+#		has_global_flag = PRC_restart_CHI_war
+#		NOT = { has_war_together_with = CHI }
+#		is_subject = no
+#		CHI = { is_subject = no }
+#	}
+#
+#	mean_time_to_happen = { days = 360 }
+#
+#	option = {
+#		name = china.109.a
+#		custom_effect_tooltip = china.109_tt		
+#		CHI = { country_event = { id = china.110 } }
+#		effect_tooltip = {
+#			declare_war_on = { target = CHI type = annex_everything }
+#		}
+#	}
+#}
 
-	fire_only_once = yes
+#country_event = {
+#	id = china.110
+#	title = china.110.t
+#	desc = china.110.d
+#	picture = GFX_report_event_chinese_soldiers
+#
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		hidden_effect = {
+#			PRC = { declare_war_on = { target = CHI type = annex_everything } }
+#		}
+#	}
+#
+#	option = {
+#		name = china.110.a
+#		add_timed_idea = { idea = CHI_civil_war_deserters days = 180 }
+#	}
+#
+#}
 
-	trigger = {
-		tag = PRC
-		has_global_flag = PRC_restart_CHI_war
-		NOT = { has_war_together_with = CHI }
-		is_subject = no
-		CHI = { is_subject = no }
-	}
-
-	mean_time_to_happen = { days = 360 }
-
-	option = {
-		name = china.109.a
-		custom_effect_tooltip = china.109_tt		
-		CHI = { country_event = { id = china.110 } }
-		effect_tooltip = {
-			declare_war_on = { target = CHI type = annex_everything }
-		}
-	}
-}
-
-country_event = {
-	id = china.110
-	title = china.110.t
-	desc = china.110.d
-	picture = GFX_report_event_chinese_soldiers
-
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			PRC = { declare_war_on = { target = CHI type = annex_everything } }
-		}
-	}
-
-	option = {
-		name = china.110.a
-		add_timed_idea = { idea = CHI_civil_war_deserters days = 180 }
-	}
-
-}
-
-# China and Japan no longer at war - Break up faction and Mao claims his part of China
-country_event = {
-	id = china.111
-	title = china.111.t
-	desc = china.111.d
-	picture = GFX_report_event_generic_sign_treaty1
-
-	is_triggered_only = yes
-
-	option = {
-		name = china.111.a
-		CHI = { 
-			dismantle_faction = yes
-			hidden_effect = {
-				remove_opinion_modifier = { target = PRC modifier = unstable_alliance }
-			}
-		}
-		hidden_effect = {
-			PRC = { remove_opinion_modifier = { target = CHI modifier = unstable_alliance } }
-		}
-		custom_effect_tooltip = china.107_tt
-		hidden_effect = {
-			every_state = {
-				limit = {
-					controller = {
-						original_tag = CHI
-						is_puppet_of = CHI
-					}
-					is_core_of = PRC
-					OR = {
-						region = 143
-						region = 155
-					}
-					NOT = { state = 525 }
-					NOT = { state = 527 }				
-				}
-				ROOT = { transfer_state = PREV }
-			}			
-		}
-	}
-}
+## China and Japan no longer at war - Break up faction and Mao claims his part of China
+#country_event = {
+#	id = china.111
+#	title = china.111.t
+#	desc = china.111.d
+#	picture = GFX_report_event_generic_sign_treaty1
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = china.111.a
+#		CHI = { 
+#			dismantle_faction = yes
+#			hidden_effect = {
+#				remove_opinion_modifier = { target = PRC modifier = unstable_alliance }
+#			}
+#		}
+#		hidden_effect = {
+#			PRC = { remove_opinion_modifier = { target = CHI modifier = unstable_alliance } }
+#		}
+#		custom_effect_tooltip = china.107_tt
+#		hidden_effect = {
+#			every_state = {
+#				limit = {
+#					controller = {
+#						original_tag = CHI
+#						is_puppet_of = CHI
+#					}
+#					is_core_of = PRC
+#					OR = {
+#						region = 143
+#						region = 155
+#					}
+#					NOT = { state = 525 }
+#					NOT = { state = 527 }				
+#				}
+#				ROOT = { transfer_state = PREV }
+#			}			
+#		}
+#	}
+#}
 
 # China turns communist / Communists break off from China
 country_event = {
