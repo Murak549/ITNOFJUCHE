@@ -60,3 +60,75 @@ PRK_state_is_japan = {
 		state =  953
 	}
 }
+SOV_is_soviet_republic = {
+	OR = {
+		original_tag = UKR
+		original_tag = BLR
+		original_tag = LIT
+		original_tag = LAT
+		original_tag = EST
+		original_tag = MOL
+		original_tag = ARM
+		original_tag = AZR
+		original_tag = UZB
+		original_tag = KAX
+		original_tag = KYR
+		original_tag = TAZ
+	}
+}
+
+SOV_is_ingredient = {
+	OR = {
+		original_tag = UKR
+		original_tag = BLR
+		original_tag = LIT
+		original_tag = LAT
+		original_tag = TAN
+		original_tag = ALT
+		original_tag = KHA
+		original_tag = KAR
+		original_tag = TMS
+		original_tag = BUK
+		original_tag = CRI
+		original_tag = DAG
+		original_tag = GEO
+		original_tag = ABK
+		original_tag = KBK
+		original_tag = NOA
+		original_tag = CIN
+		original_tag = KAZ
+		original_tag = KHI
+		original_tag = KKP
+		original_tag = FER
+		original_tag = YAK
+		original_tag = CKK
+		original_tag = BYA
+		original_tag = EST
+		original_tag = MOL
+		original_tag = ARM
+		original_tag = AZR
+		original_tag = UZB
+		original_tag = KAX
+		original_tag = KYR
+		original_tag = TAZ
+		original_tag = KOM
+		original_tag = NEN
+		original_tag = YAM
+		original_tag = OVO
+		original_tag = TAY
+		original_tag = MEL
+		original_tag = UDM
+		original_tag = CHU
+		original_tag = TAT
+		original_tag = BSK
+		original_tag = VGE
+		original_tag = KAL
+	}
+}
+ENG_is_ENG = {
+	or = {
+		original_tag = WLS
+		original_tag = SCO
+		original_tag = NIR
+	}
+}

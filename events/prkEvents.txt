@@ -1,4 +1,210 @@
 add_namespace = prk
+add_namespace = prk_chi
+
+country_event = {
+	id = prk_chi.1
+	title = prk_chi.1.t
+	desc = prk_chi.1.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = prk_chi.1.a
+		PRK = {
+			set_autonomy = {
+				target = YUN
+				autonomy_state = autonomy_colony
+			}
+		}
+	}
+}
+country_event = {
+	id = prk_chi.2
+	title = prk_chi.2.t
+	desc = prk_chi.2.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = prk_chi.2.a
+		PRK = {
+			transfer_state = 603
+			transfer_state = 748
+		}
+		603 = {
+			set_demilitarized_zone = yes
+		}
+		748 = {
+			set_demilitarized_zone = yes
+		}
+	}
+	option = {
+		name = prk_chi.2.b
+		CH1 = {
+			transfer_state = 603
+		}
+		PRC = {
+			transfer_state = 748
+		}
+	}
+}
+country_event = {
+	id = prk_chi.3
+	title = prk_chi.3.t
+	desc = prk_chi.3.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = prk_chi.3.a
+		GDC = {
+			set_cosmetic_tag = GDC_TNO
+			every_owned_state = {
+				set_state_category = megalopolis
+				add_extra_state_shared_building_slots = 4
+			}
+			hidden_effect = {
+				country_event = {
+					id = prk_chi.4
+					days = 720
+				}
+				add_resource = {
+					type = steel
+					amount = 50
+					state = 592
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+					state = 592
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+					state = 592
+				}
+				add_resource = {
+					type = aluminium
+					amount = 10
+					state = 592
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+					state = 592
+				}
+			}
+		}
+	}
+	option = {
+		name = prk_chi.3.b
+	}
+}
+country_event = {
+	id = prk_chi.4
+	title = prk_chi.4.t
+	desc = prk_chi.4.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = prk_chi.4.a
+		PRK = {
+			set_autonomy = {
+				target = GDC
+				autonomy_state = autonomy_colony
+			}
+		}
+		hidden_effect = {
+			GDC = {
+				592 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 5
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex 
+						level = 5
+						instant_build = yes
+					}
+				}
+				593 = {
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex 
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = prk_chi.4.b
+	}
+}
+country_event = {
+	id = prk_chi.5
+	title = prk_chi.5.t
+	desc = prk_chi.5.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = prk_chi.5.a
+		SZC = {
+			add_state_core = 605
+			add_state_core = 751
+			add_state_core = 752
+			add_state_core = 753
+		}
+		PRK = {
+			transfer_state = 605
+			transfer_state = 753
+			transfer_state = 752
+			transfer_state = 751
+			set_temp_variable = { country_to_initiate = SZC }
+			instantiate_collaboration_government = yes
+			country_event = {
+				id = prk_chi.6
+				days = 20
+			}
+		}
+	}
+	option = {
+		name = prk_chi.5.b
+	}
+}
+country_event = {
+	id = prk_chi.6
+	title = prk_chi.6.t
+	desc = prk_chi.6.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = prk_chi.6.a
+		SZC = {
+			add_state_core = 748
+			transfer_state = 748
+		}
+	}
+	option = {
+		name = prk_chi.6.b
+		SZC = {
+			add_state_core = 748
+		}
+	}
+}
 
 # 수도 변경
 country_event = { 

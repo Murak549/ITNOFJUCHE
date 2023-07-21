@@ -10,7 +10,7 @@ country_event = {
         every_state = {
             add_compliance = 100
         }
-        GER_dead = yes
+        #GER_dead = yes
     }
 }
 country_event = {
@@ -217,8 +217,8 @@ country_event = {
     option = {
         name = dbg.8.a
         JAP_triumph_at_CHI = yes
-        JAP_new_order = yes
-        JAP_new_order_2 = yes
+        #JAP_new_order = yes
+        #JAP_new_order_2 = yes
     }
 }
 country_event = {
@@ -281,6 +281,87 @@ country_event = {
                 }
             }
         }
+    }
+}
+country_event = {
+    id = dbg.11
+    title = dbg.11.t
+    desc = dbg.11.d
+    is_triggered_only = yes
+    option = {
+		name = dbg.1.a
+		every_other_country = {
+			limit = {
+				is_puppet_of = ROOT
+			}
+			ROOT = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes
+				}
+			}
+		}
+    }
+}
+country_event = {
+    id = dbg.12
+    title = dbg.12.t
+    desc = dbg.12.d
+    is_triggered_only = yes
+    option = {
+		ROOT = {
+			every_country = {
+				limit = {
+					SOV_is_ingredient = yes
+				}
+				ROOT = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+    }
+}
+country_event = {
+    id = dbg.14
+    title = dbg.14.t
+    desc = dbg.14.d
+    is_triggered_only = yes
+    option = {
+		ROOT = {
+			every_country = {
+				limit = {
+					is_puppet = yes
+				}
+				add_autonomy_score = {
+					value = -1000
+					localization = EXAMPLE
+				}
+			}
+		}
+    }
+}
+country_event = {
+    id = dbg.15
+    title = dbg.15.t
+    desc = dbg.15.d
+    is_triggered_only = yes
+    option = {
+		ROOT = {
+			every_country = {
+				limit = {
+					ENG_is_ENG = yes
+				}
+				ROOT = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+		}
     }
 }
 country_event = {
