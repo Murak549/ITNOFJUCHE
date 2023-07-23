@@ -18,3 +18,28 @@ music = {
 	file = "dprk/strike_da.ogg"
 	volume = 1
 }
+music = {
+	name = "rev_leader"
+	file = "dprk/rev.ogg"
+	volume = 1
+}
+music = {
+	name = "gotofuture"
+	file = "dprk/gotofuture.ogg"
+	volume = 1
+}
+music = {
+	name = "welcome"
+	file = "dprk/welcome.ogg"
+	volume = 1
+}
+music = {
+	name = "proper_worker"
+	file = "dprk/proper_worker.ogg"
+	volume = 1
+}
+music = {
+	name = "idk"
+	file = "dprk/idk.ogg"
+	volume = 1
+}
