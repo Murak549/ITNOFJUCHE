@@ -1,4 +1,17 @@
 ﻿l_english:
+ UKR_SOV_communism_autonomy_collaboration_government:0 "우크라이나 소비에트 사회주의 공화국"
+ BLR_SOV_communism_autonomy_collaboration_government:0 "벨라루스 소비에트 사회주의 공화국"
+ ARM_SOV_communism_autonomy_collaboration_government:0 "아르메니아 소비에트 사회주의 공화국"
+ AZR_SOV_communism_autonomy_collaboration_government:0 "아제르바이잔 소비에트 사회주의 공화국"
+ GEO_SOV_communism_autonomy_collaboration_government:0 "그루지야 소비에트 사회주의 공화국"
+ TMS_SOV_communism_autonomy_collaboration_government:0 "투르크메니스탄 소비에트 사회주의 공화국"
+ UZB_SOV_communism_autonomy_collaboration_government:0 "우즈베키스탄 소비에트 사회주의 공화국"
+ TAJ_SOV_communism_autonomy_collaboration_government:0 "타지키스탄 소비에트 사회주의 공화국"
+ KAZ_SOV_communism_autonomy_collaboration_government:0 "카자흐스탄 소비에트 사회주의 공화국"
+ KYR_SOV_communism_autonomy_collaboration_government:0 "키르기스스탄 소비에트 사회주의 공화국"
+ LIT_SOV_communism_autonomy_collaboration_government:0 "리투아니아 소비에트 사회주의 공화국"
+ LAT_SOV_communism_autonomy_collaboration_government:0 "라트비아 소비에트 사회주의 공화국"
+ EST_SOV_communism_autonomy_collaboration_government:0 "에스토니아 소비에트 사회주의 공화국"
 
  TAW_PRK_communism_autonomy_collaboration_government:0 "대만인민위원회"
  CH1_PRK_communism_autonomy_collaboration_government:0 "강남중화특별행정지역"

@@ -1,7 +1,37 @@
 ideas = {
     country = {
+        PRK_motherland_liberate_war = {
+            picture = generic_manpower_bonus
+
+            allowed = {
+                always = no
+            }
+            modifier = {
+                army_attack_factor = 0.3
+                army_defence_factor = -0.3
+            }
+            rule = {
+                can_join_factions = no
+                can_send_volunteers = yes
+            }
+        }
+        PRK_motherland_liberate_war_2 = {
+            picture = generic_manpower_bonus
+
+            allowed = {
+                always = no
+            }
+            modifier = {
+                army_attack_factor = 0.15
+                army_defence_factor = -0.15
+            }
+            rule = {
+                can_join_factions = no
+                can_send_volunteers = yes
+            }
+        }
         cold_war = {
-            picture = SOV_stakhanovite_movement
+            picture = tfv_can_conscription_crisis
 
             allowed = {
                 always = no

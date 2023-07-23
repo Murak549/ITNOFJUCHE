@@ -199,6 +199,9 @@ save_global_event_target_as = WTT_communist_china
 		}
 		complete_national_focus = PRC_proclaim_the_peoples_republic
 	}
+	remove_ideas = PRC_the_long_march_2
+	remove_ideas = PRC_focus_on_china
+	remove_ideas = PRC_low_popular_support_1
 }
 
 1952.5.1 = {

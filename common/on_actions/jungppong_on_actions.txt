@@ -335,6 +335,55 @@ on_actions = {
 					add_state_core = 930
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = sov_fragmentation_status
+						option = SOV_REAL_UNION
+					}
+				}
+				SOV = {
+					set_temp_variable = { country_to_initiate = UKR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = BLR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = ARM }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = AZR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = GEO }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = TMS }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = UZB }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = TAJ }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = KAZ }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = KYR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = LIT }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = LAT }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = EST }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = MOL }
+					instantiate_collaboration_government = yes
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = usa_fragmentation_status
+						option = USA_FRAGMENTATION_STATUS
+					}
+				}
+				USA = {
+					USA_is_faction = yes
+				}
+			}
 		}
 	}
 }

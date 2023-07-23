@@ -2150,6 +2150,26 @@ sov_fragmentation_status = {
 		text = "RULE_OPTION_SOV_UTTERLY_FRAGMENTED"
 		desc = "RULE_OPTION_SOV_UTTERLY_FRAGMENTED_DESC"
 	}
+	option = {
+		name = SOV_REAL_UNION
+		text = "RULE_OPTION_SOV_REAL_UNION"
+		desc = "RULE_OPTION_SOV_REAL_UNION_DESC"
+	}
+}
+usa_fragmentation_status = {
+	name = "USA_FRAGMENTATION_STATUS"
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = USA_FRAGMENTED
+		text = "RULE_OPTION_USA_FRAGMENTED"
+		desc = "RULE_OPTION_USA_FRAGMENTED_DESC"
+	}
 }
 raj_fragmentation_status = {
 	name = "RAJ_FRAGMENTATION_STATUS"

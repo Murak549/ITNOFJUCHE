@@ -213,6 +213,7 @@ focus_tree = {
 			complete_national_focus = JAP_pre_emptive_coup
 			complete_national_focus = JAP_purge_the_militarists
 			complete_national_focus = JAP_the_showa_constitution
+			promote_character = JAP_tetsu_katayama
 		}
 	}
 }
