@@ -191,53 +191,9 @@ if = {
 }
 
 create_import = {
-		resource = oil
-		factories = 2
-		exporter = USA
-}
-1948.1.1 = {
-	add_ideas = GHQ_red_purge
-}
-1945.8.15 = {
-	load_focus_tree = GHQ_focus
-	add_ideas = civilian_economy
-	add_ideas = free_trade
-	add_ideas = GHQ_nationalist_purge
-	add_ideas = GHQ_zaibatsu_control
-	add_ideas = JAP_hirohito
-	remove_ideas = state_shintoism
-	remove_ideas = JAP_duplicate_research_efforts
-	remove_ideas = JAP_militarism
-	remove_ideas = JAP_guide_the_zaibatsus
-	remove_ideas = JAP_liaison_conference
-	promote_character = JAP_douglas_macarthur
-
-	CHI = {
-		white_peace = JAP
-	}
-	JAP = {
-		add_ideas = disarmed_nation
-		if = {
-			limit = {
-				has_dlc = "No Step Back"
-			}
-			set_technology = {
-				basic_medium_tank_chassis = 1
-			}
-			set_oob = "JAP_1950_nsb"
-			else = {
-				set_oob = "JAP_1950"
-			}
-		}
-	}
-	USA = {
-		set_autonomy = {
-				target = JAP
-				autonomy_state = autonomy_supervised_state
-				end_wars = yes
-				end_civil_wars = yes
-			}
-	}
+	resource = oil
+	factories = 2
+	exporter = USA
 }
 1939.1.1 = {
 
@@ -396,6 +352,63 @@ create_import = {
 			}
 		}
 	}
+}
+1945.8.15 = {
+	load_focus_tree = GHQ_focus
+	add_ideas = civilian_economy
+	add_ideas = free_trade
+	add_ideas = GHQ_nationalist_purge
+	add_ideas = GHQ_zaibatsu_control
+	add_ideas = JAP_hirohito
+	remove_ideas = state_shintoism
+	remove_ideas = JAP_duplicate_research_efforts
+	remove_ideas = JAP_militarism
+	remove_ideas = JAP_guide_the_zaibatsus
+	remove_ideas = JAP_liaison_conference
+	promote_character = JAP_douglas_macarthur
+
+	CHI = {
+		white_peace = JAP
+	}
+	JAP = {
+		add_ideas = disarmed_nation
+		if = {
+			limit = {
+				has_dlc = "No Step Back"
+			}
+			set_technology = {
+				basic_medium_tank_chassis = 1
+			}
+			set_oob = "JAP_1950_nsb"
+			else = {
+				set_oob = "JAP_1950"
+			}
+		}
+	}
+	USA = {
+		set_autonomy = {
+			target = JAP
+			autonomy_state = autonomy_supervised_state
+			end_wars = yes
+			end_civil_wars = yes
+		}
+	}
+}
+1948.1.1 = {
+	add_ideas = GHQ_red_purge
+}
+1952.4.28 = {
+	USA = {
+		end_puppet = JAP
+	}
+	promote_character = JAP_tetsu_katayama
+	complete_national_focus = GHQ_new_law
+	complete_national_focus = GHQ_enforce_democracy
+	complete_national_focus = GHQ_radio_free_zerg
+	complete_national_focus = GHQ_education_reform
+	complete_national_focus = GHQ_dissolute_shinto
+	complete_national_focus = GHQ_hirohito_is_human
+	complete_national_focus = GHQ_new_japan
 }
 
 set_convoys = 400

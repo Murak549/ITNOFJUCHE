@@ -34,9 +34,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 98
-	democratic = 1
-	neutrality = 1
+	communism = 43
+	democratic = 30
+	fascism = 7
+	neutrality = 20
 }
 
 1949.4.29 = {
@@ -107,4 +108,14 @@ set_popularities = {
 	complete_national_focus = PRK_land_revolution
 	complete_national_focus = PRK_soviet_style_personnel_system
 	complete_national_focus = PRK_peoples_army_of_korea
+}
+
+1953.11.11 = {
+	complete_national_focus = PRK_supreme_assembly
+	complete_national_focus = PRK_one_korea_one_party
+	complete_national_focus = PRK_peoples_army_of_korea2
+	complete_national_focus = PRK_founding_democratic_peoples_republic_of_korea
+	complete_national_focus = PRK_ready_to_roll_out
+	complete_national_focus = PRK_lead_of_ilsung
+	complete_national_focus = PRK_triumph_at_korea
 }

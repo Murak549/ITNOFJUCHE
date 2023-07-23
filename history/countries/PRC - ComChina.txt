@@ -185,7 +185,28 @@ save_global_event_target_as = WTT_communist_china
 		complete_national_focus = PRC_anti_japanese_expedition
 		complete_national_focus = PRC_provoke_japan
 		complete_national_focus = PRC_mobile_warfare
+		complete_national_focus = PRC_rectification_campaign
+		complete_national_focus = PRC_maoism
+		complete_national_focus = PRC_socialism_with_chinese_characteristics
+		complete_national_focus = PRC_central_military_commission
+		complete_national_focus = PRC_peoples_liberation_army
 	}
+}
+1949.10.1 = {
+	if = {
+		limit = {
+			has_dlc = "Waking the Tiger"
+		}
+		complete_national_focus = PRC_proclaim_the_peoples_republic
+	}
+}
+
+1952.5.1 = {
+	PRC = {
+		white_peace = CHI
+	}
+	add_ideas = limited_conscription
+	add_ideas = low_economic_mobilisation
 }
 
 set_politics = {

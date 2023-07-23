@@ -8,7 +8,6 @@ state={
 	}
 
 	history={
-		owner = CHO
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -29,10 +28,10 @@ state={
 		1945.8.15 = {
 			owner = KOR
 		}
-		1949.8.6 = {
-			owner = KOR
+		1952.1.1 = {
+			owner = PRK
+			add_core_of = PRK
 		}
-
 	}
 
 	provinces={

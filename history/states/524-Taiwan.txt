@@ -32,9 +32,8 @@ state={
 		}
 		1945.8.15 = {
 			owner = CHI
-
+			set_state_category = megalopolis
 		}
-
 	}
 
 	provinces={

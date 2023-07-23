@@ -2,7 +2,6 @@ state={
 	id=923
 	name="STATE_923"
 	history={
-		owner = CHO
 		add_core_of = KOR
 		add_core_of = OKJ
 		# buildings = {

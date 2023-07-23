@@ -29,6 +29,9 @@ state={
 				arms_factory = 3
 			}
 		}
+		1950.5.1 = {
+			owner = PRC
+		}
 	}
 
 	provinces={

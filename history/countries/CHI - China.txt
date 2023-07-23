@@ -184,6 +184,10 @@ set_convoys = 40
 	dismantle_faction = yes
 	oob = "CHI_1950"
 }
+1952.5.1 = {
+	white_peace = PRC
+	oob = "CHI_1952"
+}
 1939.1.1 = {
 
 	add_political_power = 1198

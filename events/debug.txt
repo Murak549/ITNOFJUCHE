@@ -681,6 +681,17 @@ country_event = {
     }
 }
 country_event = {
+    id = dbg.10001
+    title = dbg.10000.t
+    desc = dbg.10000.d
+    is_triggered_only = yes
+    option = {
+        every_state = {
+			add_resistance = 100
+		}
+    }
+}
+country_event = {
     id = dbg.10000
     title = dbg.10000.t
     desc = dbg.10000.d

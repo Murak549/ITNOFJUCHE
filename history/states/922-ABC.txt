@@ -3,7 +3,6 @@ state={
 	id=922
 	name="STATE_922"
 	history={
-		owner = CHO
 		buildings = {
 			7125 = {
 				bunker = 8
@@ -21,6 +20,10 @@ state={
 		add_core_of = KOR
 		1945.8.15 = {
 			owner = KOR
+		}
+		1952.1.1 = {
+			owner = PRK
+			add_core_of = PRK
 		}
 	}
 	provinces={

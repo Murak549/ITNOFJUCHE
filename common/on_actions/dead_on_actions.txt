@@ -36,10 +36,15 @@ on_actions = {
 			}
 			if = { #TLE 배낌 ㅎㅎ
 				limit = {    
-					ROOT = {
-						original_tag = JAP
+					AND = {
+						ROOT = {
+							original_tag = JAP
+						}
+						has_war_with = USA
+						NOT = {
+							has_global_flag = JAP_IS_DEAD
+						}
 					}
-					has_war_with = USA
 				}
 				every_country = {
 					limit = {
@@ -48,6 +53,7 @@ on_actions = {
 					white_peace = JAP
 				}
 				JAP_dead = yes
+				set_global_flag = JAP_IS_DEAD
 			}
 			if = { #TLE 배낌 ㅎㅎ
 				limit = {

@@ -118,6 +118,10 @@ set_technology = {
 	}
 }
 
+1952.1.1 = {
+	set_cosmetic_tag = KOR_temp_govern
+}
+
 set_convoys = 5
 
 set_popularities = {
