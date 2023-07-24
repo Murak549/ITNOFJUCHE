@@ -1,0 +1,11 @@
+debug = {
+    priority = 100
+
+	allowed = {
+		is_debug = yes
+	}
+
+	visible = {
+		is_debug = yes
+	}
+}

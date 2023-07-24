@@ -1,0 +1,32 @@
+debug = {
+	debug_1 = {
+		cost = 0
+		complete_effect = {
+			load_focus_tree = GHQ_focus
+		}
+	}
+	debug_2 = {
+		cost = 0
+		complete_effect = {
+			PRK = {
+				annex_country = {
+					target = KOR
+					transfer_troops = yes
+				}
+				declare_war_on = {
+					target = PRC
+					type = annex_everything
+				}
+				lanuch_nuke = {
+					province = 9843
+				}
+				launch_nuke = {
+					state = 608
+					controller = PRC
+					use_nuke = yes
+				}
+			}
+		}
+	}
+	
+}
