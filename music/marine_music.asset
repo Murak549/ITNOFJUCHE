@@ -26,7 +26,7 @@ music = {
 music = {
 	name = "gotofuture"
 	file = "dprk/gotofuture.ogg"
-	volume = 1
+	volume = 2
 }
 music = {
 	name = "welcome"
@@ -41,5 +41,10 @@ music = {
 music = {
 	name = "idk"
 	file = "dprk/idk.ogg"
+	volume = 1
+}
+music = {
+	name = "highfast"
+	file = "dprk/highfast.ogg"
 	volume = 1
 }

@@ -28,5 +28,10 @@ debug = {
 			}
 		}
 	}
-	
+	debug_3 = {
+		cost = 0
+		complete_effect = {
+			load_focus_tree = china_chinese_civil_war		
+		}
+	}
 }

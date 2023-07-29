@@ -1,5 +1,15 @@
 ideas = {
     country = {
+        PRK_ch_horse = {
+            picture = generic_manpower_bonus
+
+            allowed = {
+                always = no
+            }
+            modifier = {
+                consumer_goods_factor = -0.05
+            }
+        }
         PRK_motherland_liberate_war = {
             picture = generic_manpower_bonus
 

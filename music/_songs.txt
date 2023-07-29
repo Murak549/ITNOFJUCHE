@@ -97,3 +97,36 @@ music = {
 		}		
 	}
 }
+music = {
+	song = "highfast"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = no
+		}		
+	}
+}
+music = {
+	song = "quickly"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}		
+	}
+}
+music = {
+	song = "canitakeyourorder"
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = PRK
+			has_war = yes
+		}		
+	}
+}

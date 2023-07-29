@@ -328,6 +328,9 @@ on_actions = {
 					}
 				}
 				set_global_flag = PRC_PRK_WAR_IS_END
+				PRC = {
+					drop_cosmetic_tag = PRC
+				}
 				JID = {
 					remove_state_core = 745
 					remove_state_core = 609

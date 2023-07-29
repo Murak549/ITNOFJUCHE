@@ -37,3 +37,7 @@
  PRK_the_soviet_meidum:0 "소련파: 적은 우위"
  PRK_the_soviet_high:0 "소련파: 높은 우위"
  PRK_the_soviet_total:0 "소련파: 절대적임"
+
+
+ debug_1:0 "GHQ 중점"
+ debug_2:0 "마지막 제국"

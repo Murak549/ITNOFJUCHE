@@ -180,9 +180,29 @@ save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40
 
-1945.11.1 = {
+1949.10.1 = {
+	if = {
+		limit = {
+			has_dlc = {
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		load_focus_tree = china_chinese_civil_war
+	}
 	dismantle_faction = yes
 	oob = "CHI_1950"
+	remove_ideas = {
+		german_advisors
+	}
+	set_politics = {
+		ruling_party = neutrality
+		elections_allowed = no
+		set_popularities = {
+			neutrality = 90
+			communism = 1
+			democratic = 9
+		}
+	}
 }
 1952.5.1 = {
 	white_peace = PRC
