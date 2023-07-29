@@ -8,22 +8,163 @@ debug = {
 	debug_2 = {
 		cost = 0
 		complete_effect = {
-			PRK = {
+			if ={
+				limit = {
+					ROOT = {
+						original_tag = PRK
+					}
+				}
 				annex_country = {
 					target = KOR
 					transfer_troops = yes
 				}
-				declare_war_on = {
-					target = PRC
-					type = annex_everything
+				MEN = {
+					transfer_state = 969
+					if = {
+						limit = {
+							MON = {
+								exist = yes
+							}
+						}
+						annex_country = {
+							target = MON
+							transfer_troops = yes
+						}
+					}
+					else {
+						every_state = {
+							limit = {
+								is_core_of = MON
+							}
+							transfer_state = MEN
+						}
+					}
+					transfer_state = 621
+					transfer_state = 612			
+					transfer_state = 329
+					transfer_state = 611
+					every_owned_state = {
+						add_core_of = MEN
+					}			
 				}
-				lanuch_nuke = {
-					province = 9843
+				PRK = {
+					transfer_state = 716
+					transfer_state = 745
+					transfer_state = 745
+					transfer_state = 976
+					transfer_state = 977
+					transfer_state = 978
+					transfer_state = 328
+					transfer_state = 717
+					set_autonomy = {
+						target = MEN
+						autonomy_state = autonomy_bun
+						end_wars = yes
+						end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = KRM
+						autonomy_state = autonomy_colony
+						end_wars = yes
+						end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = SZM
+						autonomy_state = autonomy_bun
+						end_wars = yes
+						end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = VLA
+						autonomy_state = autonomy_bun
+						end_wars = yes
+						end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = AIN
+						autonomy_state = autonomy_bun
+						end_wars = yes
+						end_civil_wars = yes
+					}
+					set_autonomy = {
+						target = RYU
+						autonomy_state = autonomy_bun
+						end_wars = yes
+						end_civil_wars = yes
+					}
+					every_owned_state = {
+						add_core_of = PRK
+					}
+					transfer_state = 743
 				}
-				launch_nuke = {
-					state = 608
-					controller = PRC
-					use_nuke = yes
+				RYU = {
+					transfer_state = 526
+					add_state_core = 526
+				}
+				AIN = {
+					transfer_state = 536
+					add_state_core = 536
+				}
+				SZM = {
+					transfer_state = 953 
+					add_state_core = 953 
+					transfer_state = 528 
+					add_state_core = 528 
+					transfer_state = 955 
+					add_state_core = 955 
+				}
+				VLA = {
+					transfer_state = 408
+					add_state_core = 408
+					transfer_state = 409
+					add_state_core = 409
+					transfer_state = 657
+					add_state_core = 657
+					transfer_state = 560
+					add_state_core = 560
+					transfer_state = 561
+					add_state_core = 561
+				}
+				KRM = {
+					set_cosmetic_tag = KRM_PRK
+					transfer_state = 610
+					transfer_state = 715
+					transfer_state = 714
+					transfer_state = 979
+					transfer_state = 761
+					add_state_core = 610
+					add_state_core = 715
+					add_state_core = 714
+					add_state_core = 979
+					add_state_core = 761
+					create_country_leader = {
+						name = "박정희"
+						desc = ""
+						picture = gfx/leaders/KOR/박정희.png
+						expire = "1965.1.1"
+						ideology = juche_idea
+						traits = { viceroy }
+					}
+				}
+			}
+			else = {
+				PRK = {
+					annex_country = {
+						target = KOR
+						transfer_troops = yes
+					}
+					declare_war_on = {
+						target = PRC
+						type = annex_everything
+					}
+					lanuch_nuke = {
+						province = 9843
+					}
+					launch_nuke = {
+						state = 608
+						controller = PRC
+						use_nuke = yes
+					}
 				}
 			}
 		}
