@@ -34,4 +34,10 @@ debug = {
 			load_focus_tree = china_chinese_civil_war		
 		}
 	}
+	debug_4 = {
+		cost = 0
+		complete_effect = {
+			set_country_flag = TNO_Country_Info_Screen_Visible	
+		}
+	}
 }
