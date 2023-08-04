@@ -1,13 +1,15 @@
 ideas = {
     country = {
         PRK_ch_horse = {
-            picture = generic_manpower_bonus
+            picture = SOV_stakhanovite_movement
 
             allowed = {
                 always = no
             }
             modifier = {
                 consumer_goods_factor = -0.05
+                production_speed_industrial_complex_factor = 0.05
+                production_speed_industrial_complex_factor = 0.05
             }
         }
         PRK_motherland_liberate_war = {

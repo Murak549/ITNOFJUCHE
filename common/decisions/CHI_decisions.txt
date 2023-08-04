@@ -1,10 +1,85 @@
-
-
 #Category only allowed for CHI
+
+CHI_second_chinese_civil_war = {
+	CHI_save_hubei = {
+		icon = generic_nationalism
+
+		available = {
+			owns_state = 750
+			owns_state = 620
+		}
+
+		is_good = yes
+
+		complete_effect = {
+			complete_national_focus = CHI_finally_triumph
+		}
+
+		days_mission_timeout = 180
+
+		fire_only_once = yes
+		activation = {			
+			NOT = {
+				owns_state = 750
+				owns_state = 620
+			}
+			has_completed_focus = CHI_our_destiny
+		}
+
+		visible = {
+			NOT = {
+				owns_state = 750
+				owns_state = 620
+			}
+			has_completed_focus = CHI_our_destiny
+		}
+		complete_effect = {
+			add_political_power = 50
+		}
+		timeout_effect = {
+			#country_event = { 대충 탈영 이벤트 + 온갖 디버프에 시달렸습니다.
+			#	CHI_
+			#}
+		}
+	}
+}
+
 CHI_anti_imperialism = {
 	
 	CHI_release_korea = {
 
+		icon = generic_nationalism
+
+		available = {
+			country_exists = KOR
+		}
+
+		days_mission_timeout = 180
+
+		fire_only_once = yes
+		activation = {			
+			owns_state = 525
+			owns_state = 527
+			KOR = {
+				exists = no
+			}
+			has_completed_focus = CHI_commit_to_korean_independence
+		}
+
+		visible = {
+			owns_state = 525
+			owns_state = 527
+			KOR = {
+				exists = no
+			}
+			has_completed_focus = CHI_commit_to_korean_independence
+		}
+		complete_effect = {
+			add_political_power = 50
+		}
+		timeout_effect = {
+			add_stability = -0.1 #naughty
+		}
 		icon = generic_nationalism
 
 		available = {

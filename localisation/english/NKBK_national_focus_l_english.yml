@@ -1,4 +1,6 @@
 ﻿l_english:
+ PRK_lead_of_Ilsung:0 "수령님의 령도 아래서"
+ PRK_go_to_socialism:0 "사회주의의 길"
  PRK_north_Korea_5_province_meeting_convened:0 "북조선5도회의 소집"
  PRK_speech_of_ilsung:0 "김일성의 연설"
  PRK_soviet_unions_choose:0 "[SOV.getName]의 결정"
@@ -9,7 +11,7 @@
  PRK_supreme_assembly:0 "최고인민회의 설립"
  PRK_form_central_government:0 "중앙정부 구성"
  PRK_one_korea_one_party:0 "하나의 조선, 하나의 로동당"
- PRK_founding_democratic_peoples_republic_of_korea:0 "조선민주주의인민공화국 건국"
+ PRK_dprk:0 "조선민주주의인민공화국 건국"
  PRK_peoples_army_of_korea2:0 "조선인민군"
  PRK_ready_to_roll_out:0 "조국해방전쟁"
 
@@ -48,10 +50,13 @@
 
  CHI_chinese_civil_war:0 "제 2차 국공내전"
  CHI_our_destiny:0 "우리의 운명은..."
- CHI_finally_triumph:0 "섬짱깨 아님 ㅅㄱ"
- CHI_we_lose:0 "엄청난 검증의 쓰나미가 몰려오다"
+ CHI_finally_triumph:0 "하얀 태양이 중원을 비추다"
+ CHI_we_lose:0 "해가 지다"
  CHI_run_at_taiwan:0 "타이완 망명 준비"
- CHI_save_chungching:0 "충칭을 지켜라!"
+ CHI_chang_kai_shek_ism:0 "장제스 주의"
+ CHI_kuomintang_is_best:0 "국민당 1당체제"
+ CHI_fucking_warload:0 "군벌타파"
+ CHI_fucking_warload_desc:0 "중화민국 군대들 지금까지 뭐 했노, 이거 나도 군대 갔다 왔고, 예비군훈련까지 다 받았는데, 심심하면 사람한테 세금 내라 하고, 불러다가 뺑뺑이 돌리고 훈련시키고 했는데, 거 위에 사람들은 뭐 했어! 군벌들 자기들 나라 자기 군대 통제도 한 개 제대로 할 수 없는 군벌을 맨들어 놔 놓고 "나 국방장관이오!" "나 참모총장이오!" 그렇게 별들 달고 거드럭거리고 말았다는 얘깁니까? 그래서 군벌 예속화하면 안 된다고 줄줄이 모여가 가지고 성명 내고. 자기들이 직무유기 아닙니까?"
 
- chi_you_may_not_1tt:0 "상하이 사수: 실패" 
- chi_you_may_not_2tt:0 "상하이 사수: 성공"
+ chi_you_may_not_1tt:0 "우한 탈환: 실패" 
+ chi_you_may_not_2tt:0 "우한 탈환: 성공"

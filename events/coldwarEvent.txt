@@ -1,4 +1,5 @@
 add_namespace = coldwar
+add_namespace = coldwar_chi
 
 # 한반도 분단
 country_event = { 
@@ -52,7 +53,7 @@ country_event = {
 	picture = GFX_report_event_albanian_partisans
 	is_triggered_only = yes
 	option = {
-		name = coldwar.2
+		name = coldwar.2.a
 
 		retire_character = JAP_hideki_tojo
 		retire_character = JAP_kenji_doihara
@@ -64,6 +65,74 @@ country_event = {
 		retire_character = JAP_hiroshi_oshima
 		retire_character = JAP_yoshijiro_umezu
 		retire_character = JAP_shigetaro_shimada
-		retire_character = JAP_
+	}
+}
+country_event = {
+	id = coldwar_chi.1
+	title = coldwar_chi.1.t
+	desc = coldwar_chi.1.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = coldwar_chi.1.a
+		CHI = {
+			set_autonomy = {
+				target = SHX
+				autonomous_state = autonomy_bun #추후 군벌 autonomy 추가좀
+			}
+			set_autonomy = {
+				target = XSM
+				autonomous_state = autonomy_bun
+			}
+			set_autonomy = {
+				target = YUN
+				autonomous_state = autonomy_bun
+			}
+			set_autonomy = {
+				target = GXC
+				autonomous_state = autonomy_bun
+			}
+		}
+		SOV = {
+			set_autonomy = {
+				target = SIK
+				autonomous_state = autonomy_bun
+			}
+		}
+		SHX = {
+			transfer_state = 615
+			transfer_state = 621
+			transfer_state = 746
+		}
+		SIK = {
+			transfer_state = 759
+			transfer_state = 760
+			transfer_state = 617
+			transfer_state = 619
+			transfer_state = 287
+			transfer_state = 618
+		}
+		YUN = {
+			transfer_state = 747
+			transfer_state = 325
+		}
+		601 = {
+			set_demilitarized_zone = yes
+		}
+		XSM = {
+			transfer_state = 604
+			transfer_state = 754
+			transfer_state = 755
+			transfer_state = 971
+			transfer_state = 756
+			transfer_state = 616
+			transfer_state = 283
+		}
+		GXC = {
+			transfer_state = 599
+			transfer_state = 592
+			transfer_state = 594
+			transfer_state = 591
+		}
 	}
 }

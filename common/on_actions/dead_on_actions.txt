@@ -55,7 +55,7 @@ on_actions = {
 				JAP_dead = yes
 				set_global_flag = JAP_IS_DEAD
 			}
-			if = { #TLE 배낌 ㅎㅎ
+			if = {
 				limit = {
 					tag = IDC
 					has_war_with = VIN
@@ -122,6 +122,45 @@ on_actions = {
 				KOR_yabyeolcho = yes
 			}
 			if = {
+				limit = { #국공내전 국민당 승리
+					AND = {
+						ROOT = { #패자
+							original_tag = PRC
+						}
+						FROM = {# #승자
+							original_tag = CHI
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						has_war_with = CHI
+					}
+					white_peace = CHI
+				}
+				PRC = {
+					every_owned_state = {
+						limit = {
+							AND = {
+								is_core_of = CHI
+								NOT = {
+									is_core_of = MAN
+								}
+
+							}
+						}
+						transfer_state_to = CHI
+					}
+					transfer_state = 609 
+				}
+				SOV = {
+					set_autonomy = {
+						target = PRC
+						autonomy_state = autonomy_puppet
+					}
+				}
+			}
+			if = {
 				limit = { #일본이 승전시의 코드
 					AND = {
 						ROOT = {
@@ -171,25 +210,6 @@ on_actions = {
 					}
 				}
 				JAP_dead_by_chi = yes
-			}
-			if = {
-				limit = { #중일전 빨갱이승리비율높음
-					tag = JAP
-					has_war_with = PRC
-					NOT = {
-						has_war_with = USA
-						has_war_with = ENG
-						has_war_with = FRA
-						has_war_with = SOV
-						has_war_with = GER
-					}
-					OR = {
-						328 = {
-							is_controlled_by = PRC
-						}
-					}
-				}
-				JAP_dead_by_prk = yes
 			}
 		}
 	}

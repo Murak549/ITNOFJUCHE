@@ -12,8 +12,8 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
-			tag = PAK
+			add = 100
+			tag = CHI
 		}
 	}
 	
@@ -129,6 +129,14 @@ focus_tree = {
 			}
 		}
 
+		bypass = {
+			CHI = {
+				NOT = {
+					has_war_with = PRC
+				}
+			}
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -137,6 +145,49 @@ focus_tree = {
 
 		completion_reward = {
 
+		}
+	}
+	focus = {
+		id = CHI_chang_kai_shek_ism
+		prerequisite = { focus = CHI_finally_triumph }
+		x = -1
+		y = 1
+		relative_position_id = CHI_finally_triumph
+		cost = 10
+		available = {
+			CHI = {
+				NOT = {
+					has_war_with = PRC
+				}
+			}
+		}
+		complete_tooltip = {
+			
+		}
+	}
+	focus = {
+		id = CHI_fucking_warload
+		prerequisite = { focus = CHI_chang_kai_shek_ism }
+		x = -1
+		y = 1
+		relative_position_id = CHI_chang_kai_shek_ism
+	}
+	focus = {
+		id = CHI_kuomintang_is_best
+		prerequisite = { focus = CHI_finally_triumph }
+		x = 1
+		y = 1
+		relative_position_id = CHI_finally_triumph
+		cost = 10
+		available = {
+			CHI = {
+				NOT = {
+					has_war_with = PRC
+				}
+			}
+		}
+		complete_tooltip = {
+			
 		}
 	}
 	focus = {

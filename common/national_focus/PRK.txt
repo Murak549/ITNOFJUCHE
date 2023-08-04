@@ -27,263 +27,13 @@ focus_tree = {
 
 	continuous_focus_position = { x = 55 y = 1500 }
 
-    focus = {
-		id = PRK_north_Korea_5_province_meeting_convened
 
-		icon = GFX_focus_generic_join_comintern
-		x = 5
+    focus = {
+		id = PRK_lead_of_Ilsung
+		icon = GFX_focus_PRK_lead_of_kim_ilsung
+		cost = 5
+		x = 10	
 		y = 0
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-			custom_trigger_tooltip =  {
-				tooltip = infrastructure_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = infrastructure
-						size < 2
-					}
-				}
-			}
-		}
-		
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-
-		}
-	}
-    focus = {
-		id = PRK_speech_of_ilsung
-
-		icon = GFX_focus_generic_strike_at_democracy3
-		x = 1
-		y = 1
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_north_Korea_5_province_meeting_convened
-
-        prerequisite = { focus = PRK_north_Korea_5_province_meeting_convened } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-
-		}
-	}
-    focus = {
-		id = PRK_soviet_unions_choose
-
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		x = -1
-		y = 1
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_north_Korea_5_province_meeting_convened
-
-        prerequisite = { focus = PRK_north_Korea_5_province_meeting_convened } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-
-		}
-	}
-    focus = {
-		id = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea
-
-		icon = GFX_focus_generic_soviet_politics
-		x = 0
-		y = 2
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_north_Korea_5_province_meeting_convened
-
-        prerequisite = { focus = PRK_soviet_unions_choose } 
-        prerequisite = { focus = PRK_speech_of_ilsung } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-            PRK = {
-                promote_character = PRK_party
-            }
-			add_ideas = kim_ilsung
-		}
-	}
-    focus = {
-		id = PRK_land_revolution
-
-		icon = GFX_goal_generic_construction
-		x = 0
-		y = 1
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea
-
-        prerequisite = { focus = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-
-		}
-	}
-    focus = {
-		id = PRK_soviet_style_personnel_system
-
-		icon = GFX_focus_generic_soviet_politics
-		x = -1
-		y = 1
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_land_revolution
-
-        prerequisite = { focus = PRK_land_revolution } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-
-		}
-	}
-    focus = {
-		id = PRK_supreme_assembly
-
-		icon = GFX_focus_generic_self_management
-		x = -1
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_soviet_style_personnel_system
-
-        prerequisite = { focus = PRK_soviet_style_personnel_system } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			
-		}
-	}
-    focus = {
-		id = PRK_one_korea_one_party
-
-		icon = GFX_goal_generic_improve_relations
-		x = 1
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_soviet_style_personnel_system
-
-        prerequisite = { focus = PRK_soviet_style_personnel_system } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			
-		}
-	}
-    focus = {
-		id = PRK_founding_democratic_peoples_republic_of_korea
-		icon = GFX_focus_PRK_founding_dprk
-		x = 0
-		y = 2
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_soviet_style_personnel_system
-
-        prerequisite = { focus = PRK_supreme_assembly } 
-        prerequisite = { focus = PRK_one_korea_one_party } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			hidden_effect = {
 				add_trait = {
@@ -298,201 +48,133 @@ focus_tree = {
 			}
 		}
 	}
-    focus = {
-		id = PRK_peoples_army_of_korea
-
-		icon = GFX_focus_chi_army_reform
-		x = 1
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_land_revolution
-
-        prerequisite = { focus = PRK_land_revolution } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-		completion_reward = {
-
-		}
-	}
-    focus = {
-		id = PRK_peoples_army_of_korea2
-
-		icon = GFX_focus_PRK_people_army
-		x = 1
-		y = 1
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_peoples_army_of_korea
-
-        prerequisite = { focus = PRK_peoples_army_of_korea } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-		completion_reward = {
-
-		}
-	}
-    focus = {
-		id = PRK_ready_to_roll_out
-
-		icon = GFX_focus_PRK_liberate_war
-		x = 0
-		y = 2
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        relative_position_id = PRK_one_korea_one_party
-
-        prerequisite = { focus = PRK_founding_democratic_peoples_republic_of_korea } 
-        prerequisite = { focus = PRK_peoples_army_of_korea2 } 
-
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-		completion_reward = {
-			if = {
-				limit = {
-					has_war_with = KOR
-				}
-				add_ideas = PRK_motherland_liberate_war_2
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_war_with = KOR
-					}
-				}
-				declare_war_on = {
-					target = KOR
-					type = annex_everything
-				}
-				add_ideas = PRK_motherland_liberate_war
-			}
-		}
-	}
-
-    focus = {
-		id = PRK_lead_of_ilsung
-
-		icon = GFX_focus_PRK_lead_of_kim_ilsung
-		x = 20
-		y = 0
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-        #relative_position_id = PRK_one_korea_one_party
-
-        #prerequisite = { focus = PRK_founding_democratic_peoples_republic_of_korea } 
-        
-		bypass = {
-		}
-		
-		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-		completion_reward = {
-			add_stability = 0.4
-		}
-	}
 	focus = {
-		id = PRK_triumph_at_korea
-		icon = GFX_focus_generic_military_mission
-		prerequisite = { focus = PRK_lead_of_ilsung }
-
-		x = 0
-
-		y = 1
-
-		relative_position_id = PRK_lead_of_ilsung
+		id = PRK_go_to_socialism
+		icon = GFX_goal_dprk_is_right
 		cost = 5
-
-		ai_will_do = {
-			factor = 1
+		prerequisite = {
+			focus = PRK_lead_of_Ilsung
 		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = PRK_rejecting_light_industry
-		icon = GFX_focus_generic_steel
-		prerequisite = { focus = PRK_triumph_at_korea }
-
-		x = 0
-
+		x = 4
 		y = 1
 
-			relative_position_id = PRK_triumph_at_korea
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
 	}
 	focus = {
-		id = PRK_heavy_industry
-		icon = GFX_focus_generic_aluminum
-		prerequisite = { focus = PRK_triumph_at_korea }
-
+		id = PRK_cheonlima
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PRK_go_to_socialism
+		}
 		x = 2
+		y = 2
+		completion_reward = {
+			add_ideas = PRK_ch_horse
+		}
 
+	}
+	focus = {
+		id = PRK_peoples_army_of_korea2
+		icon = GFX_focus_PRK_people_army
+		cost = 5
+		prerequisite = {
+			focus = PRK_lead_of_Ilsung
+		}
+		x = 10
+		y = 1
+	}
+	focus = {
+		id = PRK_one_korea_one_party
+		cost = 7
+		x = 1
+		y = 1
+		relative_position_id = PRK_peoples_army_of_korea2
+		prerequisite = {
+			focus = PRK_peoples_army_of_korea2
+		}
+	}
+	focus = {
+		id = PRK_dprk
+		icon = GFX_focus_PRK_founding_dprk
+		cost = 10
+		prerequisite = {
+			focus = PRK_peoples_army_of_korea2
+		}
+		relative_position_id = PRK_peoples_army_of_korea2
+		x = -1
+		y = 1
+	}
+	focus = {
+		id = PRK_ready_to_roll_out
+		icon = GFX_focus_PRK_liberate_war
+		cost = 5
+		prerequisite = {
+			focus = PRK_go_to_socialism
+		}
+		prerequisite = {
+			focus = PRK_peoples_army_of_korea2
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			add_ideas = PRK_Kim_Il_Sung
+		}
+
+	}
+	focus = {
+		id = PRK_our_economy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PRK_lead_of_Ilsung
+		}
+		x = 16
 		y = 1
 
-			relative_position_id = PRK_triumph_at_korea
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
+	}
+	focus = {
+		id = PRK_koreas_SA
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PRK_cheonlima
 		}
+		x = 1
+		y = 3
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-
+	}
+	focus = {
+		id = PRK_patriotic_rice_donation_movement
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PRK_cheonlima
 		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = PRK_military_support_service
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PRK_ready_to_roll_out
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = PRK_third_revolution_red_flag_movement
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = PRK_ready_to_roll_out
+		}
+		x = 7
+		y = 3
+
 	}
 }
+
