@@ -1,8 +1,8 @@
 add_namespace = coldwar
 add_namespace = coldwar_chi
+add_namespace = coldwar_sov
 
-# 한반도 분단
-country_event = { 
+country_event = { #더미데이터 
 	id = coldwar.1
 	title = coldwar.1.t
 	desc = coldwar.1.d
@@ -65,6 +65,286 @@ country_event = {
 		retire_character = JAP_hiroshi_oshima
 		retire_character = JAP_yoshijiro_umezu
 		retire_character = JAP_shigetaro_shimada
+	}
+}
+country_event = { 
+	id = coldwar.3
+	title = coldwar.3.t
+	desc = coldwar.3.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = SOV
+		date > 1991.12.19
+		NOT = {
+			country_exists = UKR
+		}
+	}
+	option = {
+		name = coldwar.3.a
+		SOV = {
+			set_cosmetic_tag = SOV_russia
+			set_politics = {
+				ruling_party = democratic
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = "러시아 공산당"
+				name = "러시아 공산당"
+			}
+			set_popularities = {
+				democratic = 50
+				neutrality = 15
+				fascism = 0
+				communism = 35
+			}
+			release = UKR
+			release = BLR
+			release = ARM
+			release = AZR
+			release = GEO
+			release = TMS
+			release = UZB
+			release = TAJ
+			release = KAZ
+			release = KYR
+			release = LIT
+			release = EST
+			release = MOL
+			release = LAT
+		}
+		UKR = {
+			transfer_state = 73
+		}
+		UKR = {
+			transfer_state = 80
+		}
+		dismantle_faction = yes
+	}
+}
+country_event = { 
+	id = coldwar.4
+	title = coldwar.4.t
+	desc = coldwar.4.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = POL
+		date > 1989.2.1
+	}
+	option = {
+		name = coldwar.4.a
+		leave_faction = yes
+		POL = {
+			set_politics = {
+				ruling_party = democratic
+			}
+			set_popularities = {
+				democratic = 50
+				neutrality = 15
+				fascism = 0
+				communism = 35
+			}
+		}
+		every_country = {
+			limit = {
+				has_war_with = POL
+			}
+			white_peace = POL
+		}
+	}
+}
+country_event = { 
+	id = coldwar.5
+	title = coldwar.5.t
+	desc = coldwar.5.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = HUN
+		date > 1989.2.1
+	}
+	option = {
+		name = coldwar.5.a
+		HUN = {
+			set_politics = {
+				ruling_party = democratic
+			}
+			set_popularities = {
+				democratic = 65
+				neutrality = 0
+				fascism = 0
+				communism = 35
+			}
+			leave_faction = yes
+		}
+		every_country = {
+			limit = {
+				has_war_with = HUN
+			}
+			white_peace = HUN
+		}
+	}
+}
+country_event = { 
+	id = coldwar.6
+	title = coldwar.6.t
+	desc = coldwar.6.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = GER
+		date > 1989.11.1
+	}
+	option = {
+		name = coldwar.6.a
+		GER = {
+			set_cosmetic_tag = WGR_democratic
+			annex_country = {
+				target = DDR
+				transfer_troops = yes
+			}
+		}		
+		add_victory_points = {
+			province = 13288
+			value = -50
+		}
+		reset_province_name = 13288
+		reset_province_name = 6521
+	}
+}
+country_event = { 
+	id = coldwar.7
+	title = coldwar.7.t
+	desc = coldwar.7.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = CZE
+		date > 1989.11.10
+	}
+	option = {
+		name = coldwar.7.a
+		CZE = {
+			remove_state_core = 70
+			remove_state_core = 71
+			remove_state_core = 664
+			remove_state_core = 73
+			70 = {
+				add_core_of = SLO
+				set_resistance = 30
+				start_resistance = yes
+			}
+			71 = {
+				add_core_of = SLO
+				set_resistance = 30
+				start_resistance = yes
+			}
+			664 = {
+				add_core_of = SLO
+				set_resistance = 30
+				start_resistance = yes
+			}
+			set_politics = {
+				ruling_party = democratic
+			}
+			set_popularities = {
+				democratic = 65
+				neutrality = 0
+				fascism = 0
+				communism = 35
+			}
+			leave_faction = yes
+		}
+		every_country = {
+			limit = {
+				has_war_with = CZE
+			}
+			white_peace = CZE
+			hidden_effect = {
+				country_event = {
+					id = coldwar.8
+					days = 10
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = coldwar.8
+	title = coldwar.8.t
+	desc = coldwar.8.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = coldwar.8.a
+		CZE = {
+			release = SLO
+		}
+	}
+}
+country_event = { 
+	id = coldwar.9
+	title = coldwar.9.t
+	desc = coldwar.9.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = ROM
+		date > 1989.11.20
+	}
+	option = {
+		name = coldwar.9.a
+		ROM = {
+			set_politics = {
+				ruling_party = democratic
+			}
+			set_popularities = {
+				democratic = 65
+				neutrality = 0
+				fascism = 0
+				communism = 35
+			}
+			leave_faction = yes
+		}
+		every_country = {
+			limit = {
+				has_war_with = ROM
+			}
+			white_peace = ROM
+		}
+	}
+}
+country_event = { 
+	id = coldwar.10
+	title = coldwar.10.t
+	desc = coldwar.10.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = BUL
+		date > 1989.11.20
+	}
+	option = {
+		name = coldwar.10.a
+		BUL = {
+			set_politics = {
+				ruling_party = democratic
+			}
+			set_popularities = {
+				democratic = 65
+				neutrality = 0
+				fascism = 0
+				communism = 35
+			}
+			leave_faction = yes
+		}
+		every_country = {
+			limit = {
+				has_war_with = BUL
+			}
+			white_peace = BUL
+		}
 	}
 }
 country_event = {

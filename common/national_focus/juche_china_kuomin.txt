@@ -59,7 +59,7 @@ focus_tree = {
 	focus = {
 		id = CHI_chinese_civil_war
 		icon = GFX_focus_chi_one_china_policy
-		x = 15
+		x = 25
 		y = 0
 
 		cost = 1
@@ -116,7 +116,7 @@ focus_tree = {
 		prerequisite = { focus = CHI_our_destiny }
 		mutually_exclusive = { focus = CHI_we_lose }
 
-		x = 5
+		x = 15
 
 		y = 1
 
@@ -165,13 +165,7 @@ focus_tree = {
 			
 		}
 	}
-	focus = {
-		id = CHI_fucking_warload
-		prerequisite = { focus = CHI_chang_kai_shek_ism }
-		x = -1
-		y = 1
-		relative_position_id = CHI_chang_kai_shek_ism
-	}
+
 	focus = {
 		id = CHI_kuomintang_is_best
 		prerequisite = { focus = CHI_finally_triumph }
@@ -191,12 +185,73 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = CHI_long_live_minguo
+		prerequisite = { focus = CHI_chang_kai_shek_ism }
+		prerequisite = { focus = CHI_kuomintang_is_best }
+		x = 1
+		y = 1
+		relative_position_id = CHI_chang_kai_shek_ism
+		cost = 10
+	}
+	focus = {
+		id = CHI_fucking_warload
+		relative_position_id = CHI_long_live_minguo
+		prerequisite = { focus = CHI_long_live_minguo }
+		x = 2
+		y = 1
+		cost = 5
+	}
+	focus = {
+		id = CHI_fucking_economy
+		relative_position_id = CHI_long_live_minguo
+		prerequisite = { focus = CHI_long_live_minguo }
+		x = 0
+		y = 1
+		cost = 5
+	}
+	focus = {
+		id = CHI_fuck_communist
+		relative_position_id = CHI_long_live_minguo
+		prerequisite = { focus = CHI_long_live_minguo }
+		x = -2
+		y = 1
+		cost = 5
+	}
+	focus = {
+		id = CHI_load_to_new_china
+		relative_position_id = CHI_fuck_communist
+		prerequisite = { focus = CHI_fuck_communist }
+		prerequisite = { focus = CHI_fucking_economy }
+		x = 1
+		y = 1
+		cost = 10
+	}
+	focus = {
+		id = CHI_fuck_sauce_opinion
+		relative_position_id = CHI_fucking_warload
+		prerequisite = { focus = CHI_fucking_warload }
+		prerequisite = { focus = CHI_fucking_economy }
+		x = -1
+		y = 1
+		cost = 10
+	}
+	focus = {
+		id = CHI_final_win
+		icon = GFX_unknown
+		relative_position_id = CHI_fucking_economy
+		prerequisite = { focus = CHI_load_to_new_china }
+		prerequisite = { focus = CHI_fuck_sauce_opinion }
+		x = 0
+		y = 2
+
+	}
+	focus = {
 		id = CHI_we_lose
 		icon = GFX_focus_prc_maoism
 		prerequisite = { focus = CHI_our_destiny }
 		mutually_exclusive = { focus = CHI_finally_triumph }
 
-		x = -5
+		x = -15
 
 		y = 1
 
