@@ -29,11 +29,12 @@ focus_tree = {
 
 
     focus = {
-		id = PRK_lead_of_Ilsung
+		id = PRK_lead_of_ilsung
 		icon = GFX_focus_PRK_lead_of_kim_ilsung
 		cost = 5
 		x = 10	
 		y = 0
+		mutually_exclusive = { focus = PRK_ihateilsung }
 		completion_reward = {
 			hidden_effect = {
 				add_trait = {
@@ -53,7 +54,7 @@ focus_tree = {
 		icon = GFX_goal_dprk_is_right
 		cost = 5
 		prerequisite = {
-			focus = PRK_lead_of_Ilsung
+			focus = PRK_lead_of_ilsung
 		}
 		x = 4
 		y = 1
@@ -61,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRK_cheonlima
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PRK_cheonlima
 		cost = 5
 		prerequisite = {
 			focus = PRK_go_to_socialism
@@ -78,19 +79,116 @@ focus_tree = {
 		icon = GFX_focus_PRK_people_army
 		cost = 5
 		prerequisite = {
-			focus = PRK_lead_of_Ilsung
+			focus = PRK_lead_of_ilsung
 		}
 		x = 10
 		y = 1
 	}
 	focus = {
 		id = PRK_one_korea_one_party
+		icon = GFX_goal_generic_national_unity
 		cost = 7
 		x = 1
 		y = 1
 		relative_position_id = PRK_peoples_army_of_korea2
 		prerequisite = {
 			focus = PRK_peoples_army_of_korea2
+		}
+	}
+	focus = {
+		id = PRK_partisan
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		cost = 3
+		x = 1
+		y = 1
+		relative_position_id = PRK_one_korea_one_party
+		prerequisite = {
+			focus = PRK_one_korea_one_party
+		}
+	}
+	focus = {
+		id = PRK_sex
+		icon = GFX_focus_hol_war_on_pacifism
+		cost = 10
+		x = -1
+		y = 1
+		relative_position_id = PRK_one_korea_one_party
+		prerequisite = {
+			focus = PRK_one_korea_one_party
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = USA
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ITA
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ENG
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GER
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = POR
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = BEL
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = LUX
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HOL
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = DEN
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = NOR
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ICE
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SWI
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = PRC
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = CHI
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = MON
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SOV
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = JAP
+			}
 		}
 	}
 	focus = {
@@ -103,6 +201,17 @@ focus_tree = {
 		relative_position_id = PRK_peoples_army_of_korea2
 		x = -1
 		y = 1
+	}
+	focus = {
+		id = PRK_kill_clique
+		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
+		cost = 10
+		prerequisite = {
+			focus = PRK_dprk
+		}
+		relative_position_id = PRK_dprk
+		x = 0
+		y = 2
 	}
 	focus = {
 		id = PRK_ready_to_roll_out
@@ -123,10 +232,10 @@ focus_tree = {
 	}
 	focus = {
 		id = PRK_our_economy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		cost = 5
 		prerequisite = {
-			focus = PRK_lead_of_Ilsung
+			focus = PRK_lead_of_ilsung
 		}
 		x = 16
 		y = 1
@@ -134,7 +243,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRK_koreas_SA
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 5
 		prerequisite = {
 			focus = PRK_cheonlima
@@ -145,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRK_patriotic_rice_donation_movement
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construction2
 		cost = 5
 		prerequisite = {
 			focus = PRK_cheonlima
@@ -156,7 +265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRK_military_support_service
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
 		cost = 5
 		prerequisite = {
 			focus = PRK_ready_to_roll_out
@@ -167,14 +276,33 @@ focus_tree = {
 	}
 	focus = {
 		id = PRK_third_revolution_red_flag_movement
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_war_with_comintern
 		cost = 5
 		prerequisite = {
 			focus = PRK_ready_to_roll_out
 		}
 		x = 7
 		y = 3
+	}
 
+	focus = {
+		id = PRK_ihateilsung
+		x = 20
+		y = 0
+		icon = GFX_focus_generic_concessions
+		cost = 10
+		mutually_exclusive = {
+			focus = PRK_lead_of_ilsung
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = please_wait_updatett	
+				always = no
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = please_wait_fake_tt
+		}
 	}
 }
 

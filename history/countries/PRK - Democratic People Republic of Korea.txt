@@ -1,8 +1,8 @@
 ﻿capital = 527
 
-recruit_character = PRK_Kim_Il_Sung
 recruit_character = PRK_party
 recruit_character = PRK_ivan
+recruit_character = PRK_Kim_Il_Sung
 
 set_stability = 0.6 #baseline, THE EMPEROR KIM IL-SUNG PROTECTS
 set_war_support = 0.8

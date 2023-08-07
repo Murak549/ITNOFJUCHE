@@ -1,4 +1,24 @@
 characters={ 
+    PRK_party={
+        name=PRK_party
+        portraits={
+            army={
+                large=gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds
+            }
+        }
+        corps_commander={
+            traits={ infantry_officer commando }
+            skill=3
+            attack_skill=4
+            defense_skill=2
+            planning_skill=3
+            logistics_skill=5
+        }
+        country_leader={
+            ideology=juche_idea
+            expire="1985.8.16"
+        }
+    }
     PRK_Kim_Il_Sung={
         name=PRK_Kim_Il_Sung
         portraits={
@@ -40,25 +60,5 @@ characters={
 				factor = 0.000
 			}
 		}
-    }
-    PRK_party={
-        name=PRK_party
-        portraits={
-            army={
-                large=gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds
-            }
-        }
-        corps_commander={
-            traits={ infantry_officer commando }
-            skill=3
-            attack_skill=4
-            defense_skill=2
-            planning_skill=3
-            logistics_skill=5
-        }
-        country_leader={
-            ideology=juche_idea
-            expire="1985.8.16"
-        }
     }
 }

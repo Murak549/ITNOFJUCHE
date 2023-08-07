@@ -338,6 +338,20 @@ on_actions = {
 			if = {
 				limit = {
 					has_game_rule = {
+						rule = JUCHE_DIFFICULT_RULE
+						option = HARDCORE
+					}
+				}
+				PRC = {
+					add_ideas = JUCHE_YOU_ARE_DEAD
+				}
+				CHI = {
+					add_ideas = JUCHE_REAL_CHINA
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
 						rule = sov_fragmentation_status
 						option = SOV_REAL_UNION
 					}

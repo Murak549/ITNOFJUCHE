@@ -1,5 +1,5 @@
 ﻿l_english:
- PRK_lead_of_Ilsung:0 "수령님의 령도 아래서"
+ PRK_lead_of_ilsung:0 "수령님의 령도 아래서"
  PRK_go_to_socialism:0 "사회주의의 길"
  PRK_north_Korea_5_province_meeting_convened:0 "북조선5도회의 소집"
  PRK_speech_of_ilsung:0 "김일성의 연설"
@@ -14,6 +14,18 @@
  PRK_dprk:0 "조선민주주의인민공화국 건국"
  PRK_peoples_army_of_korea2:0 "조선인민군"
  PRK_ready_to_roll_out:0 "조국해방전쟁"
+ PRK_sex:0 "미 제국주의에 대항하니 결과는 승리 또는 죽음이다"
+ PRK_partisan:0 "남조선 빨치산 양성"
+ PRK_kill_clique:0 "반대파 정리"
+ PRK_our_economy:0 "우리식 경제"
+ PRK_koreas_SA:0 "청년돌격대"
+ PRK_koreas_SA_desc:0 "창녀돌격대가 아닌것이 참 다행이네요;;"
+ PRK_patriotic_rice_donation_movement:0 "애국미 헌납 운동"
+ PRK_military_support_service:0 "원군사업"
+ PRK_military_support_service_desc:0 "원균사업_desc"
+ PRK_third_revolution_red_flag_movement:0 "3대혁명붉은기쟁취운동"
+ PRK_cheonlima:0 "천리마 운동"
+ PRK_ihateilsung:0 "정통한 사회주의 지도자"
 
  GHQ_international_military_tribunal:0 "극동군사재판"
  GHQ_radio_free_zerg:0 "언론 자유화"
@@ -60,3 +72,5 @@
 
  chi_you_may_not_1tt:0 "우한 탈환: 실패" 
  chi_you_may_not_2tt:0 "우한 탈환: 성공"
+ please_wait_updatett:0 "주체의 이름으로: 완성됨"
+ please_wait_fake_tt:0 "§Y비동맹주의§! 정당은 '§Y인민의힘§!' 측으로 불립니다. \n§Y비동맹주의§! 지지자가 내전을 시작합니다. \n정치적 변화:\n§Y해병대전우회§! 측이 집권 정당이 됩니다. \n공공 전우애가 개최되지 않습니다. \n브라보 해병대"

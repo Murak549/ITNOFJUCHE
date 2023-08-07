@@ -1,0 +1,23 @@
+﻿l_english:
+ RULE_OPTION_JAP_FRAGMENTED:0 "폐번치현 뒤집기"
+ RULE_OPTION_JAP_FRAGMENTED_DESC:0 "일본제국의 메이지 천황을 없에고 사무라이가 영토를 장악했습니다."
+ JAP_FRAGMENTATION_STATUS:0 "일본 파편화 상태"
+ USA_FRAGMENTATION_STATUS:0 "미합중국 파편화 상태"
+ RULE_OPTION_USA_FRAGMENTED:0 "합중국이 아닌 연방"
+ RULE_OPTION_USA_FRAGMENTED_DESC:0 "미국의 주는 독립적인 주권을 가지며 미합중국은 하나의 국가 협력체로 변화합니다"
+ RULE_OPTION_JAP_FRAGMENTED_DESC:0 "폐번치현 뒤집기"
+
+ RULE_NAME_OF_JUCHE:0 "주체의 이름으로 설정"
+
+
+ JUCHE_DIFFICULT_RULE:0 "사회주의 난이도"
+
+ RULE_IN_THE_NAME_OF_JUCHE:0 "주체의 이름으로"
+
+
+ RULE_OPTION_VERY_HARD:0 "§R매우 어려움§!"
+ RULE_OPTION_VERY_HARD:0 "§R매우 어려움§!"
+ RULE_OPTION_HARDCORE:0 "§R불지옥§!"
+ RULE_OPTION_HARDCORE_DESC:0 "§R불지옥 곁으로..§!"
+ RULE_OPTION_LIGHT:0 "보통"
+ RULE_OPTION_SOLIGHT:0 "쉬움"

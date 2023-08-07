@@ -21,6 +21,33 @@
 #	}
 # }
 
+JUCHE_DIFFICULT_RULE = {
+	name = "JUCHE_DIFFICULT_RULE"
+	group = "RULE_IN_THE_NAME_OF_JUCHE"
+	default = {
+		name = VERY_HARD
+		text = "RULE_OPTION_VERY_HARD"
+		desc = "RULE_OPTION_VERY_HARD_DESC"
+	}
+	option = {
+		name = HARDCORE
+		text = "RULE_OPTION_HARDCORE"
+		desc = "RULE_OPTION_HARDCORE_DESC"
+	}
+	option = {
+		name = LIGHT
+		text = "RULE_OPTION_LIGHT"
+		desc = "RULE_OPTION_LIGHT_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = SOLIGHT
+		text = "RULE_OPTION_SOLIGHT"
+		desc = "RULE_OPTION_SOLIGHT_DESC"
+		allow_achievements = no
+	}
+}
+
 allow_wargoals = {
 	name = "RULE_ALLOW_WARGOALS"
 	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"

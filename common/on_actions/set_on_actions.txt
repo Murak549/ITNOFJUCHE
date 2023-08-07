@@ -13,16 +13,11 @@ on_actions = {
 				}
 				every_country = {
 					add_ideas = cold_war
-#					add_ai_strategy = {
-#						type = support
-#						id = PREV
-#						value = 200
-#					}
-#					add_ai_strategy = {
-#						type = send_volunteers_desire
-#						id = PREV
-#						value = 200
-#					}
+					add_ai_strategy = {
+						type = support
+						id = PREV
+						value = 200
+					}
 				}
 				PRC = {
 					every_owned_state = {

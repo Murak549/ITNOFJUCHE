@@ -6,13 +6,11 @@ state={
 		buildings = {
 			7125 = {
 				bunker = 8
-
 			}
 			7221 = {
 				naval_base = 7
-
 			}
-			
+			infrastructure = 3
 		}
 		victory_points = {
 			12040 10 
@@ -29,7 +27,7 @@ state={
 	provinces={
 		12040 13267 13268 
 	}
-	manpower=1
+	manpower=154830
 	buildings_max_level_factor=1.000
 	state_category=enclave
 	local_supplies=0.000
