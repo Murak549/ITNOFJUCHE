@@ -67,6 +67,11 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_go_to_socialism
 		}
+		available = {
+			PRK = {
+				has_completed_focus = PRK_our_economy
+			}
+		}
 		x = 2
 		y = 2
 		completion_reward = {
@@ -239,7 +244,57 @@ focus_tree = {
 		}
 		x = 16
 		y = 1
-
+	}
+	focus = {
+		id = PRK_any_focus_about_power_1
+		icon = GFX_unknown
+		cost = 10
+		x = 15
+		y = 2
+		prerequisite = {
+			focus = PRK_our_economy
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_2
+		icon = GFX_unknown
+		cost = 10
+		x = 17
+		y = 2
+		prerequisite = {
+			focus = PRK_our_economy
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_3
+		icon = GFX_unknown
+		cost = 10
+		x = 16
+		y = 3
+		prerequisite = {
+			focus = PRK_any_focus_about_power_1
+			focus = PRK_any_focus_about_power_2
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_4
+		icon = GFX_unknown
+		cost = 10
+		x = 16
+		y = 4
+		prerequisite = {
+			focus = PRK_any_focus_about_power_3
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_5
+		icon = GFX_unknown
+		cost = 10
+		x = 20
+		y = 4
+		prerequisite = {
+			focus = PRK_any_focus_about_power_3
+		}	
 	}
 	focus = {
 		id = PRK_koreas_SA
@@ -287,7 +342,7 @@ focus_tree = {
 
 	focus = {
 		id = PRK_ihateilsung
-		x = 20
+		x = 40
 		y = 0
 		icon = GFX_focus_generic_concessions
 		cost = 10
