@@ -6,14 +6,6 @@ characters={
                 large=gfx/leaders/SOV/portrait_SOV_supreme_soviet.dds
             }
         }
-        corps_commander={
-            traits={ infantry_officer commando }
-            skill=3
-            attack_skill=4
-            defense_skill=2
-            planning_skill=3
-            logistics_skill=5
-        }
         country_leader={
             ideology=juche_idea
             expire="1985.8.16"
@@ -27,7 +19,7 @@ characters={
                 large=gfx/leaders/KOR/Portrait_Kim_Ilsung.dds
             }
         }
-        corps_commander={
+        field_marshal={
             traits={ infantry_officer commando }
             skill=3
             attack_skill=4
@@ -163,7 +155,7 @@ characters={
 
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits={ armor_officer offensive_doctrine war_hero brilliant_strategist trait_reckless }
 			skill=4
 			attack_skill=4
@@ -179,14 +171,13 @@ characters={
 
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
-			legacy_id=-1
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 		}
     }
     PRK_changryong = {
@@ -195,7 +186,7 @@ characters={
 
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ }
 			skill=4
 			attack_skill=4
@@ -211,14 +202,13 @@ characters={
 
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
-			legacy_id=-1
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 		}
     }
     PRK_ojinu = {
@@ -227,14 +217,13 @@ characters={
 
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits={ }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
-			legacy_id=-1
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 		}
     }
 }
