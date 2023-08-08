@@ -3,6 +3,16 @@
 recruit_character = PRK_party
 recruit_character = PRK_ivan
 recruit_character = PRK_Kim_Il_Sung
+recruit_character = PRK_ryu_kyung_su
+recruit_character = PRK_lee_hyung_sang
+recruit_character = PRK_kim_mu_jeong
+recruit_character = PRK_kim_book
+recruit_character = PRK_Kang_Gun
+recruit_character = PRK_hosan
+recruit_character = PRK_wonbong_kim
+recruit_character = PRK_dongyu
+recruit_character = PRK_changryong
+recruit_character = PRK_ojinu
 
 set_stability = 0.6 #baseline, THE EMPEROR KIM IL-SUNG PROTECTS
 set_war_support = 0.8
