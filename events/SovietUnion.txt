@@ -2661,8 +2661,21 @@ country_event = {
 				generator = { 525 }
 			}
 			add_timed_idea = {
-			idea = PRK_idea_attack_south_joseon
-			days = 90
+				idea = PRK_idea_attack_south_joseon
+				days = 90
+			}
+			country_event = {
+				id = prk.11
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = soviet.71.b
+		PRK = {
+			country_event = {
+				id = prk.12
+				days = 5
 			}
 		}
 	}
