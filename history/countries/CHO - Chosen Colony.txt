@@ -11,14 +11,6 @@ set_war_support = 0.2
 
 set_cosmetic_tag = CHO_JAP
 
-
-every_state = {
-	limit = {
-		is_controlled_by = CHO
-	}
-	add_core_of = CHO
-}
-
 set_convoys = 10
 
 set_politics = {

@@ -11,13 +11,6 @@ set_war_support = 0.3
 
 set_cosmetic_tag = TAW_JAP
 
-every_state = {
-	limit = {
-		is_controlled_by = TAW
-	}
-	add_core_of = TAW
-}
-
 set_convoys = 10
 
 set_politics = {
