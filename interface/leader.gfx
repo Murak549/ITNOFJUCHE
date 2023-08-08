@@ -1,6 +1,22 @@
 spriteTypes = {	
     				
 	spriteType = {
+		name = "GFX_bong"
+		texturefile = "gfx/leaders/KOR/bong.dds"
+	}
+	spriteType = {
+		name = "GFX_kang_gun"
+		texturefile = "gfx/leaders/KOR/Kang_Kon.dds"
+	}
+	spriteType = {
+		name = "GFX_changbong"
+		texturefile = "gfx/leaders/KOR/Kim_Chang_bong.dds"
+	}
+	spriteType = {
+		name = "GFX_ilsung_kim_teulni"
+		texturefile = "gfx/leaders/KOR/Kim_il_Sung_old.dds"
+	}
+	spriteType = {
 		name = "GFX_leader_clement_attlee"
 		texturefile = "gfx/leaders/ENG/Portrait_ENG_Clement_Attlee.dds"
 	}

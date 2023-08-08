@@ -247,7 +247,7 @@ focus_tree = {
 		y = 1
 	}
 	focus = {
-		id = PRK_any_focus_about_power_1
+		id = PRK_powerful_speech
 		icon = GFX_unknown
 		cost = 10
 		x = 15
@@ -257,7 +257,7 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_2
+		id = PRK_dont_forget_people_revolution_army
 		icon = GFX_unknown
 		cost = 10
 		x = 17
@@ -267,37 +267,34 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_3
+		id = PRK_emphasize_DPRK_ilsung_idea
 		icon = GFX_unknown
 		cost = 10
 		x = 16
 		y = 3
 		prerequisite = {
-			focus = PRK_any_focus_about_power_1
-			focus = PRK_any_focus_about_power_2
+			focus = PRK_powerful_speech
+			focus = PRK_dont_forget_people_revolution_army
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_4
+		id = PRK_inmin_ban
 		icon = GFX_unknown
 		cost = 10
 		x = 16
 		y = 4
 		prerequisite = {
-			focus = PRK_any_focus_about_power_3
+			focus = PRK_emphasize_DPRK_ilsung_idea
 		}	
 	}
 	focus = {
-		id = PRK_jeong_il
+		id = PRK_gaejo_idea
 		icon = GFX_unknown
 		cost = 10
 		x = 16
 		y = 5
-		available = {
-			date > 1991.12.12
-		}
 		prerequisite = {
-			focus = PRK_any_focus_about_power_4
+			focus = PRK_inmin_ban
 		}	
 	}
 	focus = {
@@ -307,7 +304,135 @@ focus_tree = {
 		x = 20
 		y = 4
 		prerequisite = {
-			focus = PRK_any_focus_about_power_3
+			focus = PRK_emphasize_DPRK_ilsung_idea
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_6
+		icon = GFX_unknown
+		cost = 10
+		x = 19
+		y = 5
+		prerequisite = {
+			focus = PRK_any_focus_about_power_5
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_7
+		icon = GFX_unknown
+		cost = 10
+		x = 21
+		y = 5
+		prerequisite = {
+			focus = PRK_any_focus_about_power_5
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_8
+		icon = GFX_unknown
+		cost = 10
+		x = 21
+		y = 6
+		prerequisite = {
+			focus = PRK_any_focus_about_power_7
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_9
+		icon = GFX_unknown
+		cost = 10
+		x = 25
+		y = 6
+		prerequisite = {
+			focus = PRK_any_focus_about_power_7
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_10
+		icon = GFX_unknown
+		cost = 10
+		x = 19
+		y = 7
+		prerequisite = {
+			focus = PRK_gaejo_idea
+		}	
+		prerequisite = {
+			focus = PRK_any_focus_about_power_6
+		}	
+		prerequisite = {
+			focus = PRK_any_focus_about_power_8
+		}	
+		prerequisite = {
+			focus = PRK_any_focus_about_power_9
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_11
+		icon = GFX_unknown
+		cost = 10
+		x = 17
+		y = 8
+		prerequisite = {
+			focus = PRK_any_focus_about_power_10
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_12
+		icon = GFX_unknown
+		cost = 10
+		x = 19
+		y = 8
+		prerequisite = {
+			focus = PRK_any_focus_about_power_10
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_13
+		icon = GFX_unknown
+		cost = 10
+		x = 21
+		y = 8
+		prerequisite = {
+			focus = PRK_any_focus_about_power_10
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_14
+		icon = GFX_unknown
+		cost = 10
+		x = 18
+		y = 9
+		prerequisite = {
+			focus = PRK_any_focus_about_power_11
+		}	
+		prerequisite = {
+			focus = PRK_any_focus_about_power_12
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_15
+		icon = GFX_unknown
+		cost = 10
+		x = 20
+		y = 9
+		prerequisite = {
+			focus = PRK_any_focus_about_power_12
+		}	
+		prerequisite = {
+			focus = PRK_any_focus_about_power_13
+		}	
+	}
+	focus = {
+		id = PRK_any_focus_about_power_16
+		icon = GFX_unknown
+		cost = 10
+		x = 19
+		y = 10
+		prerequisite = {
+			focus = PRK_any_focus_about_power_14
+		}	
+		prerequisite = {
+			focus = PRK_any_focus_about_power_15
 		}	
 	}
 	focus = {

@@ -2672,6 +2672,9 @@ country_event = {
 	}
 	option = {
 		name = soviet.71.b
+		trigger = {
+			has_global_flag = FUCK_COMMUNIST
+		}
 		PRK = {
 			country_event = {
 				id = prk.12
