@@ -1,5 +1,12 @@
 ﻿capital = 525 #Kyeongseong
 
+
+####################
+###              ###
+###  DUMMY DATA  ###
+###              ###
+####################
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

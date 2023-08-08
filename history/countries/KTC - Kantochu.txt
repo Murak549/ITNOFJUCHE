@@ -1,4 +1,11 @@
-﻿capital = 525 #Kyeongseong
+﻿capital = 745
+
+
+####################
+###              ###
+###  DUMMY DATA  ###
+###              ###
+####################
 
 # Starting tech
 set_technology = {
