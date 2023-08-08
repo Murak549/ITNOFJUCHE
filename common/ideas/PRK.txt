@@ -9,6 +9,20 @@ ideas = {
                 army_morale_factor = 0.5
             }
         }
+        PRK_idea_attack_south_joseon = {
+            picture = raj_risk_of_famine
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                army_org_factor = 0.1
+            }
+            targeted_modifier = {
+                tag = KOR
+				attack_bonus_against = 0.3
+				defense_bonus_against = 0.3
+			}
+        }
         JUCHE_REAL_CHINA = {
             picture = jap_intervene_in_china
             allowed = {

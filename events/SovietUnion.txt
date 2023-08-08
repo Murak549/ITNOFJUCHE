@@ -2643,6 +2643,31 @@ country_event = {
 	}
 }
 
+# DPRK requests attack south korea
+country_event = {
+	id = soviet.71
+	title = soviet.71.t
+	desc = soviet.71.d
+	picture = GFX_report_event_soviet_tanks
+
+	is_triggered_only = yes
+	
+	option = {
+		name = soviet.71.a
+		PRK = {
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+				generator = { 525 }
+			}
+			add_timed_idea = {
+			idea = PRK_idea_attack_south_joseon
+			days = 90
+			}
+		}
+	}
+}
+
 # Soviet event for Poland joining sphere after Yalta 
 #country_event = {
 #	id = soviet.71
