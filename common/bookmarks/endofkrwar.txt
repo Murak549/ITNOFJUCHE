@@ -7,34 +7,34 @@ bookmarks = {
 		default_country = "PRK"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_KOREAN_WAR_DESC"
+		"ISR"={
+			history = "ISR_KOREAN_WAR_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				ISR_victors_of_wwi
+				ISR_disjointed_government
+				ISR_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_form_the_popular_front
-				FRA_revive_the_national_bloc
-				FRA_france_leads
+				ISR_form_the_popular_front
+				ISR_revive_the_national_bloc
+				ISR_ISRnce_leads
 			}
 		}
-		"FRA"={
-			history = "FRA_KOREAN_WAR_DESC"
+		"ISR"={
+			history = "ISR_KOREAN_WAR_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				ISR_victors_of_wwi
+				ISR_disjointed_government
+				ISR_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_invite_communist_ministers
-				FRA_utilize_the_leagues
-				FRA_je_suis_la_deluge
+				ISR_invite_communist_ministers
+				ISR_utilize_the_leagues
+				ISR_je_suis_la_deluge
 			}
 		}
 		"USA"={
@@ -81,48 +81,32 @@ bookmarks = {
 				ENG_war_with_italy
 			}
 		}
-		"GER"={
-			history = "GER_KOREAN_WAR_DESC"
-			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
+		"KOR"={
+			history = "KOR_KOREAN_WAR_DESC"
+			ideology = democratic
 			ideas = {
 				sour_loser
 				general_staff
-				GER_mefo_bills_1
+				KOR_mefo_bills_1
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_revive_the_kaiserreich
+				KOR_anschluss
+				KOR_danzig_or_war
+				KOR_revive_the_kaiserreich
 			}
 		}
-		"GER"={
-			history = "GER_KOREAN_WAR_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
-			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
-			}
-			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
-			}
-		}
-		"PRC"={
-			history = "PRC_KOREAN_WAR_DESC"
+		"PRK"={
+			history = "PRK_KOREAN_WAR_DESC"
 			ideology = communism
 			available = { has_dlc = "By Blood Alone" }
 			ideas = {
-				PRC_low_popular_support_3
-				PRC_focus_on_china
-				PRC_the_long_march_2
+				PRK_low_popular_support_3
+				PRK_focus_on_china
+				PRK_the_long_march_2
 			}	
 			focuses = {
-				PRC_proclaim_the_peoples_republic
-				PRC_maoism
+				PRK_proclaim_the_peoples_republic
+				PRK_maoism
 				CHI_one_china_policy
 			}		
 		}
@@ -177,49 +161,20 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		"CAN"={
+		"CHI"={
 			minor = yes
-			history = "CAN_KOREAN_WAR_DESC"
+			history = "CHI_KOREAN_WAR_DESC"
 			ideology = democratic
 			ideas = {
-				CAN_great_depression_1
-				CAN_conscription_crisis
+				CHI_great_depression_1
+				CHI_conscription_crisis
 			}
 			focuses = {
-				CAN_skewer_the_eagle
-				CAN_north_american_alliance
-				CAN_join_comintern
+				CHI_skewer_the_eagle
+				CHI_north_ameriCHI_alliance
+				CHI_join_comintern
 			}
 		}
-		"AST"={
-			minor = yes
-			history = "AST_KOREAN_WAR_DESC"
-			ideology = democratic
-			ideas = {
-				AST_great_depression_1
-			}
-			focuses = {
-				AST_never_another_gallipoli
-				AST_support_indonesian_uprising
-				AST_delegation_to_china
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_KOREAN_WAR_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_3
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
-			}
-		}		
-
 		"HOL"={
 			minor = yes
 			history = "NETHERLANDS_KOREAN_WAR_DESC"

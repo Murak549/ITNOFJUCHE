@@ -1,6 +1,7 @@
 ﻿l_english: 
 #TLE에서 일부 차용함
  STATE_282:0 "도쿄"
+ STATE_357:0 "메인"
  STATE_524:0 "타이베이"
  STATE_525:0 "경기도"
  STATE_527:0 "평안남도"

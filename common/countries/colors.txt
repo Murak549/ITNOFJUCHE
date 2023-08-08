@@ -1249,3 +1249,31 @@ SDA = {
 	color = rgb { 108 157 139 }
 	color_ui = hsv { 45 91 79 }
 }
+WSX = {
+	color = rgb { 70 50 168 }
+	color_ui = hsv { 70 50 200 }
+}
+SUS = {
+	color = rgb { 8 25 120 }
+	color_ui = hsv { 8 25 120 }
+}
+KET = {
+	color = rgb { 237 100 100 }
+	color_ui = hsv { 237 100 100 }
+}
+ESS = {
+	color = rgb { 150 75 75 }
+	color_ui = hsv { 150 75 75 }
+}
+EAG = {
+	color = rgb { 123 201 237 }
+	color_ui = hsv { 123 201 227 }
+} 
+MRC = {
+	color = rgb { 34 224 196 }
+	color_ui = hsv { 34 224 196 }
+}
+NBA = {
+	color = rgb { 222 153 80 }
+	color_ui = hsv { 222 153 80 }
+}

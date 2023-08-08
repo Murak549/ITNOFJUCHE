@@ -94,3 +94,38 @@
  SZC_ADJ:0 "사천"
 
  MNE:0 "남양군도"
+
+ WSX_democratic:0 "웨섹스 공화국"
+ WSX_neutrality:0 "웨섹스 왕국"
+ WSX_communism:0 "웨섹스 인민공화국"
+ WSX_fascism:0 "웨섹스"
+
+ SUS_democratic:0 "서식스 공화국"
+ SUS_neutrality:0 "서식스 왕국"
+ SUS_communism:0 "서식스 사회주의 공화국"
+ SUS_fascism:0 "서식스"
+
+ KET_democratic:0 "켄트 공화국"
+ KET_neutrality:0 "켄트 왕국"
+ KET_communism:0 "켄트 소비에트 공화국"
+ KET_fascism:0 "켄트"
+
+ ESS_democratic:0 "에식스 공화국"
+ ESS_neutrality:0 "에식스 왕국"
+ ESS_communism:0 "에식스 인민공화국"
+ ESS_fascism:0 "에식스"
+
+ EAG_democratic:0 "동 앵글리아 공화국"
+ EAG_neutrality:0 "동 앵글리아 왕국"
+ EAG_communism:0 "동 앵글리아 사회주의 공화국"
+ EAG_fascism:0 "동 앵글리아"
+
+ MRC_democratic:0 "머시아 공화국"
+ MRC_neutrality:0 "머시아 왕국"
+ MRC_communism:0 "머시아 평의회 공화국"
+ MRC_fascism:0 "머시아 제국"
+
+ NBA_democratic:0 "노섬브리아 공화국"
+ NBA_neutrality:0 "노섬브리아 왕국"
+ NBA_communism:0 "노섬브리아 민주 공화국"
+ NBA_fascism:0 "노섬브리아 제국"
