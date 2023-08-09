@@ -104,7 +104,7 @@ characters={
     PRK_Kang_Gun = {
         portraits={
 			army={
-
+				large = GFX_kang_gun
 			}
 		}
 		corps_commander={

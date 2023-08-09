@@ -32,6 +32,7 @@
  AIN_communism_DEF:0 "에조"
  AIN_communism:0 "에조인민공화국"
  AIN_fascism:0 "아이누국"
+ PRK_communism:0 "조선민주주의인민공화국"
  PRK:0 "조선국"
  PRK_ADJ:0 "조선국"
  PRK_DEF:0 "조선국"
@@ -40,7 +41,6 @@
  PRK_democratic_DEF:0 "조선"
  PRK_communism_ADJ:0 "조선"
  PRK_communism_DEF:0 "조선"
- PRK_communism:0 "조선민주주의인민공화국"
  
  KOR_fascism:0 "대한민국"
 

@@ -209,7 +209,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRK_kill_clique
-		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
+		icon = GFX_focus_SOV_the_last_purge
 		cost = 10
 		prerequisite = {
 			focus = PRK_dprk
@@ -298,7 +298,7 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_5
+		id = PRK_party_hello_new
 		icon = GFX_unknown
 		cost = 10
 		x = 20
@@ -308,47 +308,47 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_6
+		id = PRK_revolutive_leader_idea
 		icon = GFX_unknown
 		cost = 10
 		x = 19
 		y = 5
 		prerequisite = {
-			focus = PRK_any_focus_about_power_5
+			focus = PRK_party_hello_new
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_7
+		id = PRK_juche_idea
 		icon = GFX_unknown
 		cost = 10
 		x = 21
 		y = 5
 		prerequisite = {
-			focus = PRK_any_focus_about_power_5
+			focus = PRK_party_hello_new
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_8
+		id = PRK_all_for_one_one_for_all
 		icon = GFX_unknown
 		cost = 10
 		x = 21
 		y = 6
 		prerequisite = {
-			focus = PRK_any_focus_about_power_7
+			focus = PRK_juche_idea
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_9
+		id = PRK_baepo
 		icon = GFX_unknown
 		cost = 10
 		x = 25
 		y = 6
 		prerequisite = {
-			focus = PRK_any_focus_about_power_7
+			focus = PRK_juche_idea
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_10
+		id = PRK_kim_ilsung_personal_praise
 		icon = GFX_unknown
 		cost = 10
 		x = 19
@@ -357,82 +357,82 @@ focus_tree = {
 			focus = PRK_gaejo_idea
 		}	
 		prerequisite = {
-			focus = PRK_any_focus_about_power_6
+			focus = PRK_revolutive_leader_idea
 		}	
 		prerequisite = {
-			focus = PRK_any_focus_about_power_8
+			focus = PRK_all_for_one_one_for_all
 		}	
 		prerequisite = {
-			focus = PRK_any_focus_about_power_9
+			focus = PRK_baepo
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_11
-		icon = GFX_unknown
+		id = PRK_army_is_mine
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 10
 		x = 17
 		y = 8
 		prerequisite = {
-			focus = PRK_any_focus_about_power_10
+			focus = PRK_kim_ilsung_personal_praise
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_12
-		icon = GFX_unknown
+		id = PRK_liberater_from_japan
+		icon = GFX_focus_generic_japanese_imperial_glory
 		cost = 10
 		x = 19
 		y = 8
 		prerequisite = {
-			focus = PRK_any_focus_about_power_10
+			focus = PRK_kim_ilsung_personal_praise
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_13
-		icon = GFX_unknown
+		id = PRK_fuck_imperalism
+		icon = GFX_focus_generic_army_tanks2
 		cost = 10
 		x = 21
 		y = 8
 		prerequisite = {
-			focus = PRK_any_focus_about_power_10
+			focus = PRK_kim_ilsung_personal_praise
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_14
-		icon = GFX_unknown
+		id = PRK_anti_imperal_anti_feudalism_democratic_revolution_theory
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		cost = 10
 		x = 18
 		y = 9
 		prerequisite = {
-			focus = PRK_any_focus_about_power_11
+			focus = PRK_army_is_mine
 		}	
 		prerequisite = {
-			focus = PRK_any_focus_about_power_12
+			focus = PRK_liberater_from_japan
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_15
-		icon = GFX_unknown
+		id = PRK_idaina_leader
+		icon = GFX_focus_SOV_organization_centralization_discipline
 		cost = 10
 		x = 20
 		y = 9
 		prerequisite = {
-			focus = PRK_any_focus_about_power_12
+			focus = PRK_liberater_from_japan
 		}	
 		prerequisite = {
-			focus = PRK_any_focus_about_power_13
+			focus = PRK_fuck_imperalism
 		}	
 	}
 	focus = {
-		id = PRK_any_focus_about_power_16
-		icon = GFX_unknown
+		id = PRK_leader_of_joseon
+		icon = GFX_focus_PRK_leader_of_joseon
 		cost = 10
 		x = 19
 		y = 10
 		prerequisite = {
-			focus = PRK_any_focus_about_power_14
+			focus = PRK_anti_imperal_anti_feudalism_democratic_revolution_theory
 		}	
 		prerequisite = {
-			focus = PRK_any_focus_about_power_15
+			focus = PRK_idaina_leader
 		}	
 	}
 	focus = {

@@ -1,6 +1,11 @@
 spriteTypes = {	
     				
 	spriteType = {
+		name = "GFX_focus_PRK_leader_of_joseon"
+		texturefile = "gfx/icon/KOR_socialist_Army.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_focus_ISR_fuck_islam"
 		texturefile = "gfx/icon/islamic_healthcare.png"
 		legacy_lazy_load = no
@@ -41,10 +46,10 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_focus_PRK_cheonlima_shine"
-		texturefile = "gfx/icon/gfx/icon/Focus_PRK_cheonlima.png"
+		name = "GFX_focus_PRK_leader_of_joseon_shine"
+		texturefile = "gfx/icon/KOR_socialist_Army.png"
 		animation={
-			animationmaskfile = gfx/icon/gfx/icon/Focus_PRK_cheonlima.png
+			animationmaskfile = gfx/icon/KOR_socialist_Army.png
 			animationtexturefile = gfx/interface/goals/shine_overlay.dds    # <- the animated file
 			animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no            # yes or no ;)
@@ -56,7 +61,36 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = gfx/icon/gfx/icon/Focus_PRK_cheonlima.png
+			animationmaskfile = gfx/icon/KOR_socialist_Army.png
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds     # <- the animated file
+			animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no            # yes or no ;)
+			animationtime = 0.75                # in seconds
+			animationdelay = 0            # in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+		legacy_lazy_load = no
+	spriteType = {
+		name = "GFX_focus_PRK_leader_of_joseon_shine"
+		texturefile = "gfx/icon/KOR_socialist_Army.png"
+		animation={
+			animationmaskfile = gfx/icon/KOR_socialist_Army.png
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds    # <- the animated file
+			animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no            # yes or no ;)
+			animationtime = 0.75                # in seconds
+			animationdelay = 0            # in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = gfx/icon/KOR_socialist_Army.png
 			animationtexturefile = gfx/interface/goals/shine_overlay.dds     # <- the animated file
 			animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no            # yes or no ;)
