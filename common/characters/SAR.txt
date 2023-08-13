@@ -1,0 +1,15 @@
+characters={ 
+    SAR_govern={
+        name=SAR_govern
+        portraits={
+            army={
+                large=gfx/leaders/SAR/SAR.dds
+            }
+        }
+        country_leader={
+            ideology=liberalism
+			desc = "SAR_govern_desc"
+            expire="1985.8.16"
+        }
+    }
+}

@@ -6,7 +6,12 @@
  
  PRC_proclaimed_SOV_communism_autonomy_puppet:0 "중화소비에트공화국"
  PRC_SOV_communism_autonomy_puppet:0 "소련공산당 만주분국"
- 
+
+ SAR_FRA_democratic_autonomy_protectorate:0 "자르 보호령"
+ SAR_FRA_fascism_autonomy_protectorate:0 "자르 제국보호령"
+ SAR_FRA_neutrality_autonomy_protectorate:0 "자르 제국보호령"
+ SAR_FRA_communism_autonomy_protectorate:0 "자르 민정청"
+
  UKR_SOV_communism_autonomy_collaboration_government:0 "우크라이나 소비에트 사회주의 공화국"
  BLR_SOV_communism_autonomy_collaboration_government:0 "벨라루스 소비에트 사회주의 공화국"
  ARM_SOV_communism_autonomy_collaboration_government:0 "아르메니아 소비에트 사회주의 공화국"
@@ -264,6 +269,7 @@
  KTC_JAP:0 "관동주청"
  CHI_PGOFROC:0 "중화민국 임시정부"
  CHI_YS_COLO:0 "중화민국 유신정부"
+
 
 
 EDO

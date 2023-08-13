@@ -1,5 +1,8 @@
 #reload countrycolors
-
+SAR = {
+	color = rgb { 160  160  160 }
+	color_ui = rgb { 160  160  160 }
+}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }

@@ -200,6 +200,9 @@ focus_tree = {
 		id = PRK_dprk
 		icon = GFX_focus_PRK_founding_dprk
 		cost = 10
+		bypass = {
+			always = yes
+		}
 		prerequisite = {
 			focus = PRK_peoples_army_of_korea2
 		}

@@ -1,0 +1,163 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+
+focus_tree = {
+	id = SAR_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SAR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 55 y = 1500 }
+
+
+    focus = {
+		id = SAR_jude_heaven
+		icon = GFX_focus_generic_self_management
+		cost = 5
+		x = 10	
+		y = 0
+		mutually_exclusive = { focus = SAR_iam_cat }
+		completion_reward = {
+			hidden_effect = {
+				454 = {
+					set_state_category = megalopolis
+					add_manpower = 4543200
+					add_building_construction = {
+						type = industrial_complex
+						level = 5
+						instant_build = yes
+					}
+				}
+				454 = {
+					add_manpower = 4543
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 10
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+							limit_to_victory_point > 1
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAR_name_of_god
+		icon = GFX_focus_generic_catholic_dominion
+		cost = 5
+		prerequisite = {
+			focus = SAR_jude_heaven
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = SAR_fuck_you_christ
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		cost = 5
+		prerequisite = {
+			focus = SAR_name_of_god
+		}
+		x = 2
+		y = 2
+	}
+	focus = {
+		id = SAR_this_is_war
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 5
+		prerequisite = {
+			focus = SAR_fuck_you_christ
+		}
+		x = 1
+		y = 3
+	}
+	focus = {
+		id = SAR_how_about_islam
+		icon = GFX_focus_SAR_fuck_islam
+		cost = 5
+		prerequisite = {
+			focus = SAR_fuck_you_christ
+		}
+		x = 3
+		y = 3
+	}
+	focus = {
+		id = SAR_kill_germany
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 5
+		prerequisite = {
+			focus = SAR_name_of_god
+		}
+		x = 10
+		y = 2
+	}
+	focus = {
+		id = SAR_jude_jabon
+		icon = GFX_focus_chi_mission_to_the_us
+		cost = 5
+		prerequisite = {
+			focus = SAR_name_of_god
+		}
+		x = 18
+		y = 2
+	}
+	focus = {
+		id = SAR_give_me_weapon
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5
+		prerequisite = {
+			focus = SAR_jude_jabon
+		}
+		x = 16
+		y = 3
+	}
+
+
+	focus = {
+		id = SAR_iam_cat
+		x = 20
+		y = 0
+		icon = GFX_focus_SOV_rebuild_the_savior_cathedral
+		cost = 10
+		mutually_exclusive = {
+			focus = SAR_jude_heaven
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = please_wait_updatett	
+				always = no
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = please_wait_fake_tt
+		}
+	}
+}
+

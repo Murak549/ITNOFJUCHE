@@ -191,6 +191,18 @@ bookmarks = {
 			}
 		}
 
+		"SAR"={
+			minor = yes
+			history = "SAR_KOREAN_WAR_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
 		"SPR"={
 			minor = yes
 			history = "SPAIN_KOREAN_WAR_DESC"

@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_bun
+	id = autonomy_protectorate
 	
 	is_puppet = yes
 	
@@ -46,11 +46,11 @@ autonomy_state = {
 		has_dlc = "No Step Back"
 		OR = {
 			is_subject = no
-			has_autonomy_state = autonomy_protectorate
+			has_autonomy_state = autonomy_personal_union
 		}
 	}
 	
 	can_lose_level = {
-		always = yes
+		always = no
 	}
 }

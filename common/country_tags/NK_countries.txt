@@ -1,34 +1,22 @@
 DNF = "countries/United Kingdom.txt"
-AIN = "countries/Japan.txt"
-CLM = "countries/Germany.txt"
-DNG = "countries/Korea.txt"
+
 HBC = "countries/Germany.txt"
-IDC = "countries/France.txt"
+CLM = "countries/Germany.txt"
 LRC = "countries/Germany.txt"
+SOA = "countries/Germany.txt"
 NBW = "countries/Germany.txt"
 NBS = "countries/Germany.txt"
 NSW = "countries/Germany.txt"
-OKJ = "countries/Korea.txt"
-# PRJ = "countries/Japan.txt"
-PRK = "countries/Korea.txt"
-KRM = "countries/Korea.txt"
-RYU = "countries/Japan.txt"
-SOA = "countries/Germany.txt"
-SVN = "countries/Vietnam.txt"
 UPC = "countries/Germany.txt"
-WEA = "countries/Germany.txt"
-CH1 = "countries/China.txt" #중화민궈
-CH2 = "countries/China.txt" #중화민궈
-HNC = "countries/China.txt" #호남군벌
-GDC = "countries/China.txt" #광동군벌
-SZC = "countries/China.txt" #사천군벌
+
+RYU = "countries/Japan.txt"
+AIN = "countries/Japan.txt"
+# PRJ = "countries/Japan.txt"
 KHU = "countries/Japan.txt"
 CHO = "countries/Japan.txt"
 TAW = "countries/Japan.txt"
 JID = "countries/Japan.txt"
 MNE = "countries/Japan.txt" #적도 이북에 위치한 태평양의 독일 영토에 대한 위임통치령
-KTC = "countries/Japan.txt"
-
 EDO = "countries/Japan.txt" #에도막부
 SZM = "countries/Japan.txt" #사츠마 번
 CSY = "countries/Japan.txt" #사츠마 번
@@ -39,6 +27,25 @@ ODA = "countries/Japan.txt" #사츠마 번
 EIS = "countries/Japan.txt" #사츠마 번
 YNZ = "countries/Japan.txt" #사츠마 번
 SDA = "countries/Japan.txt" #사츠마 번
+KTC = "countries/Japan.txt"
+
+DNG = "countries/Korea.txt"
+OKJ = "countries/Korea.txt"
+PRK = "countries/Korea.txt"
+KRM = "countries/Korea.txt"
+
+IDC = "countries/France.txt"
+SAR = "countries/France.txt"
+
+SVN = "countries/Vietnam.txt"
+WEA = "countries/Germany.txt"
+
+CH1 = "countries/China.txt" #중화민궈
+CH2 = "countries/China.txt" #중화민궈
+HNC = "countries/China.txt" #호남군벌
+GDC = "countries/China.txt" #광동군벌
+SZC = "countries/China.txt" #사천군벌
+
 WSX = "countries/USA.txt"
 SUS = "countries/USA.txt"
 KET = "countries/USA.txt"
