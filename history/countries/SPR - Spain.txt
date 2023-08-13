@@ -286,7 +286,6 @@ set_convoys = 150
 set_stability = 0.5
 
 1939.1.1 = {
-
 	add_political_power = 1198
 	add_command_power = 100
 	
@@ -352,6 +351,7 @@ set_stability = 0.5
 		complete_national_focus = SPA_fuse_the_parties
 		complete_national_focus = SPA_integrate_the_requetes
 		complete_national_focus = SPA_utilize_the_intellectuals
+		complete_national_focus = SPA_adapt_the_26_points
 		every_unit_leader = {
 			limit = {
 				NOT = { has_trait = trait_SPA_nationalist_sympathies }
@@ -398,17 +398,6 @@ set_stability = 0.5
 		}
 	}
 	load_oob = "unlock_tanks"
-	1949.1.1 = {
-		every_owned_state = {
-			limit = {
-				is_on_continent = europe
-			}
-			add_core_of = SPR
-		}
-		SPR = {
-			add_state_core = 41
-		}
-	}
 	set_technology = {
 		interwar_artillery = 1
 		interwar_antitank = 1
@@ -455,6 +444,44 @@ set_stability = 0.5
 		gwtank = 1
 		basic_light_tank = 1
 	}
+}
+1940.1.1 = {
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		complete_national_focus = SPA_national_recovery
+		complete_national_focus = SPA_adapt_the_26_points
+		complete_national_focus = SPA_prepare_the_pyrenees_defenses
+		complete_national_focus = SPA_dictator_for_life
+		complete_national_focus = SPA_invest_in_naval_infrastructure
+		complete_national_focus = SPA_la_division_azul
+		complete_national_focus = SPA_stamp_out_the_maquis
+		complete_national_focus = SPA_defenses_against_strategic_bombing
+		complete_national_focus = SPA_autarky
+		complete_national_focus = SPA_spanish_austerity
+		complete_national_focus = SPA_reduce_reliance_on_foreign_resources
+		complete_national_focus = SPA_expand_the_axis_gold_trade
+		complete_national_focus = SPA_the_national_and_popular_army_of_spain
+		complete_national_focus = SPA_the_army_of_africa_model
+		complete_national_focus = SPA_motorization
+		complete_national_focus = SPA_arms_modernization
+		complete_national_focus = SPA_an_armored_corps
+		complete_national_focus = SPA_artillery_modernization
+	}
+}
+1949.1.1 = {
+	every_owned_state = {
+		limit = {
+			is_on_continent = europe
+		}
+		add_core_of = SPR
+	}
+	SPR = {
+		add_state_core = 41
+	}
+	remove_ideas = SPA_recovering_from_civil_war
+	remove_ideas = SPA_carlism_4
 }
 if = {
 	limit = {

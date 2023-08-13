@@ -549,7 +549,7 @@ country_event = {
 		name = prk.10.a
 		add_equipment_to_stockpile = {
 			type = infantry_equipment_2
-			amount = 1500
+			amount = 4000
 			producer = SOV
 		}		
 		add_equipment_to_stockpile = {

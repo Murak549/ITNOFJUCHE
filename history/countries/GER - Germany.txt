@@ -421,6 +421,9 @@ create_import = {
 		set_oob = "GER_1949_nsb"
 	}
 	load_focus_tree = generic_focus
+	give_military_access = FRA
+	give_military_access = ENG
+	give_military_access = USA
 }
 
 set_politics = {
