@@ -42,8 +42,10 @@
  PRK_army_is_mine:0 "조선인민혁명군의 사령관"
  PRK_fuck_imperalism:0 "제국주의 침략자 모조리 때려부시자"
  PRK_idaina_leader:0 "수령님은 위대하시다"
+ PRK_pyeongyang_radio:0 "평양방송"
+ PRK_korean_central_bangsong:0 "조선중앙방송"
  PRK_liberater_from_japan:0 "일본으로부터의 해방자"
- 
+ PRK_5years_plan:0 "인민경제5개년계획"
 
  GHQ_international_military_tribunal:0 "극동군사재판"
  GHQ_radio_free_zerg:0 "언론 자유화"
@@ -99,9 +101,18 @@
  ISR_jude_jabon:0 "유대자본의 힘"
  ISR_give_me_weapon:0 "무기 구매"
 
+ SAR_1949_end_of_year:0 "1949년 연말 보고서"
+ SAR_after_plan:0 "자르의 미래?"
+ SAR_with_france:0 "자르의 프랑스화"
+ SAR_with_germany:0 "다시 하나되어"
+ SAR_just_province_of_FRA:0 "프랑스의 행정구역"
+ SAR_independent_french_country:0 "독립된 공화국"
+ SAR_citizen_idea:0 "국민 의견 묵살"
 
  chi_you_may_not_1tt:0 "우한 탈환: 실패" 
  chi_you_may_not_2tt:0 "우한 탈환: 성공"
  please_wait_updatett:0 "주체의 이름으로: 완성됨"
  ilsung_is_powerful:0 "김일성 권력"
+ do_work_TT:0 "\n§Y5개년 계획 미션§!이 시작됩니다.\n하나라도 §R실패§!할 시 조선의 경제에 그림자가 다가올 것입니다. 아마도 영원히!"
  please_wait_fake_tt:0 "§Y비동맹주의§! 정당은 '§Y인민의힘§!' 측으로 불립니다. \n§Y비동맹주의§! 지지자가 내전을 시작합니다. \n정치적 변화:\n§Y해병대전우회§! 측이 집권 정당이 됩니다. \n공공 전우애가 개최되지 않습니다. \n브라보 해병대"
+

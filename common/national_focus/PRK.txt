@@ -58,11 +58,68 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
-
+		completion_reward = {
+			set_power_balance = {
+				id = PRK_balance
+				left_side = PRK_the_soviet 
+				right_side = PRK_the_manchu
+			}
+		}
 	}
 	focus = {
 		id = PRK_cheonlima
 		icon = GFX_focus_PRK_cheonlima
+		cost = 5
+		mutually_exclusive = {
+			focus = PRK_5years_plan
+		}
+		prerequisite = {
+			focus = PRK_go_to_socialism
+		}
+		available = {
+			PRK = {
+				has_completed_focus = PRK_our_economy
+			}
+		}
+		x = -7
+		y = 2
+		completion_reward = {
+			add_ideas = PRK_ch_horse
+		}
+	}
+	focus = {
+		id = PRK_koreas_SA
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		cost = 5
+		prerequisite = {
+			focus = PRK_cheonlima
+		}
+		x = -8
+		y = 3
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRK_the_yenan
+				value = 0.2
+				tooltip_side = PRK_the_yenan
+			}
+		}
+	}
+	focus = {
+		id = PRK_patriotic_rice_donation_movement
+		icon = GFX_goal_generic_construction2
+		cost = 5
+		prerequisite = {
+			focus = PRK_cheonlima
+		}
+		x = -6
+		y = 3
+	}
+	focus = {
+		id = PRK_5years_plan
+		icon = GFX_focus_PRK_5years_plan
+		mutually_exclusive = {
+			focus = PRK_cheonlima
+		}
 		cost = 5
 		prerequisite = {
 			focus = PRK_go_to_socialism
@@ -72,12 +129,15 @@ focus_tree = {
 				has_completed_focus = PRK_our_economy
 			}
 		}
-		x = 2
+		x = 0
 		y = 2
 		completion_reward = {
-			add_ideas = PRK_ch_horse
+			add_timed_idea = {
+				idea = PRK_5year_plan
+				days = 1825
+			}
+			custom_effect_tooltip = do_work_TT
 		}
-
 	}
 	focus = {
 		id = PRK_peoples_army_of_korea2
@@ -321,7 +381,7 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = PRK_juche_idea
+		id = juche_idea
 		icon = GFX_unknown
 		cost = 10
 		x = 21
@@ -336,8 +396,8 @@ focus_tree = {
 		cost = 10
 		x = 21
 		y = 6
-		prerequisite = {
-			focus = PRK_juche_idea
+		prerequisite = {	
+			focus = juche_idea
 		}	
 	}
 	focus = {
@@ -347,7 +407,7 @@ focus_tree = {
 		x = 25
 		y = 6
 		prerequisite = {
-			focus = PRK_juche_idea
+			focus = juche_idea
 		}	
 	}
 	focus = {
@@ -418,6 +478,9 @@ focus_tree = {
 		cost = 10
 		x = 20
 		y = 9
+		available = {
+			has_completed_focus = PRK_korean_central_bangsong
+		}
 		prerequisite = {
 			focus = PRK_liberater_from_japan
 		}	
@@ -439,28 +502,6 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = PRK_koreas_SA
-		icon = GFX_focus_SOV_builder_of_the_red_army
-		cost = 5
-		prerequisite = {
-			focus = PRK_cheonlima
-		}
-		x = 1
-		y = 3
-
-	}
-	focus = {
-		id = PRK_patriotic_rice_donation_movement
-		icon = GFX_goal_generic_construction2
-		cost = 5
-		prerequisite = {
-			focus = PRK_cheonlima
-		}
-		x = 3
-		y = 3
-
-	}
-	focus = {
 		id = PRK_military_support_service
 		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
 		cost = 5
@@ -480,6 +521,34 @@ focus_tree = {
 		}
 		x = 7
 		y = 3
+	}
+
+	focus = {
+		id = PRK_pyeongyang_radio
+		x = 7
+		y = 4
+		cost = 15
+		prerequisite = {
+			focus = PRK_third_revolution_red_flag_movement
+		}
+		completion_reward = {
+			add_ideas = PRK_pyeongyang_radio
+		}
+	}
+	focus = {
+		id = PRK_korean_central_bangsong
+		x = 6
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = PRK_pyeongyang_radio
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = PRK_korean_central_bangsong
+				remove_idea = PRK_pyeongyang_radio
+			}
+		}
 	}
 
 	focus = {

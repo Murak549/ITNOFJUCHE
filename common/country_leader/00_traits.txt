@@ -404,6 +404,19 @@ leader_traits = {
 #ai_focus_naval_air_factor
 #ai_focus_aviation_factor
 
+	anti_america = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "USA"
+			value = 200
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	dislikes_germany = {
 		random = no
 		ai_strategy = {

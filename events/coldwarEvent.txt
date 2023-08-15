@@ -1,6 +1,7 @@
 add_namespace = coldwar
 add_namespace = coldwar_chi
 add_namespace = coldwar_sov
+add_namespace = coldwar_mid_east
 
 country_event = { #더미데이터 
 	id = coldwar.1
@@ -347,6 +348,33 @@ country_event = {
 		}
 	}
 }
+country_event = { 
+	id = coldwar.11
+	title = coldwar.11.t
+	desc = coldwar.11.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	trigger = {
+		tag = FRA
+		date > 1954.10.1
+	}
+	option = {
+		name = coldwar.11.a
+		every_state = {
+			limit = {
+				is_core_of = ALG
+			}
+			remove_core_of = FRA
+			start_resistance = yes
+			set_resistance = 99
+		}
+	}
+}
+
+
+
+## CHI ##
+
 country_event = {
 	id = coldwar_chi.1
 	title = coldwar_chi.1.t
@@ -414,5 +442,49 @@ country_event = {
 			transfer_state = 594
 			transfer_state = 591
 		}
+	}
+}
+news_event = {
+	id = coldwar_mid_east.1000
+	major = yes
+	title = coldwar_mid_east.1000.t
+	desc = coldwar_mid_east.1000.d
+	picture = GFX_news_event_SOV_supreme_soviet
+	is_triggered_only = yes
+	option = {
+		name = coldwar_mid_east.1000.a
+	}
+}
+news_event = {
+	id = coldwar_mid_east.1001
+	major = yes
+	title = coldwar_mid_east.1001.t
+	desc = coldwar_mid_east.1001.d
+	picture = GFX_news_event_greek_civil_war
+	is_triggered_only = yes
+	option = {
+		name = coldwar_mid_east.1001.a
+	}
+}
+news_event = {
+	id = coldwar.1000
+	major = yes
+	title = coldwar.1000.t
+	desc = coldwar.1000.d
+	picture = GFX_news_event_nuke
+	is_triggered_only = yes
+	option = {
+		name = coldwar.1000.a
+	}
+}
+news_event = {
+	id = coldwar.1001
+	major = yes
+	title = coldwar.1001.t
+	desc = coldwar.1001.d
+	picture = GFX_news_event_nuke
+	is_triggered_only = yes
+	option = {
+		name = coldwar.1001.a
 	}
 }

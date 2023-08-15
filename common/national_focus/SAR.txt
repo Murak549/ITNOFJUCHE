@@ -29,134 +29,101 @@ focus_tree = {
 
 
     focus = {
-		id = SAR_jude_heaven
+		id = SAR_1949_end_of_year
 		icon = GFX_focus_generic_self_management
-		cost = 5
-		x = 10	
+		cost = 2
+		x = 15	
 		y = 0
-		mutually_exclusive = { focus = SAR_iam_cat }
-		completion_reward = {
-			hidden_effect = {
-				454 = {
-					set_state_category = megalopolis
-					add_manpower = 4543200
-					add_building_construction = {
-						type = industrial_complex
-						level = 5
-						instant_build = yes
-					}
-				}
-				454 = {
-					add_manpower = 4543
-					add_building_construction = {
-						type = infrastructure
-						level = 5
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 10
-						instant_build = yes
-						province = {
-							all_provinces = yes
-							limit_to_border = yes
-							limit_to_victory_point > 1
-						}
-					}
-				}
-			}
-		}
 	}
 	focus = {
-		id = SAR_name_of_god
-		icon = GFX_focus_generic_catholic_dominion
-		cost = 5
+		id = SAR_after_plan
+		icon = GFX_goal_generic_cavalry
+		cost = 3
 		prerequisite = {
-			focus = SAR_jude_heaven
+			focus = SAR_1949_end_of_year
 		}
-		x = 10
+		x = 15
 		y = 1
-
 	}
 	focus = {
-		id = SAR_fuck_you_christ
-		icon = GFX_focus_mex_restore_the_army_of_christ
+		id = SAR_with_france
+		icon = GFX_focus_chi_reach_out_to_france
 		cost = 5
-		prerequisite = {
-			focus = SAR_name_of_god
-		}
-		x = 2
-		y = 2
-	}
-	focus = {
-		id = SAR_this_is_war
-		icon = GFX_focus_generic_provoke_border_clashes
-		cost = 5
-		prerequisite = {
-			focus = SAR_fuck_you_christ
-		}
-		x = 1
-		y = 3
-	}
-	focus = {
-		id = SAR_how_about_islam
-		icon = GFX_focus_SAR_fuck_islam
-		cost = 5
-		prerequisite = {
-			focus = SAR_fuck_you_christ
-		}
-		x = 3
-		y = 3
-	}
-	focus = {
-		id = SAR_kill_germany
-		icon = GFX_focus_ger_oppose_hitler
-		cost = 5
-		prerequisite = {
-			focus = SAR_name_of_god
-		}
-		x = 10
-		y = 2
-	}
-	focus = {
-		id = SAR_jude_jabon
-		icon = GFX_focus_chi_mission_to_the_us
-		cost = 5
-		prerequisite = {
-			focus = SAR_name_of_god
-		}
-		x = 18
-		y = 2
-	}
-	focus = {
-		id = SAR_give_me_weapon
-		icon = GFX_focus_ETH_freedom_at_gunpoint
-		cost = 5
-		prerequisite = {
-			focus = SAR_jude_jabon
-		}
-		x = 16
-		y = 3
-	}
-
-
-	focus = {
-		id = SAR_iam_cat
-		x = 20
-		y = 0
-		icon = GFX_focus_SOV_rebuild_the_savior_cathedral
-		cost = 10
+		prerequisite = { focus = SAR_after_plan }
+		x = -6
+		y = 1
+		relative_position_id = SAR_after_plan
 		mutually_exclusive = {
-			focus = SAR_jude_heaven
+			focus = SAR_with_germany
 		}
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = please_wait_updatett	
-				always = no
-			}
+	}
+	focus = {
+		id = SAR_just_province_of_FRA
+		icon = GFX_goal_generic_improve_relations
+		cost = 10
+		prerequisite = { focus = SAR_with_france }
+		x = -4
+		y = 1
+		relative_position_id = SAR_with_france
+		mutually_exclusive = {
+			focus = SAR_independent_french_country
 		}
 		completion_reward = {
-			custom_effect_tooltip = please_wait_fake_tt
+			FRA = {
+				annex_country = {
+					target = SAR
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SAR_independent_french_country
+		icon = GFX_focus_SAR_independent_french_country
+		cost = 10
+		prerequisite = { focus = SAR_with_france }
+		x = 0
+		y = 1
+		relative_position_id = SAR_with_france
+		mutually_exclusive = {
+			focus = SAR_just_province_of_FRA
+		}
+		completion_reward = {
+			retire_country_leader = yes
+		}
+	}
+	focus = {
+		id = SAR_citizen_idea
+		icon = GFX_focus_SWI_fortify_border_with_france
+		cost = 5
+		prerequisite = { focus = SAR_independent_french_country }
+		x = 0
+		y = 1
+		relative_position_id = SAR_independent_french_country
+		completion_reward = {
+			add_stablity = -0.2
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SAR_with_germany
+		icon = GFX_focus_SAR_with_germany
+		cost = 5
+		prerequisite = { focus = SAR_after_plan }
+		x = 6
+		y = 1
+		relative_position_id = SAR_after_plan
+		mutually_exclusive = {
+			focus = SAR_with_france
+		}
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 9999
+				GER = {
+					is_exist = yes
+				}
+			}
 		}
 	}
 }

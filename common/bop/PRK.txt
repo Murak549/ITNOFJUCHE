@@ -1,7 +1,7 @@
 
 PRK_balance = {
 	initial_value = 0.25
-	left_side = PRK_the_yenan
+	left_side = PRK_the_manchu
 	right_side = PRK_the_soviet
 	decision_category = KOR_interservice_rivalry
 
@@ -28,6 +28,7 @@ PRK_balance = {
 			min = 0.1
 			max = 0.3
 			modifier = {
+				political_advisor_cost_factor = -0.1
 			}
 			on_activate = {
 				
@@ -37,10 +38,13 @@ PRK_balance = {
 			}
 		}
 		range = {
-			id = PRK_the_soviet_meidum
+			id = PRK_the_soviet_medium
 			min = 0.3
 			max = 0.6
 			modifier = {
+				political_advisor_cost_factor = -0.15
+				offensive_war_stability_factor = -0.1
+				war_support_factor = -0.05
 			}
 			on_activate = {
 				
@@ -54,6 +58,9 @@ PRK_balance = {
 			min = 0.6
 			max = 0.9
 			modifier = {
+				political_advisor_cost_factor = -0.2
+				offensive_war_stability_factor = -0.15
+				war_support_factor = -0.1
 			}
 			on_activate = {
 				
@@ -67,23 +74,28 @@ PRK_balance = {
 			min = 0.9
 			max = 1
 			modifier = {
+				political_advisor_cost_factor = -0.25
+				offensive_war_stability_factor = -0.4
+				war_support_factor = -0.25
 			}
 			on_activate = {
 				
 			}
 			on_deactivate = {
-				
 			}
 		}
 	}
 	side = {
-		id = PRK_the_yenan
+		id = PRK_the_manchu
 		icon = GFX_sup_emp_kor
 		range = {
-			id = PRK_the_yenan_low
+			id = PRK_the_manchu_low
 			min = -0.3
 			max = -0.1
 			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.01
+				stability_factor = 0.01
 			}
 			on_activate = {
 				
@@ -93,10 +105,13 @@ PRK_balance = {
 			}
 		}
 		range = {
-			id = PRK_the_yenan_medium
+			id = PRK_the_manchu_medium
 			min = -0.6
 			max = -0.3
 			modifier = {
+				political_power_factor = 0.07
+				war_support_factor = 0.02
+				stability_factor = 0.02
 			}
 			on_activate = {
 				
@@ -106,10 +121,16 @@ PRK_balance = {
 			}
 		}
 		range = {
-			id = PRK_the_yenan_high
+			id = PRK_the_manchu_high
 			min = -0.9
 			max = -0.6
 			modifier = {
+				political_power_factor = 0.15
+				war_support_factor = 0.03
+				stability_factor = 0.03
+				experience_gain_army = -0.05
+				experience_gain_air = -0.05
+				experience_gain_navy = -0.05
 			}
 			on_activate = {
 				
@@ -119,13 +140,19 @@ PRK_balance = {
 			}
 		}
 		range = {
-			id = PRK_the_yenan_total
+			id = PRK_the_manchu_total
 			min = -1
 			max = -0.9
 			modifier = {
+				command_power_gain = 0.25
+				political_power_gain = 0.25
+				experience_gain_army = -0.15
+				experience_gain_navy = -0.15
+				experience_gain_air = -0.15
+				stability_factor = 0.15
+				war_support_factor = 0.15
 			}
 			on_activate = {
-						
 			}
 			on_deactivate = {
 				

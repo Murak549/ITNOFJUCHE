@@ -1,5 +1,41 @@
 ideas = {
     country = {
+        PRK_5year_plan = {
+            picture = raj_risk_of_famine
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                production_speed_industrial_complex_factor = 0.15 
+                production_speed_arms_factory_factor = 0.05 
+                production_speed_infrastructure_factor = 0.15 
+                production_speed_supply_node_factor = 0.15 
+            }
+        }
+        PRK_pyeongyang_radio = {
+            picture = raj_risk_of_famine
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                drift_defence_factor = 0.3
+                war_support_weekly_factor = 0.001
+                stability_weekly = 0.001
+            }
+        }
+        PRK_korean_central_bangsong = {
+            picture = raj_risk_of_famine
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                drift_defence_factor = 0.3
+                war_support_weekly_factor = 0.001
+                war_stability_factor = 0.03
+                stability_factor = 0.05
+                stability_weekly = 0.001
+            }
+        }
         PRK_give_rice_to_me = {
             picture = raj_risk_of_famine
             allowed = {
@@ -70,8 +106,7 @@ ideas = {
             }
             modifier = {
                 consumer_goods_factor = -0.05
-                production_speed_industrial_complex_factor = 0.05
-                production_speed_industrial_complex_factor = 0.05
+                production_speed_buildings_factor = 0.05
             }
         }
         PRK_motherland_liberate_war = {
