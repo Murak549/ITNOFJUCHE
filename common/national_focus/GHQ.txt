@@ -206,14 +206,9 @@ focus_tree = {
 		y = 2
 
 		completion_reward = {
-			load_focus_tree = japan_wtt_focus
-			complete_national_focus = JAP_strengthen_civilian_government
-			complete_national_focus = JAP_ally_with_the_zaibatsus
-			complete_national_focus = JAP_research_spending
-			complete_national_focus = JAP_pre_emptive_coup
-			complete_national_focus = JAP_purge_the_militarists
-			complete_national_focus = JAP_the_showa_constitution
+			play_song = "partriot_march"
 			promote_character = JAP_tetsu_katayama
+			end_puppet = yes
 		}
 	}
 }

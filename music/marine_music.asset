@@ -48,3 +48,8 @@ music = {
 	file = "dprk/highfast.ogg"
 	volume = 1
 }
+music = {
+	name = "partriot_march"
+	file = "dprk/goodjapan.ogg"
+	volume = 1
+}

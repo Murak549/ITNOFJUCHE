@@ -25,7 +25,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 55 y = 1500 }
+	continuous_focus_position = { x = 55 y = 3150 }
 
 
     focus = {
@@ -81,7 +81,7 @@ focus_tree = {
 				has_completed_focus = PRK_our_economy
 			}
 		}
-		x = -7
+		x = -12
 		y = 2
 		completion_reward = {
 			add_ideas = PRK_ch_horse
@@ -94,7 +94,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_cheonlima
 		}
-		x = -8
+		x = -14
 		y = 3
 		completion_reward = {
 			add_power_balance_value = {
@@ -111,7 +111,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_cheonlima
 		}
-		x = -6
+		x = -10
 		y = 3
 	}
 	focus = {
@@ -129,7 +129,7 @@ focus_tree = {
 				has_completed_focus = PRK_our_economy
 			}
 		}
-		x = 0
+		x = -4
 		y = 2
 		completion_reward = {
 			add_timed_idea = {
@@ -138,6 +138,135 @@ focus_tree = {
 			}
 			custom_effect_tooltip = do_work_TT
 		}
+	}
+	focus = {
+		id = PRK_east_german_power
+		icon = GFX_focus_PRK_5years_plan
+		cost = 10
+		prerequisite = {
+			focus = PRK_5years_plan
+		}
+		relative_position_id = PRK_5years_plan
+		x = -1
+		y = 1
+		completion_reward = {
+			add_timed_idea = {
+				idea = PRK_5year_plan
+				days = 1825
+			}
+		}
+	}
+	focus = {
+		id = PRK_soviet_industry
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = PRK_5years_plan
+		}
+		relative_position_id = PRK_5years_plan
+		x = 1
+		y = 1
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 7 }
+		}
+	}
+	focus = {
+		id = PRK_jaryok_gangsang
+		icon = GFX_focus_PRK_5years_plan
+		cost = 10
+		mutually_exclusive = {
+			focus = PRK_east_europe_power
+		}
+		prerequisite = {
+			focus = PRK_5years_plan
+		}
+		relative_position_id = PRK_5years_plan
+		x = 4
+		y = 1
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = PRK_east_europe_power
+		icon = GFX_focus_PRK_5years_plan
+		cost = 10
+		mutually_exclusive = {
+			focus = PRK_jaryok_gangsang
+		}
+		prerequisite = {
+			focus = PRK_5years_plan
+		}
+		relative_position_id = PRK_5years_plan
+		x = 6
+		y = 1
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = PRK_both_support
+		icon = GFX_focus_PRK_5years_plan
+		cost = 10
+		prerequisite = {
+			focus = PRK_east_german_power
+		}
+		prerequisite = {
+			focus = PRK_soviet_industry
+		}
+		relative_position_id = PRK_east_german_power
+		x = 1
+		y = 1
+		completion_reward = {
+			add_victory_points = { province = 848 value = 20 }
+			add_victory_points = { province = 7070 value = 10 }
+			add_victory_points = { province = 4107 value = 10 }
+			add_victory_points = { province = 10083 value = 10 }
+			920 = {
+				add_manpower = -100000
+			}
+			919 = {
+				add_manpower = -400000
+			}
+			912 = {
+				add_manpower = 200000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			527 = {
+				add_manpower = 300000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = PRK_joseon_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = PRK_both_support
+		}
+		relative_position_id = PRK_both_support
+		x = -3
+		y = 1
+	}
+	focus = {
+		id = PRK_light_industry
+		icon = GFX_focus_generic_industry_1
+		cost = 10
+		prerequisite = {
+			focus = PRK_both_support
+		}
+		relative_position_id = PRK_both_support
+		x = 3
+		y = 1
 	}
 	focus = {
 		id = PRK_peoples_army_of_korea2
@@ -563,11 +692,25 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = please_wait_updatett	
-				always = no
+				always = yes
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = please_wait_fake_tt
+			set_politics = {
+				ruling_party = neutrality
+			}
+			start_civil_war = {
+				ideology = communism
+				size = 0.1
+				army_ratio = 0.5
+				navy_ratio = 0
+				air_ratio = 1
+				states = {
+					527 920 919
+				}
+				keep_all_characters = yes
+			}
+			# custom_effect_tooltip = please_wait_fake_tt
 		}
 	}
 }

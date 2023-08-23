@@ -10,123 +10,12 @@ music = {
 	}
 }
 music = {
-	song = "songofpeoplearmy"
+	song = "partriot_march"
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 3
 
-			tag = PRK
-			has_war = yes
-		}		
-	}
-}
-music = {
-	song = "sacred__war"
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-			tag = PRK
-		}		
-	}
-}
-music = {
-	song = "strike_da"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = yes
-		}		
-	}
-}
-music = {
-	song = "rev_leader"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = yes
-		}		
-	}
-}
-music = {
-	song = "gotofuture"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = no
-		}		
-	}
-}
-music = {
-	song = "welcome"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = no
-		}		
-	}
-}
-music = {
-	song = "proper_worker"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = no
-		}		
-	}
-}
-music = {
-	song = "idk"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = yes
-		}		
-	}
-}
-music = {
-	song = "highfast"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = no
-		}		
-	}
-}
-music = {
-	song = "quickly"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = yes
-		}		
-	}
-}
-music = {
-	song = "canitakeyourorder"
-	chance = {
-		modifier = {
-			factor = 2
-
-			tag = PRK
-			has_war = yes
+			tag = JAP
 		}		
 	}
 }
