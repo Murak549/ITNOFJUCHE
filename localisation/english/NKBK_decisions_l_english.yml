@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ VIN_break_union:0 "연방해체"
+ VIN_communist_make_independent:0 "'해방자' 선동"
+
  FRA_colony_1:0 "식민지 계획"
  FRA_tongchi_change:0 "인도차이나 통치방식 변경"
  FRA_give_state_for_IDC:0 "@IDC [IDC.getName]측에 영토 이관"

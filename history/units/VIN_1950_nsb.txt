@@ -36,7 +36,7 @@ units = {
 	}
 	division= {	
 		name = "Su đoàn 4"
-		location = 12975
+		location = 1300
 		division_template = "quân đội độc lập"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
@@ -50,7 +50,7 @@ units = {
 	}
 	division= {	
 		name = "Su đoàn 6"
-		location = 12975
+		location = 1300
 		division_template = "quân đội độc lập"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98

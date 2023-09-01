@@ -1,66 +1,64 @@
-VIN_independent_war = {
-    VIN_definitive_victory = {
-        activation = {
-            AND = {
-                NOT = {
-                    has_global_flag = VIN_INDEPENDENT
+political_actions = {
+    VIN_communist_make_independent = {
+		allowed = {
+			original_tag = VIN
+		}
+		available = {
+			has_war = no
+            every_state = {
+                limit = {
+                    is_core_of = LAO
                 }
-                286 = {
-                    is_fully_controlled_by = VIN
-                }
-                671 = {
-                    is_fully_controlled_by = VIN
-                }
-                has_war = yes
+                is_owned_by = VIN
             }
-        }
-        available = {   
-            has_war = no
-            # 286 = {
-            #     is_fully_controlled_by = VIN
-            # }
-            # 671 = {
-            #     is_fully_controlled_by = VIN
-            # }
-        }
-        cancel_trigger = {
-            has_war = no
-        }
-        icon = GFX_decision_category_marching_soldiers
-        is_good = yes
-        days_mission_timeout = 140
-        selectable_mission = no
-        timeout_effect = {
-            VIN = {
-                every_country = {
-                    limit = {
-                        has_war_with = VIN 
-                    }
-                    white_peace = VIN
+            every_state = {
+                limit = {
+                    is_core_of = CAM
+                }
+                is_owned_by = VIN
+            }
+		}
+		visible = {
+			has_war = no
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+            add_state_core = 670
+            add_state_core = 741
+            SIA = {
+                every_core_state = {
+                    add_state_claim = VIN
                 }
             }
-            white_peace = FRA
-            FRA = {
-                annex_country = {
-                    target = IDC
-                    transfer_troops = no
-                }
-                release = LAO
-                release = CAM
+		}
+	}
+    VIN_break_union = {
+		allowed = {
+			original_tag = VIN
+		}
+		available = {
+			has_war = no
+		}
+		visible = {
+			has_war = no
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			release = LAO
+			release = CAM
+            drop_cosmetic_tag = VIN
+
+            ROOT = {
+                create_faction = "동남아시아 국가 연합"
+                add_to_faction = LAO
+                add_to_faction = CAM
             }
-            286 = {
-                add_core_of = SVN
-                transfer_state_to = SVN
-            }
-            SVN = {
-                set_cosmetic_tag = VIN
-            }
-            set_global_flag = VIN_INDEPENDENT
-        }
-    }
-    VIN_sex_with_stalin = {
-        available  = {
-				has_completed_focus  = CHI_bureau_of_investigation_and_statistics 
-			}
-    }
+		}
+	}
 }
