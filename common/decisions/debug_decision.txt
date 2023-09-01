@@ -5,6 +5,18 @@ debug = {
 			load_focus_tree = GHQ_focus
 		}
 	}
+	debug_6 = {
+		cost = 0
+		complete_effect = {
+			JAP_fuck_meiji = yes
+		}
+	}
+	debug_5 = {
+		cost = 0
+		complete_effect = {
+			USA_is_faction = yes
+		}
+	}
 	debug_2 = {
 		cost = 0
 		complete_effect = {
@@ -179,6 +191,311 @@ debug = {
 		cost = 0
 		complete_effect = {
 			set_country_flag = TNO_Country_Info_Screen_Visible	
+		}
+	}
+	debug_7 = {
+		cost = 0
+		complete_effect = {
+			SOV = {
+				set_temp_variable = { country_to_initiate = UKR }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = BLR }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = ARM }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = AZR }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = GEO }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TMS }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = UZB }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TAJ }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = KAZ }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = KYR }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = LIT }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = LAT }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = EST }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = MOL }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_8 = {
+		cost = 0
+		complete_effect = {
+			ITA = {
+				transfer_state = 697
+				set_temp_variable = { country_to_initiate = SPM }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = LBV }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = PAP }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TOS }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TTS }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = GRE }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_9 = {
+		cost = 0
+		complete_effect = {
+			FRA = {
+				set_temp_variable = { country_to_initiate = OCC }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = BRI }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = NAV }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_10 = {
+		cost = 0
+		complete_effect = {
+			ENG = {
+				set_temp_variable = { country_to_initiate = SCO }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = WLS }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = NIR }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_11 = {
+		cost = 0
+		complete_effect = {
+			YUG = {
+				set_temp_variable = { country_to_initiate = MNT }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = BOS }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = CRO }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = SLV }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_12 = {
+		cost = 0
+		complete_effect = {
+			ETH = {
+				set_temp_variable = { country_to_initiate = TIG }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = HAR }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = SID }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = GBA }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = BEG }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = QEM }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = AFA }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_13 = {
+		cost = 0
+		complete_effect = {
+			CHI = {
+				every_state = {
+					limit = {
+						OR = {
+							is_core_of = CHI
+							is_core_of = TIB
+						}
+					}
+					transfer_state_to = CHI
+				}
+				set_temp_variable = { country_to_initiate = SIK }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TIB }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = XSM }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = SHX }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = YUN }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = GXC }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = MEN }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = MAN }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_14 = {
+		cost = 0
+		complete_effect = {
+			PRC = {
+				every_state = {
+					limit = {
+						OR = {
+							is_core_of = PRC
+							is_core_of = TIB
+						}
+					}
+					transfer_state_to = PRC
+				}
+				set_temp_variable = { country_to_initiate = SIK }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TIB }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = XSM }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = SHX }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = YUN }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = GXC }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = MEN }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = MAN }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_15 = {
+		cost = 0
+		complete_effect = {
+			ROM = {
+				set_temp_variable = { country_to_initiate = TRA }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = HUN }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_16 = {
+		cost = 0
+		complete_effect = {
+			POL = {
+				set_temp_variable = { country_to_initiate = KSH }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = SIL }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = DNZ }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_17 = {
+		cost = 0
+		complete_effect = {
+			CZE = {
+				set_temp_variable = { country_to_initiate = SLO }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_18 = {
+		cost = 0
+		complete_effect = {
+			SPR = {
+				set_temp_variable = { country_to_initiate = NAV }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = GAL }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = CAT }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = GLC }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_19 = {
+		cost = 0
+		complete_effect = {
+			TUR = {
+				set_temp_variable = { country_to_initiate = KUR }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = SYR }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_20 = {
+		cost = 0
+		complete_effect = {
+			SOV = {
+				set_temp_variable = { country_to_initiate = VLA }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = FER }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = JAP }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = BYA }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = ALT }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = YAK }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TAN }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = TAY }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = NEN }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = YAM }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = KOM }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = KAR }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_21 = {
+		cost = 0
+		complete_effect = {
+			CAN = {
+				annex_country = {
+					target = DNF
+					transfer_troops = yes
+				}
+				set_temp_variable = { country_to_initiate = LRC }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = NBS }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = HBC }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = UPC }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = CLM }
+				instantiate_collaboration_government = yes
+			}
+		}
+	}
+	debug_22 = {
+		cost = 0
+		complete_effect = {
+			AST = {
+				set_temp_variable = { country_to_initiate = SOA }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = WEA }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = NSW }
+				instantiate_collaboration_government = yes
+			}
 		}
 	}
 }

@@ -1,0 +1,25 @@
+state={
+	id=996
+	name="STATE_996"
+	history = {
+		add_core_of = VIN
+		owner = IDC
+		victory_points = {
+			4334 1
+		}
+		buildings = {
+			infrastructure = 1
+			4334 = {
+				naval_base = 1
+			}
+
+		}
+	}
+	provinces={
+		1285 1300 1328 1400 1605 4334 4363 4405 7271 7380 10162 12109 12150 12176 12204 
+	}
+	manpower=4398212
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

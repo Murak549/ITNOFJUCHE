@@ -370,6 +370,32 @@ country_event = {
 		}
 	}
 }
+country_event = { 
+	id = coldwar.12
+	title = coldwar.12.t
+	desc = coldwar.12.d
+	picture = GFX_report_event_albanian_partisans
+	is_triggered_only = yes
+	option = {
+		name = coldwar.12.a
+	}
+	option = {
+		name = coldwar.12.b
+		IDC = {
+			transfer_state = 670
+			transfer_state = 671
+			transfer_state = 741
+			transfer_state = 996
+			custom_effect_tooltip = "결정을 통하여 직할 통치령인 코친차이나 외 일부 영토를 인도차이나 연방 측으로 이전할 수 있습니다."
+		}
+		FRA = {
+			set_autonomy = {
+				target = IDC
+				autonomous_state = autonomy_colony
+			}
+		}
+	}
+}
 
 
 

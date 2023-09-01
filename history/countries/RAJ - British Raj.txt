@@ -281,3 +281,8 @@ if = {
 		nationalities = { RAJ }
 	}
 }
+
+
+1947.8.14 = {
+	drop_cosmetic_tag = RAJ
+}

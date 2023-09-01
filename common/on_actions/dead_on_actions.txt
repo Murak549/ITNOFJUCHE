@@ -57,6 +57,52 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					tag = VIN
+					has_war_with = IDC
+				}
+				IDC = {
+					every_country = {
+						limit = {
+							has_war_with = IDC 
+						}
+						white_peace = {
+							tag = IDC
+							message = "인도차이나 반도에서 시행한 특수군사작전은 성공적이었습니다." 
+						}
+					}
+				}
+				741 = {
+					set_resistance = 0
+					set_compliance = 70
+				}
+				286 = {
+					set_resistance = 0
+					set_compliance = 70
+				}
+				671 = {
+					set_resistance = 0
+					set_compliance = 70
+				}
+				670 = {
+					set_resistance = 0
+					set_compliance = 70
+				}
+				FRA = {
+					annex_country = {
+						target = VIN
+						transfer_troops = no
+					}
+					annex_country = {
+						target = IDC
+						transfer_troops = yes
+					}
+					country_event = {
+						id = coldwar.12
+					}
+				}
+			}
+			if = {
+				limit = {
 					tag = IDC
 					has_war_with = VIN
 				}

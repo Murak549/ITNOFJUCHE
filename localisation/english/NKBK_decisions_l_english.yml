@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ FRA_colony_1:0 "식민지 계획"
+ FRA_tongchi_change:0 "인도차이나 통치방식 변경"
+ FRA_give_state_for_IDC:0 "@IDC [IDC.getName]측에 영토 이관"
+ trade_territory_country_state:0 "§Y[From.GetName]§!지역 토지 이전"
+ FRA_give_state_for_IDC:0 "인도차이나 연방측의 이관한 영토 복구"
+
  CHI_second_chinese_civil_war:0 "제 2차 국공내전"
  CHI_save_hubei:0 "화베이 방어"
 
@@ -49,3 +55,22 @@
  PRK_the_manchu_high:0 "만주파: 높은 우위"
  PRK_the_manchu_total:0 "만주파: 절대적임"
  PRK_balance_range:0 "균형잡힌 권력"
+
+ debug_5:0 "미국 파편화"
+ debug_6:0 "일본 파편화 (적당히)"
+ debug_7:0 "소련 파편화"
+ debug_8:0 "이탈리아 파편화"
+ debug_9:0 "프랑스 파편화"
+ debug_10:0 "영국 파편화"
+ debug_11:0 "유고슬라비아 파편화"
+ debug_12:0 "에티오피아 파편화"
+ debug_13:0 "중국 파편화(안빨개요)"
+ debug_14:0 "중국 파편화(빨간맛)"
+ debug_15:0 "루마니아 파편화"
+ debug_16:0 "폴란드 파편화"
+ debug_17:0 "체코"
+ debug_18:0 "스페인"
+ debug_19:0 "터키"
+ debug_20:0 "소련 파편화 ( 무 차별적 )"
+ debug_21:0 "캐나다 파편화 (1836)"
+ debug_22:0 "@AST 호주 파편화 (1836)"

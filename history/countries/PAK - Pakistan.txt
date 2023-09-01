@@ -205,7 +205,3 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 }
-
-1947.8.14 = {
-	set_cosmetic_tag = PAK_UK
-}
