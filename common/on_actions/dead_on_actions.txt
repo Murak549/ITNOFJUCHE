@@ -107,29 +107,21 @@ on_actions = {
 					has_war_with = VIN
 				}
 				VIN = {
-					drop_cosmetic_tag = VIN
+					set_cosmetic_tag = VIN_union
 					every_country = {
 						limit = {
 							has_war_with = VIN 
 						}
-						white_peace = VIN
+						white_peace = {
+							tag = VIN
+							message = "프랑스에게 지배당한 피지배민들의 한이 우리의 독립을 위해 끝없는 투쟁에 끝을 이루었습니다." 
+						}
 					}
-				}
-				white_peace = FRA
-				FRA = {
 					annex_country = {
 						target = IDC
 						transfer_troops = no
 					}
-					release = LAO
-					release = CAM
-				}
-				286 = {
-					add_core_of = SVN
-					transfer_state_to = SVN
-				}
-				SVN = {
-					set_cosmetic_tag = VIN
+					transfer_state = 286
 				}
 				set_global_flag = VIN_INDEPENDENT
 			}

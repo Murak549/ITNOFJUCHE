@@ -1,4 +1,18 @@
 ﻿l_english:
+
+ VIN_union_communism:0 "인도차이나 사회주의 공화국 연방"
+ VIN_union_communism_ADJ:0 "인도차이나 사회주의 공화국 연방"
+ VIN_union_communism_DEF:0 "인도차이나 사회주의 공화국 연방"
+ VIN_union_fascism:0 "인도차이나 연방"
+ VIN_union_fascism_ADJ:0 "인도차이나 연방"
+ VIN_union_fascism_DEF:0 "인도차이나 연방"
+ VIN_union_neutrality:0 "인도차이나 군부"
+ VIN_union_neutrality_ADJ:0 "인도차이나 군부"
+ VIN_union_neutrality_DEF:0 "인도차이나 군부"
+ VIN_union_democratic:0 "인도차이나 연방"
+ VIN_union_democratic_ADJ:0 "인도차이나 연방"
+ VIN_union_democratic_DEF:0 "인도차이나 연방"
+
  SZM_PRK_communism_autonomy_bun:0 "구주 통감부"
  VLA_PRK_communism_autonomy_bun:0 "공화국 관외주"
  AIN_PRK_communism_autonomy_bun:0 "북해도 자치령"
@@ -139,7 +153,7 @@
 
  IDC_FRA_DEF:0 "인도차이나 총독부"
  IDC_FRA_ADJ:0 "인도차이나 총독부"
- IDC_FRA:0 "인도차이나 연방"
+ IDC_FRA:0 "프랑스령 인도차이나 연방"
 
  MAL_SHO_JAP_TNO:0 "쇼난-말레이 군정부"
  NRB:0 "인도네시아 공화국"
