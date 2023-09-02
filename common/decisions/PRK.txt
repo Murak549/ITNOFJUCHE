@@ -81,8 +81,8 @@ PRK_5year_plan_mission = {
 			
 		}
 		available = {
-			has_decision = PRK_country_side_enlight
-			has_decision = PRK_electricity_in_state
+			PRK_gyemong > 7
+			PRK_electric > 7
 		}
 		complete_effect = {
 			920 = {
@@ -121,6 +121,10 @@ PRK_5year_plan_mission = {
 				}
 				transfer_state = FROM
 			}
+			add_to_variable = {
+				var = PRK_gyemong
+				value = 1
+			}
 		}
 	}
 	PRK_electricity_in_state = {
@@ -147,6 +151,10 @@ PRK_5year_plan_mission = {
 		on_map_mode = map_and_decisions_view
 
 		complete_effect = {
+			add_to_variable = {
+				var = PRK_electric
+				value = 1
+			}
 			every_country = {
 				limit = {
 					AND = {
