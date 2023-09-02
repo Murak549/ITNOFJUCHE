@@ -666,6 +666,13 @@ focus_tree = {
 		}
 		x = 16
 		y = 1
+		completion_reward = {
+			add_stability = 0.05
+			add_timed_idea = {
+				idea = PRK_money_flex
+				days = 1825
+			}
+		}
 	}
 	focus = {
 		id = PRK_powerful_speech
@@ -676,6 +683,10 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_our_economy
 		}	
+		completion_reward = {
+			add_war_support = 0.2
+			add_political_power = 80
+		}
 	}
 	focus = {
 		id = PRK_dont_forget_people_revolution_army
@@ -686,6 +697,10 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_our_economy
 		}	
+		completion_reward = {
+			army_experience = 20
+			add_ideas = PRK_heritage_of_inminhyukmyung_armys
+		}
 	}
 	focus = {
 		id = PRK_emphasize_DPRK_ilsung_idea
@@ -697,6 +712,13 @@ focus_tree = {
 			focus = PRK_powerful_speech
 			focus = PRK_dont_forget_people_revolution_army
 		}	
+		completion_reward = {
+			add_popularity = {
+	        ideology = communism
+	        popularity = -0.2
+            }
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = PRK_inmin_ban
@@ -707,6 +729,9 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_emphasize_DPRK_ilsung_idea
 		}	
+		completion_reward = {
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = PRK_gaejo_idea
@@ -717,6 +742,13 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_inmin_ban
 		}	
+		completion_reward = {
+			add_stability = 0.05
+			add_timed_idea = {
+				idea = PRK_sasang_gayjoigo
+				days = 1825
+			}
+		}
 	}
 	focus = {
 		id = PRK_party_hello_new
@@ -727,6 +759,14 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_emphasize_DPRK_ilsung_idea
 		}	
+		completion_reward = {
+			add_stability = -0.01
+		    add_power_balance_value = {
+				id = PRK_the_yenan
+				value = 0.1
+				tooltip_side = PRK_the_yenan
+			}
+		}
 	}
 	focus = {
 		id = PRK_revolutive_leader_idea
@@ -737,6 +777,21 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_party_hello_new
 		}	
+		completion_reward = {
+			add_stability = 0.1
+			add_popularity = {
+	        ideology = democratic
+	        popularity = -0.5
+            }
+			add_popularity = {
+	        ideology = fascism
+	        popularity = -0.5
+            }
+			add_popularity = {
+	        ideology = neutrality
+	        popularity = -0.5
+            }
+		}
 	}
 	focus = {
 		id = juche_idea
@@ -747,6 +802,12 @@ focus_tree = {
 		prerequisite = {
 			focus = PRK_party_hello_new
 		}	
+		completion_reward = {
+			add_popularity = {
+	        ideology = communism
+	        popularity = 0.15
+            }
+		}
 	}
 	focus = {
 		id = PRK_all_for_one_one_for_all

@@ -238,5 +238,34 @@ ideas = {
                 army_core_defence_factor = 0.75
             }
         }
+
+        PRK_money_flex = {
+            picture = GFX_
+            allowed = {
+                always = no
+            }
+            modifier = {
+                consumer_goods_factor = 0.05
+            }
+        }
+        PRK_heritage_of_inminhyukmyung_armys = {
+            picture = GFX_
+            allowed = {
+                always = no
+            }
+            modifier = {
+                army_org_factor = 0.1
+            }
+        }
+        PRK_sasang_gayjoigo = {
+            picture = GFX_
+            allowed = {
+                always = no
+            }
+            modifier = {
+                political_power_gain = -0.15
+                communism_drift = 0.005
+            }
+        }
     }
 }
