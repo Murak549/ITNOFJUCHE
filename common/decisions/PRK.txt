@@ -26,28 +26,6 @@ PRK_5year_plan_mission = {
 
 		}
 	}
-	PRK_electric_prk = {
-		fire_only_once = yes
-		activation = {
-			has_civil_war = no
-		}
-		available = {
-			always = no
-		}
-		cancel_trigger = {
-			
-		}
-		icon = mission_icon     # For GFX_decision_mission_icon
-		is_good = no
-		war_with_on_timeout = SOV
-		days_mission_timeout = 100
-		complete_effect = {
-
-		}
-		timeout_effect = {
-
-		}
-	}
 	PRK_wonsan_default_industry = {
 		
 		fire_only_once = yes
@@ -81,8 +59,11 @@ PRK_5year_plan_mission = {
 			
 		}
 		available = {
-			PRK_gyemong > 7
-			PRK_electric > 7
+			custom_trigger_tooltip = {
+				tooltip = PRK_elec_and_enlighten_tt		
+				check_variable = { PRK_gyemong > 6 }
+				check_variable = { PRK_electric > 6 }
+			}
 		}
 		complete_effect = {
 			920 = {
