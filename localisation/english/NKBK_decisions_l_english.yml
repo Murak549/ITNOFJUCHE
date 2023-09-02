@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ PRK_5year_plan_mission:0 "5개년 계획의 실현"
+ 
+
  VIN_break_union:0 "연방해체"
  VIN_communist_make_independent:0 "'해방자' 선동"
 
@@ -77,3 +80,17 @@
  debug_20:0 "소련 파편화 ( 무 차별적 )"
  debug_21:0 "캐나다 파편화 (1836)"
  debug_22:0 "@AST 호주 파편화 (1836)"
+
+
+ ## 미션
+
+ PRK_boyu_trans:0 "철도산업을 위한 열차"
+ PRK_better_than_south:0 "체제경쟁 승리"
+ PRK_vnarod:0 "시골 개발"
+ PRK_vnarod_desc:0 "1920년대에는 자본주의 일제 앞잡이 놈들 사이에서 '브나로드 운동'이라는 운동이 있었습니다. 시골의 인민을 계몽시키는 계획이었으나 그 반동놈들은 수령님의 과격한 항일투쟁과는 거리가 먼 놈들이었습니다. 이제 사회주의 정권이 들어왔습니다. 자본주의 일제 앞잡이 놈들이 한 '브나로드 운동'을 모티브로 시골을 발전시켜 농촌의 인민들부터 우리 사회주의 체제를 지지할 수 있도록 하여 공화국의 기반을 다져야합니다."
+ PRK_electric_prk:0 "전기 생산량 돌파"
+ PRK_wonsan_default_industry:0 "원산 기반 정리"
+ PRK_border_colie:0 "조중관계개선"
+ PRK_DDR_think_PRK_is_good_guy:0 "북독 관계개선"
+ PRK_electricity_in_state:0 "§Y[From.GetName]§! 전기화"
+ PRK_PRK_country_side_enlight:0 "§Y[From.GetName]§! 농민 계몽"

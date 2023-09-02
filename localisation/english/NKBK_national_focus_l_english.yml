@@ -11,7 +11,7 @@
  PRK_supreme_assembly:0 "최고인민회의 설립"
  PRK_form_central_government:0 "중앙정부 구성"
  PRK_one_korea_one_party:0 "하나의 조선, 하나의 로동당"
- PRK_dprk:0 "조선민주주의인민공화국 건국"
+ PRK_dprk:0 "조선민주주의인민공화국으로"
  PRK_peoples_army_of_korea2:0 "조선인민군"
  PRK_ready_to_roll_out:0 "조국해방전쟁"
  PRK_sex:0 "미 제국주의에 대항하니 결과는 승리 또는 죽음이다"
@@ -58,6 +58,16 @@
  PRK_joseon_railway:0 "조선의 철도"
  PRK_joseon_railway_desc:0 "조선의 철도를 깝니다 호호"
  PRK_light_industry:0 "경공업 발전 착수"
+ PRK_euju_py_highway:0 "평의고속도로"
+ PRK_nampo_develop:0 "남포 개발"
+ PRK_heavy_industry:0 "중공업 개발"
+ PRK_wonsan_steel_mill:0 "원산 제철소"
+ PRK_car:0 "평양자동차"
+ PRK_wonsan_port:0 "원산항"
+ PRK_hamburg_py_highway:0 "함북고속도로"
+ PRK_south_korea_dev:0 "남조선 개발"
+ PRK_make_export_line:0 "대규모 수출"
+ PRK_give_me_money_bro:0 "전세계에 차관요청"
 
  juche_station:0 "평양의 소리"
 
@@ -129,4 +139,5 @@
  ilsung_is_powerful:0 "김일성 권력"
  do_work_TT:0 "\n§Y5개년 계획 미션§!이 시작됩니다.\n하나라도 §R실패§!할 시 조선의 경제에 그림자가 다가올 것입니다. 아마도 영원히!"
  please_wait_fake_tt:0 "§Y비동맹주의§! 정당은 '§Y인민의힘§!' 측으로 불립니다. \n§Y비동맹주의§! 지지자가 내전을 시작합니다. \n정치적 변화:\n§Y해병대전우회§! 측이 집권 정당이 됩니다. \n공공 전우애가 개최되지 않습니다. \n브라보 해병대"
-
+ you_must_eat_korea:0 "조국해방전쟁에서 남조선인민들이 해방되다"
+ PRK_liberty_war_end:0 "조국해방전쟁이 끝나다"

@@ -1,5 +1,5 @@
 debug = {
-    priority = 100
+    priority = -100
 
 	allowed = {
 		is_debug = yes

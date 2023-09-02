@@ -208,7 +208,9 @@ focus_tree = {
 		completion_reward = {
 			play_song = "partriot_march"
 			promote_character = JAP_tetsu_katayama
-			end_puppet = yes
+			USA = {
+				end_puppet = JAP
+			}
 		}
 	}
 }

@@ -77,13 +77,22 @@ focus_tree = {
 			focus = PRK_go_to_socialism
 		}
 		available = {
-			PRK = {
-				has_completed_focus = PRK_our_economy
+			AND = {
+				PRK = {
+					has_completed_focus = PRK_our_economy
+				}
+				custom_trigger_tooltip = {
+					tooltip = PRK_liberty_war_end
+					525 = {
+						is_owned_by = PRK
+					}
+				}
 			}
 		}
 		x = -12
 		y = 2
 		completion_reward = {
+			add_ideas = war_economy
 			add_ideas = PRK_ch_horse
 		}
 	}
@@ -125,9 +134,16 @@ focus_tree = {
 			focus = PRK_go_to_socialism
 		}
 		available = {
-			PRK = {
-				has_completed_focus = PRK_our_economy
-			}
+			AND = {
+				num_of_controlled_factories > 20
+				PRK = {
+					has_completed_focus = PRK_our_economy
+				}
+				custom_trigger_tooltip = {
+					tooltip = PRK_liberty_war_end
+					has_global_flag = PRK_1st_war_end
+				}
+			}	
 		}
 		x = -4
 		y = 2
@@ -151,8 +167,16 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_timed_idea = {
-				idea = PRK_5year_plan
-				days = 1825
+				idea = PRK_east_german_support
+				days = 70
+			}`
+			912 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 40000
 			}
 		}
 	}
@@ -168,6 +192,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_offsite_building = { type = arms_factory level = 7 }
+			add_offsite_building = { type = industrial_complex level = 4 }
 		}
 	}
 	focus = {
@@ -256,6 +281,188 @@ focus_tree = {
 		relative_position_id = PRK_both_support
 		x = -3
 		y = 1
+		complete_effect = {
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 5
+					modifier = {
+						tag = PRK
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 527 919 }
+				start_state = 527
+				target_state = 919
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 5
+					modifier = {
+						tag = PRK
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 527 920 }
+				start_state = 527
+				target_state = 920
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 5
+					modifier = {
+						tag = PRK
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 527 914 }
+				start_state = 527
+				target_state = 914
+			}
+		}
+	}
+	focus = {
+		id = PRK_euju_py_highway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 20
+		cancelable = no
+		prerequisite = {
+			focus = PRK_joseon_railway
+		}
+		relative_position_id = PRK_both_support
+		x = -5
+		y = 2
+		complete_effect = {
+
+		}
+	}
+	focus = {
+		id = PRK_hamburg_py_highway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 20
+		cancelable = no
+		prerequisite = {
+			focus = PRK_euju_py_highway
+		}
+		relative_position_id = PRK_euju_py_highway
+		x = 0
+		y = 1
+		complete_effect = {
+
+		}
+	}
+	focus = {
+		id = PRK_wonsan_port
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 20
+		prerequisite = {
+			focus = PRK_euju_py_highway
+		}
+		relative_position_id = PRK_euju_py_highway
+		x = 2
+		y = 1
+		complete_effect = {
+
+		}
+	}
+	focus = {
+		id = PRK_nampo_develop
+		icon = GFX_focus_ITA_devaluate_the_lire
+		cost = 15
+		cancelable = no
+		prerequisite = {
+			focus = PRK_joseon_railway
+		}
+		relative_position_id = PRK_both_support
+		x = -3
+		y = 2
+		complete_effect = {
+
+		}
+	}
+	focus = {
+		id = PRK_heavy_industry
+		icon = GFX_focus_generic_industry_3
+		cost = 15
+		available = {
+			#여기에 아마 그 수입로 늘리기 중점 찍어야 가능하게 ㄱㄱ
+		}
+		prerequisite = {
+			focus = PRK_joseon_railway
+		}
+		relative_position_id = PRK_both_support
+		x = -1
+		y = 2
+		cancelable = no
+		complete_effect = {
+
+		}
+	}
+	focus = {
+		id = PRK_wonsan_steel_mill
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 20
+		prerequisite = {
+			focus = PRK_heavy_industry
+		}
+		relative_position_id = PRK_heavy_industry
+		x = 0
+		y = 1
+		cancelable = no
+		complete_effect = {
+
+		}
+	}
+	focus = {
+		id = PRK_car
+		cancelable = no
+		icon = GFX_goal_generic_army_motorized
+		cost = 25
+		prerequisite = {
+			focus = PRK_wonsan_steel_mill
+		}
+		relative_position_id = PRK_heavy_industry
+		x = 0
+		y = 2
+		complete_effect = {
+
+		}
+	}
+	focus = {
+		id = PRK_south_korea_dev
+		icon = GFX_goal_generic_army_motorized
+		cost = 5
+		prerequisite = {
+			focus = PRK_car
+		}
+		prerequisite = {
+			focus = PRK_wonsan_port
+		}
+		prerequisite = {
+			focus = PRK_hamburg_py_highway
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = you_must_eat_korea		
+				525 = {
+					is_owned_by = PRK
+				}
+			}
+		}
+		relative_position_id = PRK_joseon_railway
+		x = 0
+		y = 4
+		complete_effect = {
+
+		}
 	}
 	focus = {
 		id = PRK_light_industry
@@ -266,6 +473,28 @@ focus_tree = {
 		}
 		relative_position_id = PRK_both_support
 		x = 3
+		y = 1
+	}
+	focus = {
+		id = PRK_make_export_line
+		icon = GFX_focus_export
+		cost = 5
+		prerequisite = {
+			focus = PRK_light_industry
+		}
+		relative_position_id = PRK_light_industry
+		x = 2
+		y = 1
+	}
+	focus = {
+		id = PRK_give_me_money_bro
+		icon = GFX_focus_diplo
+		cost = 5
+		prerequisite = {
+			focus = PRK_light_industry
+		}
+		relative_position_id = PRK_light_industry
+		x = 0
 		y = 1
 	}
 	focus = {

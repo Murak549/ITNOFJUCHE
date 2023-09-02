@@ -1,5 +1,15 @@
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_focus_diplo"
+		texturefile = "foreign_diplomacy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_focus_export"
+		texturefile = "gfx/icon/arms_export.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_focus_SAR_independent_french_country"
 		texturefile = "gfx/icon/iamrepublic.dds"
 		legacy_lazy_load = no

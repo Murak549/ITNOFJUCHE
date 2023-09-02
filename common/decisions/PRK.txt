@@ -1,3 +1,233 @@
+PRK_5year_plan_mission = {
+	PRK_DDR_think_PRK_is_good_guy = {
+		fire_only_once = yes
+		activation = {
+			has_civil_war = no
+		}
+		available = {
+			DDR = {
+				has_opinion = {
+					target = PRK
+					value > 99
+				}
+			}
+		}
+		cancel_trigger = {
+			
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		war_with_on_timeout = SOV
+		days_mission_timeout = 100
+		complete_effect = {
+
+		}
+		timeout_effect = {
+
+		}
+	}
+	PRK_electric_prk = {
+		fire_only_once = yes
+		activation = {
+			has_civil_war = no
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		war_with_on_timeout = SOV
+		days_mission_timeout = 100
+		complete_effect = {
+
+		}
+		timeout_effect = {
+
+		}
+	}
+	PRK_wonsan_default_industry = {
+		
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+		icon = mission_icon
+		is_good = no
+		days_mission_timeout = 140
+		cancel_trigger = {
+			
+		}
+		available = {
+			912 = {
+				arms_factory > 1
+				industrial_complex > 2
+				air_base > 2
+				dockyard > 1
+			}
+		}
+	}
+	PRK_vnarod = {
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+		icon = mission_icon
+		is_good = no
+		days_mission_timeout = 450
+		cancel_trigger = {
+			
+		}
+		available = {
+			has_decision = PRK_country_side_enlight
+			has_decision = PRK_electricity_in_state
+		}
+		complete_effect = {
+			920 = {
+				add_manpower = 400200
+			}
+		}
+	}
+	PRK_country_side_enlight = {
+		fire_only_once = yes
+		icon = GFX_decision_SOV_academy_of_sciences
+		state_target = yes
+		priority = -11
+
+		days_remove = 90
+
+		cost = 15
+
+		visible = {
+			has_active_mission = PRK_vnarod
+		}
+		target_trigger = {
+			FROM = {
+				AND = {
+					is_owned_by = ROOT
+					is_core_of = PRK
+				}
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		complete_effect = {
+			every_country = {
+				limit = {
+					AND = {
+						is_puppet_of = ROOT
+					}
+				}
+				transfer_state = FROM
+			}
+		}
+	}
+	PRK_electricity_in_state = {
+		fire_only_once = yes
+		icon = GFX_decision_generic_electricity
+		state_target = yes
+		priority = -10
+
+		days_remove = 150
+
+		cost = 30
+
+		visible = {
+			has_active_mission = PRK_vnarod
+		}
+		target_trigger = {
+			FROM = {
+				AND = {
+					is_owned_by = ROOT
+					is_core_of = PRK
+				}
+			}
+		}
+		on_map_mode = map_and_decisions_view
+
+		complete_effect = {
+			every_country = {
+				limit = {
+					AND = {
+						is_puppet_of = ROOT
+					}
+				}
+				transfer_state = FROM
+			}
+		}
+		modifier = {
+            civilian_factory_use = 2
+        }
+	}
+	PRK_border_colie = {
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+		icon = mission_icon
+		is_good = no
+		days_mission_timeout = 70
+		cancel_trigger = {
+			
+		}
+		available = {
+			PRC = {
+				has_opinion = {
+					target = PRK
+					value > 79
+				}
+			}
+		}
+		complete_effect = {
+			920 = {
+				add_manpower = 400200
+			}
+		}
+	}
+	PRK_better_than_south = {
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+		icon = mission_icon
+		is_good = no
+		days_mission_timeout = 7300
+		cancel_trigger = {
+			
+		}
+		available = {
+			strength_ratio = {
+				tag = KOR
+				ratio > 0.75
+			}
+			num_of_factories > 95
+		}
+		complete_effect = {
+			527 = {
+				add_manpower = 200000
+			}
+		}
+
+	}
+	PRK_boyu_trans = {
+		fire_only_once = yes
+		visible = {
+			always = yes
+		}
+		icon = mission_icon
+		is_good = no
+		days_mission_timeout = 70
+		cancel_trigger = {
+			
+		}
+		available = {
+			has_equipment = { train_equipment_1 > 79 }
+		}
+	}
+}
+
+
 PRK_unite = {
     PRK_JEJU = {
 
@@ -319,7 +549,7 @@ political_actions = {
 			original_tag = PRK
 		}
 		available = {
-			has_war = no
+			
 			OR = {
 				has_full_control_of_state = 525
 			}
@@ -332,7 +562,7 @@ political_actions = {
 			}
 		}
 		visible = {
-			has_war = no
+			
 			is_subject = no
 		}
 		cost = 50

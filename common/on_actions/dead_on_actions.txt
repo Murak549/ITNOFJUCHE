@@ -136,6 +136,7 @@ on_actions = {
 						}
 					}
 				}
+				set_global_flag = PRK_1st_war_end
 				PRK = {
 					news_event = {
 						id = PRK.1000
@@ -158,6 +159,22 @@ on_actions = {
 				}
 				PRK_annex_korea = yes
 				KOR_yabyeolcho = yes
+			}
+			if = {
+				limit = { #대한민국 승전시의 코드
+					AND = {
+						ROOT = {
+							original_tag = PRK
+						}
+						FROM = {
+							original_tag = KOR
+						}
+					}
+				}
+				every_country = {
+					white_peace = PRK
+				}
+				set_global_flag = PRK_1st_war_end
 			}
 			if = {
 				limit = { #국공내전 국민당 승리
