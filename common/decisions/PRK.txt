@@ -1,9 +1,12 @@
 PRK_5year_plan_mission = {
 	PRK_DDR_think_PRK_is_good_guy = {
-		fire_only_once = yes
 		activation = {
-			has_civil_war = no
+			focus_progress = {
+				focus = PRK_east_german_power
+				progress > 0.0
+			}
 		}
+		fire_only_once = yes
 		available = {
 			DDR = {
 				has_opinion = {
@@ -27,7 +30,12 @@ PRK_5year_plan_mission = {
 		}
 	}
 	PRK_wonsan_default_industry = {
-		
+		activation = {
+			focus_progress = {
+				focus = PRK_wonsan_port
+				progress > 0.0
+			}
+		}
 		fire_only_once = yes
 		visible = {
 			always = yes
@@ -49,6 +57,12 @@ PRK_5year_plan_mission = {
 	}
 	PRK_vnarod = {
 		fire_only_once = yes
+		activation = {
+			focus_progress = {
+				focus = PRK_nampo_develop
+				progress > 0.0
+			}
+		}
 		visible = {
 			always = yes
 		}
@@ -157,6 +171,12 @@ PRK_5year_plan_mission = {
 		icon = mission_icon
 		is_good = no
 		days_mission_timeout = 70
+		activation = {
+			focus_progress = {
+				focus = PRK_eiju_py_highway
+				progress > 0.0
+			}
+		}
 		cancel_trigger = {
 			
 		}
@@ -179,6 +199,12 @@ PRK_5year_plan_mission = {
 		visible = {
 			always = yes
 		}
+		activation = {
+			focus_progress = {
+				focus = PRK_wonsan_steel_mill
+				progress > 0.0
+			}
+		}
 		icon = mission_icon
 		is_good = no
 		days_mission_timeout = 7300
@@ -197,12 +223,17 @@ PRK_5year_plan_mission = {
 				add_manpower = 200000
 			}
 		}
-
 	}
 	PRK_boyu_trans = {
 		fire_only_once = yes
 		visible = {
 			always = yes
+		}
+		activation = {
+			focus_progress = {
+				focus = PRK_joseon_railway
+				progress > 0.0
+			}
 		}
 		icon = mission_icon
 		is_good = no
