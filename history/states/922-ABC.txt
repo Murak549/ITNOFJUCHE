@@ -16,6 +16,7 @@ state={
 			12040 10 
 		}
 		add_core_of = KOR
+		owner = CHO
 		1945.8.15 = {
 			owner = KOR
 		}

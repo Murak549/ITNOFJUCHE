@@ -7,7 +7,6 @@ state={
 	}
 
 	history={
-		owner = CHO
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4
@@ -61,6 +60,7 @@ state={
 			7021 5 
 		}
 		add_core_of = KOR
+		owner = CHO
 		1945.8.15 = {
 			owner = KOR
 		}

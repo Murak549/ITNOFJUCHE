@@ -1,6 +1,20 @@
 GER_dead = {
     every_country = {
         limit = {
+            AND = {
+                original_tag = FRA
+                has_government = fascism
+            }
+        }
+        FRA = {
+            annex_country = {
+                target = ROOT
+                transfer_troops = yes
+            }
+        }
+    }
+    every_country = {
+        limit = {
             has_war_with = GER
         }
         white_peace = GER
@@ -26,8 +40,17 @@ GER_dead = {
 				end_wars = no
 				end_civil_wars = no
 			}
+			set_autonomy = {
+				target = SAX
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
 		}
 	}	
+    SAX = {
+        transfer_state = 995
+    }
 	create_dynamic_country = { #French occupation zone in Germany
 		original_tag = GER
 		copy_tag = GER
@@ -206,10 +229,9 @@ GER_dead = {
         }
     }
     AUS = {
-        transfer_state = 848
-        transfer_state = 153
-        transfer_state = 152
-        transfer_state = 4
+        transfer_state = 988
+        transfer_state = 990
+        transfer_state = 989
         every_core_state = {
             remove_core_of = GER
         }
@@ -289,6 +311,7 @@ GER_dead = {
         }
     }
     YUG = {
+        transfer_state = 102
         transfer_state = 736
         transfer_state = 852
         transfer_state = 163
@@ -409,6 +432,7 @@ JAP_dead = {
     }
     JAP = {
         release = FSM
+        promote_character = JAP_douglas_macarthur
         delete_unit_template_and_units = {
             division_template = "Chugata Hohei Shidan"
             disband = yes #will refund equipment and manpower

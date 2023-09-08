@@ -400,6 +400,28 @@ on_actions = {
 			if = {
 				limit = {
 					FROM = {
+						OR = {
+							is_core_of = JAP
+						}	
+					}
+				}
+				USA = {
+					add_war_support = -1
+				}	
+				if = {
+					limit = {	
+						USA = {
+							has_war_with = JAP
+						}
+					}
+					JAP = {
+						JAP_dead = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
 						state = 608
 					}
 					PRC = {

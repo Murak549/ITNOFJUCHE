@@ -28,6 +28,7 @@ state={
 		victory_points = {
 			4126 5 
 		}
+		owner = CHO
 		add_core_of = KOR
 		1945.8.15 = {
 			owner = KOR
