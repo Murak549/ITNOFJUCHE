@@ -670,7 +670,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_timed_idea = {
 				idea = PRK_money_flex
-				days = 1825
+				days = 365
 			}
 		}
 	}
@@ -955,8 +955,56 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = PRK_everyone_get_weapon
+		x = 7
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = PRK_pyeongyang_radio
+		}
+		prerequisite = {
+			focus = PRK_peoples_army_of_korea2
+		}
+	}
+	focus = {
+		id = PRK_nonong_jukwidae
+		x = 5
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = PRK_everyone_get_weapon
+		}
+	}
+	focus = {
+		id = PRK_gyododae
+		x = 5
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = PRK_nonong_jukwidae
+		}
+	}
+	focus = {
+		id = PRK_they_use_jammini
+		x = 7
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = PRK_everyone_get_weapon
+		}
+	}
+	focus = {
+		id = PRK_KOREA_CIA
+		x = 9
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = PRK_everyone_get_weapon
+		}
+	}
+	focus = {
 		id = PRK_korean_central_bangsong
-		x = 6
+		x = 5
 		y = 5
 		cost = 5
 		prerequisite = {
@@ -967,6 +1015,110 @@ focus_tree = {
 				add_idea = PRK_korean_central_bangsong
 				remove_idea = PRK_pyeongyang_radio
 			}
+		}
+	}
+
+	focus = {
+		id = PRK_watching_c
+		x = 13
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = PRK_peoples_army_of_korea2
+		}
+		completion_reward = {
+			set_technology = {
+				basic_naval_mines = 1 
+				basic_battery = 1 
+				basic_light_battery = 1 
+				basic_medium_battery = 1 
+				basic_heavy_battery = 1 
+				damage_control_1 = 1 
+				fire_control_methods_1 = 1 
+				early_ship_hull_submarine = 1
+				basic_ship_hull_submarine = 1
+				improved_ship_hull_submarine = 1
+				advanced_ship_hull_submarine = 1
+				basic_submarine_snorkel = 1
+				improved_submarine_snorkel = 1
+				torpedo_cruiser_mtg = 1
+				early_ship_hull_light = 1
+				basic_ship_hull_light = 1
+				basic_depth_charges = 1
+				sonar = 1
+				early_ship_hull_cruiser = 1
+				basic_ship_hull_cruiser = 1
+				basic_cruiser_armor_scheme = 1
+				improved_airplane_launcher = 1
+				early_ship_hull_heavy = 1
+				early_ship_hull_carrier = 1
+				basic_ship_hull_carrier = 1
+			}
+			create_equipment_variant = {
+				name = "Najin Class"								
+				type = ship_hull_light_2
+				name_group = GAY_SEX
+				role_icon_index = 1
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_1
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+					fixed_ship_torpedo_slot = ship_torpedo_4
+					fixed_ship_engine_slot = light_ship_engine_1
+					mid_1_custom_slot = ship_mine_layer
+				}
+			}
+			create_equipment_variant = {
+				name = "Yugo Class"								
+				type = ship_hull_submarine_1
+				name_group = GAY_SEX
+				role_icon_index = 1
+				modules = {
+					fixed_ship_torpedo_slot = ship_torpedo_sub_1
+					fixed_ship_engine_slot = sub_ship_engine_1
+					rear_1_custom_slot = ship_mine_layer_sub
+				}
+			}
+			create_equipment_variant = {
+				name = "Salmon Class"								
+				type = ship_hull_submarine_2
+				name_group = GAY_SEX
+				role_icon_index = 1
+				modules = {
+					fixed_ship_torpedo_slot = ship_torpedo_sub_1
+					fixed_ship_engine_slot = sub_ship_engine_2
+					rear_1_custom_slot = ship_mine_layer_sub
+				}
+			}
+			create_equipment_variant = {
+				name = "Shark Class"								
+				type = ship_hull_submarine_3
+				name_group = GAY_SEX
+				role_icon_index = 1
+				modules = {
+					front_1_custom_slot = ship_torpedo_sub_1
+					mid_1_custom_slot = ship_sub_snorkel_1
+					rear_1_custom_slot = ship_mine_layer_sub
+					fixed_ship_torpedo_slot = ship_torpedo_sub_2
+					fixed_ship_engine_slot = sub_ship_engine_3
+				}
+			}
+			hidden_effect = {
+				set_technology = {
+					modern_ship_torpedo_launcher = 1
+					advanced_ship_torpedo_launcher = 1
+					improved_ship_torpedo_launcher = 1
+					electric_torpedo = 1
+					homing_torpedo = 1
+					magnetic_detonator = 1
+					basic_torpedo = 1
+					mtg_transport = 1
+					mtg_landing_craft = 1
+					improved_submarine_mine_laying = 1
+					submarine_mine_laying = 1
+				}
+			}
+			add_offsite_building = { type = dockyard level = 8 }
 		}
 	}
 
