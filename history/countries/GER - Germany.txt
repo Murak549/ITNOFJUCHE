@@ -376,7 +376,26 @@ create_import = {
 }
 
 1945.5.10 = {
+	set_capital = {
+		state = 51
+		remember_old_capital = yes
+	}
 	set_global_flag = germany_lost_the_war
+	remove_ideas = {
+		sour_loser
+		general_staff
+		henschel
+		ig_faben
+		heinrich_himmler
+		rudolf_hess
+		ludwig_beck
+		gerd_von_rundstedt
+		GER_autarky_idea
+
+		#laws
+		war_economy
+		extensive_conscription
+	}
 	set_province_name = {
 		id = 6521
 		name = "동베를린"

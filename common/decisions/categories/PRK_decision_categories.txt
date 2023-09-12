@@ -5,6 +5,13 @@ PRK_5year_plan_mission = {
 	}
 }
 
+PRK_625_mission = {
+	priority = 100
+	allowed = {
+		original_tag = PRK
+	}
+}
+
 PRK_unite = {
 	
 	icon = saf_anti_colonialist_crusade

@@ -516,7 +516,7 @@ country_event = {
 
 	trigger = {
 		tag = PRK
-		date > 1950.6.22
+		date > 1950.1.2
 		525 = {
 			is_owned_by = KOR
 		}
@@ -528,10 +528,7 @@ country_event = {
 	option = {
 		name = prk.10.a
 		PRK = {
-			declare_war_on = {
-				target = KOR
-				type = annex_everything
-			}
+			set_country_flag = PRK_permited_attack
 		}
 	}
 }
