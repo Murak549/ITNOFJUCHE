@@ -206,8 +206,36 @@ focus_tree = {
 		y = 2
 
 		completion_reward = {
+			remove_ideas = {
+				GHQ_general_headquarter
+				GHQ_red_purge
+				GHQ_zaibatsu_control
+				GHQ_nationalist_purge
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = "일본사회당"
+				name = 일본사회당
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = "일본자유당"
+				name = 일본자유당
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = "일본공산당"
+				name = 일본공산당
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = "[금지됨]"
+				name = [금지됨]
+			}
+			transfer_state = 648
+			transfer_state = 645
 			play_song = "partriot_march"
-			promote_character = JAP_tetsu_katayama
+			promote_character = JAP_shigeru_yoshida
 			USA = {
 				end_puppet = JAP
 			}

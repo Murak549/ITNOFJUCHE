@@ -1,4 +1,17 @@
 characters={
+	JAP_shigeru_yoshida={
+		name=JAP_shigeru_yoshida
+		portraits={
+			civilian={
+				large="gfx\leaders\JAP\Portrait_JAP_yoshida_shigeru.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	JAP_douglas_macarthur={
 		name="Douglas MacArthur"
 		portraits={

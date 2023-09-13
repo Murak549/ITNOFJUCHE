@@ -354,6 +354,26 @@ create_import = {
 	}
 }
 1945.8.15 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = "연합국최고사령부"
+		name = GHQ
+	}
+	set_party_name = {
+		ideology = neutrality
+		long_name = "연합국최고사령부"
+		name = GHQ
+	}
+	set_party_name = {
+		ideology = communism
+		long_name = "[금지됨]"
+		name = [금지됨]
+	}
+	set_party_name = {
+		ideology = fascism
+		long_name = "[금지됨]"
+		name = [금지됨]
+	}
 	load_focus_tree = GHQ_focus
 	add_ideas = civilian_economy
 	add_ideas = free_trade
@@ -515,6 +535,7 @@ set_popularities = {
 	fascism = 100
 }
 
+recruit_character = JAP_shigeru_yoshida
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
 recruit_character = JAP_emperor_hirohito
