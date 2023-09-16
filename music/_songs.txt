@@ -53,6 +53,14 @@ music = {
 				is_in_faction_with = USA
 			}
 		}
+		modifier = {
+			factor = 2.5
+			OR = {
+				tag = USA
+				is_in_faction_with = USA
+			}
+			has_war = yes
+		}
 	}
 }
 music = {
@@ -71,6 +79,14 @@ music = {
 				is_in_faction_with = USA
 			}
 		}		
+		modifier = {
+			factor = 2.5
+			OR = {
+				tag = USA
+				is_in_faction_with = USA
+			}
+			has_war = yes
+		}		
 	}
 }
 music = {
@@ -88,6 +104,14 @@ music = {
 				tag = USA
 				is_in_faction_with = USA
 			}
+		}		
+		modifier = {
+			factor = 2.5
+			OR = {
+				tag = USA
+				is_in_faction_with = USA
+			}
+			has_war = yes
 		}		
 	}
 }

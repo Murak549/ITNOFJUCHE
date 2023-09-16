@@ -273,7 +273,7 @@ on_actions = {
 		}
 	}
 	on_state_control_changed = {
-		effect = { #FUCKING PRC SUCK MY DICK
+		effect = { #일본식
 			if = {
 				limit = {
 					original_tag = PRK 
