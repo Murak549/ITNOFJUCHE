@@ -9,7 +9,17 @@ music = {
 
 			tag = PRK
 			has_war = yes
-		}		
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
 	}
 }
 music = {
@@ -31,7 +41,17 @@ music = {
 
 			tag = PRK
 			has_war = yes
-		}		
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
 	}
 }
 music = {
@@ -42,7 +62,17 @@ music = {
 
 			tag = PRK
 			has_war = yes
-		}		
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
 	}
 }
 music = {
@@ -53,6 +83,15 @@ music = {
 
 			tag = PRK
 			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
 		}		
 	}
 }
@@ -64,6 +103,15 @@ music = {
 
 			tag = PRK
 			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
 		}		
 	}
 }
@@ -75,6 +123,15 @@ music = {
 
 			tag = PRK
 			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
 		}		
 	}
 }
@@ -86,7 +143,17 @@ music = {
 
 			tag = PRK
 			has_war = yes
-		}		
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
 	}
 }
 music = {
@@ -97,6 +164,15 @@ music = {
 
 			tag = PRK
 			has_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
 		}		
 	}
 }
@@ -108,7 +184,17 @@ music = {
 
 			tag = PRK
 			has_war = yes
-		}		
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
 	}
 }
 music = {
@@ -119,6 +205,16 @@ music = {
 
 			tag = PRK
 			has_war = yes
-		}		
+		}	
+		modifier = {
+			factor = 0
+
+			NOT = {
+				OR = {
+					tag = PRK
+					is_in_faction_with = PRK
+				}
+			}
+		}	
 	}
 }

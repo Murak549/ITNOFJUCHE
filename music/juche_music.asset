@@ -4,6 +4,21 @@ music = {
 	volume = 1
 }
 music = {
+	name = "overthere"
+	file = "usa/overthere.ogg"
+	volume = 1
+}
+music = {
+	name = "star_spangled_banner_1"
+	file = "usa/nationalanthem1.ogg"
+	volume = 1
+}
+music = {
+	name = "star_spangled_banner_2"
+	file = "usa/nationalanthem2.ogg"
+	volume = 1
+}
+music = {
 	name = "songofpeoplearmy"
 	file = "dprk/PEOPLEARMY.ogg"
 	volume = 1
