@@ -2,7 +2,7 @@ debug = {
 	debug_1 = {
 		cost = 0
 		complete_effect = {
-			load_focus_tree = GHQ_focus
+			USA_SUCKMADIC = yes
 		}
 	}
 	debug_6 = {
@@ -460,6 +460,8 @@ debug = {
 				set_temp_variable = { country_to_initiate = KOM }
 				instantiate_collaboration_government = yes
 				set_temp_variable = { country_to_initiate = KAR }
+				instantiate_collaboration_government = yes
+				set_temp_variable = { country_to_initiate = VGE }
 				instantiate_collaboration_government = yes
 			}
 		}

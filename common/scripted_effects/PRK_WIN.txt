@@ -832,3 +832,120 @@ JAP_sengoku_juche = {
 		}
 	}
 }
+COMMUNISM_DEAD = {
+	USA = {
+		set_cosmetic_tag = USA_TNO
+	}
+	KRM = {
+		set_cosmetic_tag = KRM_PRK
+		transfer_state = 716
+		transfer_state = 976
+		transfer_state = 977
+		transfer_state = 978
+		transfer_state = 328
+		transfer_state = 717
+		transfer_state = 745
+		transfer_state = 715
+		transfer_state = 979
+		transfer_state = 979
+		transfer_state = 714
+		transfer_state = 761
+		add_state_core = 716
+		add_state_core = 976
+		add_state_core = 977
+		add_state_core = 978
+		add_state_core = 328
+		add_state_core = 717
+		add_state_core = 745
+		add_state_core = 715
+		add_state_core = 979
+		add_state_core = 979
+		add_state_core = 714
+		add_state_core = 761
+	}
+	if = {
+		limit = {
+			country_exists = KRM
+		}
+		MAN = {
+			transfer_state = 715
+			transfer_state = 714
+			transfer_state = 979
+			transfer_state = 761
+		}
+	}
+	CHI = {
+		annex_country = {
+			target = PRC
+			transfer_troops = yes
+		}
+	}
+	USA = {
+		set_autonomy = {
+			target = MON
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = POL
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = CZE
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = HUN
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = YUG
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = ALB
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = BUL
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = ROM
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = SOV
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = VIN
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = KOR
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = KRM
+			autonomy_state = autonomy_supervised_state
+		}
+		set_autonomy = {
+			target = MAN
+			autonomy_state = autonomy_supervised_state
+		}
+	}
+	GER = {
+		DDR = {
+			transfer_state = 980
+			reset_province_name = 6521
+			add_victory_points = {
+				province = 13288
+				value = -210
+			}
+		}
+		set_autonomy = {
+			target = DDR
+			autonomy_state = autonomy_supervised_state
+		}
+	}
+}

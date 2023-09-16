@@ -1601,3 +1601,29 @@ JAP_fuck_meiji = {
 		add_state_core = 930
 	}
 }
+USA_SUCKMADIC = {
+	every_country = {
+		limit = {
+			has_government = communism
+		}
+		USA = {
+			set_autonomy = {
+				target = PREV
+				autonomous_state = autonomy_supervised_state
+			}
+		}
+	}
+}
+SOV_SUCKMADIC = {
+	every_country = {
+		limit = {
+			has_government = democratic
+		}
+		SOV = {
+			set_autonomy = {
+				target = PREV
+				autonomous_state = autonomy_supervised_state
+			}
+		}
+	}
+}

@@ -242,6 +242,10 @@
 
  KOR_democratic:0 "대한민국"
 
+ DDR_GER_democratic_autonomy_supervised_state:0 "중앙 독일 재건 위원회"
+ VIN_union_USA_democratic_autonomy_supervised_state:0 "인도차이나미합중국육군사령부군정"
+ MAN_USA_democratic_autonomy_supervised_state:0 "재만주미합중국육군사령부군정청"
+ KRM_PRK_USA_democratic_autonomy_supervised_state:0 "간도국제연합위임통치령"
  KOR_USA_democratic_autonomy_supervised_state:0 "재조선미합중국육군사령부군정청"
  PRK_SOV_communism_autonomy_supervised_state:0 "주조선소비에트민정청"
 
