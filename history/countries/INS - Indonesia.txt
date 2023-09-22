@@ -154,3 +154,9 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 	drop_cosmetic_tag = INS
 	leave_faction = yes
 }
+1945.11.23 = {
+	declare_war_on = {
+		target = HOL
+		type = annex_everything
+	}
+}

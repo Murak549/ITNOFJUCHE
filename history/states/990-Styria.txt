@@ -13,7 +13,20 @@ state={
 				arms_factory = 1
 				industrial_complex = 3
 			}
-			add_core_of = AUS
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1945.5.4 = {
+			owner = ENG
+		}
+		1955.5.4 = {
+			owner = AUS
+			remove_core_of = GER
+		}
 		
 	}
 	manpower=03

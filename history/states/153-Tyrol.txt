@@ -22,12 +22,12 @@ state={
 
 		}
 		1945.5.4 = {
-			owner = AUS
-			controller = AUS
-			remove_core_of = GER
-
+			owner = FRA
 		}
-
+		1955.5.4 = {
+			owner = AUS
+			remove_core_of = GER
+		}
 	}
 
 	provinces={

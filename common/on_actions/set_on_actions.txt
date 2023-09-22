@@ -31,6 +31,106 @@ on_actions = {
 						}
 					}
 				}
+				SOV = {
+					every_owned_state = {
+						limit = {
+							NOT = {
+								is_core_of = SOV
+							}
+						}
+						create_unit = {
+							division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = SOV
+						}
+					}
+					every_country = {
+						limit = {
+							AND = {
+								is_in_faction_with = SOV
+								OR = {
+									NOT = {
+										original_TAG = SOV
+									}
+									NOT = {
+										original_TAG = MON
+									}
+								}
+							}
+						}
+						capital_scope = {
+							create_unit = {
+								division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+								owner = SOV
+							}
+						}
+						every_owned_state = {
+							limit = {
+								OR = {
+									has_state_category = city
+									has_state_category = large_city
+									has_state_category = metropolis
+									has_state_category = megalopolis
+								}
+							}
+							create_unit = {
+								division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+								owner = SOV
+							}
+						}
+					}
+					every_country = {
+						limit = {
+							AND = {
+								is_in_faction_with = SOV
+								original_TAG = HUN
+							}
+						}
+						every_owned_state = {
+							create_unit = {
+								division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+								owner = SOV
+							}
+						}
+					}
+					every_country = {
+						limit = {
+							AND = {
+								is_in_faction_with = SOV
+								original_TAG = DDR
+							}
+						}
+						every_owned_state = {
+							create_unit = {
+								division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+								owner = SOV
+							}
+						}
+					}
+					69 = {
+						every_owned_state = {
+							create_unit = {
+								division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+								owner = SOV
+							}
+						}
+					}
+					74 = {
+						every_owned_state = {
+							create_unit = {
+								division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+								owner = SOV
+							}
+						}
+					}
+					75 = {
+						every_owned_state = {
+							create_unit = {
+								division = "division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+								owner = SOV
+							}
+						}
+					}
+				}
 			}
             every_country = {
 				limit = {

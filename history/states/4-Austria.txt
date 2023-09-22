@@ -36,8 +36,11 @@ state={
 
 		}
 		1945.5.4 = {
+			owner = SOV
+
+		}
+		1955.5.4 = {
 			owner = AUS
-			controller = AUS
 			remove_core_of = GER
 
 		}
@@ -45,7 +48,7 @@ state={
 	}
 
 	provinces={
-		704 3700 3718 6690 6739 9527 9661 11666 
+		704 3700 3718 6552 6690 6723 6739 9527 9661 11651 11666 
 	}
 	manpower=2595983
 	buildings_max_level_factor=1.000

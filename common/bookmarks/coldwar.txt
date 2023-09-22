@@ -6,6 +6,20 @@ bookmarks = {
 		picture = "GFX_select_date_1955"
 		default_country = "USA"
 	
+		USA={
+			history = RED_UNIFICATE_DESC
+			ideology = communism
+			ideas = {
+				PRC_the_long_march_1
+				PRC_low_popular_support_1
+				PRC_power_struggles
+			}
+			focuses = {
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
+			}
+		}	
 		PRC={
 			history = RED_UNIFICATE_DESC
 			ideology = communism
