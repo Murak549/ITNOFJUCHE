@@ -98,16 +98,15 @@ bookmarks = {
 		"PRK"={
 			history = "PRK_KOREAN_WAR_DESC"
 			ideology = communism
-			available = { has_dlc = "By Blood Alone" }
 			ideas = {
-				PRK_low_popular_support_3
-				PRK_focus_on_china
-				PRK_the_long_march_2
+				PRK_ch_horse
+				PRK_heritage_of_inminhyukmyung_armys
+				PRK_motherland_liberate_war
 			}	
 			focuses = {
-				PRK_proclaim_the_peoples_republic
-				PRK_maoism
-				CHI_one_china_policy
+				PRK_lead_of_ilsung
+				PRK_cheonlima
+				PRK_dprk
 			}		
 		}
 		"JAP"={

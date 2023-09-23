@@ -273,6 +273,50 @@ on_actions = {
 		}
 	}
 	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = GER
+					FROM.FROM = 981
+				}
+				FROM.FROM = {
+					set_state_name = "베를린"
+				}
+				set_victory_points = {
+					province = 13288
+					value = 0
+				}
+				set_province_name = {
+                    id = 6521
+                    name = "베를린"
+                }
+				every_country = {
+					limit = {
+						has_government = communism
+					}
+					save_event_target_as = ddr_maker
+				}
+			}
+			if = {
+				limit = {
+					original_tag = event_target:ddr_maker
+					FROM.FROM = 981
+				}
+				FROM.FROM = {
+					set_state_name = "오스트베를린"
+				}
+				set_victory_points = {
+					province = 13288
+					value = 10
+				}
+				set_province_name = {
+                    id = 6521
+                    name = "동베를린"
+                }
+			}
+
+
+		}
 		effect = { #일본식
 			if = {
 				limit = {
