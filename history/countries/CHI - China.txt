@@ -197,11 +197,9 @@ set_convoys = 40
 	set_politics = {
 		ruling_party = neutrality
 		elections_allowed = no
-		set_popularities = {
-			neutrality = 90
-			communism = 1
-			democratic = 9
-		}
+	}
+	set_popularities = {
+		neutrality = 100
 	}
 }
 1952.5.1 = {
@@ -343,6 +341,9 @@ set_convoys = 40
 	}
 }
 
+set_popularities = {
+	neutrality = 100
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -350,9 +351,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = {
-	neutrality = 100
-}
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
 
@@ -434,4 +432,15 @@ if = {
 			rear_1_custom_slot = empty
 		}
 	}
+}
+
+1952.5.1 = {
+	PRC = {
+		white_peace = CHI
+	}
+	CHI = {
+		white_peace = PRC
+	}
+	add_ideas = limited_conscription
+	add_ideas = low_economic_mobilisation
 }

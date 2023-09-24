@@ -161,10 +161,6 @@ save_global_event_target_as = WTT_communist_china
 }
 
 1946.6.6 = {
-	declare_war_on = {
-		target = CHI
-		type = annex_everything
-	}
 	if = {
 		limit = {
 			has_dlc = "Waking the Tiger"

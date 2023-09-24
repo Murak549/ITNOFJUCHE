@@ -33,25 +33,6 @@ division_template = {
 	support = {
 	}
 }
-division_template = {
-	name = "장갑차 사단" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = KOR_ARM_02
-									# 1 engineering regiment, 1 recon regiment
-	regiments = {
-		armored_car = { x = 0 y = 0 }
-		armored_car = { x = 0 y = 1 }
-		armored_car = { x = 0 y = 2 }
-		armored_car = { x = 0 y = 3 }
-		armored_car = { x = 1 y = 0 }
-		armored_car = { x = 1 y = 1 }
-		armored_car = { x = 1 y = 2 }
-
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
-	}
-}
 units = {
 	division= {	
 		division_name = {
@@ -170,13 +151,6 @@ units = {
 		}
 		location = 7171 #Pyeongyang
 		division_template = "국경 경비 사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.98
-	}
-	division= {	
-		name = "12th Motorcycle Brigade"
-		location = 7171
-		division_template = "장갑차 사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}

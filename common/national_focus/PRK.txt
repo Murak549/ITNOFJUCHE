@@ -34,7 +34,6 @@ focus_tree = {
 		cost = 5
 		x = 10	
 		y = 0
-		mutually_exclusive = { focus = PRK_ihateilsung }
 		completion_reward = {
 			hidden_effect = {
 				add_trait = {
@@ -508,159 +507,6 @@ focus_tree = {
 		y = 1
 	}
 	focus = {
-		id = PRK_one_korea_one_party
-		icon = GFX_goal_generic_national_unity
-		cost = 7
-		x = 1
-		y = 1
-		relative_position_id = PRK_peoples_army_of_korea2
-		prerequisite = {
-			focus = PRK_peoples_army_of_korea2
-		}
-	}
-	focus = {
-		id = PRK_partisan
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		cost = 3
-		x = 1
-		y = 1
-		relative_position_id = PRK_one_korea_one_party
-		prerequisite = {
-			focus = PRK_one_korea_one_party
-		}
-	}
-	focus = {
-		id = PRK_sex
-		icon = GFX_focus_hol_war_on_pacifism
-		cost = 10
-		x = -1
-		y = 1
-		relative_position_id = PRK_one_korea_one_party
-		prerequisite = {
-			focus = PRK_one_korea_one_party
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = USA
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = ITA
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = ENG
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = FRA
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = GER
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = POR
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = BEL
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = LUX
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = HOL
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = DEN
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = NOR
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = ICE
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = SWI
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = PRC
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = CHI
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = MON
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = SOV
-			}
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = JAP
-			}
-		}
-	}
-	focus = {
-		id = PRK_dprk
-		icon = GFX_focus_PRK_founding_dprk
-		cost = 10
-		bypass = {
-			always = yes
-		}
-		prerequisite = {
-			focus = PRK_peoples_army_of_korea2
-		}
-		relative_position_id = PRK_peoples_army_of_korea2
-		x = -1
-		y = 1
-	}
-	focus = {
-		id = PRK_kill_clique
-		icon = GFX_focus_SOV_the_last_purge
-		cost = 10
-		prerequisite = {
-			focus = PRK_dprk
-		}
-		relative_position_id = PRK_dprk
-		x = 0
-		y = 2
-	}
-	focus = {
-		id = PRK_ready_to_roll_out
-		icon = GFX_focus_PRK_liberate_war
-		cost = 5
-		prerequisite = {
-			focus = PRK_go_to_socialism
-		}
-		prerequisite = {
-			focus = PRK_peoples_army_of_korea2
-		}
-		available = {
-			has_country_flag = PRK_permited_attack
-		}
-		x = 6
-		y = 2
-		completion_reward = {
-			add_ideas = PRK_Kim_Il_Sung
-			SOV = { country_event = { id = soviet.71 hours = 6 } }
-		}
-
-	}
-	focus = {
 		id = PRK_our_economy
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		cost = 5
@@ -678,166 +524,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = PRK_powerful_speech
-		icon = GFX_unknown
-		cost = 10
-		x = 15
-		y = 2
-		prerequisite = {
-			focus = PRK_our_economy
-		}	
-		completion_reward = {
-			add_war_support = 0.2
-			add_political_power = 80
-		}
-	}
-	focus = {
-		id = PRK_dont_forget_people_revolution_army
-		icon = GFX_unknown
-		cost = 10
-		x = 17
-		y = 2
-		prerequisite = {
-			focus = PRK_our_economy
-		}	
-		completion_reward = {
-			army_experience = 20
-			add_ideas = PRK_heritage_of_inminhyukmyung_armys
-		}
-	}
-	focus = {
-		id = PRK_emphasize_DPRK_ilsung_idea
-		icon = GFX_unknown
-		cost = 10
-		x = 16
-		y = 3
-		prerequisite = {
-			focus = PRK_powerful_speech
-			focus = PRK_dont_forget_people_revolution_army
-		}	
-		completion_reward = {
-			add_popularity = {
-	        ideology = communism
-	        popularity = -0.2
-            }
-			add_stability = 0.05
-		}
-	}
-	focus = {
-		id = PRK_inmin_ban
-		icon = GFX_unknown
-		cost = 10
-		x = 16
-		y = 4
-		prerequisite = {
-			focus = PRK_emphasize_DPRK_ilsung_idea
-		}	
-		completion_reward = {
-			add_political_power = 100
-		}
-	}
-	focus = {
-		id = PRK_gaejo_idea
-		icon = GFX_unknown
-		cost = 10
-		x = 16
-		y = 5
-		prerequisite = {
-			focus = PRK_inmin_ban
-		}	
-		completion_reward = {
-			add_stability = 0.05
-			add_timed_idea = {
-				idea = PRK_sasang_gayjoigo
-				days = 1825
-			}
-		}
-	}
-	focus = {
-		id = PRK_party_hello_new
-		icon = GFX_unknown
-		cost = 10
-		x = 20
-		y = 4
-		prerequisite = {
-			focus = PRK_emphasize_DPRK_ilsung_idea
-		}	
-		completion_reward = {
-			add_stability = -0.01
-		    add_power_balance_value = {
-				id = PRK_the_yenan
-				value = 0.1
-				tooltip_side = PRK_the_yenan
-			}
-		}
-	}
-	focus = {
-		id = PRK_revolutive_leader_idea
-		icon = GFX_unknown
-		cost = 10
-		x = 19
-		y = 5
-		prerequisite = {
-			focus = PRK_party_hello_new
-		}	
-		completion_reward = {
-			add_stability = 0.1
-			add_popularity = {
-	        ideology = democratic
-	        popularity = -0.5
-            }
-			add_popularity = {
-	        ideology = fascism
-	        popularity = -0.5
-            }
-			add_popularity = {
-	        ideology = neutrality
-	        popularity = -0.5
-            }
-		}
-	}
-	focus = {
-		id = juche_idea
-		icon = GFX_unknown
-		cost = 10
-		x = 21
-		y = 5
-		prerequisite = {
-			focus = PRK_party_hello_new
-		}	
-		completion_reward = {
-			add_popularity = {
-	        ideology = communism
-	        popularity = 0.15
-            }
-		}
-	}
-	focus = {
-		id = PRK_all_for_one_one_for_all
-		icon = GFX_unknown
-		cost = 10
-		x = 21
-		y = 6
-		prerequisite = {	
-			focus = juche_idea
-		}	
-	}
-	focus = {
-		id = PRK_baepo
-		icon = GFX_unknown
-		cost = 10
-		x = 25
-		y = 6
-		prerequisite = {
-			focus = juche_idea
-		}	
-	}
-	focus = {
 		id = PRK_kim_ilsung_personal_praise
 		icon = GFX_unknown
 		cost = 10
-		x = 19
-		y = 7
+		relative_position_id = PRK_our_economy
+		x = 0
+		y = 1
 		prerequisite = {
 			focus = PRK_gaejo_idea
 		}	
@@ -855,8 +547,9 @@ focus_tree = {
 		id = PRK_army_is_mine
 		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 10
-		x = 17
-		y = 8
+		relative_position_id = PRK_kim_ilsung_personal_praise
+		x = -2
+		y = 1
 		prerequisite = {
 			focus = PRK_kim_ilsung_personal_praise
 		}	
@@ -865,8 +558,9 @@ focus_tree = {
 		id = PRK_liberater_from_japan
 		icon = GFX_focus_generic_japanese_imperial_glory
 		cost = 10
-		x = 19
-		y = 8
+		relative_position_id = PRK_kim_ilsung_personal_praise
+		x = 0
+		y = 1
 		prerequisite = {
 			focus = PRK_kim_ilsung_personal_praise
 		}	
@@ -875,8 +569,9 @@ focus_tree = {
 		id = PRK_fuck_imperalism
 		icon = GFX_focus_generic_army_tanks2
 		cost = 10
-		x = 21
-		y = 8
+		relative_position_id = PRK_kim_ilsung_personal_praise
+		x = 2
+		y = 1
 		prerequisite = {
 			focus = PRK_kim_ilsung_personal_praise
 		}	
@@ -885,8 +580,9 @@ focus_tree = {
 		id = PRK_anti_imperal_anti_feudalism_democratic_revolution_theory
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		cost = 10
-		x = 18
-		y = 9
+		relative_position_id = PRK_kim_ilsung_personal_praise
+		x = -1
+		y = 2
 		prerequisite = {
 			focus = PRK_army_is_mine
 		}	
@@ -898,8 +594,9 @@ focus_tree = {
 		id = PRK_idaina_leader
 		icon = GFX_focus_SOV_organization_centralization_discipline
 		cost = 10
-		x = 20
-		y = 9
+		relative_position_id = PRK_kim_ilsung_personal_praise
+		x = 1
+		y = 2
 		available = {
 			has_completed_focus = PRK_korean_central_bangsong
 		}
@@ -914,8 +611,9 @@ focus_tree = {
 		id = PRK_leader_of_joseon
 		icon = GFX_focus_PRK_leader_of_joseon
 		cost = 10
-		x = 19
-		y = 10
+		relative_position_id = PRK_kim_ilsung_personal_praise
+		x = 0
+		y = 3
 		prerequisite = {
 			focus = PRK_anti_imperal_anti_feudalism_democratic_revolution_theory
 		}	
@@ -924,111 +622,14 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = PRK_military_support_service
-		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
-		cost = 5
-		prerequisite = {
-			focus = PRK_ready_to_roll_out
-		}
-		x = 5
-		y = 3
-
-	}
-	focus = {
-		id = PRK_third_revolution_red_flag_movement
-		icon = GFX_goal_generic_war_with_comintern
-		cost = 5
-		prerequisite = {
-			focus = PRK_ready_to_roll_out
-		}
-		x = 7
-		y = 3
-	}
-
-	focus = {
-		id = PRK_pyeongyang_radio
-		x = 7
-		y = 4
-		cost = 15
-		prerequisite = {
-			focus = PRK_third_revolution_red_flag_movement
-		}
-		completion_reward = {
-			add_ideas = PRK_pyeongyang_radio
-		}
-	}
-	focus = {
-		id = PRK_everyone_get_weapon
-		x = 7
-		y = 5
-		cost = 10
-		prerequisite = {
-			focus = PRK_pyeongyang_radio
-		}
-		prerequisite = {
-			focus = PRK_peoples_army_of_korea2
-		}
-	}
-	focus = {
-		id = PRK_nonong_jukwidae
-		x = 5
-		y = 6
-		cost = 10
-		prerequisite = {
-			focus = PRK_everyone_get_weapon
-		}
-	}
-	focus = {
-		id = PRK_gyododae
-		x = 5
-		y = 7
-		cost = 10
-		prerequisite = {
-			focus = PRK_nonong_jukwidae
-		}
-	}
-	focus = {
-		id = PRK_they_use_jammini
-		x = 7
-		y = 6
-		cost = 10
-		prerequisite = {
-			focus = PRK_everyone_get_weapon
-		}
-	}
-	focus = {
-		id = PRK_KOREA_CIA
-		x = 9
-		y = 6
-		cost = 10
-		prerequisite = {
-			focus = PRK_everyone_get_weapon
-		}
-	}
-	focus = {
-		id = PRK_korean_central_bangsong
-		x = 5
-		y = 5
-		cost = 5
-		prerequisite = {
-			focus = PRK_pyeongyang_radio
-		}
-		completion_reward = {
-			swap_ideas = {
-				add_idea = PRK_korean_central_bangsong
-				remove_idea = PRK_pyeongyang_radio
-			}
-		}
-	}
-
-	focus = {
 		id = PRK_watching_c
-		x = 13
-		y = 5
+		x = 0
+		y = 1
 		cost = 10
 		prerequisite = {
 			focus = PRK_peoples_army_of_korea2
 		}
+		relative_position_id = PRK_peoples_army_of_korea2
 		completion_reward = {
 			army_experience = 2
 			navy_experience = 10
@@ -1122,40 +723,6 @@ focus_tree = {
 				}
 			}
 			add_offsite_building = { type = dockyard level = 8 }
-		}
-	}
-
-	focus = {
-		id = PRK_ihateilsung
-		x = 40
-		y = 0
-		icon = GFX_focus_generic_concessions
-		cost = 10
-		mutually_exclusive = {
-			focus = PRK_lead_of_ilsung
-		}
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = please_wait_updatett	
-				always = yes
-			}
-		}
-		completion_reward = {
-			set_politics = {
-				ruling_party = neutrality
-			}
-			start_civil_war = {
-				ideology = communism
-				size = 0.1
-				army_ratio = 0.5
-				navy_ratio = 0
-				air_ratio = 1
-				states = {
-					527 920 919
-				}
-				keep_all_characters = yes
-			}
-			# custom_effect_tooltip = please_wait_fake_tt
 		}
 	}
 }

@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "KOREAN_WAR_NAME"
 		desc = "KOREAN_WAR_DESC"
-		date = 1954.1.1.12
+		date = 2030.1.1.12
 		picture = "GFX_select_date_1955"
 		default_country = "PRK"
 		

@@ -1,8 +1,8 @@
 ﻿capital = 527
 
+recruit_character = PRK_Kim_Il_Sung
 recruit_character = PRK_party
 recruit_character = PRK_ivan
-recruit_character = PRK_Kim_Il_Sung
 recruit_character = PRK_ryu_kyung_su
 recruit_character = PRK_lee_hyung_sang
 recruit_character = PRK_kim_mu_jeong
@@ -110,22 +110,6 @@ set_popularities = {
 	}
 }
 	
-1949.11.1 = {
-	complete_national_focus = PRK_north_Korea_5_province_meeting_convened
-	complete_national_focus = PRK_soviet_unions_choose
-	complete_national_focus = PRK_speech_of_ilsung
-	complete_national_focus = PRK_establishment_of_the_provisional_peoples_committee_of_north_korea
-	complete_national_focus = PRK_land_revolution
-	complete_national_focus = PRK_soviet_style_personnel_system
-	complete_national_focus = PRK_peoples_army_of_korea
-}
-
 1953.11.11 = {
-	complete_national_focus = PRK_supreme_assembly
-	complete_national_focus = PRK_one_korea_one_party
-	complete_national_focus = PRK_peoples_army_of_korea2
-	complete_national_focus = PRK_founding_democratic_peoples_republic_of_korea
-	complete_national_focus = PRK_ready_to_roll_out
-	complete_national_focus = PRK_lead_of_ilsung
-	complete_national_focus = PRK_triumph_at_korea
+
 }
