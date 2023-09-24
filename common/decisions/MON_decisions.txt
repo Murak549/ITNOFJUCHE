@@ -1,0 +1,14 @@
+# MONGOLIA
+
+GOTO_GREAT_MONGOLIA = {
+	FOUND_YUAN = {
+		cost = 10
+		available = {
+			ROOT = {
+				owns_state = 329
+				owns_state = 563
+				owns_state = 564
+			}
+		}
+	}
+}

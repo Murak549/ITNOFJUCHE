@@ -99,3 +99,9 @@
  PRK_DDR_think_PRK_is_good_guy:0 "북독 관계개선"
  PRK_electricity_in_state:0 "§Y[From.GetName]§! 전기화"
  PRK_PRK_country_side_enlight:0 "§Y[From.GetName]§! 농민 계몽"
+
+
+
+ GOTO_GREAT_MONGOLIA:0 "대몽골을 위해서"
+ FOUND_YUAN:0 "예커 몽골 울루스 부활"
+ NEW_MONGOL_EMPIRE:0 "몽골 제국"

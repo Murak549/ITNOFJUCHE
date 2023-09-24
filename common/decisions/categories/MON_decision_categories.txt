@@ -1,0 +1,13 @@
+# MONGOLIA
+
+GOTO_GREAT_MONGOLIA = {
+    priority = 2
+
+	allowed = {
+		original_tag = MON
+	}
+
+	visible = {
+		original_tag = MON
+	}
+}

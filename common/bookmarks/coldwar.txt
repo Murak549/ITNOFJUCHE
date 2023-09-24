@@ -2,9 +2,10 @@ bookmarks = {
 	bookmark = {
 		name = "RED_UNIFICATE_NAME"
 		desc = "RED_UNIFICATE_DESC"
-		date = 1954.1.1.12
-		picture = "GFX_select_date_1955"
+		date = 1972.1.1.12
+		picture = "GFX_select_date_1949"
 		default_country = "USA"
+		default = yes
 	
 		USA={
 			history = RED_UNIFICATE_DESC

@@ -208,6 +208,9 @@ save_global_event_target_as = WTT_communist_china
 	PRC = {
 		white_peace = CHI
 	}
+	CHI = {
+		white_peace = PRC
+	}
 	add_ideas = limited_conscription
 	add_ideas = low_economic_mobilisation
 }
