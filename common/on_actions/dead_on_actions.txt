@@ -67,7 +67,7 @@ on_actions = {
 						}
 						white_peace = {
 							tag = IDC
-							message = "인도차이나 반도에서 시행한 특수군사작전은 성공적이었습니다." 
+							message = "인도차이나 반도에서 시행한 특수군사작전이 성공적으로 완료되었습니다." 
 						}
 					}
 				}
@@ -114,7 +114,6 @@ on_actions = {
 						}
 						white_peace = {
 							tag = VIN
-							message = "프랑스에게 지배당한 피지배민들의 한이 우리의 독립을 위해 끝없는 투쟁에 끝을 이루었습니다." 
 						}
 					}
 					annex_country = {
@@ -124,6 +123,26 @@ on_actions = {
 					transfer_state = 286
 				}
 				set_global_flag = VIN_INDEPENDENT
+			}
+			if = {
+				limit = { #북한이 승전시의 코드
+					AND = {
+						ROOT = {
+							original_tag = GER
+						}
+						FROM = {
+							original_tag = DDR
+						}
+					}
+				}
+				every_country = {
+					every_owned_state = {
+						limit = {
+							is_core_of = GER 
+						}
+						add_core_of = DDR
+					}
+				}
 			}
 			if = {
 				limit = { #북한이 승전시의 코드

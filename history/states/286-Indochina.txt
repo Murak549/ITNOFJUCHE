@@ -23,15 +23,7 @@ state={
 
 		}
 		1945.8.22 = {
-			owner = FRA
-			VIN = {
-				set_province_controller = 1423
-				set_province_controller = 4284
-				set_province_controller = 4341
-				set_province_controller = 4223
-				set_province_controller = 10232
-				set_province_controller = 10261
-			}
+			owner = VIN
 		}
 
 	}

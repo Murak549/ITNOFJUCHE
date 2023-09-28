@@ -2,7 +2,7 @@
 
 oob = "VIN_1936"
 
-set_cosmetic_tag = VIN_INDERED
+set_cosmetic_tag = VIN_union
 
 set_research_slots = 3
 
@@ -94,10 +94,6 @@ if = {
 
 1945.8.21 = {
 	oob = "VIN_1950_nsb"
-	declare_war_on = {
-		target = IDC
-		type = annex_everything
-	}
 	set_politics = {
 		ruling_party = communism
 		last_election = "1945.8.16"

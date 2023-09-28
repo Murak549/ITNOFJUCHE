@@ -1,0 +1,375 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+# Reminder that focus filters prio has to be handled in the generic focus file :)
+
+focus_tree = {
+	id = VIN_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VIN
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 0 y = 15000 }
+
+    focus = {
+		id = VIN_breaking_union
+		icon = GFX_goal_generic_position_armies
+
+		x = 10
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		select_effect = {
+			741  = {
+				set_demilitarized_zone = yes
+			}
+			670  = {
+				set_demilitarized_zone = yes
+			}
+			996  = {
+				set_demilitarized_zone = yes
+			}
+		}
+
+		completion_reward = {
+			LAO = {
+				set_cosmetic_tag = LAO_red
+				transfer_state = 670
+			}
+			CAM = {
+				set_cosmetic_tag = CAM_haebang
+				transfer_state = 741
+			}
+			SVN = {
+				set_cosmetic_tag = SVN_liberty
+				transfer_state = 286
+			}
+			set_autonomy = {
+				target = LAO
+				autonomous_state = autonomy_bun
+			}
+			set_autonomy = {
+				target = CAM
+				autonomous_state = autonomy_bun
+			}
+			set_autonomy = {
+				target = SVN
+				autonomous_state = autonomy_bun
+			}
+		}
+	}
+    focus = {
+		id = VIN_emergency
+		icon = GFX_focus_generic_army_tanks2
+
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = VIN_breaking_union
+		}
+
+		relative_position_id = VIN_breaking_union
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			ROOT = {
+				end_puppet = LAO
+				end_puppet = CAM
+				end_puppet = SVN
+			}
+			CAM = {
+				declare_war_on = {
+					target = VIN
+					type = annex_everything
+				}
+				every_owned_state = {
+					
+				}
+			}
+			SVN = {
+				declare_war_on = {
+					target = VIN
+					type = annex_everything
+				}
+				every_owned_state = {
+
+				}
+			}
+			LAO = {
+				every_owned_state = {
+					
+				}
+				declare_war_on = {
+					target = VIN
+					type = annex_everything
+				}
+			}
+		}
+	}
+    focus = {
+		id = VIN_plz_help_un
+		icon = GFX_focus_eng_the_sun_never_sets
+
+		x = -2
+		y = 1
+
+		prerequisite = {
+			focus = VIN_emergency
+		}
+
+		mutually_exclusive = { focus = VIN_plz_help_kim_jong_un }
+
+		relative_position_id = VIN_emergency
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			USA = {
+				set_autonomy = {
+					target = VIN
+					autonomous_state = autonomy_bun
+				}
+			}
+		}
+	}
+    focus = {
+		id = VIN_plz_help_kim_jong_un
+		icon = GFX_goal_dprk_is_right
+
+		x = 2
+		y = 1
+
+		prerequisite = {
+			focus = VIN_emergency
+		}
+
+		mutually_exclusive = { focus = VIN_plz_help_un }
+
+		relative_position_id = VIN_emergency
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			PRK = {
+				set_autonomy = {
+					target = VIN
+					autonomous_state = autonomy_supervised_state
+				}
+			}
+		}
+	}
+    focus = {
+		id = VIN_i_have_the_greatest_manpower
+		icon = GFX_focus_SOV_builder_of_the_red_army
+
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = VIN_plz_help_kim_jong_un
+			focus = VIN_plz_help_un
+		}
+
+		relative_position_id = VIN_emergency
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = VIN_take_this_gun
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+
+		x = -2
+		y = 0
+
+		prerequisite = {
+			focus = VIN_plz_help_kim_jong_un
+			focus = VIN_plz_help_un
+		}
+
+		relative_position_id = VIN_i_have_the_greatest_manpower
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = VIN_proto_indochina
+		icon = GFX_goal_generic_military_sphere
+
+		x = 2
+		y = 0
+
+		prerequisite = {
+			focus = VIN_plz_help_kim_jong_un
+			focus = VIN_plz_help_un
+		}
+
+		relative_position_id = VIN_i_have_the_greatest_manpower
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = VIN_west
+		icon = GFX_focus_generic_strike_at_democracy1
+
+		x = -1
+		y = 1
+
+		mutually_exclusive = { focus = VIN_south }
+		
+		prerequisite = {
+			focus = VIN_take_this_gun
+		}
+		prerequisite = {
+			focus = VIN_i_have_the_greatest_manpower
+		}
+
+		relative_position_id = VIN_i_have_the_greatest_manpower
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = VIN_south
+		icon = GFX_focus_generic_strike_at_democracy2
+
+		x = 1
+		y = 1
+
+		mutually_exclusive = { focus = VIN_west }
+
+		prerequisite = {
+			focus = VIN_proto_indochina
+		}
+		prerequisite = {
+			focus = VIN_i_have_the_greatest_manpower
+		}
+
+		relative_position_id = VIN_i_have_the_greatest_manpower
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+    focus = {
+		id = VIN_final_winner
+		icon = GFX_focus_generic_military_mission
+
+		x = 0
+		y = 2
+
+		mutually_exclusive = { focus = VIN_west }
+
+		available = {
+			country_exists = VIN
+			country_exists = LAO
+		}
+
+		prerequisite = {
+			focus = VIN_west
+			focus = VIN_east
+		}
+
+		relative_position_id = VIN_i_have_the_greatest_manpower
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+}

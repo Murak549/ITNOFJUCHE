@@ -1,4 +1,19 @@
 debug = {
+	debug_-2 = {
+		cost = 0
+		complete_effect = {
+			set_autonomy = {
+				target = VLA
+				end_war = no
+				autonomous_state = autonomy_supervised_state
+			}
+			set_autonomy = {
+				target = FER
+				end_war = no
+				autonomous_state = autonomy_supervised_state
+			}
+		}
+	}
 	debug_-1 = {
 		cost = 0
 		complete_effect = {

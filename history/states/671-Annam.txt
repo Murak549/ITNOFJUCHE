@@ -31,22 +31,6 @@ state={
 		}
 		1945.8.22 = {
 			owner = VIN
-			IDC = {
-				set_province_controller = 1157
-				set_province_controller = 1185
-				set_province_controller = 1248
-				set_province_controller = 1302
-				set_province_controller = 4075
-				set_province_controller = 4379
-				set_province_controller = 4529
-				set_province_controller = 7093
-				set_province_controller = 7280
-				set_province_controller = 9948
-				set_province_controller = 10180
-				set_province_controller = 12297
-				set_province_controller = 12008
-				set_province_controller = 12319
-			}
 		}
 
 	}

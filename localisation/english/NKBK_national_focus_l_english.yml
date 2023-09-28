@@ -147,3 +147,16 @@
  PRK_liberty_war_end:0 "조국해방전쟁이 끝나다"
  PRK_elec_and_enlighten_tt:0 "조선 전역의 전력화와 계몽이 완료됨."
  PRK_permited_attack:0 "@SOV [SOV.getName] 측이 전쟁을 허가함."
+
+
+ VIN_breaking_union:0 "무너지는 연방"
+ VIN_emergency:0 "폭도를 진압하라"
+ VIN_plz_help_un:0 "국제연합에 지원요청"
+ VIN_plz_help_kim_jong_un:0 "조선에 지원요청"
+ VIN_i_have_the_greatest_manpower:0 "인민을 동원하라"
+ VIN_take_this_gun:0 "총을 들어라"
+ VIN_proto_indochina:0 "자리를 박차고 일어나 서로를 지켜라!"
+ VIN_west:0 "서부 반 연방주의자 분쇄"
+ VIN_south:0 "남부 자본주의자 분쇄"
+
+ VIN_final_winner:0 "최후의 승자"
