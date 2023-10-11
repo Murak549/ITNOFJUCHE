@@ -14,7 +14,7 @@ state={
 
 		}
 		victory_points = {
-			13263 10 
+			13279 10 
 		}
 		add_core_of = KOR
 		owner = CHO
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1100 13261 13262 
+		1100 13277 13278 
 	}
 	manpower=2484105
 	buildings_max_level_factor=1.000

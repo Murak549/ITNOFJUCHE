@@ -18,12 +18,12 @@ state={
 		1945.5.10 = {
 			owner = GER
 			victory_points = {
-				13288 50 
+				13304 50 
 			}
 		}
 	}
 	provinces={
-		13288 
+		13304 
 	}
 	state_category=metropolis
 	manpower=1996250

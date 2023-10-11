@@ -12,7 +12,7 @@ for filename in files:
         # 숫자가 935 이상인 경우에만 내용을 변경합니다.
         if number >= 935:
             # 파일을 엽니다.
-            with open(filename, 'r+') as file:
+            with open(filename, 'r+', encoding='UTF8') as file:
                 content = file.read()
                 # id=XXX 또는 name="STATE_XXX" 패턴을 찾습니다.
                 content = re.sub(r'(id=|name="STATE_)(\d+)', lambda m: m.group(1) + str(int(m.group(2)) + 26), content)

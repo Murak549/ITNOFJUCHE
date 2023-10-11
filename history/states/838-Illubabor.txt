@@ -1,7 +1,7 @@
 state = {
 	id = 838 # Illubabor-Kaffa
 	name = "STATE_838"
-	manpower = 600000
+	manpower = 600016
 	resources = {
 		rubber = 2
 	}

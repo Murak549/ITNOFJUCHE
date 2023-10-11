@@ -11,7 +11,7 @@ state={
 				naval_base = 3
 
 			}
-			13268 = {
+			13284 = {
 				naval_base = 3
 
 			}
@@ -35,7 +35,7 @@ state={
 	}
 
 	provinces={
-		1003 4107 7070 7155 10065 11915 13269 
+		1003 4107 7070 7155 10065 11915 13285 
 	}
 	manpower=6334105
 	buildings_max_level_factor=1.000
