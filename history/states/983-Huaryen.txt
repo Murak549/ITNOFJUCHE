@@ -1,6 +1,6 @@
 state={
-	id=957
-	name="STATE_957"
+	id=983
+	name="STATE_983"
 	history={
 		owner = TAW
 		add_core_of = CHI

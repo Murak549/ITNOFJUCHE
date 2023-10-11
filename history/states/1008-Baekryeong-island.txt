@@ -1,6 +1,6 @@
 state={
-	id=982
-	name="STATE_982"
+	id=1008
+	name="STATE_1008"
 	history = {
 		owner = CHO
 		buildings = {

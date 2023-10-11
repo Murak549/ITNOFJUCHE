@@ -1,7 +1,7 @@
 
 state={
-	id=962
-	name="STATE_962"
+	id=988
+	name="STATE_988"
 	history={
 		owner = USA
 		buildings = {
