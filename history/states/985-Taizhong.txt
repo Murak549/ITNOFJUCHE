@@ -22,7 +22,7 @@ state={
 			1091 1 
 		}
 		victory_points = {
-			13281 1 
+			13366 1 
 		}
 		1945.8.15 = {
 			owner = CHI
@@ -30,7 +30,7 @@ state={
 		}
 	}
 	provinces={
-		1091 9955 11959 13280 13281 
+		1091 9955 11959 13365 13366 
 	}
 	manpower=2817000
 	state_category = town

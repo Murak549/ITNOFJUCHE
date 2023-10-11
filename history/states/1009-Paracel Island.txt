@@ -5,7 +5,7 @@ state={
 		owner = FRA
 		buildings = {
 			infrastructure = 1
-			13297 = {
+			13382 = {
 				naval_base = 3
 			}
 		}
@@ -20,7 +20,7 @@ state={
 		}
 	}
 	provinces={
-		13290 13291 13292 13293 13294 13295 13296 13297 13298 
+		13375 13376 13377 13378 13379 13380 13381 13382 13383 
 	}
 	manpower=7
 	state_category=rural

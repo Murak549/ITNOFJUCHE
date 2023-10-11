@@ -6,7 +6,7 @@ state={
 	history={
 		buildings = {
 			infrastructure = 1
-			13266 = {
+			13351 = {
 				naval_base = 1
 			}
 		}
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		13266 13282 
+		13351 13367 
 	}
 	manpower=13800
 	buildings_max_level_factor=1.000
