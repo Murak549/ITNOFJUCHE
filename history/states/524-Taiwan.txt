@@ -22,13 +22,13 @@ state={
 			7214 1 
 		}
 		victory_points = {
-			13359 1 
+			13274 1 
 		}
 		victory_points = {
-			13360 1 
+			13275 1 
 		}
 		victory_points = {
-			13364 1 
+			13279 1 
 		}
 		1945.8.15 = {
 			owner = CHI
@@ -37,7 +37,7 @@ state={
 	}
 
 	provinces={
-		7186 7214 13359 13360 13364 
+		7186 7214 13274 13275 13279 
 	}
 	manpower=4592537
 	buildings_max_level_factor=1.000

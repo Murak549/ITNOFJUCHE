@@ -5,7 +5,7 @@ state={
 		owner = CHO
 		buildings = {
 			infrastructure = 1
-			13374 = {
+			13289 = {
 				naval_base = 3
 			}
 		}
@@ -19,7 +19,7 @@ state={
 		}
 	}
 	provinces={
-		13374 
+		13289 
 	}
 	manpower=1200
 	state_category=rural

@@ -15,7 +15,7 @@ state={
 			4126 = {
 				naval_base = 3
 			}
-			13350 = {
+			13265 = {
 				naval_base = 3
 			}
 		}
@@ -23,7 +23,7 @@ state={
 			10110 15 
 		}
 		victory_points = {
-			13350 5 
+			13265 5 
 		}
 		victory_points = {
 			4126 5 
@@ -40,7 +40,7 @@ state={
 	}
 
 	provinces={
-		4126 11977 13349 13350 
+		4126 11977 13264 13265 
 	}
 	manpower=3684105
 	buildings_max_level_factor=1.000
