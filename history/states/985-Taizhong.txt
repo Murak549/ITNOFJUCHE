@@ -1,0 +1,39 @@
+state={
+	id=985
+	name="STATE_985"
+	history={
+		owner = TAW
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			12068 1 
+		}
+		victory_points = {
+			11959 1 
+		}
+		victory_points = {
+			9955 1 
+		}
+		victory_points = {
+			1091 1 
+		}
+		victory_points = {
+			13297 1 
+		}
+		1945.8.15 = {
+			owner = CHI
+			set_state_category = city
+		}
+	}
+	provinces={
+		1091 9955 11959 13296 13297 
+	}
+	manpower=2817000
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,49 @@
+state={
+	id=996
+	name="STATE_996"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+		}
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 3
+				infrastructure = 3 #was: 6
+				air_base = 2
+				arms_factory = 2
+			}
+			JAP = {
+				set_province_controller = 1036
+				set_province_controller = 4619
+				set_province_controller = 4631
+			}
+		}
+		1945.8.15 = {
+			#remove_core_of = SHX
+			owner = CHI
+		}
+		1949.6.15 = {
+			owner = PRC
+		}
+		add_core_of = PRC
+		add_core_of = CHI
+		victory_points = {
+			4619 5 
+		}
+	}
+
+	provinces={
+		1036 4619 4631 
+	}
+	manpower=723235
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

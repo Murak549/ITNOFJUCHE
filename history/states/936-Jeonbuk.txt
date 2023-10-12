@@ -1,0 +1,49 @@
+
+state={
+	id=936
+	name="STATE_936"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			4126 = {
+				naval_base = 3
+			}
+			13281 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			10110 15 
+		}
+		victory_points = {
+			13281 5 
+		}
+		victory_points = {
+			4126 5 
+		}
+		owner = CHO
+		add_core_of = KOR
+		1945.8.15 = {
+			owner = KOR
+		}
+		1952.1.1 = {
+			owner = PRK
+			add_core_of = PRK
+		}
+	}
+
+	provinces={
+		4126 11977 13280 13281 
+	}
+	manpower=3684105
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

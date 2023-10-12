@@ -2,7 +2,7 @@
 state={
 	id=551
 	name = "STATE_551"
-	manpower = 821003
+	manpower = 821019
 
 	history={
 		owner = SUD

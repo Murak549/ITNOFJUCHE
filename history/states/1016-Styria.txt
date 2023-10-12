@@ -1,0 +1,35 @@
+
+state={
+	id=1016
+	name="STATE_1016"
+	provinces={
+		653 6687 9646 9648 9650 9679 11630 
+	}
+	state_category = town
+	history = {
+		owner = AUS
+			buildings = {
+				infrastructure = 3
+				arms_factory = 1
+				industrial_complex = 3
+			}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1945.5.4 = {
+			owner = ENG
+		}
+		1955.5.4 = {
+			owner = AUS
+			remove_core_of = GER
+		}
+		
+	}
+	manpower=03
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

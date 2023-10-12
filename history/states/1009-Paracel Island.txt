@@ -1,0 +1,29 @@
+state={
+	id=1009
+	name="STATE_1009"
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			13313 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		1945.9.2 = {
+			owner = VIN
+			add_core_of = VIN
+		}
+		1972.9.2 = {
+			owner = PRC
+		}
+	}
+	provinces={
+		13306 13307 13308 13309 13310 13311 13312 13313 13314 
+	}
+	manpower=7
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+}

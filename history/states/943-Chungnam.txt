@@ -1,0 +1,32 @@
+
+state={
+	id=943
+	name="STATE_943"
+
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			11992 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = KOR
+		owner = CHO
+		1945.8.15 = {
+			owner = KOR
+		}
+		1952.1.1 = {
+			owner = PRK
+			add_core_of = PRK
+		}
+	}
+
+	provinces={
+		7175 7204 11992 13279 
+	}
+	manpower=2673000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
