@@ -8,7 +8,7 @@ tags={
 }
 name="In The Name of The Juche"
 replace_path="common/bookmarks"
-replath_path="gfx/fonts"
+replace_path="gfx/fonts"
 picture="thumbnail.png"
 supported_version="1.13.*"
 remote_file_id="2978243264"
