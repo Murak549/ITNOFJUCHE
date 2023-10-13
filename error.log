@@ -1,0 +1,562 @@
+[19:55:25][no_game_date][dlc.cpp:147]: incorrect checksum for DLC
+[19:55:25][no_game_date][dlc.cpp:227]: Invalid supported_version in  file: mod/ugc_2070438061.mod line: 9
+[19:55:28][no_game_date][pdx_audio.cpp:1305]: Music with name 'maintheme' already added
+[19:55:28][no_game_date][pdx_audiomusic_sdl.cpp:77]: For best performance and quality music files should be in 44.1kHz (partriot_march)
+[19:55:28][no_game_date][pdx_audiomusic_sdl.cpp:77]: For best performance and quality music files should be in 44.1kHz (overthere)
+[19:55:28][no_game_date][pdx_audiomusic_sdl.cpp:77]: For best performance and quality music files should be in 44.1kHz (star_spangled_banner_2)
+[19:55:28][no_game_date][pdx_audiomusic_sdl.cpp:77]: For best performance and quality music files should be in 44.1kHz (gotofuture)
+[19:55:28][no_game_date][pdx_audiomusic_sdl.cpp:77]: For best performance and quality music files should be in 44.1kHz (highfast)
+[19:55:28][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/fonts/tnr_39_numbers.tga
+[19:55:28][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/fonts/tnr_39_numbers.tga'
+[19:55:28][no_game_date][bitmapfont.cpp:502]: Missing font file: gfx/fonts/tnr_39_numbers.fnt
+[19:55:28][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/fonts/tnr_26_numbers.tga
+[19:55:28][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/fonts/tnr_26_numbers.tga'
+[19:55:28][no_game_date][bitmapfont.cpp:502]: Missing font file: gfx/fonts/tnr_26_numbers.fnt
+[19:55:28][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/fonts/invisiblefont.tga
+[19:55:28][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/fonts/invisiblefont.tga'
+[19:55:28][no_game_date][bitmapfont.cpp:502]: Missing font file: gfx/fonts/invisiblefont.fnt
+[19:55:28][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/fonts/tnr_53_numbers.tga
+[19:55:28][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/fonts/tnr_53_numbers.tga'
+[19:55:28][no_game_date][bitmapfont.cpp:502]: Missing font file: gfx/fonts/tnr_53_numbers.fnt
+[19:55:28][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/fonts/tnr_39_numbers_naa.tga
+[19:55:28][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/fonts/tnr_39_numbers_naa.tga'
+[19:55:28][no_game_date][bitmapfont.cpp:502]: Missing font file: gfx/fonts/tnr_39_numbers_naa.fnt
+[19:55:29][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/fonts/tnr_26_numbers_naa.tga
+[19:55:29][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/fonts/tnr_26_numbers_naa.tga'
+[19:55:29][no_game_date][bitmapfont.cpp:502]: Missing font file: gfx/fonts/tnr_26_numbers_naa.fnt
+[19:55:29][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/fonts/tnr_53_numbers_naa.tga
+[19:55:29][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/fonts/tnr_53_numbers_naa.tga'
+[19:55:29][no_game_date][bitmapfont.cpp:502]: Missing font file: gfx/fonts/tnr_53_numbers_naa.fnt
+[19:55:31][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: foreign_diplomacy.png
+[19:55:31][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'foreign_diplomacy.png'
+[19:55:31][no_game_date][spritetype.cpp:330]: Error initialising texture: foreign_diplomacy.png for spritetype GFX_focus_diplo
+[19:55:32][no_game_date][map.cpp:674]: MAP_ERROR: Palette in rivers.bmp is probably not correct
+[19:55:35][no_game_date][parser.cpp:942]: Error: unexpected token in file: "history/states/604-China 4.txt" near line: 23 ( the )
+[19:55:35][no_game_date][trigger.cpp:672]: Invalid trigger 'the' in history/states/604-China 4.txt line : 23
+[19:55:35][no_game_date][trigger.cpp:540]: Error: "Not a valid value: Waking, near line: 23
+Unknown trigger-type: the, near line: 23" in file: "history/states/604-China 4.txt" near line: 25
+[19:55:35][no_game_date][parser.cpp:942]: Error: unexpected token in file: "history/states/616-China 14.txt" near line: 19 ( the )
+[19:55:35][no_game_date][trigger.cpp:672]: Invalid trigger 'the' in history/states/616-China 14.txt line : 19
+[19:55:35][no_game_date][trigger.cpp:540]: Error: "Not a valid value: Waking, near line: 19
+Unknown trigger-type: the, near line: 19" in file: "history/states/616-China 14.txt" near line: 21
+[19:55:36][no_game_date][parser.cpp:942]: Error: unexpected token in file: "history/states/754-Golog.txt" near line: 29 ( the )
+[19:55:36][no_game_date][trigger.cpp:672]: Invalid trigger 'the' in history/states/754-Golog.txt line : 29
+[19:55:36][no_game_date][trigger.cpp:540]: Error: "Not a valid value: Waking, near line: 28
+Unknown trigger-type: the, near line: 29" in file: "history/states/754-Golog.txt" near line: 30
+[19:55:36][no_game_date][parser.cpp:942]: Error: unexpected token in file: "history/states/756-Jiuquan.txt" near line: 19 ( the )
+[19:55:36][no_game_date][trigger.cpp:672]: Invalid trigger 'the' in history/states/756-Jiuquan.txt line : 19
+[19:55:36][no_game_date][trigger.cpp:540]: Error: "Not a valid value: Waking, near line: 19
+Unknown trigger-type: the, near line: 19" in file: "history/states/756-Jiuquan.txt" near line: 21
+[19:55:36][no_game_date][parser.cpp:942]: Error: unexpected token in file: "history/states/981-Southguzu.txt" near line: 13 ( 4102 )
+[19:55:36][no_game_date][persistent.cpp:45]: Error: "Malformed token: {, near line: 12" in file: "history/states/981-Southguzu.txt" near line: 15
+[19:55:36][no_game_date][map.cpp:1772]: Province 13257 has only 3 pixels around (x=3013,y=433). Should have at least 8
+[19:55:36][no_game_date][map.cpp:1772]: Province 13309 has only 8 pixels around (x=4549,y=1136). Should have at least 8
+[19:55:36][no_game_date][map.cpp:1772]: Province 13310 has only 8 pixels around (x=4561,y=1134). Should have at least 8
+[19:55:36][no_game_date][map.cpp:1772]: Province 13311 has only 8 pixels around (x=4559,y=1131). Should have at least 8
+[19:55:36][no_game_date][map.cpp:1772]: Province 13312 has only 8 pixels around (x=4544,y=1132). Should have at least 8
+[19:55:36][no_game_date][equipment_graphic_database.cpp:34]: GFX referenced in equipment graphic database does not exist: "GFX_POR_gwtank_medium", associated with POR light_tank_chassis_0
+[19:55:36][no_game_date][map.cpp:1862]: Map invalid X crossing. Please fix pixels at coords: 4778,762
+[19:55:36][no_game_date][map.cpp:1862]: Map invalid X crossing. Please fix pixels at coords: 4789,722
+[19:55:36][no_game_date][map.cpp:1862]: Map invalid X crossing. Please fix pixels at coords: 3187,450
+[19:55:36][no_game_date][persistent.cpp:45]: Error: "production_speed_industrial_complex_factor specified multiple time, last value will be used: -0.15, near line: 108" in file: "common/ideas/PRK.txt" near line: 108
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: NATO_brussels_treaty, near line: 4" in file: "common/decisions/categories/NATO.txt" near line: 57
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: NATO_suggest_nato, near line: 59" in file: "common/decisions/categories/NATO.txt" near line: 125
+[19:55:37][no_game_date][decision.cpp:4419]: Duplicate category. nato_decisions is a duplicate.
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Token  is not supported within the allowed trigger: }, near line: 327" in file: "common/decisions/PRK.txt" near line: 327
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category: KOR_interservice_rivalry: {, near line: 597" in file: "common/decisions/PRK.txt" near line: 599
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: picture, near line: 602" in file: "common/decisions/PRK.txt" near line: 602
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_goonsoo It will be ignored: }, near line: 708" in file: "common/decisions/PRK.txt" near line: 710
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: picture, near line: 713" in file: "common/decisions/PRK.txt" near line: 713
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_mingangongjang It will be ignored: }, near line: 805" in file: "common/decisions/PRK.txt" near line: 807
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: picture, near line: 810" in file: "common/decisions/PRK.txt" near line: 810
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_dockyard It will be ignored: }, near line: 916" in file: "common/decisions/PRK.txt" near line: 918
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_army' in common/decisions/PRK.txt line : 976
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_army, near line: 976" in file: "common/decisions/PRK.txt" near line: 983
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_steel_for_guns It will be ignored: }, near line: 991" in file: "common/decisions/PRK.txt" near line: 993
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_army' in common/decisions/PRK.txt line : 1018
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_army, near line: 1018" in file: "common/decisions/PRK.txt" near line: 1025
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_prioritize_army_aircraft_construction It will be ignored: }, near line: 1033" in file: "common/decisions/PRK.txt" near line: 1035
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown modifier: if, near line: 1059" in file: "common/decisions/PRK.txt" near line: 1066
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_army' in common/decisions/PRK.txt line : 1070
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_army, near line: 1070" in file: "common/decisions/PRK.txt" near line: 1077
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_everybody_serves It will be ignored: }, near line: 1085" in file: "common/decisions/PRK.txt" near line: 1087
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_army' in common/decisions/PRK.txt line : 1115
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_army, near line: 1115" in file: "common/decisions/PRK.txt" near line: 1121
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_raiding_regiments It will be ignored: }, near line: 1129" in file: "common/decisions/PRK.txt" near line: 1131
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_navy' in common/decisions/PRK.txt line : 1189
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_navy, near line: 1189" in file: "common/decisions/PRK.txt" near line: 1196
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_steel_for_ships It will be ignored: }, near line: 1204" in file: "common/decisions/PRK.txt" near line: 1206
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_navy' in common/decisions/PRK.txt line : 1231
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_navy, near line: 1231" in file: "common/decisions/PRK.txt" near line: 1238
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_prioritize_naval_aircraft_construction It will be ignored: }, near line: 1246" in file: "common/decisions/PRK.txt" near line: 1248
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_navy' in common/decisions/PRK.txt line : 1276
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_navy, near line: 1276" in file: "common/decisions/PRK.txt" near line: 1283
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_draft_exemptions It will be ignored: }, near line: 1291" in file: "common/decisions/PRK.txt" near line: 1293
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_navy' in common/decisions/PRK.txt line : 1322
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_navy, near line: 1322" in file: "common/decisions/PRK.txt" near line: 1328
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_special_air_landing_force It will be ignored: }, near line: 1336" in file: "common/decisions/PRK.txt" near line: 1338
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_army' in common/decisions/PRK.txt line : 1393
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_army, near line: 1393" in file: "common/decisions/PRK.txt" near line: 1399
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category for : KOR_favor_army It will be ignored: }, near line: 1407" in file: "common/decisions/PRK.txt" near line: 1409
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KOR_interservice_rivalry_towards_navy' in common/decisions/PRK.txt line : 1464
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown effect-type: KOR_interservice_rivalry_towards_navy, near line: 1464" in file: "common/decisions/PRK.txt" near line: 1470
+[19:55:37][no_game_date][gameitemdatabasehelper.h:149]: Error: "Unknown category for : KOR_favor_navy It will be ignored: }, near line: 1478" in file: "common/decisions/PRK.txt" near line: 1479
+[19:55:37][no_game_date][trigger.cpp:672]: Invalid trigger 'every_state' in common/decisions/SOV.txt line : 18132
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: every_state, near line: 18132" in file: "common/decisions/SOV.txt" near line: 18138
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: civilian_factory_use, near line: 1609" in file: "common/decisions/USA.txt" near line: 1609
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unknown category: VEN_abc_islands: {, near line: 1" in file: "common/decisions/VEN.txt" near line: 5
+[19:55:37][no_game_date][gameitemdatabasehelper.h:149]: Error: "Unknown category for : HOL_offer_venezuelan_protection It will be ignored: }, near line: 41" in file: "common/decisions/VEN.txt" near line: 43
+[19:55:37][no_game_date][trigger.cpp:672]: Invalid trigger 'every_state' in common/decisions/VIN.txt line : 8
+[19:55:37][no_game_date][trigger.cpp:672]: Invalid trigger 'every_state' in common/decisions/VIN.txt line : 14
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: every_state, near line: 8
+Unknown trigger-type: every_state, near line: 14" in file: "common/decisions/VIN.txt" near line: 20
+[19:55:37][no_game_date][effect.cpp:422]: Invalid scope type for effect add_state_claim in common/decisions/VIN.txt line : 36
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/decisions/VIN.txt:58: VIN, near line: 58" in file: "common/decisions/VIN.txt" near line: 70
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unexpected token: end_war, near line: 7" in file: "common/decisions/debug_decision.txt" near line: 9
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unexpected token: end_war, near line: 12" in file: "common/decisions/debug_decision.txt" near line: 14
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'there_is_no_usa' in common/decisions/debug_decision.txt line : 322
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: there_is_no_usa, near line: 322" in file: "common/decisions/debug_decision.txt" near line: 323
+[19:55:37][no_game_date][database_scoped_variables.cpp:119]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 350 mbt_equipment_0. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 466 conservative. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.cpp:119]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 650 jet_multirole_equipment_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Malformed token: KPA, near line: 879" in file: "common/national_focus/KOR_1950s.txt" near line: 881
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KPA' in common/national_focus/KOR_1950s.txt line : 883
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: KPA, near line: 883" in file: "common/national_focus/KOR_1950s.txt" near line: 889
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1003 Social_Liberalism. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1026 Social_Democratic. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1030 nationalist. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1034 Social_Liberalism. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1385 Social_Democratic. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1389 nationalist. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1393 Social_Liberalism. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 1787 nationalist. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Malformed token: KPA, near line: 2345" in file: "common/national_focus/KOR_1950s.txt" near line: 2347
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KPA' in common/national_focus/KOR_1950s.txt line : 2349
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: KPA, near line: 2349" in file: "common/national_focus/KOR_1950s.txt" near line: 2355
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 2377 Social_Democratic. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 2552 conservative. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Malformed token: KPA, near line: 2970" in file: "common/national_focus/KOR_1950s.txt" near line: 2972
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KPA' in common/national_focus/KOR_1950s.txt line : 2974
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: KPA, near line: 2974" in file: "common/national_focus/KOR_1950s.txt" near line: 2980
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Malformed token: KPA, near line: 3077" in file: "common/national_focus/KOR_1950s.txt" near line: 3079
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KPA' in common/national_focus/KOR_1950s.txt line : 3081
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: KPA, near line: 3081" in file: "common/national_focus/KOR_1950s.txt" near line: 3087
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'KPA' in common/national_focus/KOR_1950s.txt line : 3108
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: KPA, near line: 3108" in file: "common/national_focus/KOR_1950s.txt" near line: 3111
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 3224 conservative. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: common/national_focus/KOR_1950s.txt line: 3375 socialist. use var:var_name to explicitly use variables in effects/triggers
+[19:55:37][no_game_date][effect.cpp:422]: Invalid scope type for effect add_extra_state_shared_building_slots in common/national_focus/KRM.txt line : 186
+[19:55:37][no_game_date][effect.cpp:422]: Invalid scope type for effect add_building_construction in common/national_focus/KRM.txt line : 187
+[19:55:37][no_game_date][effect.cpp:422]: Invalid scope type for effect add_building_construction in common/national_focus/KRM.txt line : 192
+[19:55:37][no_game_date][effect.cpp:422]: Invalid scope type for effect set_building_level in common/national_focus/KRM.txt line : 197
+[19:55:37][no_game_date][parser.cpp:942]: Error: unexpected token in file: "common/national_focus/PRK.txt" near line: 172 ( ` )
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect '`' in common/national_focus/PRK.txt line : 172
+[19:55:37][no_game_date][parser.cpp:942]: Error: unexpected token in file: "common/national_focus/PRK.txt" near line: 172 ( = )
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect '=' in common/national_focus/PRK.txt line : 172
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: `, near line: 172
+Unknown effect-type: =, near line: 172" in file: "common/national_focus/PRK.txt" near line: 180
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 283" in file: "common/national_focus/PRK.txt" near line: 329
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 342" in file: "common/national_focus/PRK.txt" near line: 344
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 357" in file: "common/national_focus/PRK.txt" near line: 359
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 371" in file: "common/national_focus/PRK.txt" near line: 373
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 386" in file: "common/national_focus/PRK.txt" near line: 388
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 404" in file: "common/national_focus/PRK.txt" near line: 406
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 419" in file: "common/national_focus/PRK.txt" near line: 421
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 434" in file: "common/national_focus/PRK.txt" near line: 436
+[19:55:37][no_game_date][persistent.cpp:45]: Error: "Unexpected token: complete_effect, near line: 462" in file: "common/national_focus/PRK.txt" near line: 464
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Invalid module "ship_mine_layer" attached to slot "mid_1_custom_slot".: ship_mine_layer, near line: 647" in file: "common/national_focus/PRK.txt" near line: 649
+[19:55:37][no_game_date][effect.cpp:432]: Invalid effect 'add_stablity' in common/national_focus/SAR.txt line : 104
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: add_stablity, near line: 104" in file: "common/national_focus/SAR.txt" near line: 106
+[19:55:37][no_game_date][trigger.cpp:672]: Invalid trigger 'is_exist' in common/national_focus/SAR.txt line : 124
+[19:55:37][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: is_exist, near line: 124" in file: "common/national_focus/SAR.txt" near line: 125
+[19:55:37][no_game_date][effect.cpp:344]: Error: "Malformed token: GER_SWE_historic_trade_Partners, near line: 2945" in file: "common/national_focus/germany.txt" near line: 2946
+[19:55:38][no_game_date][nationalfocus.cpp:2141]: PRK_kim_ilsung_personal_praise: Couldn't find dependency PRK_gaejo_idea 
+[19:55:38][no_game_date][nationalfocus.cpp:2141]: PRK_kim_ilsung_personal_praise: Couldn't find dependency PRK_revolutive_leader_idea 
+[19:55:38][no_game_date][nationalfocus.cpp:2141]: PRK_kim_ilsung_personal_praise: Couldn't find dependency PRK_all_for_one_one_for_all 
+[19:55:38][no_game_date][nationalfocus.cpp:2141]: PRK_kim_ilsung_personal_praise: Couldn't find dependency PRK_baepo 
+[19:55:38][no_game_date][nationalfocus.cpp:505]: Error in focus: VIN_final_winner (common/national_focus/VIN.txt:342 )
+Has mutual exclusivity with VIN_west but the other focus does not.
+[19:55:38][no_game_date][nationalfocus.cpp:2141]: VIN_final_winner: Couldn't find dependency VIN_east 
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid idea: ISR_victors_of_wwi: ideas, near line: 14
+Invalid idea: ISR_disjointed_government: ideas, near line: 15
+Invalid idea: ISR_protected_by_the_maginot_line: ideas, near line: 16" in file: "common/bookmarks/endofkrwar.txt" near line: 17
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid focus: ISR_form_the_popular_front: focuses, near line: 19
+Invalid focus: ISR_revive_the_national_bloc: focuses, near line: 20
+Invalid focus: ISR_ISRnce_leads: focuses, near line: 21" in file: "common/bookmarks/endofkrwar.txt" near line: 22
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid idea: ISR_victors_of_wwi: ideas, near line: 29
+Invalid idea: ISR_disjointed_government: ideas, near line: 30
+Invalid idea: ISR_protected_by_the_maginot_line: ideas, near line: 31" in file: "common/bookmarks/endofkrwar.txt" near line: 32
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid focus: ISR_invite_communist_ministers: focuses, near line: 34
+Invalid focus: ISR_utilize_the_leagues: focuses, near line: 35
+Invalid focus: ISR_je_suis_la_deluge: focuses, near line: 36" in file: "common/bookmarks/endofkrwar.txt" near line: 37
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid idea: KOR_mefo_bills_1: ideas, near line: 89" in file: "common/bookmarks/endofkrwar.txt" near line: 90
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid focus: KOR_anschluss: focuses, near line: 92
+Invalid focus: KOR_danzig_or_war: focuses, near line: 93
+Invalid focus: KOR_revive_the_kaiserreich: focuses, near line: 94" in file: "common/bookmarks/endofkrwar.txt" near line: 95
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid focus: PRK_dprk: focuses, near line: 108" in file: "common/bookmarks/endofkrwar.txt" near line: 109
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid idea: CHI_great_depression_1: ideas, near line: 167
+Invalid idea: CHI_conscription_crisis: ideas, near line: 168" in file: "common/bookmarks/endofkrwar.txt" near line: 169
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid focus: CHI_skewer_the_eagle: focuses, near line: 171
+Invalid focus: CHI_north_ameriCHI_alliance: focuses, near line: 172
+Invalid focus: CHI_join_comintern: focuses, near line: 173" in file: "common/bookmarks/endofkrwar.txt" near line: 174
+[19:55:38][no_game_date][effect.cpp:432]: Invalid effect 'add_autonomy' in history/countries/AST - Australia.txt line : 465
+[19:55:38][no_game_date][countryhistory.cpp:167]: Unknown History Command ==>'add_autonomy'<==  for Countryhistory/countries/AST - Australia.txt
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Unknown effect-type: add_autonomy, near line: 465" in file: "history/countries/AST - Australia.txt" near line: 465
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Not a valid value: history/countries/BUL - Bulgaria.txt:26: BUL, near line: 26" in file: "history/countries/BUL - Bulgaria.txt" near line: 26
+[19:55:38][no_game_date][trigger.cpp:540]: Error: "Not a valid value: {, near line: 186" in file: "history/countries/CHI - China.txt" near line: 188
+[19:55:38][no_game_date][countrytag.cpp:112]: DNF - is not in the tag list
+[19:55:38][no_game_date][history.cpp:262]: Unknown history file in country database - history/countries/DNF - Dominion of NewFoundland.txt
+[19:55:38][no_game_date][effect.cpp:378]: Else/else if not following an if or else if in history/countries/HOL - Holland.txt: 663
+[19:55:38][no_game_date][countryhistory.cpp:167]: Unknown History Command ==>'advanced_light_spaa'<==  for Countryhistory/countries/HOL - Holland.txt
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Not a valid value: history/countries/INS - Indonesia.txt:154: INS, near line: 154" in file: "history/countries/INS - Indonesia.txt" near line: 154
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Not a valid value: history/countries/KOR - Korea.txt:40: KOR, near line: 40" in file: "history/countries/KOR - Korea.txt" near line: 40
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Not a valid value: history/countries/RAJ - British Raj.txt:287: RAJ, near line: 287" in file: "history/countries/RAJ - British Raj.txt" near line: 287
+[19:55:38][no_game_date][effect.cpp:378]: Else/else if not following an if or else if in history/countries/RYU - Ryukyu Island.txt: 171
+[19:55:38][no_game_date][countryhistory.cpp:167]: Unknown History Command ==>'advanced_light_spaa'<==  for Countryhistory/countries/RYU - Ryukyu Island.txt
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 453
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 454
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 455
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 456
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 457
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 458
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 459
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 460
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 461
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 462
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 463
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 464
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 465
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 466
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 467
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 468
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 469
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect complete_national_focus in history/countries/SPR - Spain.txt line : 470
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect every_owned_state in history/countries/SPR - Spain.txt line : 474
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect remove_ideas in history/countries/SPR - Spain.txt line : 483
+[19:55:38][no_game_date][effect.cpp:422]: Invalid scope type for effect remove_ideas in history/countries/SPR - Spain.txt line : 484
+[19:55:38][no_game_date][history.cpp:270]: KHU - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: GDC - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: SZC - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: WSX - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: SUS - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: KET - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: ESS - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: EAG - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: MRC - is missing a history file.
+[19:55:38][no_game_date][history.cpp:270]: NBA - is missing a history file.
+[19:55:38][no_game_date][pdx_audio.cpp:1368]: Could not find music named quickly
+[19:55:38][no_game_date][pdx_audio.cpp:1368]: Could not find music named canitakeyourorder
+[19:55:38][no_game_date][persistent.cpp:45]: Error: "Invalid module name for module slot specification.: heavy_bomb_locks, near line: 658" in file: "common/ai_equipment/ENG_planes.txt" near line: 666
+[19:55:39][no_game_date][parser.cpp:942]: Error: unexpected token in file: "common/scripted_localisation/TNO_Country_Info_Screen_scripted_localisation.txt" near line: 925 ( } )
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Invalid module "NOR_rikstanken_turret" attached to slot "turret_type_slot".: NOR_rikstanken_turret, near line: 1397
+Invalid module "NOR_tank_rikstanken_armor" attached to slot "armor_type_slot".: NOR_tank_rikstanken_armor, near line: 1399" in file: "common/scripted_effects/NOR_scripted_effects.txt" near line: 1405
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Unexpected token: remember_old_state, near line: 129" in file: "common/scripted_effects/WW2.txt" near line: 130
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/scripted_effects/WW2.txt:201: BUL, near line: 201" in file: "common/scripted_effects/WW2.txt" near line: 207
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/scripted_effects/WW2.txt:216: ROM, near line: 216" in file: "common/scripted_effects/WW2.txt" near line: 223
+[19:55:39][no_game_date][effect.cpp:432]: Invalid effect 'PRK_ivan' in common/scripted_effects/WW2.txt line : 348
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: PRK_ivan, near line: 348" in file: "common/scripted_effects/WW2.txt" near line: 355
+[19:55:39][no_game_date][effect.cpp:422]: Invalid scope type for effect set_cosmetic_tag in common/scripted_effects/WW2.txt line : 480
+[19:55:39][no_game_date][effect.cpp:432]: Invalid effect 'HNC' in common/scripted_effects/WW2.txt line : 724
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: HNC, near line: 724" in file: "common/scripted_effects/WW2.txt" near line: 737
+[19:55:39][no_game_date][effect.cpp:432]: Invalid effect 'HNC' in common/scripted_effects/WW2.txt line : 767
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: HNC, near line: 767" in file: "common/scripted_effects/WW2.txt" near line: 775
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Non assign effect is not enclosed in {}: set_capital, near line: 868" in file: "common/scripted_effects/WW2.txt" near line: 877
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Non assign effect is not enclosed in {}: set_capital, near line: 883" in file: "common/scripted_effects/WW2.txt" near line: 896
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/scripted_effects/WW2.txt:910: VIN, near line: 910" in file: "common/scripted_effects/WW2.txt" near line: 913
+[19:55:39][no_game_date][trigger.cpp:672]: Invalid trigger 'transfer_state' in common/scripted_effects/WW2.txt line : 1039
+[19:55:39][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: transfer_state, near line: 1039" in file: "common/scripted_effects/WW2.txt" near line: 1040
+[19:55:39][no_game_date][trigger.cpp:672]: Invalid trigger 'transfer_state' in common/scripted_effects/WW2.txt line : 1049
+[19:55:39][no_game_date][trigger.cpp:672]: Invalid trigger 'add_state_core' in common/scripted_effects/WW2.txt line : 1050
+[19:55:39][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: transfer_state, near line: 1049
+Unknown trigger-type: add_state_core, near line: 1050" in file: "common/scripted_effects/WW2.txt" near line: 1051
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Non assign effect is not enclosed in {}: set_capital, near line: 1229" in file: "common/scripted_effects/WW2.txt" near line: 1254
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Malformed token: DNF, near line: 1300" in file: "common/scripted_effects/WW2.txt" near line: 1302
+[19:55:39][no_game_date][trigger.cpp:672]: Invalid trigger 'random_other_country' in common/scripted_effects/WW2.txt line : 1389
+[19:55:39][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: random_other_country, near line: 1389" in file: "common/scripted_effects/WW2.txt" near line: 1396
+[19:55:39][no_game_date][effect.cpp:432]: Invalid effect 'capital' in common/scripted_effects/WW2.txt line : 1404
+[19:55:39][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: capital, near line: 1404" in file: "common/scripted_effects/WW2.txt" near line: 1414
+[19:55:39][no_game_date][trigger.cpp:672]: Invalid trigger 'random_other_country' in common/scripted_effects/WW2.txt line : 1419
+[19:55:39][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: random_other_country, near line: 1419" in file: "common/scripted_effects/WW2.txt" near line: 1426
+[19:55:39][no_game_date][equipment.cpp:2493]: motorized_equipment_0 is in script enum script_enum_equipment_bonus_type but is not an equipment type (cf. game/common/units/equipment) nor an equipment category (cf. script_enum_equipment_category)
+[19:55:40][no_game_date][effect.cpp:344]: Error: "Not a valid value: events/coldwarEvent.txt:15: KOR, near line: 15" in file: "events/coldwarEvent.txt" near line: 16
+[19:55:40][no_game_date][effect.cpp:432]: Invalid effect 'USA_is_faction' in events/prkEvents.txt line : 671
+[19:55:40][no_game_date][persistent.cpp:45]: Error: "Unknown effect-type: USA_is_faction, near line: 671" in file: "events/prkEvents.txt" near line: 671
+[19:55:40][no_game_date][trigger.cpp:672]: Invalid trigger 'every_state' in common/on_actions/dead_on_actions.txt line : 282
+[19:55:40][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: every_state, near line: 282" in file: "common/on_actions/dead_on_actions.txt" near line: 288
+[19:55:40][no_game_date][trigger.cpp:672]: Invalid trigger 'FROM.FROM' in common/on_actions/dead_on_actions.txt line : 299
+[19:55:40][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: FROM.FROM, near line: 299" in file: "common/on_actions/dead_on_actions.txt" near line: 300
+[19:55:40][no_game_date][trigger.cpp:672]: Invalid trigger 'FROM.FROM' in common/on_actions/dead_on_actions.txt line : 322
+[19:55:40][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: FROM.FROM, near line: 322" in file: "common/on_actions/dead_on_actions.txt" near line: 323
+[19:55:40][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/on_actions/dead_on_actions.txt:496: PRC, near line: 496" in file: "common/on_actions/dead_on_actions.txt" near line: 497
+[19:55:40][no_game_date][trigger.cpp:672]: Invalid trigger 'exist' in common/on_actions/dead_on_actions.txt line : 598
+[19:55:40][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: exist, near line: 598" in file: "common/on_actions/dead_on_actions.txt" near line: 599
+[19:55:40][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/on_actions/dead_on_actions.txt:604: TAW, near line: 604" in file: "common/on_actions/dead_on_actions.txt" near line: 605
+[19:55:40][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/on_actions/dead_on_actions.txt:708: CH1, near line: 708" in file: "common/on_actions/dead_on_actions.txt" near line: 721
+[19:55:40][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/on_actions/dead_on_actions.txt:762: GDC, near line: 762" in file: "common/on_actions/dead_on_actions.txt" near line: 764
+[19:55:40][no_game_date][effect.cpp:422]: Invalid scope type for effect every_owned_state in common/on_actions/set_on_actions.txt line : 124
+[19:55:40][no_game_date][effect.cpp:422]: Invalid scope type for effect every_owned_state in common/on_actions/set_on_actions.txt line : 132
+[19:55:40][no_game_date][effect.cpp:422]: Invalid scope type for effect every_owned_state in common/on_actions/set_on_actions.txt line : 140
+[19:55:40][no_game_date][persistent.cpp:45]: Error: "Unexpected token: if, near line: 188" in file: "common/on_actions/set_on_actions.txt" near line: 204
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: winter_logistics_support_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: lotta_svard_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: molotov_cocktails_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: winter_logistics_support_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: sami_pathfinders_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: long_range_patrol_support_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: SWE_lynx_armored_car. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: SWE_sami_support_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: SWE_bofors_antitank_gun. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: winter_logistics_support_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: militia_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: if. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: limit. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: has_dlc. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_destroyer_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_artillery_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_aa_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_destroyer_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_artillery_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_aa_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: if. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: limit. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: has_dlc. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_destroyer_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_artillery_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_aa_chassis_1. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_destroyer_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_artillery_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: light_tank_aa_chassis_2. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: tech_trucks. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: NOR_rikstanken_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:40][no_game_date][triggerimplementation.cpp:3307]: Invalid focus scripted in trigger. has_completed_focus = kor_homeland_development (common/decisions/PRK.txt:612: has_completed_focus)
+[19:55:40][no_game_date][trigger.cpp:114]: Trigger failed to validate: common/decisions/PRK.txt:612: has_completed_focus
+[19:55:40][no_game_date][triggerimplementation.cpp:3307]: Invalid focus scripted in trigger. has_completed_focus = kor_homeland_development (common/decisions/PRK.txt:731: has_completed_focus)
+[19:55:40][no_game_date][trigger.cpp:114]: Trigger failed to validate: common/decisions/PRK.txt:731: has_completed_focus
+[19:55:40][no_game_date][triggerimplementation.cpp:3307]: Invalid focus scripted in trigger. has_completed_focus = kor_homeland_development (common/decisions/PRK.txt:827: has_completed_focus)
+[19:55:40][no_game_date][trigger.cpp:114]: Trigger failed to validate: common/decisions/PRK.txt:827: has_completed_focus
+[19:55:40][no_game_date][triggerimplementation.cpp:3307]: Invalid focus scripted in trigger. has_completed_focus = PRK_korean_central_bangsong (common/national_focus/PRK.txt:601: has_completed_focus)
+[19:55:40][no_game_date][trigger.cpp:114]: Trigger failed to validate: common/national_focus/PRK.txt:601: has_completed_focus
+[19:55:40][no_game_date][triggerimplementation.cpp:9234]: common/on_actions/jungppong_on_actions.txt:20: has_game_rule: game rule option SOV_REAL_UNION is not valid for the rule sov_fragmentation_status
+[19:55:40][no_game_date][trigger.cpp:114]: Trigger failed to validate: common/on_actions/jungppong_on_actions.txt:20: has_game_rule
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:639: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:847: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:985: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1027: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1079: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1123: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1198: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1240: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1285: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1330: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1401: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/decisions/PRK.txt:1472: add_power_balance_value: Unable to find power balance with ID: KOR_balance
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:797: add_timed_idea:Invalid idea: military_modernization. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:1361: add_timed_idea:Invalid idea: martial_law. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:1627: add_timed_idea:Invalid idea: defensive_posturing. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:1692: add_timed_idea:Invalid idea: UN_push. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:1722: add_timed_idea:Invalid idea: defensive_posturing. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:2292: add_timed_idea:Invalid idea: economic_growth. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:3197: add_timed_idea:Invalid idea: combat_inflation. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:3267: add_timed_idea:Invalid idea: dearmament. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:3325: add_timed_idea:Invalid idea: economic_growth. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:3589: add_timed_idea:Invalid idea: political_crackdown. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:3614: add_timed_idea:Invalid idea: anti_communist_propaganda. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/KOR_1950s.txt:3663: add_timed_idea:Invalid idea: DDR_idea_first_five_year_plan. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][power_balance_effects.cpp:40]: common/national_focus/PRK.txt:108: add_power_balance_value: Unable to find power balance with ID: PRK_the_yenan
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/china_shared.txt:376: add_equipment_subsidy:Valid seller_tags or a valid seller_trigger should be provided.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/china_shared.txt:624: add_equipment_subsidy:Valid seller_tags or a valid seller_trigger should be provided.
+[19:55:40][no_game_date][effect.cpp:785]: common/national_focus/china_shared.txt:2876: add_equipment_subsidy:Valid seller_tags or a valid seller_trigger should be provided.
+[19:55:40][no_game_date][effectimplementation.cpp:2152]: common/national_focus/usa.txt:2262: swap_ideas: Invalid idea: USA_neutrality_act_aat. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[19:55:40][no_game_date][effectimplementation.cpp:5470]: history/countries/FRA - France.txt:1305: add_country_leader_role: Invalid country leader trait anti_america
+[19:55:40][no_game_date][effectimplementation.cpp:5470]: events/prkEvents.txt:409: add_country_leader_role: Invalid country leader trait ,
+[19:55:41][no_game_date][gamestate.cpp:3147]: Invalid Country Tag - DNF
+[19:55:41][no_game_date][gamestate.cpp:3147]: Invalid Country Tag - color
+[19:55:41][no_game_date][parser.cpp:942]: Error: unexpected token in file: "common/countries/colors.txt" near line: 958 ( { )
+[19:55:41][no_game_date][gamestate.cpp:3147]: Invalid Country Tag - {
+[19:55:41][no_game_date][parser.cpp:942]: Error: unexpected token in file: "common/countries/colors.txt" near line: 958 ( 59 )
+[19:55:41][no_game_date][gamestate.cpp:3147]: Invalid Country Tag - 59
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Invalid module "NOR_rikstanken_turret" attached to slot "turret_type_slot".: NOR_rikstanken_turret, near line: 1397
+Invalid module "NOR_tank_rikstanken_armor" attached to slot "armor_type_slot".: NOR_tank_rikstanken_armor, near line: 1399" in file: "common/scripted_effects/NOR_scripted_effects.txt" near line: 1405
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Unexpected token: remember_old_state, near line: 129" in file: "common/scripted_effects/WW2.txt" near line: 130
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/scripted_effects/WW2.txt:201: BUL, near line: 201" in file: "common/scripted_effects/WW2.txt" near line: 207
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/scripted_effects/WW2.txt:216: ROM, near line: 216" in file: "common/scripted_effects/WW2.txt" near line: 223
+[19:55:42][no_game_date][effect.cpp:432]: Invalid effect 'PRK_ivan' in common/scripted_effects/WW2.txt line : 348
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: PRK_ivan, near line: 348" in file: "common/scripted_effects/WW2.txt" near line: 355
+[19:55:42][no_game_date][effect.cpp:422]: Invalid scope type for effect set_cosmetic_tag in common/scripted_effects/WW2.txt line : 480
+[19:55:42][no_game_date][effect.cpp:432]: Invalid effect 'HNC' in common/scripted_effects/WW2.txt line : 724
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: HNC, near line: 724" in file: "common/scripted_effects/WW2.txt" near line: 737
+[19:55:42][no_game_date][effect.cpp:432]: Invalid effect 'HNC' in common/scripted_effects/WW2.txt line : 767
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: HNC, near line: 767" in file: "common/scripted_effects/WW2.txt" near line: 775
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Non assign effect is not enclosed in {}: set_capital, near line: 868" in file: "common/scripted_effects/WW2.txt" near line: 877
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Non assign effect is not enclosed in {}: set_capital, near line: 883" in file: "common/scripted_effects/WW2.txt" near line: 896
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Not a valid value: common/scripted_effects/WW2.txt:910: VIN, near line: 910" in file: "common/scripted_effects/WW2.txt" near line: 913
+[19:55:42][no_game_date][trigger.cpp:672]: Invalid trigger 'transfer_state' in common/scripted_effects/WW2.txt line : 1039
+[19:55:42][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: transfer_state, near line: 1039" in file: "common/scripted_effects/WW2.txt" near line: 1040
+[19:55:42][no_game_date][trigger.cpp:672]: Invalid trigger 'transfer_state' in common/scripted_effects/WW2.txt line : 1049
+[19:55:42][no_game_date][trigger.cpp:672]: Invalid trigger 'add_state_core' in common/scripted_effects/WW2.txt line : 1050
+[19:55:42][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: transfer_state, near line: 1049
+Unknown trigger-type: add_state_core, near line: 1050" in file: "common/scripted_effects/WW2.txt" near line: 1051
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Non assign effect is not enclosed in {}: set_capital, near line: 1229" in file: "common/scripted_effects/WW2.txt" near line: 1254
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Malformed token: DNF, near line: 1300" in file: "common/scripted_effects/WW2.txt" near line: 1302
+[19:55:42][no_game_date][trigger.cpp:672]: Invalid trigger 'random_other_country' in common/scripted_effects/WW2.txt line : 1389
+[19:55:42][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: random_other_country, near line: 1389" in file: "common/scripted_effects/WW2.txt" near line: 1396
+[19:55:42][no_game_date][effect.cpp:432]: Invalid effect 'capital' in common/scripted_effects/WW2.txt line : 1404
+[19:55:42][no_game_date][effect.cpp:344]: Error: "Unknown effect-type: capital, near line: 1404" in file: "common/scripted_effects/WW2.txt" near line: 1414
+[19:55:42][no_game_date][trigger.cpp:672]: Invalid trigger 'random_other_country' in common/scripted_effects/WW2.txt line : 1419
+[19:55:42][no_game_date][trigger.cpp:540]: Error: "Unknown trigger-type: random_other_country, near line: 1419" in file: "common/scripted_effects/WW2.txt" near line: 1426
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country PRK : Ideology democratic : Path gfx/flags/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country SZC : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country WSX : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country SUS : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country KET : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country ESS : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country EAG : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country MRC : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country NBA : Ideology democratic : Path gfx/flags/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country TAW : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country JID : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country KTC : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country PRK : Ideology democratic : Path gfx/flags/medium/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country CH1 : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country CH2 : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country SZC : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country WSX : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country SUS : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country KET : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country ESS : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country EAG : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country MRC : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country NBA : Ideology democratic : Path gfx/flags/medium/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country TAW : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country JID : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country KTC : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country PRK : Ideology democratic : Path gfx/flags/small/ : Warning slow to read format - Consider using 32bpp instead of 24bpp
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country CH1 : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country CH2 : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country SZC : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country WSX : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country SUS : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country KET : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country ESS : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country EAG : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country MRC : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][flagtextureatlas.cpp:523]: Error loading flag for country NBA : Ideology democratic : Path gfx/flags/small/ : File not found
+[19:55:43][no_game_date][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: NOR_rikstanken_tech. use var:var_name to explicitly use variables in effects/triggers
+[19:55:43][no_game_date][gameapplication.cpp:789]: The game has loc key collisions. Check logs/text.log for more details

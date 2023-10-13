@@ -4,7 +4,7 @@ state={
 	name="STATE_332"
 
 	history={
-		owner = DNF
+		owner = CAN
 		buildings = {
 			infrastructure = 1
 			12503 = {
@@ -13,7 +13,6 @@ state={
 			}
 
 		}
-		add_core_of = DNF
 		add_core_of = CAN
 		1949.12.30 = {
 			owner = CAN
