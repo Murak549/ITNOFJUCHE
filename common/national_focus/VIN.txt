@@ -109,6 +109,37 @@ focus_tree = {
 				end_puppet = SVN
 			}
 			CAM = {
+				load_oob = LAO_ARMY
+				every_owned_state = {
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = CAM
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = CAM
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = CAM
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = CAM
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = CAM
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = CAM
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = CAM
+					}
+				}
 				declare_war_on = {
 					target = VIN
 					type = annex_everything
@@ -118,6 +149,37 @@ focus_tree = {
 				}
 			}
 			SVN = {
+				load_oob = LAO_ARMY
+				every_owned_state = {
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = SVN
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = SVN
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = SVN
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = SVN
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = SVN
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = SVN
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = SVN
+					}
+				}
 				declare_war_on = {
 					target = VIN
 					type = annex_everything
@@ -127,6 +189,37 @@ focus_tree = {
 				}
 			}
 			LAO = {
+				load_oob = LAO_ARMY
+				every_owned_state = {
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = LAO
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = LAO
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = LAO
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = LAO
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = LAO
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = LAO
+					}
+					create_unit = {
+						division = "division_template = \"quân đội độc lập\" start_experience_factor = 0.5"
+						owner = LAO
+					}
+				}
 				every_owned_state = {
 					
 				}

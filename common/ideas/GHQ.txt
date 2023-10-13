@@ -9,7 +9,7 @@ ideas = {
 
             modifier = {
                 autonomy_gain = -10.75
-                consumer_goods_expected_value = -0.05
+                consumer_goods_expected_value = -0.15
 				cic_to_overlord_factor = 0.75
 				mic_to_overlord_factor = 0.75
 				extra_trade_to_overlord_factor = 0.25
