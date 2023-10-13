@@ -1,5 +1,3 @@
-DNF = "countries/United Kingdom.txt"
-
 HBC = "countries/Germany.txt"
 CLM = "countries/Germany.txt"
 LRC = "countries/Germany.txt"
