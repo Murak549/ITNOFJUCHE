@@ -19,6 +19,8 @@ technologies = {
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
 
+		show_equipment_icon = yes
+
 		enable_equipments = {
 			light_tank_chassis_0
 			medium_tank_chassis_0
@@ -143,6 +145,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -231,6 +234,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -312,6 +316,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -374,6 +379,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -434,6 +440,7 @@ technologies = {
 		categories = {
 			armor
 			tp_tech
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -480,6 +487,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -576,6 +584,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -660,6 +669,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -717,6 +727,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -762,6 +773,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -849,6 +861,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -918,6 +931,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -976,6 +990,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1036,6 +1051,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1091,6 +1107,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1146,6 +1165,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1199,6 +1221,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1246,6 +1271,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1297,6 +1325,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1350,6 +1381,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1401,6 +1435,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1446,6 +1483,37 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
+
+	NOR_rikstanken_tech = {
+
+		allow = { always = no } #Only obtained through Rikstanken Event
+
+		enable_equipment_modules = {
+			NOR_rikstanken_turret
+			NOR_tank_rikstanken_armor
+		}
+
+		path = {
+		}
+
+		on_research_complete = {
+		
+		}
+
+		show_effect_as_desc = no
+
+		research_cost = 1
+		start_year = 1936
+
+
+		categories = {
+			armor
+		}
+	}
+
 }

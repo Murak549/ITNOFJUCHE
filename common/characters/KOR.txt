@@ -69,23 +69,6 @@ characters={
             visible = { NOT = { has_character_flag = KOR_red_purge } }
         }
     }
-    KOR_park_chung_hee={
-        name=KOR_park_chung_hee
-        portraits={
-            army={
-                large=gfx/leaders/KOR/박정희.png
-            }
-        }
-        corps_commander={
-            traits={ infantry_officer winter_specialist }
-            skill=3
-            attack_skill=3
-            defense_skill=3
-            planning_skill=3
-            logistics_skill=5
-            visible = { NOT = { has_character_flag = KOR_red_purge } }
-        }
-    }
     KOR_kim_chaek={
         name=KOR_park_chung_hee
         portraits={
