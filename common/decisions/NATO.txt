@@ -104,11 +104,6 @@ nato_decisions = {
 		fire_only_once = yes
 		
 		remove_effect = {
-			ENG = {
-				USA = {
-					set_faction_leader = yes
-				}
-			}
 			if = {
 				limit = { 
 					OR = { 

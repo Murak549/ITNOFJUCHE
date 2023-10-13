@@ -1018,46 +1018,6 @@ KTC = {
 	color = rgb { 210 210 210 }
 	color_ui = rgb { 210 210 210 }
 }
-EDO = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-SZM = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-CSY = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-TSA = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-GIS = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-GKA = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-ODA = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-EIS = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-YNZ = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
-SDA = {
-	color = rgb { 108 157 139 }
-	color_ui = hsv { 45 91 79 }
-}
 WSX = {
 	color = rgb { 70 50 168 }
 	color_ui = hsv { 70 50 200 }

@@ -3,7 +3,7 @@ characters={
 		name=JAP_shigeru_yoshida
 		portraits={
 			civilian={
-				large="gfx\leaders\JAP\Portrait_JAP_yoshida_shigeru.png"
+				large="gfx/leaders/JAP/Portrait_JAP_yoshida_shigeru.png"
 			}
 		}
 		country_leader={

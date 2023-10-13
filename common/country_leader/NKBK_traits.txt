@@ -41,7 +41,6 @@ leader_traits = {
 		political_power_gain = 0.2
 		trade_opinion_factor = 0.25
 		opinion_gain_monthly_same_ideology = 10
-		can_be_fired = no
 		ai_will_do = {
 			factor = 1
 			modifier = {
