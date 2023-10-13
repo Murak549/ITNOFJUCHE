@@ -1,9 +1,10 @@
 ﻿l_english:
+ BERLIN_COMMAND:0 "베를린 연합군 통치령"
+
  LAO_red:0 "라오스 인민회의"
  CAM_haebang:0 "캄보디아 독립당"
  SVN_liberty_communism:0 "신 인도차이나 혁명위원회"
-
- BERLIN_COMMAND:0 "베를린 연합군 통치령"
+ VIN_PRK_communism_autonomy_supervised_state:0 "조선민주주의인민공화국 위임통치령 인도차이나"
  
  VIN_union_communism:0 "인도차이나 사회주의 공화국 연방"
  VIN_union_communism_ADJ:0 "인도차이나 사회주의 공화국 연방"
@@ -18,11 +19,6 @@
  VIN_union_democratic_ADJ:0 "인도차이나 연방"
  VIN_union_democratic_DEF:0 "인도차이나 연방"
 
- SZM_PRK_communism_autonomy_bun:0 "구주 통감부"
- VLA_PRK_communism_autonomy_bun:0 "공화국 관외주"
- AIN_PRK_communism_autonomy_bun:0 "북해도 자치령"
- MEN_PRK_communism_autonomy_bun:0 "엑윽 몽골 울루스"
- 
  PRC_proclaimed_SOV_communism_autonomy_puppet:0 "중화소비에트공화국"
  PRC_SOV_communism_autonomy_puppet:0 "소련공산당 만주분국"
 
@@ -31,7 +27,6 @@
  SAR_FRA_neutrality_autonomy_protectorate:0 "자르 제국보호령"
  SAR_FRA_communism_autonomy_protectorate:0 "자르 민정청"
 
- VIN_PRK_communism_autonomy_supervised_state:0 "조선민주주의인민공화국 위임통치령 인도차이나"
  SVN_liberty_democratic:0 "자유 베트남 연합 전선"
 
  UKR_SOV_communism_autonomy_collaboration_government:0 "우크라이나 소비에트 사회주의 공화국"
@@ -55,7 +50,6 @@
  GXC_PRK_communism_autonomy_puppet:0 "좡족특별자치현"
  GXC_PRK_communism_autonomy_colony:0 "좡족특별자치주"
  GXC_PRK_communism_autonomy_dominion:0 "좡족 자치령"
-
  SZC_PRK_communism_autonomy_collaboration_government:0 "사천인민위원회"
  SZC_PRK_communism_autonomy_collaboration_government_ADJ:0 "사천인민위원회"
  SZC_PRK_communism_autonomy_collaboration_government_DEF:0 "사천인민위원회"
@@ -72,7 +66,6 @@
  SZC_PRK_communism_autonomy_dominion_ADJ:0 "사천국"
  SZC_PRK_communism_autonomy_dominion_DEF:0 "사천국"
  SZC_communism:0 "사천인민공화국"
-
  GDC_PRK_communism_autonomy_collaboration_government:0 "광동인민위원회"
  GDC_PRK_communism_autonomy_collaboration_government_ADJ:0 "광동인민위원회"
  GDC_PRK_communism_autonomy_collaboration_government_DEF:0 "광동인민위원회"
@@ -89,7 +82,6 @@
  GDC_PRK_communism_autonomy_dominion_ADJ:0 "광동국"
  GDC_PRK_communism_autonomy_dominion_DEF:0 "광동국"
  GDC_TNO_communism:0 "광동인민공화국"
-
  GDC_TNO_PRK_communism_autonomy_collaboration_government:0 "광동경제특구"
  GDC_TNO_PRK_communism_autonomy_collaboration_government_ADJ:0 "광동경제특구"
  GDC_TNO_PRK_communism_autonomy_collaboration_government_DEF:0 "광동경제특구"
@@ -108,62 +100,37 @@
  GDC_TNO_communism:0 "광동인민공화국"
  GDC_TNO_communism_ADJ:0 "광동인민공화국"
  GDC_TNO_communism_DEF:0 "광동인민공화국"
-
  SIK_PRK_communism_autonomy_collaboration_government:0 "위구르인민위원회"
  SIK_PRK_communism_autonomy_integrated_puppet:0 "위구르인민위원회"
  SIK_PRK_communism_autonomy_puppet:0 "위구르특별자치현"
  SIK_PRK_communism_autonomy_colony:0 "위구르특별자치주"
  SIK_PRK_communism_autonomy_dominion:0 "위구르 자치령"
-
  TIB_PRK_communism_autonomy_integrated_puppet:0 "티베트인민위원회"
  TIB_PRK_communism_autonomy_puppet:0 "티베트특별자치현"
  TIB_PRK_communism_autonomy_colony:0 "티베트특별자치주"
  TIB_PRK_communism_autonomy_dominion:0 "티베트 자치령"
-
-
  YUN_PRK_autonomy_collaboration_government:0 "운남 소수민족 연방정부 설립위원회"
  YUN_PRK_autonomy_integrated_puppet:0 "운남 소수민족 연방정부"
  YUN_PRK_autonomy_puppet:0 "운남 연방 위임통치령"
  YUN_PRK_autonomy_colony:0 "운남 연방"
  YUN_PRK_autonomy_dominion:0 "운남 연방"
-
  GDC_PRK_autonomy_integrated_puppet:0 "광동인민위원회"
- 
  XSM_PRK_autonomy_integrated_puppet:0 "조선인민군 제 3군"
  XSM_PRK_autonomy_collaboration_government:0 "조선인민군 제 3군"
-
- MEN_PRK_communism_autonomy_integrated_puppet:0 "칭기즈칸과신나는우마무스메즐기기"
- MEN_PRK_communism_autonomy_collaboration_government:0 "몽골특별자치현"
+ MEN_PRK_communism_autonomy_collaboration_government:0 "몽골위임통치령"
  MEN_PRK_communism_autonomy_puppet:0 "몽골특별자치현"
  MEN_PRK_communism_autonomy_colony:0 "몽골특별자치주"
  MEN_PRK_communism_autonomy_dominion:0 "몽골 자치령"
-
  PRC_PRK_communism_autonomy_collaboration_government:0 "한족특별행정지역"
  PRC_PRK_communism_autonomy_integrated_puppet:0 "한족특별자치주"
  PRC_PRK_communism_autonomy_puppet:0 "한족특별행정구"
  PRC_PRK_communism_autonomy_colony:0 "한족특별행정구"
  PRC_PRK_communism_autonomy_dominion:0 "중화인민공화국 조선민주주의인민공화국 위임통치령"
 
+ IDC_FRA_DEF:0 "인도차이나 총독부" #삭제 or 재등장 논의중
+ IDC_FRA_ADJ:0 "인도차이나 총독부" #삭제 or 재등장 논의중
+ IDC_FRA:0 "프랑스령 인도차이나 연방" #삭제 or 재등장 논의중
 
-
-
- PAK_UK_democratic:0 "영국령 파키스탄"
- PAK_UK_democratic_DEF:0 "영국령 파키스탄"
- PAK_UK_neutrality:0 "영국령 파키스탄"
- PAK_UK_neutrality_DEF:0 "영국령 파키스탄"
- PAK_UK_subject:0 "$OVERLORDADJ$령 파키스탄"
- PAK_UK_autonomy_dominion:0 "파키스탄 자치령"
- PAK_UK_autonomy_dominion_DEF:0 "파키스탄 자치령"
- PAK_UK_autonomy_free:0 "파키스탄 자치령"
- RAJ_UK_autonomy_free:0 "인도 자치령"
- PAK_UK_autonomy_free_DEF:0 "파키스탄 자치령"
- RAJ_UK_autonomy_free_DEF:0 "인도 자치령"
-
- IDC_FRA_DEF:0 "인도차이나 총독부"
- IDC_FRA_ADJ:0 "인도차이나 총독부"
- IDC_FRA:0 "프랑스령 인도차이나 연방"
-
- MAL_SHO_JAP_TNO:0 "쇼난-말레이 군정부"
  NRB:0 "인도네시아 공화국"
  PHI_JAP:0 "필리핀 제2공화국"
  EDO:0 "에도 막부"
@@ -204,6 +171,7 @@
  JAP_yusin_ADJ:0 "일본"
  MAN_QING:0 "대청"
  GXC_PRC_communism_autonomy_puppet:0 "크라-다이민족 자치구"
+ MAL_SHO_JAP_TNO:0 "쇼난-말레이 군정부"
  MAL_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "남방 군정관"
  CH1_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "국민혁명군 제24군"
  CH2_JAP_fascism_autonomy_wtt_imperial_protectorate:0 "서북방면군"
@@ -295,17 +263,3 @@
  KTC_JAP:0 "관동주청"
  CHI_PGOFROC:0 "중화민국 임시정부"
  CHI_YS_COLO:0 "중화민국 유신정부"
-
-
-
-EDO
-SZM
-CSY
-TSA
-SDA
-GIS
-GKA
-ODA
-EIS
-YNZ
-JAP
