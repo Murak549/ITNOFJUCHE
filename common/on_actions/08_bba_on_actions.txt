@@ -2,20 +2,20 @@ on_actions = {
 
 	on_startup = {
 		# Launch Ethipoian BoP events
-		# effect = {
-		# 	IF = {
-		# 		limit = {
-		# 			date < 1939.1.1
-		# 		}
-		# 		ETH = {
-		# 			country_event = {
-		# 				id = BBA_ethiopia_balance_of_power_events.50
-		# 				days = 35
-		# 				random_days = 35
-		# 			}
-		# 		}
-		# 	}
-		# }
+		effect = {
+			IF = {
+				limit = {
+					date < 1939.1.1
+				}
+				ETH = {
+					country_event = {
+						id = BBA_ethiopia_balance_of_power_events.50
+						days = 35
+						random_days = 35
+					}
+				}
+			}
+		}
 		effect = {
 			if = {
 				limit = {
@@ -197,16 +197,38 @@ on_actions = {
 				limit = {
 					original_tag = ETH
 					has_completed_focus = ETH_declare_for_italy
+					ITA = {
+						NOT = {
+							OR = {
+								has_government = communism
+								has_government = democratic
+							}
+						}
+					}
+				}
+				every_owned_state = { #TODO_TA Make an event out this?
+					limit = {
+						has_state_flag = ETH_cede_state_flag
+					}
+					ITA = { transfer_state = PREV }
+					remove_core_of = ROOT
 				}
 			}
-			every_owned_state = { #TODO_TA Make an event out this?
+			else_if = {
 				limit = {
-					has_state_flag = ETH_cede_state_flag
+					original_tag = ETH
+					has_completed_focus = ETH_declare_for_italy
+					}
+				every_owned_state = { #TODO_TA Make an event out this?
+					limit = {
+						has_state_flag = ETH_cede_state_flag
+					}
+					clr_state_flag = ETH_cede_state_flag
 				}
-				ITA = { transfer_state = PREV }
-				remove_core_of = ROOT
 			}
 		}
+	
+
 
 		#End of Italian CW - Manage BoP -> If Monarchist, bring it back, but against communists
 		effect = {
@@ -1727,9 +1749,12 @@ on_actions = {
 				limit = { 
 					has_dlc = "By Blood Alone" 
 					SWI = { exists = yes }
+					any_owned_state = { is_capital = yes } # ignore civil war generated countries with no defined capital.
 					OR = {
-						THIS.capital_scope = { is_on_continent = europe }
 						tag = USA
+						ROOT = {
+							capital_scope = { is_on_continent = europe }
+						}		
 					}
 				}
 				SWI = {
