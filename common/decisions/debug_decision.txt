@@ -26,6 +26,93 @@ debug = {
 			}
 		}
 	}
+	
+	kill_s1ov = {
+		complete_effect = {
+			SOV = {
+				release = LIT
+				release = LAT
+				release = EST
+				release = KAZ
+				release = KYR
+				release = UZB
+				release = TAJ
+				release = TRM
+			}
+			ENG = {
+				set_autonomy = {
+					target = SOV
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = LIT
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = LAT
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = EST
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = KAZ
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = KYR
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = UZB
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = TAJ
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = TRM
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = MON
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = POL
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = CZE
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = HUN
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = ROM
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = KOR
+					autonomous_state = autonomy_supervised_state
+				}
+				set_autonomy = {
+					target = BUL
+					autonomous_state = autonomy_supervised_state
+				}
+				YUG = {
+					annex_country = {
+						target = ALB
+					}
+				}
+			}
+		}
+	}
+
 	kill_sov = {
 		complete_effect = {
 			SOV = {
@@ -113,213 +200,7 @@ debug = {
 	}
 	kill_usa = {
 		complete_effect = {
-			SOV = {
-				set_autonomy = {
-					target = AK0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = AL0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = AR0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = AZ0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = CA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = CO0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = CT0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = DE0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = FL0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = GA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = HI0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = IA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = ID0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = IL0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = IN0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = KS0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = KY0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = LA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = MA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = MD0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = ME0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = MI0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = MN0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = MO0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = MS0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = MT0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = NC0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = ND0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = NE0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = NH0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = NJ0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = NM0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = NV0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = NY0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = OH0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = OK0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = OR0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = PA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = RI0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = SC0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = SD0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = TN0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = TX0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = UT0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = VA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = VT0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = WA0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = WI0
-					autonomous_state = autonomy_supervised_state
-				}
-				set_autonomy = {
-					target = WV0
-					autonomous_state = autonomy_supervised_state
-				}
-				annex_country = {
-					target = USA
-					transfer_troops = yes
-				}
-				set_autonomy = {
-					target = WY0
-					autonomous_state = autonomy_supervised_state
-				}
-			}
-			there_is_no_usa = yes
+			SOV_SUCKMADIC = YES
 		}
 	}
 }

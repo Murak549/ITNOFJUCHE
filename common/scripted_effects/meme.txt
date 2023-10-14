@@ -777,7 +777,7 @@ JAP_sengoku_damn = {
 		}
 	}
 }
-USA_SUCKMADIC = {
+USA_SUCK1MADIC = {
 	every_country = {
 		limit = {
 			has_government = communism
@@ -793,7 +793,9 @@ USA_SUCKMADIC = {
 SOV_SUCKMADIC = {
 	every_country = {
 		limit = {
-			has_government = democratic
+			NOT = {
+				has_government = communism
+			}
 		}
 		SOV = {
 			set_autonomy = {
