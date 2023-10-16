@@ -39,7 +39,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 13285
+		location = 7125
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
@@ -49,7 +49,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 13286
+		location = 4086
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
@@ -59,7 +59,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 13286
+		location = 10110
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
@@ -69,7 +69,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 4107
+		location = 13279
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
@@ -79,7 +79,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 13276
+		location = 3981
 		division_template = "조선인민군 보병사단"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
@@ -114,44 +114,15 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.98
 	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "PRK"
 		}
-		location = 1003
-		division_template = "국경 경비 사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.98
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 1148
-		division_template = "국경 경비 사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.98
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 11958
-		division_template = "국경 경비 사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.98
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 7171 #Pyeongyang
-		division_template = "국경 경비 사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.98
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
 	}
 }

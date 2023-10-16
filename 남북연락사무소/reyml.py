@@ -1,7 +1,7 @@
-with open('NKBK_state_names_l_english.yml', 'r', encoding='UTF8') as file:
+with open('LR_state_l_english.yml', 'r', encoding='UTF8') as file:
     lines = file.readlines()
 
-with open('NKBK_state_names_l_english.yml', 'w', encoding='UTF8') as file:
+with open('LR_state_l_english.yml', 'w', encoding='UTF8') as file:
     for line in lines:
         if line.startswith(' STATE_'):
             state_number = int(line.split(':')[0].split('_')[1])

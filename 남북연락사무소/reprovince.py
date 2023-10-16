@@ -13,8 +13,8 @@ for filename in files:
         for line in lines:
             # manpower= 행은 제외합니다.
             if not line.strip().startswith('manpower=' or 'manpower ='):
-                # 13256 이상의 숫자를 찾아서 16를 더합니다.
-                line = re.sub(r'\b(\d{5,})\b', lambda m: str(int(m.group(1)) + 16 if int(m.group(1)) >= 13256 else m.group(1)), line)
+                # 13256 이상의 숫자를 찾아서 17를 더합니다.
+                line = re.sub(r'\b(\d{5,})\b', lambda m: str(int(m.group(1)) + 17 if int(m.group(1)) >= 13256 else m.group(1)), line)
             new_lines.append(line)
         # 변경된 내용으로 파일을 덮어씁니다.
         file.seek(0)

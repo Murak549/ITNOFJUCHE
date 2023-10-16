@@ -52,16 +52,13 @@ set_popularities = {
 }
 
 1949.4.29 = {
+	oob = "PRK_1950_nsb"
 	if = {
 		limit = {
 			has_dlc = "No Step Back"
 		}
 		set_technology = {
 			basic_medium_tank_chassis = 1
-		}
-		set_oob = "PRK_1950_nsb"
-		else = {
-			set_oob = "LUX_1936_nsb" #Sex With Hitler
 		}
 	}
 	set_technology = {

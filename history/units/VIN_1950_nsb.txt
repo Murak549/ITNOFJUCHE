@@ -154,3 +154,14 @@ units = {
 		start_equipment_factor = 0.98
 	}
 }
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "PRK"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+}

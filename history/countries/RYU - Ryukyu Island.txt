@@ -43,9 +43,9 @@ set_convoys = 100
 			set_technology = {
 				basic_medium_tank_chassis = 1
 			}
-			set_oob = "RYU_1950_nsb"
+			oob = "RYU_1950_nsb"
 			else = {
-				set_oob = "RYU_1950"
+				oob = "RYU_1950"
 			}
 		}
 	}
@@ -156,7 +156,7 @@ create_country_leader = {
 				light_tank_aa_chassis_2	 = 1
 			}
 			else = {
-				set_oob = "LUX_1936" #Sex With Hitler
+				oob = "LUX_1936" #Sex With Hitler
 				set_technology = {
 					gwtank = 1
 					basic_light_tank = 1
