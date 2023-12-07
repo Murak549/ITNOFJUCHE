@@ -227,3 +227,11 @@
  KTC_JAP:0 "관동주청"
  CHI_PGOFROC:0 "중화민국 임시정부"
  CHI_YS_COLO:0 "중화민국 유신정부"
+
+
+
+ REGIME_SUPPORT: "정권 지지도"
+ EVERY_SUPPORT: "현재 의회 지지도 : §R탄핵 위기"
+ BYE_BYE: "현재 의회에서의 지지율은 §Y3%§!로 매우 낮습니다. 빠른 시일내로 해결하지 못한다면 새로운 비대위 위원장이 선출될 것 입니다."
+ WTF_IS_YOUR_NAME: "[ROOT.GetDemocraticLeader]"
+ KOR_LEADER_TYPE: "[ROOT.GetDemocraticLeader] 위원장"

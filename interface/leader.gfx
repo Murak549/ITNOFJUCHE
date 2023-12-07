@@ -1,6 +1,10 @@
 spriteTypes = {	
     				
 	spriteType = {
+		name = "GFX_rhee"
+		texturefile = "gfx/leaders/KOR/Lee_Syng.dds"
+	}
+	spriteType = {
 		name = "GFX_bong"
 		texturefile = "gfx/leaders/KOR/bong.dds"
 	}
