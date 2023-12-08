@@ -1833,3 +1833,13 @@ if = {
 		}
 	}
 }
+1957.8.31 = {
+	ENG = {
+		end_puppet = MAL
+		remove_from_faction = MAL
+		remove_from_faction = RAJ
+	}
+	MAL = {
+		drop_cosmetic_tag = yes
+	}
+}

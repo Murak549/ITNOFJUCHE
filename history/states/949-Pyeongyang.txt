@@ -1,20 +1,25 @@
 state={
-	id=950
-	name="STATE_950"
+	id=949
+	name="STATE_949"
 	resources={
-		steel=51.000
-		tungsten=65.000
+		steel=2.000
 	}
 
 	history={
 		owner = CHO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			7171 = {
+				bunker = 5
+			}
+		}
+		victory_points = {
+			7171 30 
 		}
 		add_core_of = KOR
-		add_core_of = OKJ
-		add_core_of = DNG
 		1945.8.15 = {
 			owner = KOR
 		}
@@ -22,12 +27,14 @@ state={
 			owner = PRK
 			add_core_of = PRK
 		}
+
 	}
+
 	provinces={
-		4004 9981 11958 
+		7171 
 	}
-	manpower=602577
-	state_category=large_town
+	manpower=5417806
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 	local_supplies=0.000
 }

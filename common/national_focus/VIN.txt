@@ -290,6 +290,7 @@ focus_tree = {
 				set_autonomy = {
 					target = VIN
 					autonomous_state = autonomy_supervised_state
+					end_war = no
 				}
 			}
 		}

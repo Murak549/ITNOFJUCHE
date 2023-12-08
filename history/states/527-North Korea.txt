@@ -12,18 +12,9 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
-			air_base = 5
-			7171 = {
-				bunker = 5
-
-			}
 			4052 = {
 				naval_base = 5
 			}
-
-		}
-		victory_points = {
-			7171 30 
 		}
 		victory_points = {
 			4052 5 
@@ -43,10 +34,10 @@ state={
 	}
 
 	provinces={
-		3912 4052 7171 9790 10083 11770 
+		3912 4052 9790 10083 11770 
 	}
 	manpower=5417806
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 	local_supplies=0.000
 }

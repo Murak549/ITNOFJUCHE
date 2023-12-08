@@ -1,4 +1,4 @@
-﻿capital = 527
+﻿capital = 949
 
 recruit_character = PRK_Kim_Il_Sung
 recruit_character = PRK_party

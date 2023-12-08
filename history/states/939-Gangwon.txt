@@ -3,8 +3,8 @@ state={
 	id=939
 	name="STATE_939"
 	resources={
-		steel=51.000
-		tungsten=65.000
+		steel=102.000
+		tungsten=130.000
 	}
 
 	history={
@@ -28,15 +28,18 @@ state={
 		owner = CHO
 		1945.8.15 = {
 			owner = KOR
+
 		}
 		1952.1.1 = {
 			owner = PRK
 			add_core_of = PRK
+
 		}
+
 	}
 
 	provinces={
-		7021 9936 11912 12011 13287 
+		1148 4004 7021 9936 9981 11912 11958 12011 13276 13287 
 	}
 	manpower=1807728
 	buildings_max_level_factor=1.000
