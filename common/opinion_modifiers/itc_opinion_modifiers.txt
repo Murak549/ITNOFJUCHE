@@ -1,7 +1,0 @@
-opinion_modifiers = {
-
-	SOV_i_hate_capitalism = {
-		value = -50
-	}
-
-}	
