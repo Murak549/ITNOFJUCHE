@@ -1046,3 +1046,7 @@ NBA = {
 	color = rgb { 222 153 80 }
 	color_ui = hsv { 222 153 80 }
 }
+HNK = {
+	color = rgb { 112 62 90 }
+	color_ui = rgb { 112 62 90 }
+}

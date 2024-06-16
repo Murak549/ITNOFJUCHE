@@ -1781,6 +1781,20 @@ if = {
 	}
 }
 
+1842.8.29 = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = sov_fragmentation_status
+				option = SOV_REAL_UNION
+			}
+		}
+		set_autonomy = {
+			target = HNK
+			autonomous_state = autonomy_colony
+		}
+	}
+}
 1946.8.14 = {
 	set_autonomy = {
 		target = EGY

@@ -1,0 +1,70 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = show_the_small_country_rule
+						option = SHOW_ALL
+					}
+					HNK = {
+						transfer_state = 326
+						add_state_claim = 326
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = JUCHE_DIFFICULT_RULE
+						option = HARDCORE
+					}
+				}
+				PRC = {
+					add_ideas = JUCHE_YOU_ARE_DEAD
+				}
+				CHI = {
+					add_ideas = JUCHE_REAL_CHINA
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = sov_fragmentation_status
+						option = SOV_REAL_UNION
+					}
+				}
+				SOV = {
+					set_temp_variable = { country_to_initiate = UKR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = BLR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = ARM }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = AZR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = GEO }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = TMS }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = UZB }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = TAJ }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = KAZ }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = KYR }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = LIT }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = LAT }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = EST }
+					instantiate_collaboration_government = yes
+					set_temp_variable = { country_to_initiate = MOL }
+					instantiate_collaboration_government = yes
+				}
+			}
+		}
+	}
+}

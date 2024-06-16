@@ -40,3 +40,5 @@ ESS = "countries/USA.txt"
 EAG = "countries/USA.txt"
 MRC = "countries/USA.txt"
 NBA = "countries/USA.txt"
+
+HNK = "countries/China.txt" #영국령 홍콩

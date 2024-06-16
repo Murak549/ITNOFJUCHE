@@ -48,6 +48,28 @@ JUCHE_DIFFICULT_RULE = {
 	}
 }
 
+show_the_small_country_rule = {
+	name = "SHOW_SMALL_COUNTRY"
+	group = "RULE_IN_THE_NAME_OF_JUCHE"
+	default = {
+		name = DONOT_SHOW_SMALL_COUNTRY
+		text = "RULE_OPTION_FALSE"
+		desc = "RULE_OPTION_FALSE_DESC"
+	}
+	option = {
+		name = SHOW_ALL
+		text = "RULE_OPTION_SHOW_ALL"
+		desc = "RULE_OPTION_SHOW_ALL_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = SHOW_INDEPENDENT_COUNTRY
+		text = "RULE_OPTION_SHOW_INDEPENDENT_COUNTRY"
+		desc = "RULE_OPTION_SHOW_INDEPENDENT_COUNTRY_DESC"
+		allow_achievements = no
+	}
+}
+
 allow_wargoals = {
 	name = "RULE_ALLOW_WARGOALS"
 	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
@@ -2404,6 +2426,11 @@ sov_fragmentation_status = {
 		name = SOV_FRAGMENTED
 		text = "RULE_OPTION_SOV_FRAGMENTED"
 		desc = "RULE_OPTION_SOV_FRAGMENTED_DESC"
+	}
+	option = {
+		name = SOV_REAL_UNION
+		text = "RULE_OPTION_SOV_REAL_UNION"
+		desc = "RULE_OPTION_SOV_REAL_UNION_DESC"
 	}
 	option = {
 		name = SOV_UTTERLY_FRAGMENTED
